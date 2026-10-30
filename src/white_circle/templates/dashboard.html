@@ -770,10 +770,10 @@ $("sys-appx").innerHTML = D.system_appx_html || "";
   line(`M 620 64 C 620 84, 690 78, 690 104 V 905 Q 690 915 680 915 H 632`);
   line(`M 740 64 C 740 84, 760 78, 760 104 V 1025 Q 760 1035 750 1035 H 632`);
   /* hot-inbound fast path, with a halo so it reads as passing over the loop */
-  const fast = `M ${MX - 8} 140 H 170 Q 150 140 150 160 V 775 Q 150 795 170 795 H ${MX - 9}`;
+  const fast = `M ${MX - 8} 320 H 170 Q 150 320 150 340 V 775 Q 150 795 170 795 H ${MX - 9}`;
   line(fast, {cls: "halo", arrow: false});
   line(fast, {cls: "fast"});
-  el("text", {x: 176, y: 158, class: "fl acc onbg"}, "inbound event: skips the nightly run");
+  el("text", {x: 176, y: 338, class: "fl acc onbg"}, "scored on arrival, no nightly wait");
   /* main line */
   const NODES = [
     [140, "Resolve to one company", ["dedupe by domain, drop competitors,", "flag existing customers"]],
