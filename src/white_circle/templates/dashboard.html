@@ -239,6 +239,27 @@ details:not(.fold)[open] > summary::before { transform: rotate(90deg); }
   .track li:not(:last-child)::after { top: 16px; left: 5.25px; width: 1.5px; height: calc(100% + 2px); }
   .track li.h b { align-self: flex-start; }
 }
+#flow-svg { display: block; width: 100%; min-width: 640px; height: auto; font-family: var(--font-body); }
+#flow-svg .fs, #flow-svg .fl { paint-order: stroke; stroke: var(--surface); stroke-width: 5px; stroke-linejoin: round; }
+#flow-svg .onbg { stroke: var(--bg); }
+#flow-svg .fs { font: 500 11px var(--font-mono); letter-spacing: .1em; fill: var(--ink-3); }
+#flow-svg .fe { stroke: var(--ink-3); stroke-width: 1.5; }
+#flow-svg .fe.fast { stroke: var(--accent); stroke-width: 2; }
+#flow-svg .fe.halo { stroke: var(--surface); stroke-width: 8; }
+#flow-svg .fe.loop { stroke-dasharray: 5 4; }
+#flow-svg .fl { font-size: 11.5px; font-style: italic; fill: var(--ink-3); } #flow-svg .fl.acc { fill: var(--accent); }
+#flow-svg .fa { fill: var(--ink); } #flow-svg .fa.acc { fill: var(--accent); }
+#flow-svg .fh { fill: var(--surface); stroke: var(--ink); stroke-width: 2; }
+#flow-svg .fg { fill: none; stroke: var(--ink-3); stroke-width: 1.2; }
+#flow-svg .fq { fill: var(--surface); stroke: var(--ink); stroke-width: 2; }
+#flow-svg .fpill { fill: none; stroke: var(--ink); stroke-width: 1.3; }
+#flow-svg .fn { font-size: 13.5px; font-weight: 600; fill: var(--ink); } #flow-svg .fn.sm { font-size: 12px; }
+#flow-svg .fsub { font-size: 11.5px; fill: var(--ink-3); }
+#flow-svg .fpaid { font: 600 11px var(--font-mono); fill: var(--warn); }
+#flow-svg .fchip { fill: var(--surface); stroke: var(--rule); }
+.flow .wf { overflow-x: auto; margin: 0 -8px; }
+.flow-key i.kf, .flow-key i.kl { display: inline-block; width: 22px; height: 0; border-top: 2px solid var(--accent); }
+.flow-key i.kl { border-top: 2px dashed var(--ink-3); }
 .ladders { display: flex; flex-direction: column; gap: 18px; }
 .ladder .lh { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; padding-left: 8px; border-left: 3px solid var(--c); }
 .ladder .why { font-size: 12px; color: var(--ink-3); margin: 2px 0 6px 11px; max-width: 60ch; }
@@ -384,66 +405,11 @@ details:not(.fold)[open] > summary::before { transform: rotate(90deg); }
     <div class="flow" role="figure" aria-label="End-to-end GTM workflow in six stages">
       <p class="flow-lede"><b>Six stages, six human decisions.</b> <span>Machines find, score, route, research and draft. People make the call, run discovery, confirm what the AI drafted, and set the price.</span></p>
 
-      <div class="stage"><div class="slab"><span>01</span>Signals in</div>
-        <div class="chips">
-          <span>Crunchbase + Clay<small>firmographics, funding</small></span>
-          <span>Website visits<small>RB2B; company-level only in EU/UK</small></span>
-          <span>Ad forms<small>LinkedIn, Google</small></span>
-          <span>Hiring + news<small>AI, ML and security roles</small></span>
-          <span>Call recordings<small>Attio, Granola fallback</small></span>
-          <span>POC usage<small>White Circle telemetry</small></span>
-        </div></div>
-      <div class="join">Each signal resolves to one company by domain: duplicates merged, competitors dropped, existing customers flagged.</div>
-
-      <div class="stage"><div class="slab"><span>02</span>Score</div>
-        <div class="band"><div class="bandnote">automated &middot; the Part 1 SQL</div>
-          <ol class="track">
-            <li><b>Screen</b><small>nine pass/fail gates</small></li>
-            <li><b>Score</b><small>nightly, and again on every new signal</small></li>
-            <li><b>Write to Attio</b><small>segment, tier, reasons, score version</small></li>
-          </ol></div></div>
-      <div class="join"></div>
-
-      <div class="stage"><div class="slab"><span>03</span>Route</div>
-        <div class="routes">
-          <div class="route hot"><b>Hot inbound</b><small>Tier 1&ndash;2 plus a demo request, ad form, or pricing visit</small><em>AE within 5 minutes: Slack alert + Attio task. Skips the nightly run.</em></div>
-          <div class="route"><b>Tier 1, or Tier 2 with intent</b><small>fit &times; intent sets the order</small><em>SDR call queue in Attio</em></div>
-          <div class="route"><b>Everything else</b><small>Tier 3, Nurture, non-ICP</small><em>Automated email sequences + LinkedIn audience</em></div>
-        </div></div>
-      <div class="join">SDR queue</div>
-
-      <div class="stage"><div class="slab"><span>04</span>SDR</div>
-        <div class="band"><ol class="track">
-            <li><b>Find contacts <i class="paid" title="paid call, behind a credit cap">$</i></b><small>Clay waterfall: phone + email for CTO, Head of AI, CISO, compliance</small></li>
-            <li><b>Call brief</b><small>AI: why now, persona angle, likely pain</small></li>
-            <li class="h"><b>Cold call</b><small>disposition logged in Attio</small></li>
-            <li class="q"><b>Meeting booked?</b><small>no: back to the queue or nurture</small></li>
-          </ol></div></div>
-      <div class="join">Meeting booked, or hot inbound from stage 03</div>
-
-      <div class="stage"><div class="slab"><span>05</span>AE and deal</div>
-        <div class="band"><ol class="track">
-            <li class="h"><b>Discovery</b><small>pain, buyer, champion</small></li>
-            <li class="h"><b>Create the deal</b><small>only after discovery</small></li>
-            <li><b>MEDDPICC draft</b><small>LLM, from the call, with quotes</small></li>
-            <li class="h gate"><b>AE confirms</b><small>only confirmed fields count at stage gates</small></li>
-            <li class="h"><b>Proof of concept</b><small>White Circle Test red-teams their app</small></li>
-            <li><b>Security pack</b><small>sent automatically; questionnaire drafted</small></li>
-            <li class="h"><b>Legal + pricing</b><small>a person approves every answer</small></li>
-          </ol></div></div>
-      <div class="join"></div>
-
-      <div class="stage"><div class="slab"><span>06</span>Close and learn</div>
-        <div class="band"><ol class="track">
-            <li class="q"><b>Won or lost</b></li>
-            <li><b>Structured reason</b><small>picked from a fixed list</small></li>
-            <li><b>Monthly weight review</b><small>new score version</small></li>
-          </ol>
-          <p class="loop">&#8634; New weights feed back into stage 02, so the score learns from real wins and losses.</p></div></div>
+      <div class="wf"><svg id="flow-svg" role="img" aria-label="Workflow: six signal sources merge into one company record, which is screened, scored and written to Attio, then routed. Hot inbound goes straight to an AE; Tier 1 or Tier 2 with intent goes to the SDR line (contacts, call brief, cold call); everything else goes to nurture. A booked meeting starts the AE line: discovery, create the deal, an LLM drafts MEDDPICC from the call recording, the AE confirms, proof of concept fed by POC usage, security pack, legal and pricing. Won or lost reasons feed a monthly weight review that loops back into the score."></svg></div>
 
       <div class="visible"><b>Visible the whole way</b><span>Attio stage views per owner</span><span>Nightly gap check (stale field, no champion, no next step) &rarr; Slack digest to the AE and manager</span><span>Weekly pipeline digest</span><span>Every automated step logs its runs and API calls</span></div>
 
-      <div class="flow-key"><span><i class="kd"></i>Automated step</span><span><i class="kh"></i>A person decides</span><span><i class="kq"></i>Decision point</span><span><i class="paid">$</i>Paid call, behind a credit cap</span></div>
+      <div class="flow-key"><span><i class="kd"></i>Automated step</span><span><i class="kh"></i>A person decides</span><span><i class="kq"></i>Decision point</span><span><i class="paid">$</i>Paid call, behind a credit cap</span><span><i class="kf"></i>Hot-inbound fast path</span><span><i class="kl"></i>Feedback loop</span></div>
     </div>
     <div class="box md" id="sys-md"></div>
     <div class="box md"><details><summary>Appendix: triggers and owners, CRM sync-back, edge cases, metrics</summary><div id="sys-appx"></div></details></div>
@@ -775,6 +741,81 @@ $("profile-md").innerHTML = D.profile_html || '<p class="empty">data-profile.md 
 $("traces-md").innerHTML = D.traces_html || '<p class="empty">docs/traces/index.md not found.</p>';
 $("sys-md").innerHTML = D.system_html || '<p class="empty">docs/part2-systems-design not found.</p>';
 $("sys-appx").innerHTML = D.system_appx_html || "";
+/* Part 2 flow: one main line top to bottom, with the side connections drawn explicitly */
+(function () {
+  const svg = $("flow-svg"); if (!svg) return;
+  const NS = "http://www.w3.org/2000/svg", MX = 380, W = 800, H = 1395;
+  const el = (tag, a, txt) => { const e = document.createElementNS(NS, tag); for (const k in a) e.setAttribute(k, a[k]); if (txt != null) e.textContent = txt; svg.append(e); return e; };
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  const defs = el("defs", {});
+  [["ah", "var(--ink-3)"], ["ah-acc", "var(--accent)"]].forEach(([id, c]) => {
+    const m = document.createElementNS(NS, "marker");
+    Object.entries({id, viewBox: "0 0 10 10", refX: 9, refY: 5, markerWidth: 7, markerHeight: 7, orient: "auto-start-reverse"}).forEach(([k, v]) => m.setAttribute(k, v));
+    const p = document.createElementNS(NS, "path"); p.setAttribute("d", "M0 0 L10 5 L0 10 z"); p.setAttribute("style", `fill:${c}`); m.append(p); defs.append(m);
+  });
+  /* stage bands */
+  const STAGES = [["01", "Signals in", 0, 95], ["02", "Score", 95, 355], ["03", "Route", 355, 490], ["04", "SDR", 490, 750], ["05", "AE and deal", 750, 1190], ["06", "Close and learn", 1190, H]];
+  STAGES.forEach(([n, name, y0, y1], i) => {
+    if (i % 2) el("rect", {x: 0, y: y0, width: W, height: y1 - y0, style: "fill:var(--bg)"});
+    el("text", {x: 168, y: y0 + 18, class: "fs" + (i % 2 ? " onbg" : "")}, `${n}  ${name.toUpperCase()}`);
+  });
+  const line = (d, o = {}) => el("path", Object.assign({d, fill: "none", class: "fe" + (o.cls ? " " + o.cls : ""), "marker-end": o.arrow === false ? null : `url(#${o.cls === "fast" ? "ah-acc" : "ah"})`}, o.attrs || {}));
+  /* sources */
+  const SRC = [["Crunchbase + Clay", "funding, size", 70], ["Website visits", "RB2B", 190], ["Ad forms", "LinkedIn, Google", 310],
+    ["Hiring + news", "AI, security hires", 430], ["Call recordings", "Attio, Granola", 620], ["POC usage", "product telemetry", 740]];
+  /* loop back first, so the fast path draws over it with a gap */
+  line(`M ${MX - 8} 1355 H 60 Q 40 1355 40 1335 V 280 Q 40 260 60 260 H ${MX - 9}`, {cls: "loop"});
+  el("text", {x: 52, y: 1347, class: "fl onbg"}, "new weights re-score every account");
+  SRC.slice(0, 4).forEach(([, , x]) => line(`M ${x} 64 C ${x} 110, ${MX} 96, ${MX} 131`));
+  line(`M 620 64 C 620 84, 690 78, 690 104 V 905 Q 690 915 680 915 H 632`);
+  line(`M 740 64 C 740 84, 760 78, 760 104 V 1025 Q 760 1035 750 1035 H 632`);
+  /* hot-inbound fast path, with a halo so it reads as passing over the loop */
+  const fast = `M ${MX - 8} 140 H 170 Q 150 140 150 160 V 775 Q 150 795 170 795 H ${MX - 9}`;
+  line(fast, {cls: "halo", arrow: false});
+  line(fast, {cls: "fast"});
+  el("text", {x: 176, y: 158, class: "fl acc onbg"}, "inbound event: skips the nightly run");
+  /* main line */
+  const NODES = [
+    [140, "Resolve to one company", ["dedupe by domain, drop competitors,", "flag existing customers"]],
+    [200, "Screen", ["nine pass/fail gates"]], [260, "Score", ["nightly, and on every new signal"]],
+    [320, "Write to Attio", ["segment, tier, reasons; Attio is", "the system of record from here on"]],
+    [400, "Route by tier and intent", [], "q"],
+    [535, "Find contacts", ["Clay waterfall: phone + email", "for CTO, Head of AI, CISO, compliance"], "paid"],
+    [595, "Call brief", ["AI: why now, angle, likely pain"]], [655, "Cold call", ["disposition logged in Attio"], "h"],
+    [715, "Meeting booked?", ["no: back to the queue or nurture"], "q"],
+    [795, "Discovery", ["pain, buyer, champion"], "h"], [855, "Create the deal", ["only after discovery"], "h"],
+    [915, "MEDDPICC draft", ["LLM, from the call recording, with quotes"]],
+    [975, "AE confirms", ["only confirmed fields count at stage gates"], "h gate"],
+    [1035, "Proof of concept", ["White Circle Test red-teams their app"], "h"],
+    [1095, "Security pack", ["sent automatically; questionnaire drafted"]], [1155, "Legal + pricing", ["a person approves every answer"], "h"],
+    [1235, "Won or lost", [], "q"], [1295, "Structured reason", ["picked from a fixed list"]],
+    [1355, "Monthly weight review", ["new score version"]]];
+  for (let i = 0; i < NODES.length - 1; i++) line(`M ${MX} ${NODES[i][0] + 9} V ${NODES[i + 1][0] - 10}`);
+  line(`M 386 408 C 386 446, 480 450, 551 450`);
+  el("text", {x: 392, y: 482, class: "fl"}, "Tier 1, or Tier 2 + intent");
+  el("text", {x: 388, y: 760, class: "fl onbg"}, "yes");
+  const node = (x, y, label, sub, kind = "") => {
+    const k = kind.split(" ");
+    if (k.includes("q")) el("rect", {x: x - 7, y: y - 7, width: 14, height: 14, transform: `rotate(45 ${x} ${y})`, class: "fq"});
+    else if (k.includes("h")) { el("circle", {cx: x, cy: y, r: 7, class: "fh"}); if (k.includes("gate")) el("circle", {cx: x, cy: y, r: 11, class: "fg"}); }
+    else el("circle", {cx: x, cy: y, r: 6, class: "fa" + (k.includes("hot") ? " acc" : "")});
+    const tx = x + 20;
+    if (k.includes("h")) el("rect", {x: tx - 8, y: y - 12, width: label.length * 7.7 + 16, height: 22, rx: 11, class: "fpill"});
+    const t = el("text", {x: tx, y: y + 4.5, class: "fn"}, label);
+    if (k.includes("paid")) { const s = document.createElementNS(NS, "tspan"); s.setAttribute("class", "fpaid"); s.setAttribute("dx", "4"); s.setAttribute("dy", "-5"); s.textContent = "$"; t.append(s); }
+    const dy = k.includes("h") ? 26 : 21;
+    sub.forEach((s, j) => el("text", {x: tx, y: y + dy + j * 14, class: "fsub"}, s));
+  };
+  NODES.forEach(([y, l, s, k]) => node(MX, y, l, s, k));
+  node(560, 450, "Nurture", ["email sequences +", "LinkedIn audience"]);
+  node(150, 422, "Hot inbound", ["Tier 1–2 + demo, ad form or", "pricing visit: AE alerted", "within 5 minutes"], "hot");
+  SRC.forEach(([n, s, x]) => {
+    el("rect", {x: x - 56, y: 24, width: 112, height: 40, rx: 8, class: "fchip"});
+    el("text", {x, y: 41, class: "fn sm", "text-anchor": "middle"}, n);
+    el("text", {x, y: 55, class: "fsub", "text-anchor": "middle"}, s);
+  });
+})();
+
 
 /* data quality */
 (function () {
