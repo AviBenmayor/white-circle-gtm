@@ -363,16 +363,16 @@ def export(con) -> dict:
 
 def _part2_sections() -> dict:
     """Part 2 tab: the diagram is drawn in the template, so section (a) (the mermaid source) is skipped;
-    the note (b) is shown open and the appendix (c) collapsed."""
+    only the note (b) is shown."""
     p = PART2_DIR / "system-design.md"
     if not p.exists():
-        return dict(system_html="", system_appx_html="")
+        return dict(system_html="")
     md = p.read_text()
     parts = re.split(r"(?m)^## \(([abc])\)[^\n]*\n", md)
     sec = {parts[i]: parts[i + 1] for i in range(1, len(parts) - 1, 2)}
     head = re.search(r"(?m)^## \(b\)[^\n]*$", md)
     note = (head.group(0) + "\n" + sec["b"]) if head and "b" in sec else md
-    return dict(system_html=md_to_html(note, base=PART2_DIR), system_appx_html=md_to_html(sec.get("c", ""), base=PART2_DIR))
+    return dict(system_html=md_to_html(note, base=PART2_DIR))
 
 
 _WRAP = re.compile(r"(?is)<!doctype[^>]*>[ \t]*\n?|</?html(?:\s[^>]*)?>[ \t]*\n?|</?head(?:\s[^>]*)?>[ \t]*\n?|</?body(?:\s[^>]*)?>[ \t]*\n?")

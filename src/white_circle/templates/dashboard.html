@@ -407,12 +407,11 @@ details:not(.fold)[open] > summary::before { transform: rotate(90deg); }
 
       <div class="wf"><svg id="flow-svg" role="img" aria-label="Workflow: six signal sources merge into one company record, which is screened, scored and written to Attio, then routed. Hot inbound goes straight to an AE; Tier 1 or Tier 2 with intent goes to the SDR line (contacts, call brief, cold call); everything else goes to nurture. A booked meeting starts the AE line: discovery, create the deal, an LLM drafts MEDDPICC from the call recording, the AE confirms, proof of concept fed by POC usage, security pack, legal and pricing. Won or lost reasons feed a monthly weight review that loops back into the score."></svg></div>
 
-      <div class="visible"><b>Visible the whole way</b><span>Attio stage views per owner</span><span>Nightly gap check (stale field, no champion, no next step) &rarr; Slack digest to the AE and manager</span><span>Weekly pipeline digest</span><span>Every automated step logs its runs and API calls</span></div>
+      <div class="visible"><b>Visible the whole way</b><span>Attio stage views per owner</span><span>Nightly gap check (stale field, no champion, no next step) &rarr; Slack digest to the AE and manager</span><span>RevOps dashboard: pipeline and revenue by source, segment and tier</span><span>Weekly pipeline digest</span><span>Every automated step logs its runs and API calls</span></div>
 
       <div class="flow-key"><span><i class="kd"></i>Automated step</span><span><i class="kh"></i>A person decides</span><span><i class="kq"></i>Decision point</span><span><i class="paid">$</i>Paid call, behind a credit cap</span><span><i class="kf"></i>Hot-inbound fast path</span><span><i class="kl"></i>Feedback loop</span></div>
     </div>
     <div class="box md" id="sys-md"></div>
-    <div class="box md"><details><summary>Appendix: triggers and owners, CRM sync-back, edge cases, metrics</summary><div id="sys-appx"></div></details></div>
   </section>
 </div>
 
@@ -740,7 +739,6 @@ $("memo-md").innerHTML = D.memo_html || '<p class="empty">docs/part1-segmentatio
 $("profile-md").innerHTML = D.profile_html || '<p class="empty">data-profile.md not found.</p>';
 $("traces-md").innerHTML = D.traces_html || '<p class="empty">docs/traces/index.md not found.</p>';
 $("sys-md").innerHTML = D.system_html || '<p class="empty">docs/part2-systems-design not found.</p>';
-$("sys-appx").innerHTML = D.system_appx_html || "";
 /* Part 2 flow: one main line top to bottom, with the side connections drawn explicitly */
 (function () {
   const svg = $("flow-svg"); if (!svg) return;

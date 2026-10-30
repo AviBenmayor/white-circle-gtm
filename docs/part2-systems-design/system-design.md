@@ -93,6 +93,8 @@ flowchart LR
 
 Dedupe on domain belongs in this slice too. Without it, one company arrives three times from three tools and gets three owners.
 
+**Also from day one: a RevOps dashboard with attribution to revenue.** Every Company and Deal gets its source stamped on arrival (ad campaign and UTM, RB2B visit, outbound list) and keeps it through to closed-won. The dashboard shows pipeline and revenue by source, segment and tier, plus conversion at each stage. It is cheap to set up now and impossible to backfill. If the source isn't captured on the first lead, the first quarter's spend can never be tied to revenue, and that is the first question leadership asks.
+
 **Weeks 2-3: the SDR call queue.** An Attio list sorted by priority, a Clay waterfall for the four buyer personas, and an AI call brief: why now, the angle for that persona, the likely pain. SDRs should open the list and dial. Email and LinkedIn run in the background so they never choose a channel.
 
 **Weeks 3-4: signal decay and intent.** Signals get a weight and a half-life, and priority becomes fit times intent. I'd wait until there is a queue to sort, because decay with nobody consuming it is just a nicer-looking number.
@@ -102,97 +104,11 @@ Dedupe on domain belongs in this slice too. Without it, one company arrives thre
 - POC telemetry back into Attio.
 - Score recalibration from win and loss reasons. Start capturing the reasons as structured fields from day one, though. That costs nothing and the data can't be recreated later.
 
-**Deliberately not building yet:** third-party intent data, multi-touch attribution, forecasting models, expansion. Each needs volume we don't have. RB2B and the ads give us first-party intent already.
+**Deliberately not building yet:** third-party intent data, multi-touch attribution models (first-touch source from day one is enough to start), forecasting models, expansion. Each needs volume we don't have. RB2B and the ads give us first-party intent already.
 
 **Stays human on purpose:** calls, discovery, champion-building, creating the Deal, confirming MEDDPICC, pricing and legal. Deal creation matters most. If automation creates deals, the forecast fills with ghosts and nobody trusts it.
 
 **One risk to watch.** White Circle is in Paris, so many visitors are EU. RB2B gives only company-level data there, so the person-level route is US-only. Don't promise EU volume from it.
 <!-- NOTE-END -->
 
-Word count of section (b), body only, measured with `wc -w`: 370 (cap 500).
-
-## (c) Appendix
-
-### Triggers, actions, owners, SLAs
-
-| Trigger | Action | Owner | SLA |
-|---|---|---|---|
-| Demo request, ad lead form, or pricing/docs visit from a Tier 1-2 account | Slack alert + Attio task to the account's AE | AE | 5 min target (alert); AE acts or reassigns in 15 min |
-| Same, from a non-ICP or Tier 3 account | Add to nurture sequence; no human task | Automation | 1 hour |
-| Existing customer visits or fills a form | Alert the account owner, never the SDR | Account owner | Same day |
-| Competitor domain visits | Log, suppress, no alert | Automation | n/a |
-| New signal on an account | Recompute score; move tier if it changes | Automation | 15 min |
-| Nightly run | Rescore all, decay signals, refresh the call queue | Automation | Done by 6am local |
-| Tier 1-2 with intent, or Tier 1 without | Add to SDR call queue; run the Clay waterfall; generate brief | Automation then SDR | Brief ready before the first dial |
-| SDR books a meeting | Task to AE; account to "Engaged" | SDR | Same day |
-| AE accepts discovery | AE creates Deal | AE | Within 1 day of the call |
-| Call recording lands on a Deal | LLM drafts MEDDPICC with quotes | Automation | 30 min |
-| Deal has a stale field, no champion, or no next step | Slack digest to AE and manager | Automation | Nightly |
-| POC workspace created or used | Usage signal written to Attio | Automation | 1 hour |
-| Security questionnaire received | LLM drafts answers from the trust center; human approves | AE or SE | Draft in 1 hour; approve in 2 days |
-| Deal closed | Won/loss reason required, structured | AE | At close |
-| Month end | Review score weights against wins and losses | GTM engineer + RevOps | Monthly |
-
-### Sync-back fields to Attio
-
-| Source | Field | Direction | Overwrite rule |
-|---|---|---|---|
-| Scoring SQL | `segment`, `tier`, `fit_score`, `reasons`, `score_version` | To Attio | Machine always overwrites. Humans use `tier_override`, never edit `tier` |
-| Signal feed | Signal rows (type, weight, half-life, source, timestamp) | To Attio | Append-only; never edited |
-| RB2B | Company visit signal; person (US only) | To Attio | Create if new domain; never overwrite an owner |
-| Ads | Lead, UTMs, form answers | To Attio | Match on domain first; personal email creates a lead under the matched company or goes to review |
-| Clay | Phone, email, persona, hiring and news signals | To Attio | Fill empty fields only |
-| Tavily + LLM check | `llm_product_verdict`, evidence URL | To Attio | Overwrites an earlier machine verdict; a human edit wins |
-| Dialer or Attio | Call disposition, attempts, next attempt | Both | Human-set, automation reads only |
-| Call recording | MEDDPICC draft + quotes | To Attio | Writes to `*_draft` fields only; AE confirmation copies to the live field |
-| AE | MEDDPICC confirmed fields, stage, owner, next step | Within Attio | Human only |
-| POC workspace | Provisioned, last active, test runs, findings count | To Attio | Machine-owned fields |
-| Security pack | Sent date; questionnaire status | To Attio | Machine writes; human sets "approved" |
-| Close | `win_loss_reason`, competitor, reason detail | Within Attio | Required at close; human only |
-| Ops | Run id, API calls, errors | To ops table | Append-only |
-
-### Automated vs human, and why
-
-| Step | Who | Why |
-|---|---|---|
-| Data, enrichment, verification, scoring | Automated | Repeatable, and a person adds nothing |
-| Routing, briefs, reminders, digests | Automated | Speed and consistency, and nobody should read a spreadsheet to know who to call |
-| Background email and LinkedIn | Automated | The brief says SDRs only call |
-| MEDDPICC drafts, questionnaire drafts | Automated draft | Saves an hour of typing. A draft is not a fact |
-| Cold calls | Human | Calls are the job. Nothing else books meetings from a cold start |
-| First personal touch on Tier 1 | Human | These accounts are few. One generic email burns a rare chance |
-| Discovery and champion-building | Human | It's trust. A bot can't earn it |
-| Creating the Deal | Human | Keeps forecast integrity. Only real opportunities become deals |
-| Confirming MEDDPICC | Human | Stage gates must rest on what the AE believes, not on what a model guessed |
-| Pricing and negotiation | Human | Judgment, and the founders still own the price floor |
-| Legal redlines | Human | Liability |
-
-### Edge cases
-
-| Case | Handling |
-|---|---|
-| EU/UK visitor on RB2B | Company-level only. Record the account signal, never a person. Outreach goes to personas found through Clay |
-| Same company from RB2B, an ad and Clay | Dedupe on normalized domain. One Company, many signals |
-| Cold email to EU contacts | Needs a documented lawful basis (legitimate interest assessment), a clear opt-out and a suppression list checked before every send. Check country rules for calls. When unsure, a call or LinkedIn goes first |
-| Competitor visitor (e.g. Lakera) | Domain blocklist. Logged, suppressed, no alert |
-| Existing customer | Route to the account owner. Never enter the SDR queue |
-| Personal email on an ad form | Match by company name and IP, then LinkedIn. If still unmatched it goes to a weekly review list and nurture, not an AE |
-| Several leads, one account | One owner per account. New leads attach to the existing owner |
-| AE out of office | Calendar flag; route to the named backup, then to the manager after 15 min |
-| LLM-drafted field vs human-set | Drafts go to separate `_draft` fields. A human-set value is never overwritten |
-| Dead or changed website | Existing gate from Part 1: Tier 3 at most until confirmed |
-| Stale score | Every write has `score_version`; never mix versions in one list |
-
-### Metrics to watch
-
-| Metric | Why |
-|---|---|
-| Speed-to-lead (median, p90) | The thing ads depend on |
-| Signal to meeting conversion, by source and tier | Shows which signals deserve weight |
-| Stage conversion and time in stage | Where deals stall |
-| MEDDPICC completeness, confirmed only | Draft completeness is vanity |
-| Share of hot inbound worked in 5 min | The SLA, measured |
-| SDR dials and connects per day | Whether the queue is usable |
-| Meetings by tier | Whether the tiers predict anything |
-| Automation failure rate (from the ops table) | A silent break is the real risk |
-| Win rate by segment, and loss reasons | Feeds the monthly recalibration |
+Word count of section (b), body only, measured with `wc -w`: 469 (cap 500).

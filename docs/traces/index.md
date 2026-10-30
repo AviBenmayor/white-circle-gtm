@@ -4,7 +4,7 @@ These are the AI traces for this take-home: the Claude Code sessions that built 
 
 | File | What it is | Entries kept | Entries redacted |
 |---|---|---|---|
-| session-main.md | The main working session: prompts, assistant text, tool calls, results | 665 | 350 |
+| session-main.md | The main working session: prompts, assistant text, tool calls, results | 692 | 354 |
 | subagent-profile-white-circle-csvs.md | Subagent: Profile White Circle CSVs | 27 | 15 |
 | subagent-scaffold-white-circle-staging-sql.md | Subagent: Scaffold white_circle + staging SQL | 39 | 13 |
 | subagent-draft-attio-crm-data-model.md | Subagent: Draft Attio CRM data model | 53 | 6 |
@@ -36,7 +36,7 @@ These are the AI traces for this take-home: the Claude Code sessions that built 
 | subagent-dashboard-tabs-by-deliverable.md | Subagent: Dashboard tabs by deliverable | 34 | 9 |
 | subagent-drop-3-dead-site-companies.md | Subagent: Drop 3 dead-site companies | 27 | 5 |
 | subagent-verify-23-unchecked-tier-1.md | Subagent: Verify 23 unchecked Tier 1 | 39 | 5 |
-| session.redacted.jsonl | Machine-readable copy of all of the above, one event per line (1758 events) | - | - |
+| session.redacted.jsonl | Machine-readable copy of all of the above, one event per line (1785 events) | - | - |
 
 ## Redaction policy, in plain words
 
@@ -47,4 +47,4 @@ These are the AI traces for this take-home: the Claude Code sessions that built 
 - Tool results are cut to about 1,500 characters in the markdown. The cut is marked.
 - A final scan of every output file must find zero denylisted terms and zero paths outside the project; the export fails otherwise.
 
-Totals: 1758 entries kept, 635 of them with at least one redaction, 3440 content items dropped by the allowlist.
+Totals: 1785 entries kept, 639 of them with at least one redaction, 3530 content items dropped by the allowlist.
