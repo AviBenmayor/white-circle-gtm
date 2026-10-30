@@ -1,0 +1,7 @@
+# data/ is machine-made (duckdb, logs, raw licensed CSVs, notes). Nothing in it ships.
+data/
+.env
+.venv/
+__pycache__/
+*.pyc
+*.duckdb

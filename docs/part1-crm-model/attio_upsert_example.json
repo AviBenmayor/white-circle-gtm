@@ -1,0 +1,184 @@
+{
+  "_comment": "Two requests. One matching_attribute per call. Custom slugs are created once in Attio. Owner, lifecycle_stage and all deal fields are human-set and never sent. Illustrative values.",
+  "company_request": {
+    "method": "PUT",
+    "url": "https://api.attio.com/v2/objects/companies/records?matching_attribute=domains",
+    "body": {
+      "data": {
+        "values": {
+          "domains": [
+            {
+              "domain": "example-agent.ai"
+            }
+          ],
+          "name": [
+            {
+              "value": "Example Agent AI"
+            }
+          ],
+          "linkedin": [
+            {
+              "value": "https://www.linkedin.com/company/example-agent-ai"
+            }
+          ],
+          "crunchbase_uuid": [
+            {
+              "value": "00000000-0000-0000-0000-000000000001"
+            }
+          ],
+          "hq_country": [
+            {
+              "value": "US"
+            }
+          ],
+          "hq_region": "US",
+          "industry": "fintech",
+          "segment": "Regulated AI deployers",
+          "tier": "A",
+          "fit_score": [
+            {
+              "value": 82.5
+            }
+          ],
+          "score_funding_recency": [
+            {
+              "value": 34
+            }
+          ],
+          "score_revenue": [
+            {
+              "value": 20
+            }
+          ],
+          "score_headcount": [
+            {
+              "value": 10
+            }
+          ],
+          "score_fit_bonus": [
+            {
+              "value": 6
+            }
+          ],
+          "score_version": [
+            {
+              "value": "v4"
+            }
+          ],
+          "scored_at": "2026-10-29T12:00:00.000000000Z",
+          "ships_ai": [
+            {
+              "value": true
+            }
+          ],
+          "ships_ai_evidence_quote": [
+            {
+              "value": "Our agents answer bank customers 24/7"
+            }
+          ],
+          "ships_ai_source_url": [
+            {
+              "value": "https://example-agent.ai/product"
+            }
+          ],
+          "is_agentic": [
+            {
+              "value": true
+            }
+          ],
+          "funding_stage": "series_b",
+          "last_equity_round_date": "2026-06-18",
+          "last_equity_round_amount": [
+            {
+              "currency_value": 25000000
+            }
+          ],
+          "total_raised": [
+            {
+              "currency_value": 42000000
+            }
+          ],
+          "revenue_range": "$10M-$50M",
+          "headcount": [
+            {
+              "value": 85
+            }
+          ],
+          "headcount_growth_3m": [
+            {
+              "value": 0.08
+            }
+          ],
+          "headcount_growth_6m": [
+            {
+              "value": 0.15
+            }
+          ],
+          "headcount_growth_12m": [
+            {
+              "value": 0.3
+            }
+          ],
+          "data_confidence": "medium",
+          "last_enriched_at": "2026-10-29T12:00:00.000000000Z"
+        }
+      }
+    }
+  },
+  "contact_request": {
+    "method": "PUT",
+    "url": "https://api.attio.com/v2/objects/people/records?matching_attribute=email_addresses",
+    "body": {
+      "data": {
+        "values": {
+          "name": [
+            {
+              "first_name": "Jane",
+              "last_name": "Doe",
+              "full_name": "Jane Doe"
+            }
+          ],
+          "title": [
+            {
+              "value": "Chief Information Security Officer"
+            }
+          ],
+          "persona": "CISO/security",
+          "email_addresses": [
+            "jane@example-agent.ai"
+          ],
+          "linkedin": [
+            {
+              "value": "https://www.linkedin.com/in/jane-doe-example"
+            }
+          ],
+          "country": [
+            {
+              "value": "US"
+            }
+          ],
+          "source": "crunchbase",
+          "is_buyer_persona": [
+            {
+              "value": true
+            }
+          ],
+          "company": [
+            {
+              "target_object": "companies",
+              "target_record_reference": {
+                "match": {
+                  "domains": [
+                    "example-agent.ai"
+                  ]
+                },
+                "if_unmatched": "error",
+                "if_multiple_matches": "error"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

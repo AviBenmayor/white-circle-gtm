@@ -1,0 +1,593 @@
+{
+  "objects": [
+    {
+      "name": "Company",
+      "description": "The account. Keyed on domain; holds the fit score and enrichment facts.",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "text",
+          "source": "crunchbase",
+          "written_by": "machine",
+          "example": "Example Agent AI"
+        },
+        {
+          "name": "domains",
+          "type": "domain",
+          "source": "crunchbase / rb2b / form / human",
+          "written_by": "machine",
+          "example": "example-agent.ai"
+        },
+        {
+          "name": "crunchbase_uuid",
+          "type": "text",
+          "source": "crunchbase",
+          "written_by": "machine",
+          "example": "0000-0001"
+        },
+        {
+          "name": "linkedin",
+          "type": "text",
+          "source": "crunchbase / clay",
+          "written_by": "machine",
+          "example": "linkedin.com/company/example-agent-ai"
+        },
+        {
+          "name": "hq_country",
+          "type": "text",
+          "source": "crunchbase",
+          "written_by": "machine",
+          "example": "US"
+        },
+        {
+          "name": "hq_region",
+          "type": "select",
+          "source": "crunchbase",
+          "written_by": "machine",
+          "example": "US"
+        },
+        {
+          "name": "industry",
+          "type": "select",
+          "source": "tavily (verified)",
+          "written_by": "machine",
+          "example": "fintech"
+        },
+        {
+          "name": "segment",
+          "type": "select",
+          "source": "warehouse score",
+          "written_by": "machine",
+          "example": "Regulated AI deployers"
+        },
+        {
+          "name": "tier",
+          "type": "select",
+          "source": "warehouse score",
+          "written_by": "machine",
+          "example": "A"
+        },
+        {
+          "name": "fit_score",
+          "type": "number",
+          "source": "warehouse score",
+          "written_by": "machine",
+          "example": "82.5"
+        },
+        {
+          "name": "score_funding_recency",
+          "type": "number",
+          "source": "warehouse score",
+          "written_by": "machine",
+          "example": "34 (of 40)"
+        },
+        {
+          "name": "score_revenue",
+          "type": "number",
+          "source": "warehouse score",
+          "written_by": "machine",
+          "example": "20 (of 25)"
+        },
+        {
+          "name": "score_headcount",
+          "type": "number",
+          "source": "warehouse score",
+          "written_by": "machine",
+          "example": "10 (of 15)"
+        },
+        {
+          "name": "score_fit_bonus",
+          "type": "number",
+          "source": "warehouse score",
+          "written_by": "machine",
+          "example": "6 (of 10)"
+        },
+        {
+          "name": "score_version",
+          "type": "text",
+          "source": "warehouse score",
+          "written_by": "machine",
+          "example": "v4"
+        },
+        {
+          "name": "scored_at",
+          "type": "timestamp",
+          "source": "warehouse score",
+          "written_by": "machine",
+          "example": "2026-10-29T12:00:00Z"
+        },
+        {
+          "name": "ships_ai",
+          "type": "checkbox",
+          "source": "tavily (verified)",
+          "written_by": "machine",
+          "example": "true"
+        },
+        {
+          "name": "ships_ai_evidence_quote",
+          "type": "text",
+          "source": "tavily",
+          "written_by": "machine",
+          "example": "Our agents answer bank customers 24/7"
+        },
+        {
+          "name": "ships_ai_source_url",
+          "type": "text",
+          "source": "tavily",
+          "written_by": "machine",
+          "example": "https://example-agent.ai/product"
+        },
+        {
+          "name": "is_agentic",
+          "type": "checkbox",
+          "source": "tavily",
+          "written_by": "machine",
+          "example": "true"
+        },
+        {
+          "name": "funding_stage",
+          "type": "select",
+          "source": "crunchbase",
+          "written_by": "machine",
+          "example": "series_b"
+        },
+        {
+          "name": "last_equity_round_date",
+          "type": "date",
+          "source": "crunchbase",
+          "written_by": "machine",
+          "example": "2026-06-18"
+        },
+        {
+          "name": "last_equity_round_amount",
+          "type": "currency",
+          "source": "crunchbase",
+          "written_by": "machine",
+          "example": "25000000"
+        },
+        {
+          "name": "total_raised",
+          "type": "currency",
+          "source": "crunchbase",
+          "written_by": "machine",
+          "example": "42000000"
+        },
+        {
+          "name": "revenue_range",
+          "type": "select",
+          "source": "clay",
+          "written_by": "machine",
+          "example": "$10M-$50M"
+        },
+        {
+          "name": "headcount",
+          "type": "number",
+          "source": "clay",
+          "written_by": "machine",
+          "example": "85"
+        },
+        {
+          "name": "headcount_growth_3m",
+          "type": "number",
+          "source": "clay",
+          "written_by": "machine",
+          "example": "0.08"
+        },
+        {
+          "name": "headcount_growth_6m",
+          "type": "number",
+          "source": "clay",
+          "written_by": "machine",
+          "example": "0.15"
+        },
+        {
+          "name": "headcount_growth_12m",
+          "type": "number",
+          "source": "clay",
+          "written_by": "machine",
+          "example": "0.30"
+        },
+        {
+          "name": "data_confidence",
+          "type": "select",
+          "source": "warehouse score",
+          "written_by": "machine",
+          "example": "medium"
+        },
+        {
+          "name": "last_enriched_at",
+          "type": "timestamp",
+          "source": "enrichment run",
+          "written_by": "machine",
+          "example": "2026-10-29T12:00:00Z"
+        },
+        {
+          "name": "last_signal_type",
+          "type": "select",
+          "source": "rb2b / crunchbase / jobs",
+          "written_by": "machine",
+          "example": "funding_round"
+        },
+        {
+          "name": "last_signal_at",
+          "type": "timestamp",
+          "source": "rb2b / crunchbase / jobs",
+          "written_by": "machine",
+          "example": "2026-10-28T09:00:00Z"
+        },
+        {
+          "name": "owner",
+          "type": "actor",
+          "source": "human",
+          "written_by": "human",
+          "example": "AE name"
+        },
+        {
+          "name": "lifecycle_stage",
+          "type": "status",
+          "source": "human",
+          "written_by": "human",
+          "example": "Targeted"
+        }
+      ],
+      "enrichment_triggers": [
+        {
+          "when": "New domain from any source (Crunchbase, RB2B, ad lead, manual)",
+          "what_runs": "Website check, firmographics, headcount, then score",
+          "cost_tier": "baseline"
+        },
+        {
+          "when": "Signal: funding alert, Tier 1-2 site visit, AI/security hiring post",
+          "what_runs": "Re-enrich and rescore",
+          "cost_tier": "baseline"
+        },
+        {
+          "when": "Monthly schedule",
+          "what_runs": "Rescore and refresh headcount",
+          "cost_tier": "baseline"
+        },
+        {
+          "when": "Company reaches top 5 or gets an AE",
+          "what_runs": "Deep dive",
+          "cost_tier": "deep"
+        },
+        {
+          "when": "Before outreach, if last_enriched_at is over 90 days old",
+          "what_runs": "Refresh",
+          "cost_tier": "baseline"
+        }
+      ]
+    },
+    {
+      "name": "Contact",
+      "description": "A person at a company. Used to reach buyer personas.",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "personal name",
+          "source": "crunchbase / clay",
+          "written_by": "machine",
+          "example": "Jane Doe"
+        },
+        {
+          "name": "title",
+          "type": "text",
+          "source": "crunchbase / clay",
+          "written_by": "machine",
+          "example": "CISO"
+        },
+        {
+          "name": "persona",
+          "type": "select",
+          "source": "title rules",
+          "written_by": "machine",
+          "example": "CISO/security"
+        },
+        {
+          "name": "email_addresses",
+          "type": "email",
+          "source": "clay",
+          "written_by": "machine",
+          "example": "jane@example-agent.ai"
+        },
+        {
+          "name": "phone_numbers",
+          "type": "phone",
+          "source": "clay",
+          "written_by": "machine",
+          "example": "+1 555 0100"
+        },
+        {
+          "name": "linkedin",
+          "type": "text",
+          "source": "crunchbase / clay / rb2b",
+          "written_by": "machine",
+          "example": "linkedin.com/in/jane-doe"
+        },
+        {
+          "name": "company",
+          "type": "record reference",
+          "source": "match on domain",
+          "written_by": "machine",
+          "example": "example-agent.ai"
+        },
+        {
+          "name": "country",
+          "type": "text",
+          "source": "crunchbase / clay",
+          "written_by": "machine",
+          "example": "US"
+        },
+        {
+          "name": "source",
+          "type": "select",
+          "source": "pipeline",
+          "written_by": "machine",
+          "example": "crunchbase"
+        },
+        {
+          "name": "is_buyer_persona",
+          "type": "checkbox",
+          "source": "title rules",
+          "written_by": "machine",
+          "example": "true"
+        },
+        {
+          "name": "lawful_basis",
+          "type": "select",
+          "source": "human (EU/UK only)",
+          "written_by": "human",
+          "example": "legitimate interest"
+        },
+        {
+          "name": "owner",
+          "type": "actor",
+          "source": "human",
+          "written_by": "human",
+          "example": "SDR name"
+        },
+        {
+          "name": "last_activity",
+          "type": "interaction",
+          "source": "attio",
+          "written_by": "machine",
+          "example": "2026-10-25"
+        }
+      ],
+      "enrichment_triggers": [
+        {
+          "when": "Company reaches Tier 1-2",
+          "what_runs": "Find missing buyer personas; Clay waterfall for email and phone",
+          "cost_tier": "baseline"
+        },
+        {
+          "when": "RB2B identifies a person (US only)",
+          "what_runs": "Create and enrich",
+          "cost_tier": "baseline"
+        },
+        {
+          "when": "Ad form submitted",
+          "what_runs": "Enrich and route",
+          "cost_tier": "baseline"
+        },
+        {
+          "when": "Before an SDR call",
+          "what_runs": "Verify phone number",
+          "cost_tier": "baseline"
+        },
+        {
+          "when": "Job change detected",
+          "what_runs": "Update or re-route",
+          "cost_tier": "baseline"
+        }
+      ]
+    },
+    {
+      "name": "Deal",
+      "description": "An opportunity an AE works. Human-owned; MEDDPICC is one text field per element.",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "text",
+          "source": "human",
+          "written_by": "human",
+          "example": "Example Agent AI - guardrails"
+        },
+        {
+          "name": "company",
+          "type": "record reference",
+          "source": "human",
+          "written_by": "human",
+          "example": "example-agent.ai"
+        },
+        {
+          "name": "primary_contact",
+          "type": "record reference",
+          "source": "human",
+          "written_by": "human",
+          "example": "Jane Doe"
+        },
+        {
+          "name": "champion",
+          "type": "record reference",
+          "source": "human",
+          "written_by": "human",
+          "example": "Jane Doe"
+        },
+        {
+          "name": "stage",
+          "type": "status",
+          "source": "human",
+          "written_by": "human",
+          "example": "Discovery"
+        },
+        {
+          "name": "amount",
+          "type": "currency",
+          "source": "human",
+          "written_by": "human",
+          "example": "60000"
+        },
+        {
+          "name": "close_date",
+          "type": "date",
+          "source": "human",
+          "written_by": "human",
+          "example": "2027-01-31"
+        },
+        {
+          "name": "owner",
+          "type": "actor",
+          "source": "human",
+          "written_by": "human",
+          "example": "AE name"
+        },
+        {
+          "name": "source",
+          "type": "select",
+          "source": "human",
+          "written_by": "human",
+          "example": "outbound"
+        },
+        {
+          "name": "next_step",
+          "type": "text",
+          "source": "human",
+          "written_by": "human",
+          "example": "Security review call"
+        },
+        {
+          "name": "next_step_due",
+          "type": "date",
+          "source": "human",
+          "written_by": "human",
+          "example": "2026-11-05"
+        },
+        {
+          "name": "blocked_by",
+          "type": "text",
+          "source": "human",
+          "written_by": "human",
+          "example": "Legal review"
+        },
+        {
+          "name": "meddpicc_metrics",
+          "type": "text",
+          "source": "AI draft + AE",
+          "written_by": "AI draft, AE confirms",
+          "example": "Cut review time 50%"
+        },
+        {
+          "name": "meddpicc_economic_buyer",
+          "type": "text",
+          "source": "AI draft + AE",
+          "written_by": "AI draft, AE confirms",
+          "example": "CTO signs"
+        },
+        {
+          "name": "meddpicc_decision_criteria",
+          "type": "text",
+          "source": "AI draft + AE",
+          "written_by": "AI draft, AE confirms",
+          "example": "Latency under 100ms"
+        },
+        {
+          "name": "meddpicc_decision_process",
+          "type": "text",
+          "source": "AI draft + AE",
+          "written_by": "AI draft, AE confirms",
+          "example": "Security, then legal"
+        },
+        {
+          "name": "meddpicc_paper_process",
+          "type": "text",
+          "source": "AI draft + AE",
+          "written_by": "AI draft, AE confirms",
+          "example": "MSA plus DPA"
+        },
+        {
+          "name": "meddpicc_identify_pain",
+          "type": "text",
+          "source": "AI draft + AE",
+          "written_by": "AI draft, AE confirms",
+          "example": "Jailbreak incident"
+        },
+        {
+          "name": "meddpicc_champion",
+          "type": "text",
+          "source": "AI draft + AE",
+          "written_by": "AI draft, AE confirms",
+          "example": "CISO wants it live in Q1"
+        },
+        {
+          "name": "meddpicc_competition",
+          "type": "text",
+          "source": "AI draft + AE",
+          "written_by": "AI draft, AE confirms",
+          "example": "Build in-house"
+        },
+        {
+          "name": "meddpicc_confirmed_at",
+          "type": "timestamp",
+          "source": "AE",
+          "written_by": "human",
+          "example": "2026-10-30"
+        },
+        {
+          "name": "loss_reason",
+          "type": "select",
+          "source": "human",
+          "written_by": "human",
+          "example": "No budget"
+        }
+      ],
+      "enrichment_triggers": [
+        {
+          "when": "Deal created (AE accepts discovery; human step)",
+          "what_runs": "Attach the company deep dive",
+          "cost_tier": "deep"
+        },
+        {
+          "when": "After each recorded call",
+          "what_runs": "AI drafts MEDDPICC updates; AE confirms; only confirmed text counts",
+          "cost_tier": "none"
+        },
+        {
+          "when": "Stage change",
+          "what_runs": "Check required fields",
+          "cost_tier": "none"
+        },
+        {
+          "when": "Nightly",
+          "what_runs": "Flag stale deals: no next step, no champion, MEDDPICC over 14 days old",
+          "cost_tier": "none"
+        },
+        {
+          "when": "Deal closed (won or lost)",
+          "what_runs": "Feed score recalibration",
+          "cost_tier": "none"
+        }
+      ]
+    }
+  ]
+}

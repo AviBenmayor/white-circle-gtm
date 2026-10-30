@@ -1,0 +1,861 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>White Circle GTM Take-Home</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: one calm column, summary first, detail below; wide tables scroll inside their own box. */
+:root {
+  --bg: #f7f7f5; --surface: #ffffff; --ink: #14151a; --ink-2: #4a4d57; --ink-3: #747884;
+  --rule: #e2e2dd; --accent: #2a78d6; --accent-ink: #ffffff; --shadow: rgba(0,0,0,.18);
+  --good: #1a7f4b; --warn: #a15c00; --bad: #c4372f; --info: #3a5f9e;
+  --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100; --s5: #e87ba4; --s6: #008300; --s7: #6250d6;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #121316; --surface: #1a1b1f; --ink: #f0efec; --ink-2: #c3c2b7; --ink-3: #8f9099;
+  --rule: #2e3036; --accent: #3987e5; --accent-ink: #0b0b0b; --shadow: rgba(0,0,0,.5);
+  --good: #4cc38a; --warn: #e0a84a; --bad: #ef7b73; --info: #7fa6e6;
+  --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #008300; --s7: #9085e9;
+  color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #121316; --surface: #1a1b1f; --ink: #f0efec; --ink-2: #c3c2b7; --ink-3: #8f9099;
+  --rule: #2e3036; --accent: #3987e5; --accent-ink: #0b0b0b; --shadow: rgba(0,0,0,.5);
+  --good: #4cc38a; --warn: #e0a84a; --bad: #ef7b73; --info: #7fa6e6;
+  --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #008300; --s7: #9085e9;
+  color-scheme: dark; }
+
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 400 14px/1.5 var(--font-body);
+  padding-block: 24px 64px; padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.wrap { max-width: 1120px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px; }
+h1 { font-size: 26px; line-height: 1.2; font-weight: 600; margin: 0; text-wrap: balance; }
+h2 { font-size: 18px; font-weight: 600; margin: 0 0 4px; text-wrap: balance; }
+h3 { font-size: 13px; font-weight: 600; margin: 0 0 8px; }
+p { margin: 0; }
+.lede { color: var(--ink-2); max-width: 68ch; }
+.eyebrow { font: 500 11px var(--font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); }
+section { display: flex; flex-direction: column; gap: 14px; min-width: 0; scroll-margin-top: 16px; }
+.box { background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 16px; min-width: 0; }
+.scroll { overflow-x: auto; }
+.num { font-variant-numeric: tabular-nums; }
+.mono { font-family: var(--font-mono); }
+.muted { color: var(--ink-3); }
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+header { display: flex; flex-direction: column; gap: 10px; }
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+.kpi { background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 12px 14px; min-width: 0; }
+.kpi .v { font: 500 26px/1.2 var(--font-mono); font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.kpi .l { font-size: 12px; color: var(--ink-2); }
+.kpi .n { font-size: 11px; color: var(--ink-3); margin-top: 2px; }
+
+.icp { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px; }
+.icp .box b { display: block; font-size: 15px; margin-bottom: 4px; }
+.icp .x { font: 500 18px var(--font-mono); color: var(--ink-3); align-self: center; }
+
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+th { text-align: left; font: 500 11px var(--font-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3);
+  padding: 6px 10px; border-bottom: 1px solid var(--rule); white-space: nowrap; }
+td { padding: 7px 10px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+td.r, th.r { text-align: right; }
+tbody tr:last-child td { border-bottom: 0; }
+.matrix td.c { text-align: right; font-variant-numeric: tabular-nums; font-family: var(--font-mono); min-width: 72px;
+  background: color-mix(in srgb, var(--s1) calc(var(--h, 0) * 55%), transparent); }
+.matrix td.c.z { color: var(--ink-3); }
+.matrix .tot { font-weight: 600; }
+
+.chip { display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: 12px; border: 1px solid var(--rule); white-space: nowrap; }
+.dot { display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+.t1 { border-color: var(--good); color: var(--good); } .t2 { border-color: var(--info); color: var(--info); }
+.t3, .tn { color: var(--ink-2); }
+.st { font-weight: 500; white-space: nowrap; }
+.st.pass { color: var(--good); } .st.fail { color: var(--bad); } .st.info { color: var(--info); } .st.err { color: var(--bad); }
+
+.filters { display: flex; flex-wrap: wrap; gap: 10px; align-items: end; }
+.filters label { display: flex; flex-direction: column; gap: 3px; font-size: 12px; color: var(--ink-2); }
+select, button { font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--rule); border-radius: 4px; padding: 6px 8px; }
+button { cursor: pointer; }
+button:hover { border-color: var(--ink-3); }
+.exp { padding: 0 6px; line-height: 1.4; width: 26px; }
+tr.detail td { background: var(--bg); }
+.detail .ev { display: grid; gap: 8px; max-width: 80ch; }
+blockquote { margin: 0; padding-left: 12px; border-left: 2px solid var(--rule); color: var(--ink-2); }
+.bar { display: inline-block; height: 6px; background: var(--rule); border-radius: 3px; width: 44px; vertical-align: middle; margin-right: 6px; overflow: hidden; }
+.bar i { display: block; height: 100%; background: var(--ink-3); }
+.reasons { margin: 0; padding-left: 16px; min-width: 220px; }
+.badge { font: 500 10px var(--font-mono); letter-spacing: .04em; text-transform: uppercase; padding: 1px 5px; border-radius: 3px; background: var(--rule); color: var(--ink-2); margin-left: 4px; }
+
+.legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 12px; color: var(--ink-2); }
+.hb { display: grid; grid-template-columns: minmax(80px, 150px) 1fr 44px; gap: 6px 10px; align-items: center; font-size: 12px; }
+.hb .lab { overflow-wrap: anywhere; color: var(--ink-2); }
+.hb .track { display: flex; height: 14px; gap: 2px; min-width: 0; }
+.hb .track span { display: block; height: 100%; border-radius: 0 3px 3px 0; min-width: 2px; }
+.hb .track span:first-child { border-radius: 0 3px 3px 0; }
+.hb .tot { text-align: right; font-family: var(--font-mono); color: var(--ink-3); font-variant-numeric: tabular-nums; }
+.two { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
+.wt-note { font-size: 12px; color: var(--ink-3); }
+
+#tip { position: fixed; z-index: 20; pointer-events: none; background: var(--ink); color: var(--bg); font-size: 12px;
+  padding: 5px 8px; border-radius: 4px; max-width: 260px; display: none; }
+.empty { color: var(--ink-3); font-style: italic; }
+#workflow { border: 1px dashed var(--rule); border-radius: 6px; padding: 16px; }
+.cols2 { columns: 2 280px; }
+@media (max-width: 520px) { .hb { grid-template-columns: 90px 1fr 36px; } h1 { font-size: 22px; } }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+
+/* v4 additions */
+/* tab bar: a sticky, filled control so it reads as navigation, not as another heading */
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+.tabs { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 15; display: flex; gap: 4px; overflow-x: auto;
+  padding: 5px; background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; box-shadow: 0 4px 14px var(--shadow); }
+.tabs [role="tab"] { border: 0; border-radius: 7px; background: none; padding: 10px 16px; font: 600 14px var(--font-body);
+  color: var(--ink-2); white-space: nowrap; flex: none; }
+.tabs [role="tab"]:hover { background: var(--bg); color: var(--ink); }
+.tabs [role="tab"][aria-selected="true"] { background: var(--ink); color: var(--bg); }
+section, .fold { scroll-margin-top: 80px; }
+[role="tabpanel"] { display: flex; flex-direction: column; gap: 40px; }
+[role="tabpanel"][hidden] { display: none; }
+.cA { --c: var(--s1); } .cB { --c: var(--s2); } .cC { --c: var(--s3); } .cD { --c: var(--s4); } .cE { --c: var(--s5); }
+.cell { display: flex; align-items: center; gap: 6px; justify-content: flex-end; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.cell .sb { display: inline-block; width: 38px; height: 5px; border-radius: 3px; background: var(--rule); overflow: hidden; }
+.cell .sb i { display: block; height: 100%; background: var(--c); }
+.totcell { min-width: 130px; }
+.totcell b { font-size: 15px; }
+.stack { display: flex; height: 6px; width: 90px; border-radius: 3px; overflow: hidden; background: var(--rule); margin-top: 3px; }
+.stack i { display: block; height: 100%; }
+th small { display: block; font-weight: 400; letter-spacing: 0; text-transform: none; }
+.help { width: 22px; height: 22px; border-radius: 50%; padding: 0; font: 600 12px var(--font-body); line-height: 1; margin-left: 8px; vertical-align: middle; }
+.pop { position: absolute; z-index: 30; max-width: 400px; background: var(--surface); color: var(--ink); border: 1px solid var(--ink-3);
+  border-radius: 6px; padding: 12px 14px; font-size: 13px; box-shadow: 0 6px 24px var(--shadow); }
+.pop[hidden] { display: none; }
+.pop ul { margin: 6px 0 0; padding-left: 16px; }
+.h2row { position: relative; display: flex; align-items: center; flex-wrap: wrap; }
+.dive { display: inline-block; text-decoration: none; font: 500 11px var(--font-mono); margin-left: 6px; padding: 1px 6px; border-radius: 3px; background: var(--accent); color: var(--accent-ink); border-color: var(--accent); white-space: nowrap; }
+.na { color: var(--ink-3); cursor: help; }
+.funnel { display: grid; grid-template-columns: 24px minmax(120px, 190px) 1fr 90px; gap: 6px 10px; align-items: center; font-size: 13px; }
+.funnel .track { height: 16px; background: var(--rule); border-radius: 3px; overflow: hidden; }
+.funnel .track i { display: block; height: 100%; background: var(--s1); }
+.funnel .rem { text-align: right; font-family: var(--font-mono); }
+.md h2 { font-size: 18px; margin: 22px 0 8px; } .md h3, .md h4 { font-size: 14px; margin: 16px 0 6px; } .md > :first-child { margin-top: 0; }
+.md p, .md ol, .md ul { margin: 0 0 10px; max-width: 74ch; } .md ul, .md ol { padding-left: 22px; } .md li { margin-bottom: 8px; }
+.md .scroll { margin: 0 0 12px; } .md table { font-size: 12.5px; } .md blockquote { margin: 0 0 10px; }
+.md code { font: 12.5px var(--font-mono); background: var(--bg); border: 1px solid var(--rule); border-radius: 3px; padding: 0 4px; overflow-wrap: anywhere; }
+.md pre { overflow-x: auto; margin: 0 0 12px; padding: 10px 12px; background: var(--bg); border: 1px solid var(--rule); border-radius: 4px; }
+.md pre code { border: 0; padding: 0; background: none; overflow-wrap: normal; }
+.md hr { border: 0; border-top: 1px solid var(--rule); margin: 16px 0; }
+.dcard { display: flex; flex-direction: column; gap: 10px; }
+.dcard .top { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px; }
+.dcard .top h2 { margin: 0; }
+.dcard .dbody { display: flex; flex-direction: column; gap: 4px; border-top: 1px solid var(--rule); padding-top: 8px; }
+.dcard .dbody h3 { margin-top: 14px; font-size: 14px; }
+.dcard .dbody ul { margin: 4px 0; padding-left: 18px; }
+.dcard .dbody > p { max-width: 80ch; }
+.dtoggle { align-self: flex-start; }
+.codegrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
+.flist { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; font-size: 13px; }
+.flist li { min-width: 0; overflow-wrap: anywhere; }
+details > summary { cursor: pointer; font-weight: 500; }
+details.sch { border-top: 1px solid var(--rule); padding: 6px 0; }
+.wf { overflow-x: auto; }
+.warnbox { border: 1px dashed var(--warn); color: var(--warn); border-radius: 6px; padding: 6px 10px; font-size: 12px; }
+.cards { display: flex; flex-direction: column; gap: 20px; }
+.cost { font: 500 10px var(--font-mono); text-transform: uppercase; padding: 1px 6px; border-radius: 3px; border: 1px solid var(--rule); margin-left: 6px; }
+.cost.baseline { border-color: var(--info); color: var(--info); } .cost.deep { border-color: var(--warn); color: var(--warn); } .cost.none { color: var(--ink-3); }
+.key { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 14px; }
+.key h3 { margin: 0 0 2px; } .key h3 + p { font-size: 12px; color: var(--ink-3); margin-bottom: 10px; }
+.key dl { display: grid; grid-template-columns: auto auto 1fr; gap: 8px 12px; margin: 0; align-items: baseline; font-size: 13px; }
+.key dt { font-weight: 500; white-space: nowrap; } .key dd { margin: 0; min-width: 0; color: var(--ink-2); }
+.key .rng { font-family: var(--font-mono); font-variant-numeric: tabular-nums; color: var(--ink-3); white-space: nowrap; font-size: 12px; }
+.key .seg { grid-template-columns: auto 1fr; }
+.step { border-top: 2px solid var(--ink); padding-top: 22px; }
+.stephead { display: flex; gap: 14px; align-items: flex-start; }
+.stephead > div { min-width: 0; flex: 1; }
+.stepno { flex: none; width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center;
+  background: var(--ink); color: var(--bg); font: 600 15px var(--font-mono); }
+.stephead h2 { font-size: 22px; }
+.stepend { display: flex; gap: 10px; align-items: baseline; font-weight: 500; color: var(--ink); padding: 12px 0 0; border-top: 1px dashed var(--rule); }
+.stepend::before { content: "\2192"; font-family: var(--font-mono); color: var(--accent); }
+.appendix { display: flex; flex-direction: column; gap: 10px; border-top: 2px solid var(--ink); padding-top: 22px; }
+.fold { background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; }
+.fold > summary { padding: 12px 16px; display: flex; gap: 12px; align-items: baseline; flex-wrap: wrap; list-style: none; }
+.fold > summary::-webkit-details-marker { display: none; }
+.fold > summary::after { content: "Show \25BE"; margin-left: auto; font: 500 12px var(--font-mono); color: var(--accent); white-space: nowrap; }
+.fold[open] > summary::after { content: "Hide \25B4"; }
+.fold > summary:hover { background: var(--bg); }
+details:not(.fold) > summary { list-style: none; }
+details:not(.fold) > summary::-webkit-details-marker { display: none; }
+details:not(.fold) > summary::before { content: "\25B8"; display: inline-block; width: 1.1em; color: var(--accent); transition: transform .15s; }
+details:not(.fold)[open] > summary::before { transform: rotate(90deg); }
+.fold[open] > summary { border-bottom: 1px solid var(--rule); }
+.foldbody { padding: 16px; display: flex; flex-direction: column; gap: 14px; }
+/* Part 2 flow: numbered stages down the page, steps left to right inside each stage, stacking on phones */
+.flow { background: var(--surface); border: 1px solid var(--rule); border-radius: 12px; padding: 24px; display: flex; flex-direction: column; min-width: 0; }
+.flow-lede { font-size: 20px; line-height: 1.35; font-weight: 600; max-width: 42ch; margin-bottom: 22px; text-wrap: balance; }
+.flow-lede span { color: var(--ink-3); }
+.stage { display: grid; grid-template-columns: 130px 1fr; gap: 16px; align-items: start; min-width: 0; }
+.slab { font: 500 12px var(--font-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--ink-2); padding-top: 14px; }
+.slab span { color: var(--ink-3); margin-right: 8px; }
+.join { margin-left: 146px; border-left: 1.5px solid var(--ink-3); min-height: 22px; padding: 6px 0 6px 14px; font-size: 12px; color: var(--ink-3); position: relative; }
+.join::after { content: ""; position: absolute; left: -5px; bottom: -2px; border: 4.5px solid transparent; border-top: 6px solid var(--ink-3); }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chips span { border: 1px solid var(--rule); border-radius: 8px; padding: 7px 11px; font-weight: 500; display: flex; flex-direction: column; }
+.chips small, .track small, .route small { font-size: 12px; font-weight: 400; color: var(--ink-3); }
+.band { background: var(--bg); border: 1px solid var(--rule); border-radius: 10px; padding: 14px 12px; min-width: 0; }
+.bandnote { font: 11px var(--font-mono); letter-spacing: .06em; color: var(--ink-3); text-align: right; margin-bottom: 4px; }
+.track { list-style: none; margin: 0; padding: 0; display: flex; }
+.track li { flex: 1; min-width: 0; position: relative; padding: 26px 6px 0; text-align: center; display: flex; flex-direction: column; gap: 2px; }
+.track li::before { content: ""; position: absolute; top: 4px; left: 50%; width: 12px; height: 12px; margin-left: -6px; border-radius: 50%; background: var(--ink); z-index: 1; }
+.track li:not(:last-child)::after { content: ""; position: absolute; top: 9.5px; left: 50%; width: 100%; height: 1.5px; background: var(--ink-3); }
+.track li.h::before { background: var(--bg); border: 2px solid var(--ink); width: 14px; height: 14px; margin-left: -7px; top: 3px; }
+.track li.h b { border: 1.5px solid var(--ink); border-radius: 999px; padding: 1px 10px; align-self: center; }
+.track li.gate b { box-shadow: 0 0 0 3px var(--bg), 0 0 0 4.5px var(--ink-3); }
+.track li.q::before { border-radius: 2px; transform: rotate(45deg); background: var(--surface); border: 2px solid var(--ink); }
+.paid { font: 600 11px var(--font-mono); font-style: normal; color: var(--warn); vertical-align: super; }
+.routes { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; }
+.route { border: 1px solid var(--rule); border-radius: 10px; padding: 12px; display: flex; flex-direction: column; gap: 4px; }
+.route em { font-style: normal; font-size: 13px; color: var(--ink-2); border-top: 1px dashed var(--rule); padding-top: 6px; margin-top: 2px; }
+.route.hot { border-color: var(--ink); }
+.loop { font-size: 12px; color: var(--ink-2); margin-top: 12px; text-align: center; }
+.visible { margin-top: 22px; border-top: 1px dashed var(--rule); padding-top: 14px; display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 13px; color: var(--ink-2); }
+.visible b { color: var(--ink); width: 100%; }
+.flow-key { margin-top: 16px; display: flex; flex-wrap: wrap; gap: 6px 20px; font-size: 12px; color: var(--ink-3); }
+.flow-key span { display: inline-flex; align-items: center; gap: 6px; }
+.flow-key i.kd, .flow-key i.kh, .flow-key i.kq { display: inline-block; width: 11px; height: 11px; border-radius: 50%; background: var(--ink); }
+.flow-key i.kh { background: none; border: 2px solid var(--ink); }
+.flow-key i.kq { border-radius: 2px; transform: rotate(45deg); background: none; border: 2px solid var(--ink); width: 9px; height: 9px; }
+@media (max-width: 720px) {
+  .flow { padding: 16px; } .flow-lede { font-size: 17px; }
+  .stage { grid-template-columns: 1fr; gap: 8px; } .slab { padding-top: 0; } .join { margin-left: 14px; }
+  .track { flex-direction: column; gap: 14px; }
+  .track li { text-align: left; padding: 0 0 0 26px; }
+  .track li::before { left: 0; margin-left: 0; top: 3px; } .track li.h::before { margin-left: -1px; top: 2px; }
+  .track li:not(:last-child)::after { top: 16px; left: 5.25px; width: 1.5px; height: calc(100% + 2px); }
+  .track li.h b { align-self: flex-start; }
+}
+.ladders { display: flex; flex-direction: column; gap: 18px; }
+.ladder .lh { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; padding-left: 8px; border-left: 3px solid var(--c); }
+.ladder .why { font-size: 12px; color: var(--ink-3); margin: 2px 0 6px 11px; max-width: 60ch; }
+.ladder td { padding: 4px 10px; } .ladder td:first-child { padding-left: 11px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="eyebrow">White Circle &middot; GTM take-home</div>
+  <h1>Which companies should the AEs work first?</h1>
+  <p class="lede">3,000 Crunchbase companies pass through exclusion gates, then a fixed points rubric. Everything below is computed straight from the SQL pipeline; the system log at the bottom shows every run that produced it.</p>
+  <div class="kpis" id="kpis"></div>
+</header>
+
+<div class="tabs" role="tablist" aria-label="Dashboard sections">
+  <button role="tab" id="tab-segments" aria-controls="panel-segments" aria-selected="true" tabindex="0">1 &middot; Segments &amp; top 50</button>
+  <button role="tab" id="tab-deep-dives" aria-controls="panel-deep-dives" aria-selected="false" tabindex="-1">2 &middot; Top-5 deep dives</button>
+  <button role="tab" id="tab-memo" aria-controls="panel-memo" aria-selected="false" tabindex="-1">3 &middot; Memo</button>
+  <button role="tab" id="tab-crm" aria-controls="panel-crm" aria-selected="false" tabindex="-1">4 &middot; CRM model</button>
+  <button role="tab" id="tab-code" aria-controls="panel-code" aria-selected="false" tabindex="-1">5 &middot; Code, SQL &amp; traces</button>
+  <button role="tab" id="tab-system-design" aria-controls="panel-system-design" aria-selected="false" tabindex="-1">Part 2 &middot; System design</button>
+</div>
+
+<div role="tabpanel" id="panel-segments" aria-labelledby="tab-segments">
+
+<section class="step" id="filter">
+  <div class="stephead"><span class="stepno">1</span><div><div class="eyebrow">Filter</div><h2 id="h-filter">Who counts as a candidate</h2>
+  <p class="lede">What good fit means for White Circle, then nine pass/fail gates in order. A company is removed by the first gate it fails; only the survivors are scored.</p></div></div>
+  <div class="icp">
+    <div class="box"><b>Ships customer-facing LLMs or agents</b><span class="muted">Chatbots, copilots, coding or workflow agents in production. Something to put a guardrail on.</span></div>
+    <div class="box"><b>In an industry White Circle serves</b><span class="muted">Banks and fintech, insurance, health, legal, plus the verticals on its own site. A bad answer is a compliance event or a brand event.</span></div>
+    <div class="box"><b>Able to buy</b><span class="muted">Recent equity funding, revenue to pay for it, and a team big enough to have a security review.</span></div>
+  </div>
+  <div class="box"><div class="funnel" id="funnel-c"></div></div>
+  <p class="stepend" id="end-filter"></p>
+</section>
+
+<section class="step" id="matrix">
+  <div class="stephead"><span class="stepno">2</span><div><div class="eyebrow">Score and sort</div><h2 id="h-matrix">Every candidate is scored</h2>
+  <p class="lede">Each company that passes the gates gets one segment (what kind of buyer it is) and one tier (how soon to work it, cut from its score). Read the table with the key below.</p></div></div>
+  <div class="box scroll"><table class="matrix" id="matrix-t"></table></div>
+  <div class="key" id="matrix-key"></div>
+  <p class="stepend" id="end-matrix"></p>
+</section>
+
+<section class="step" id="score">
+  <div class="stephead"><span class="stepno">3</span><div><div class="eyebrow">How the score works</div><h2 id="h-score">The top 50</h2>
+  <p class="lede">Each company can earn up to 90 points: 80 for being able to buy, and up to 10 for matching the markets White Circle already sells to. Missing data scores zero rather than counting against a company. Region adds no points; it only breaks ties. <b>The points are starting assumptions</b>, to be tuned once real meetings and wins come in.</p></div></div>
+  <div class="two">
+    <div class="box"><h3>Points per measure</h3><div class="ladders" id="wt"></div></div>
+    <div class="box"><h3>Where the top 50's points come from</h3><div class="legend" id="comp-legend"></div><div class="hb" id="comp-bars" style="margin-top:10px"></div></div>
+  </div>
+  <p class="stepend">The ranked list follows, with each company's score broken down by measure.</p>
+</section>
+
+<section class="step" id="top50">
+  <div class="stephead"><span class="stepno">4</span><div class="h2row"><div><div class="eyebrow">The AE list</div><h2 style="display:inline">Top 50 accounts</h2></div>
+    <button class="help" id="help-btn" type="button" aria-label="How the top 50 is chosen" aria-expanded="false" aria-describedby="meth" aria-controls="meth">?</button>
+    <div class="pop" id="meth" role="tooltip" hidden>
+      <b>How this list is built</b>
+      <ul>
+        <li><b>Gates first:</b> closed, acquired, non-profit, public, competitor, services firm, dead website, no language-AI product, industry not matched.</li>
+        <li><b>Then the points:</b> recent funding 40, revenue 25, team size 15.</li>
+        <li><b>Fit bonus</b> up to 10, from White Circle's own landing pages and messaging.</li>
+        <li><b>Region</b> (Europe and North America) breaks ties only.</li>
+        <li>Every top-50 company is <b>verified against its live website</b>.</li>
+        <li>The points are starting assumptions, recalibrated against real results and rescored periodically.</li>
+      </ul>
+    </div></div></div>
+  <p class="lede">Ranked by total score, highest first. Ties go to Europe and North America, then to the account we know more about. Open a row for the evidence; the first five link to a full deep dive in tab 2.</p>
+  <div class="filters">
+    <label>Segment<select id="f-seg"></select></label>
+    <label>Tier<select id="f-tier"></select></label>
+    <label>Region<select id="f-reg"></select></label>
+    <span class="muted num" id="f-count"></span>
+  </div>
+  <div class="box scroll" style="padding:4px 0"><table id="top-t"></table></div>
+  <p class="stepend">End of the list. The top 5 are researched in depth in tab 2.</p>
+</section>
+
+<div class="appendix">
+<details class="fold" id="dq">
+  <summary><span class="eyebrow">Appendix</span><span>Data quality: what was wrong with the data and what we did</span></summary>
+  <div class="foldbody"><p class="lede" id="dq-lede"></p>
+  <div class="box scroll" style="padding:4px 0"><table id="dq-t"></table></div></div>
+</details>
+
+<details class="fold" id="syslog">
+  <summary><span class="eyebrow">Appendix</span><span>System log: every run and every external call</span></summary>
+  <div class="foldbody"><p class="lede">Each command writes a row on start and finish. Enrichment calls (Tavily, Apollo) are logged the same way, with credits and latency.</p>
+  <div class="kpis" id="log-kpis"></div>
+  <div class="two">
+    <div class="box"><h3>Run duration (oldest to newest)</h3><div id="run-chart"></div></div>
+    <div class="box scroll"><h3>Runs</h3><table id="run-t"></table></div>
+  </div>
+  <div class="box scroll"><h3>API calls</h3><table id="api-t"></table></div></div>
+</details>
+</div>
+
+</div>
+
+<div role="tabpanel" id="panel-crm" aria-labelledby="tab-crm" hidden>
+  <section id="crm">
+    <div><div class="eyebrow">CRM model</div><h2>Objects, attributes and when enrichment runs</h2>
+    <p class="lede">What the CRM stores for each object, who writes each attribute, and which events trigger enrichment at what cost.</p></div>
+    <div class="cards" id="crm-cards"></div>
+  </section>
+</div>
+
+<div role="tabpanel" id="panel-deep-dives" aria-labelledby="tab-deep-dives" hidden>
+  <section id="dives">
+    <div><div class="eyebrow">Deliverable 2</div><h2>Top-5 deep dives</h2>
+    <p class="lede">The five highest-ranked accounts, enriched with web research, contacts and MEDDPICC hypotheses. Each card opens to the full report, contacts first.</p></div>
+    <div class="cards" id="dive-cards"></div>
+  </section>
+</div>
+
+<div role="tabpanel" id="panel-memo" aria-labelledby="tab-memo" hidden>
+  <section id="memo">
+    <div><div class="eyebrow">Deliverable 3</div><h2>Memo</h2></div>
+    <div class="box md" id="memo-md"></div>
+    <div class="box md" id="evo"></div>
+  </section>
+</div>
+
+<div role="tabpanel" id="panel-code" aria-labelledby="tab-code" hidden>
+  <section id="code">
+    <div><div class="eyebrow">Deliverable 5</div><h2>Code, SQL, schema, notes and traces</h2>
+    <p class="lede">Generated from the repository tree each time the dashboard is built. Every path links to its file in the repository. <b>The repository is private; access is granted on request.</b></p></div>
+    <div class="codegrid" id="code-grid"></div>
+    <div class="box scroll"><h3>SQL files (run in this order by <span class="mono">uv run whitecircle build</span>)</h3><table id="sql-t"></table></div>
+    <div class="box scroll"><h3>Command-line interface</h3><table id="cli-t"></table></div>
+    <div class="box" id="schema-box"><h3>Warehouse schema</h3></div>
+    <div class="box md" id="profile-box"><details><summary>Data profile (notes): what the raw CSVs looked like</summary><div id="profile-md"></div></details></div>
+    <div class="box md"><details><summary>AI traces: index and redaction policy</summary><div id="traces-md"></div></details></div>
+  </section>
+</div>
+
+<div role="tabpanel" id="panel-system-design" aria-labelledby="tab-system-design" hidden>
+  <section id="workflow">
+    <div><div class="eyebrow">Part 2</div><h2>System design</h2></div>
+    <div class="flow" role="figure" aria-label="End-to-end GTM workflow in six stages">
+      <p class="flow-lede"><b>Six stages, six human decisions.</b> <span>Machines find, score, route, research and draft. People make the call, run discovery, confirm what the AI drafted, and set the price.</span></p>
+
+      <div class="stage"><div class="slab"><span>01</span>Signals in</div>
+        <div class="chips">
+          <span>Crunchbase + Clay<small>firmographics, funding</small></span>
+          <span>Website visits<small>RB2B; company-level only in EU/UK</small></span>
+          <span>Ad forms<small>LinkedIn, Google</small></span>
+          <span>Hiring + news<small>AI, ML and security roles</small></span>
+          <span>Call recordings<small>Attio, Granola fallback</small></span>
+          <span>POC usage<small>White Circle telemetry</small></span>
+        </div></div>
+      <div class="join">Each signal resolves to one company by domain: duplicates merged, competitors dropped, existing customers flagged.</div>
+
+      <div class="stage"><div class="slab"><span>02</span>Score</div>
+        <div class="band"><div class="bandnote">automated &middot; the Part 1 SQL</div>
+          <ol class="track">
+            <li><b>Screen</b><small>nine pass/fail gates</small></li>
+            <li><b>Score</b><small>nightly, and again on every new signal</small></li>
+            <li><b>Write to Attio</b><small>segment, tier, reasons, score version</small></li>
+          </ol></div></div>
+      <div class="join"></div>
+
+      <div class="stage"><div class="slab"><span>03</span>Route</div>
+        <div class="routes">
+          <div class="route hot"><b>Hot inbound</b><small>Tier 1&ndash;2 plus a demo request, ad form, or pricing visit</small><em>AE within 5 minutes: Slack alert + Attio task. Skips the nightly run.</em></div>
+          <div class="route"><b>Tier 1, or Tier 2 with intent</b><small>fit &times; intent sets the order</small><em>SDR call queue in Attio</em></div>
+          <div class="route"><b>Everything else</b><small>Tier 3, Nurture, non-ICP</small><em>Automated email sequences + LinkedIn audience</em></div>
+        </div></div>
+      <div class="join">SDR queue</div>
+
+      <div class="stage"><div class="slab"><span>04</span>SDR</div>
+        <div class="band"><ol class="track">
+            <li><b>Find contacts <i class="paid" title="paid call, behind a credit cap">$</i></b><small>Clay waterfall: phone + email for CTO, Head of AI, CISO, compliance</small></li>
+            <li><b>Call brief</b><small>AI: why now, persona angle, likely pain</small></li>
+            <li class="h"><b>Cold call</b><small>disposition logged in Attio</small></li>
+            <li class="q"><b>Meeting booked?</b><small>no: back to the queue or nurture</small></li>
+          </ol></div></div>
+      <div class="join">Meeting booked, or hot inbound from stage 03</div>
+
+      <div class="stage"><div class="slab"><span>05</span>AE and deal</div>
+        <div class="band"><ol class="track">
+            <li class="h"><b>Discovery</b><small>pain, buyer, champion</small></li>
+            <li class="h"><b>Create the deal</b><small>only after discovery</small></li>
+            <li><b>MEDDPICC draft</b><small>LLM, from the call, with quotes</small></li>
+            <li class="h gate"><b>AE confirms</b><small>only confirmed fields count at stage gates</small></li>
+            <li class="h"><b>Proof of concept</b><small>White Circle Test red-teams their app</small></li>
+            <li><b>Security pack</b><small>sent automatically; questionnaire drafted</small></li>
+            <li class="h"><b>Legal + pricing</b><small>a person approves every answer</small></li>
+          </ol></div></div>
+      <div class="join"></div>
+
+      <div class="stage"><div class="slab"><span>06</span>Close and learn</div>
+        <div class="band"><ol class="track">
+            <li class="q"><b>Won or lost</b></li>
+            <li><b>Structured reason</b><small>picked from a fixed list</small></li>
+            <li><b>Monthly weight review</b><small>new score version</small></li>
+          </ol>
+          <p class="loop">&#8634; New weights feed back into stage 02, so the score learns from real wins and losses.</p></div></div>
+
+      <div class="visible"><b>Visible the whole way</b><span>Attio stage views per owner</span><span>Nightly gap check (stale field, no champion, no next step) &rarr; Slack digest to the AE and manager</span><span>Weekly pipeline digest</span><span>Every automated step logs its runs and API calls</span></div>
+
+      <div class="flow-key"><span><i class="kd"></i>Automated step</span><span><i class="kh"></i>A person decides</span><span><i class="kq"></i>Decision point</span><span><i class="paid">$</i>Paid call, behind a credit cap</span></div>
+    </div>
+    <div class="box md" id="sys-md"></div>
+    <div class="box md"><details><summary>Appendix: triggers and owners, CRM sync-back, edge cases, metrics</summary><div id="sys-appx"></div></details></div>
+  </section>
+</div>
+
+<p class="muted" id="foot" style="font-size:12px"></p>
+</div>
+<div id="tip" role="tooltip"></div>
+
+<script>
+const D = /*__DATA__*/null;
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmt = n => (n == null ? "-" : Number(n).toLocaleString("en-US"));
+const REG = {eu_uk: "Europe", us_ca: "North America", other: "Elsewhere", unknown: "Unknown"};
+const VERT = v => (v || "other").replace(/_/g, " / ");
+const SEGCOL = {}; D.core_segments.forEach((s, i) => SEGCOL[s] = `var(--s${i + 1})`);
+const M = D.meta;
+
+/* safe DOM builder: every value goes in through textContent, never innerHTML */
+function h(tag, attrs, ...kids) {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs || {})) {
+    if (v == null || v === false) continue;
+    if (k === "class") e.className = v; else if (k === "text") e.textContent = v; else e.setAttribute(k, v === true ? "" : v);
+  }
+  kids.flat().forEach(c => { if (c != null && c !== false) e.append(c.nodeType ? c : document.createTextNode(String(c))); });
+  return e;
+}
+const safeUrl = u => (typeof u === "string" && /^https?:\/\//i.test(u)) ? u : null;
+function link(url, text) { const u = safeUrl(url); return u ? h("a", {href: u, target: "_blank", rel: "noopener noreferrer"}, text || u) : document.createTextNode(text || url || ""); }
+
+/* tooltip */
+const tip = $("tip");
+document.addEventListener("mousemove", e => { if (tip.style.display === "block") {
+  tip.style.left = Math.min(e.clientX + 12, innerWidth - 270) + "px"; tip.style.top = e.clientY + 14 + "px"; } });
+function bindTip(el, text) {
+  el.addEventListener("mouseenter", () => { tip.textContent = text; tip.style.display = "block"; });
+  el.addEventListener("mouseleave", () => tip.style.display = "none");
+  el.setAttribute("aria-label", text);
+}
+
+/* tabs: arrow keys, URL hash, remembered in localStorage */
+(function () {
+  const tabs = [...document.querySelectorAll('[role="tab"]')];
+  const hashOf = t => t.id.replace("tab-", "");
+  function select(t, focus, writeHash) {
+    tabs.forEach(x => { const on = x === t; x.setAttribute("aria-selected", on); x.tabIndex = on ? 0 : -1;
+      $(x.getAttribute("aria-controls")).hidden = !on; });
+    if (focus) t.focus();
+    try { localStorage.setItem("wc-tab", hashOf(t)); } catch (e) {}
+    if (writeHash) { try { history.replaceState(null, "", "#" + hashOf(t)); } catch (e) { location.hash = hashOf(t); } }
+  }
+  tabs.forEach((t, i) => {
+    t.addEventListener("click", () => select(t, false, true));
+    t.addEventListener("keydown", e => {
+      const k = {ArrowRight: 1, ArrowLeft: -1}[e.key];
+      if (k) { e.preventDefault(); select(tabs[(i + k + tabs.length) % tabs.length], true, true); }
+      else if (e.key === "Home") { e.preventDefault(); select(tabs[0], true, true); }
+      else if (e.key === "End") { e.preventDefault(); select(tabs[tabs.length - 1], true, true); }
+    });
+  });
+  function fromHash() {
+    const hs = location.hash.slice(1); const t = tabs.find(x => hashOf(x) === hs);
+    if (t) { select(t, false, false); return true; }
+    const el = hs && document.getElementById(hs);
+    if (el) { const pn = el.closest('[role="tabpanel"]');
+      select((pn && tabs.find(x => x.getAttribute("aria-controls") === pn.id)) || tabs[0], false, false); el.scrollIntoView(); return true; }
+    return false;
+  }
+  window.addEventListener("hashchange", fromHash);
+  window.showTab = name => { const t = tabs.find(x => hashOf(x) === name); if (t) select(t, false, true); };
+  if (!fromHash()) {
+    let last = null; try { last = localStorage.getItem("wc-tab"); } catch (e) {}
+    const t = tabs.find(x => hashOf(x) === last) || tabs[0]; select(t, false, false);
+  }
+})();
+
+/* KPIs */
+function kpi(v, l, n) { return `<div class="kpi"><div class="v">${v}</div><div class="l">${l}</div>${n ? `<div class="n">${n}</div>` : ""}</div>`; }
+$("kpis").innerHTML =
+  kpi(fmt(M.universe), "Companies in the data", "Everything loaded, nobody dropped") +
+  kpi(fmt(M.core), "Pass all nine gates", "These get a score") +
+  kpi(fmt(M.tier1), "Tier 1 accounts", "Total " + (D.cutoffs[0]?.min_score ?? "") + " or more (of 90): AEs work now") +
+  kpi(fmt(M.verified), "Verified AI use", "Passers whose website confirms an LLM product") +
+  kpi(esc(String(M.as_of).slice(0, 10)), "Data as of", "Scores pinned to this date") +
+  kpi(esc(M.score_version || "-"), "Score version", "Weights are stated priors, not a fit");
+
+/* step headlines, computed so they never drift from the data */
+(function () {
+  const t1 = D.top50.filter(r => r.tier === "Tier 1").length, n = D.top50.length;
+  $("h-filter").textContent = `${fmt(M.universe)} companies filtered to ${fmt(M.core)} candidates`;
+  $("end-filter").textContent = `${fmt(M.core)} companies pass every gate. All of them are scored next.`;
+  $("h-matrix").textContent = `All ${fmt(M.core)} candidates scored, by segment and tier`;
+  const t1wait = D.verify_next.filter(r => r.tier === "Tier 1").length;
+  $("end-matrix").textContent = `${fmt(M.tier1)} are Tier 1. The top ${n} is the ${n} highest-scoring companies whose website we checked; ` +
+    (t1 === M.tier1 ? `that includes every Tier 1 company.` : `${t1} of them are Tier 1, and ${t1wait} Tier 1 companies are still waiting for a check.`);
+  $("h-score").textContent = `The top ${n}: ${t1} of them Tier 1`;
+})();
+
+/* gate funnel */
+(function () {
+  const GL = {is_closed: "Closed", is_acquired: "Acquired", is_nonprofit: "Non-profit", is_public: "Public company (kept as Enterprise)",
+    is_competitor: "Competitor", is_services_firm: "Services firm", dead_or_hijacked_site: "Dead or hijacked website",
+    not_ai: "No language-AI product", industry_not_matched: "Industry not matched"};
+  const mx = D.funnel[0].remaining; let s = "";
+  D.funnel.forEach(r => {
+    s += `<div class="muted num">${r.step || ""}</div><div>${r.step ? esc(GL[r.gate] || r.gate) : "All companies"}</div>
+      <div class="track"><i style="width:${(r.remaining / mx * 100).toFixed(2)}%"></i></div>
+      <div class="rem">${fmt(r.remaining)}${r.step ? ` <span class="muted">(-${fmt(r.removed_here)})</span>` : ""}</div>`;
+  });
+  $("funnel-c").innerHTML = s;
+})();
+
+/* matrix */
+(function () {
+  const cell = {}; D.matrix.forEach(r => cell[r.segment + "|" + r.tier] = r.n);
+  const max = Math.max(1, ...D.core_segments.flatMap(s => D.tiers.map(t => cell[s + "|" + t] || 0)));
+  let t = "<thead><tr><th>Segment</th>" + D.tiers.map(x => `<th class="r">${x}</th>`).join("") + `<th class="r">Total</th></tr></thead><tbody>`;
+  const colTot = D.tiers.map(() => 0); let grand = 0;
+  D.core_segments.forEach(s => {
+    let tot = 0;
+    t += `<tr><td class="st"><span class="dot" style="background:${SEGCOL[s]}"></span>${s}</td>`;
+    D.tiers.forEach((x, i) => { const n = cell[s + "|" + x] || 0; tot += n; colTot[i] += n;
+      t += `<td class="c ${n ? "" : "z"}" style="--h:${(n / max).toFixed(3)}">${fmt(n)}</td>`; });
+    grand += tot; t += `<td class="c tot" style="--h:0">${fmt(tot)}</td></tr>`;
+  });
+  t += `<tr class="tot"><td class="st">Scored total</td>${colTot.map(n => `<td class="c tot" style="--h:0">${fmt(n)}</td>`).join("")}<td class="c tot" style="--h:0">${fmt(grand)}</td></tr></tbody>`;
+  $("matrix-t").innerHTML = t;
+  const TIER_DO = {"Tier 1": "AE works these now", "Tier 2": "SDR sequence; the AE joins on a reply",
+    "Tier 3": "Automated nurture; promoted on a trigger such as a new round", "Nurture": "Watch list; rescored when new data arrives"};
+  const SEG_IS = {"Regulated GenAI": "Ships language AI in banking and fintech, insurance, health or legal, where a bad answer is a compliance event",
+    "AI-native builders": "AI-first product companies that ship LLM apps or agents (the Lovable lookalikes)",
+    "Marketed verticals": "Industries White Circle already markets to: public sector, education, HR, e-commerce, gaming, creative tools"};
+  const rng = i => { const lo = D.cutoffs[i].min_score, hi = i ? D.cutoffs[i - 1].min_score - 1 : 90; return `${lo}–${hi}`; };
+  $("matrix-key").append(
+    h("div", {class: "box"}, h("h3", {}, "Tier: how soon to work it"), h("p", {}, "A tier is a priority band cut from the total score (out of 90). The higher the score, the sooner a person reaches out, and the more of their time the account gets."),
+      h("dl", {}, D.cutoffs.flatMap((c, i) => [h("dt", {}, h("span", {class: "chip " + ({"Tier 1": "t1", "Tier 2": "t2", "Tier 3": "t3"}[c.tier] || "tn")}, c.tier)),
+        h("dd", {class: "rng"}, rng(i) + " pts"), h("dd", {}, TIER_DO[c.tier] || "")]))),
+    h("div", {class: "box"}, h("h3", {}, "Segment: what kind of buyer"), h("p", {}, "Rule-based on industry; does not use the score"),
+      h("dl", {class: "seg"}, D.core_segments.flatMap(s => [h("dt", {}, h("span", {class: "dot", style: `background:${SEGCOL[s]}`}), s),
+        h("dd", {}, SEG_IS[s] || "")]))));
+})();
+
+/* rubric + stacked components (one colour per component, reused in the top-50 table) */
+const COMPS = [["pts_recency", "Funding recency", 40, "cA"], ["pts_revenue", "Revenue", 25, "cB"], ["pts_headcount", "Headcount", 15, "cC"],
+  ["pts_bonus", "Fit bonus", 10, "cE"]];
+(function () {
+  /* plain-language labels for the level codes in mart.score_weight */
+  const LVL = {le_6m: "Within 6 months", le_12m: "6 to 12 months ago", le_18m: "12 to 18 months ago", le_24m: "18 to 24 months ago",
+    le_36m: "2 to 3 years ago", gt_36m: "Over 3 years ago", lt_1m: "Under $1M", "1m_10m": "$1M to $10M", "10m_50m": "$10M to $50M",
+    "50m_100m": "$50M to $100M", ge_100m: "$100M or more", "1-10": "1 to 10 people", "11-50": "11 to 50", "51-200": "51 to 200",
+    "201-500": "201 to 500", "501-1000": "501 to 1,000", "1001+": "Over 1,000", unknown: "Not on file"};
+  const IND = {ai_native: "AI-native builders", fintech_banking: "banking and fintech", education: "education", health: "healthcare",
+    public_sector: "public sector", creative_tools: "creative tools", ecommerce: "e-commerce", gaming: "gaming", hr_recruiting: "HR",
+    insurance: "insurance", legal_compliance: "legal", real_estate: "real estate"};
+  const groups = [
+    ["funding_recency", "Recent funding", 40, "cA", "When the company last raised equity. New money means the AI roadmap is funded now."],
+    ["revenue", "Revenue", 25, "cB", "Mid-size companies have budget and buy fastest. The largest are slowed by procurement."],
+    ["headcount", "Team size", 15, "cC", "Big enough to run a security review, small enough to buy quickly."]];
+  const ladder = (name, mx, c, why, rows) => h("div", {class: "ladder " + c},
+    h("div", {class: "lh"}, h("b", {}, name), h("span", {class: "muted num"}, `up to ${mx}`)), h("p", {class: "why"}, why),
+    h("table", {}, h("tbody", {}, rows.map(([lab, pts]) => h("tr", {}, h("td", {}, lab),
+      h("td", {class: "r"}, h("span", {class: "cell"}, String(pts), h("span", {class: "sb"}, h("i", {style: `width:${(pts / mx * 100).toFixed(0)}%`})))))))));
+  groups.forEach(([k, name, mx, c, why]) => $("wt").append(ladder(name, mx, c, why,
+    D.weights.filter(w => w.component === k).map(w => [LVL[w.level] || w.level, w.points]))));
+  const SIG = {"named customer category": "White Circle names customers in", "homepage tab": "On White Circle's homepage:",
+    "dedicated landing page": "Has its own White Circle landing page:", "press-only mention": "Named as customers in press coverage:"};
+  const fit = [];
+  Object.keys(SIG).forEach(tier => {
+    const rs = D.fit_rules.filter(r => r.kind === "vertical" && r.tier === tier && r.points > 0);
+    if (rs.length) fit.push([`${SIG[tier]} ${rs.map(r => IND[r.key] || VERT(r.key)).join(", ")}`, Math.max(...rs.map(r => r.points))]);
+  });
+  D.fit_rules.filter(r => r.kind === "feature").forEach(r => fit.push(["Plus: ships an agent that takes actions (checked on its website)", r.points]));
+  $("wt").append(ladder("Fit with White Circle's market", 10, "cE",
+    "Follows what White Circle already markets to. The best-matching industry counts once, an action-taking agent adds to it, and the total stops at 10.", fit),
+    h("details", {class: "sch"}, h("summary", {}, "Where each fit signal comes from"),
+      h("ul", {class: "flist", style: "margin-top:6px"}, D.fit_rules.filter(r => r.points > 0).map(r =>
+        h("li", {}, h("b", {}, (IND[r.key] || VERT(r.key)) + ": "), h("span", {class: "muted"}, r.evidence))))));
+  $("comp-legend").innerHTML = COMPS.map(([k, n, mx, c]) => `<span class="${c}"><span class="dot" style="background:var(--c)"></span>${n} /${mx}</span>`).join("");
+  const el = $("comp-bars"); let b = "";
+  D.top50.forEach(r => {
+    const parts = COMPS.map(([k, n, , c]) => [r[k] || 0, n, c]).filter(p => p[0] > 0);
+    b += `<div class="lab">${r.rank}. ${esc(r.name)}</div><div class="track">` +
+      parts.map(([v, n, c]) => `<span class="${c}" data-t="${esc(r.name)}: ${n} ${v} pts" style="width:${(v / 90 * 100).toFixed(2)}%;background:var(--c)"></span>`).join("") +
+      `</div><div class="tot">${r.total}</div>`;
+  });
+  el.innerHTML = b;
+  el.querySelectorAll("span[data-t]").forEach(s => bindTip(s, s.dataset.t));
+  el.insertAdjacentHTML("beforeend", `<div></div><div class="wt-note">Bar width is points out of 90.</div><div></div>`);
+})();
+
+/* "?" methodology popover: hover, keyboard focus, tap/click, Esc */
+(function () {
+  const b = $("help-btn"), p = $("meth");
+  const place = () => { p.style.left = Math.max(0, b.offsetLeft - 8) + "px"; p.style.top = (b.offsetTop + b.offsetHeight + 6) + "px"; };
+  const show = () => { place(); p.hidden = false; b.setAttribute("aria-expanded", "true"); };
+  const hide = () => { p.hidden = true; b.setAttribute("aria-expanded", "false"); };
+  let pinned = false;
+  b.addEventListener("mouseenter", show); b.addEventListener("mouseleave", () => { if (!pinned) hide(); });
+  b.addEventListener("focus", show); b.addEventListener("blur", () => { if (!pinned) hide(); });
+  b.addEventListener("click", () => { pinned = !pinned; pinned ? show() : hide(); });
+  document.addEventListener("keydown", e => { if (e.key === "Escape" && !p.hidden) { pinned = false; hide(); b.focus(); } });
+  document.addEventListener("click", e => { if (pinned && !p.contains(e.target) && e.target !== b) { pinned = false; hide(); } });
+})();
+
+/* top 50 */
+const open = new Set();
+function opts(sel, vals, all) { $(sel).innerHTML = `<option value="">${all}</option>` + vals.map(([v, l]) => `<option value="${esc(v)}">${esc(l)}</option>`).join(""); }
+opts("f-seg", [...new Set(D.top50.map(r => r.segment))].map(s => [s, s]), "All segments");
+opts("f-tier", D.tiers.filter(t => D.top50.some(r => r.tier === t)).map(t => [t, t]), "All tiers");
+opts("f-reg", [...new Set(D.top50.map(r => r.region_bucket))].map(s => [s, REG[s] || s]), "All regions");
+["f-seg", "f-tier", "f-reg"].forEach(i => $(i).addEventListener("change", drawTop));
+const tierCls = t => ({"Tier 1": "t1", "Tier 2": "t2", "Tier 3": "t3"}[t] || "tn");
+const DIVE_N = 5;
+function compCell(r, k, mx, c) {
+  const v = r[k] || 0;
+  return `<td class="r ${c}"><span class="cell">${v}<span class="sb"><i style="width:${(v / mx * 100).toFixed(0)}%"></i></span></span></td>`;
+}
+function drawTop() {
+  const f = {s: $("f-seg").value, t: $("f-tier").value, r: $("f-reg").value};
+  const rows = D.top50.filter(r => (!f.s || r.segment === f.s) && (!f.t || r.tier === f.t) && (!f.r || r.region_bucket === f.r));
+  $("f-count").textContent = `${rows.length} of ${D.top50.length} shown`;
+  let t = `<thead><tr><th></th><th class="r">Rank</th><th>Company</th><th class="r">Total<small>out of 90</small></th>` +
+    COMPS.map(([, n, mx]) => `<th class="r">${n}<small>/${mx}</small></th>`).join("") + `<th>Segment</th><th>Region</th><th>Verified AI use</th></tr></thead><tbody>`;
+  rows.forEach(r => {
+    const dive = r.rank <= DIVE_N;
+    const nm = r.domain ? `<a href="https://${esc(r.domain)}" target="_blank" rel="noopener">${esc(r.name)}</a>` : esc(r.name);
+    const agent = r.is_agentic ? '<span class="badge">agentic</span>' : "";
+    const o = open.has(r.rank);
+    const stack = COMPS.map(([k, , , c]) => `<i class="${c}" style="width:${((r[k] || 0) / 90 * 100).toFixed(2)}%;background:var(--c)"></i>`).join("");
+    t += `<tr><td><button class="exp" data-r="${r.rank}" aria-expanded="${o}" aria-label="Show evidence for ${esc(r.name)}">${o ? "&minus;" : "+"}</button></td>
+      <td class="r num">${r.rank}</td>
+      <td class="st">${nm}${agent}${dive ? ` <a class="dive" href="#dive-${r.rank}" data-rank="${r.rank}" aria-label="Open deep dive on ${esc(r.name)}">Deep dive &rarr;</a>` : ""}</td>
+      <td class="r totcell"><b class="num">${r.total}</b><div class="stack" style="margin-left:auto" aria-hidden="true">${stack}</div></td>
+      ${COMPS.map(([k, , mx, c]) => compCell(r, k, mx, c)).join("")}
+      <td><span class="dot" style="background:${SEGCOL[r.segment] || "var(--ink-3)"}"></span>${esc(r.segment)} <span class="chip ${tierCls(r.tier)}">${esc(r.tier)}</span></td>
+      <td>${esc(REG[r.region_bucket] || r.region_bucket)}<div class="muted">${esc(r.country || "")}</div></td>
+      <td>${r.verified_llm_use ? `<span class="st pass">&#10003;</span> ${esc(r.verified_llm_use)}` : '<span class="muted">-</span>'}</td></tr>`;
+    if (o) {
+      const src = r.evidence_url;
+      t += `<tr class="detail"><td></td><td colspan="9"><div class="ev">` +
+        (r.evidence_quote ? `<blockquote>${esc(r.evidence_quote)}</blockquote>` : `<span class="empty">No evidence quote on file.</span>`) +
+        (src ? `<div class="muted">Source: ${/^https?:/.test(src) ? `<a href="${esc(src)}" target="_blank" rel="noopener">${esc(src)}</a>` : esc(src)}</div>` : "") +
+        `<ul class="reasons">${[r.reason_1, r.reason_2, r.reason_3].filter(Boolean).map(x => `<li>${esc(x)}</li>`).join("")}</ul>` +
+        `<div class="muted">Last equity round: ${r.last_equity_date ? esc(String(r.last_equity_date).slice(0, 10)) + " (" + r.months_since_last_equity + " months ago)" : "none on file"}. Revenue band: ${esc(r.revenue_label || "unknown")}. Headcount: ${esc(r.employees_label || "unknown")}. Data confidence ${Math.round((r.data_confidence || 0) * 100)}%.` +
+        ` Best buyer contact: ${r.best_contact_name ? esc(r.best_contact_name) + ", " + esc(r.best_contact_title || "") : "none on file"}.</div>` +
+        `</div></td></tr>`;
+    }
+  });
+  if (!rows.length) t += `<tr><td colspan="10" class="empty">No accounts match these filters.</td></tr>`;
+  $("top-t").innerHTML = t + "</tbody>";
+  $("top-t").querySelectorAll("button.exp").forEach(b => b.addEventListener("click", () => {
+    const k = +b.dataset.r; open.has(k) ? open.delete(k) : open.add(k); drawTop(); const nb = document.querySelector(`button.exp[data-r="${k}"]`); if (nb) nb.focus(); }));
+  $("top-t").querySelectorAll("a.dive").forEach(a => a.addEventListener("click", e => { e.preventDefault(); showTab("deep-dives"); openDive(+a.dataset.rank); }));
+}
+drawTop();
+
+/* top-5 deep dives: one card per account, expands to the full report; text only, content comes from scraped pages */
+function renderReport(d, root) {
+  const S = (title, ...k) => root.append(h("h3", {}, title), ...k);
+  const list = a => h("ul", {}, (a || []).map(x => h("li", {}, typeof x === "string" ? x : JSON.stringify(x))));
+  root.append(h("div", {class: "muted"}, [d.domain, d.generated_at ? "generated " + d.generated_at : ""].filter(Boolean).join(" · ")));
+  const cs = d.contacts || [];
+  S("Contacts", cs.length ? h("div", {class: "scroll"}, h("table", {},
+    h("thead", {}, h("tr", {}, ["Persona", "Name", "Title", "LinkedIn", "Source", "Priority"].map(x => h("th", {}, x)))),
+    h("tbody", {}, cs.map(c => h("tr", {}, h("td", {}, c.persona || ""), h("td", {}, c.name || ""),
+      h("td", {}, c.title || ""), h("td", {}, safeUrl(c.linkedin_url) ? link(c.linkedin_url, "profile") : h("span", {class: "muted"}, "-")),
+      h("td", {}, h("span", {class: "badge"}, c.source || "?")), h("td", {}, c.priority == null ? "" : String(c.priority)))))))
+    : h("p", {class: "empty"}, "No contacts found yet."));
+  const withWhy = cs.filter(c => c.why);
+  if (withWhy.length) root.append(h("ul", {}, withWhy.map(c => h("li", {}, `${c.name}: ${c.why}`))));
+  S("Summary", h("p", {}, d.summary || ""));
+  if (d.why_now) S("Why now", h("p", {}, d.why_now));
+  const ai = d.ai_usage || {};
+  S("Product and AI use", h("p", {}, d.product || ""), h("p", {}, ai.what || ""),
+    ai.agentic != null ? h("p", {class: "muted"}, "Agentic: " + (ai.agentic === true ? "yes" : ai.agentic === false ? "no" : String(ai.agentic))) : null,
+    (ai.surfaces || []).length ? h("p", {class: "muted"}, "Surfaces: " + ai.surfaces.join(", ")) : null);
+  if ((d.customers || []).length) S("Customers", list(d.customers));
+  const fu = d.funding || {}, hc = d.headcount || {};
+  S("Funding and headcount", h("p", {}, [fu.last_round && "Last round: " + fu.last_round + (fu.last_round_date ? " (" + fu.last_round_date + ")" : ""),
+    fu.total_usd != null && "Total raised: $" + fmt(fu.total_usd), (fu.investors || []).length && "Investors: " + fu.investors.join(", "),
+    hc.current != null && "Headcount: " + hc.current, hc.growth_note].filter(Boolean).join(". ")));
+  if ((d.likely_pains || []).length) S("Likely pains", list(d.likely_pains));
+  const mp = d.meddpicc_hypothesis;
+  if (mp) S("MEDDPICC (unconfirmed hypotheses)", h("div", {class: "warnbox"}, "Unconfirmed hypotheses: inferred from public information, not from a conversation."),
+    h("div", {class: "scroll"}, h("table", {}, h("tbody", {}, Object.entries(mp).map(([k, v]) => h("tr", {}, h("td", {class: "st"}, k.replace(/_/g, " ")),
+      h("td", {}, (v && v.hypothesis) || ""), h("td", {class: "muted"}, v && v.confidence ? String(v.confidence) : "")))))));
+  if ((d.persona_angles || []).length) S("Persona angles", h("ul", {}, d.persona_angles.map(p => h("li", {}, h("b", {}, (p.persona || "") + ": "), p.angle || ""))));
+  if ((d.news || []).length) S("News", h("ul", {}, d.news.map(n => h("li", {}, (n.date ? n.date + " " : ""), link(n.url, n.title || n.url)))));
+  if ((d.hiring_signals || []).length) S("Hiring signals", h("ul", {}, d.hiring_signals.map(n => h("li", {}, link(n.url, n.role || n.url)))));
+  const cp = d.compliance;
+  if (cp) S("Compliance", h("p", {}, [cp.soc2 != null && "SOC 2: " + cp.soc2, cp.hipaa != null && "HIPAA: " + cp.hipaa,
+    cp.eu_ai_act_exposure && "EU AI Act exposure: " + cp.eu_ai_act_exposure, cp.notes].filter(Boolean).join(". ")));
+  if ((d.risks || []).length) S("Risks", list(d.risks));
+  if ((d.sources || []).length) S("Sources", h("ul", {}, d.sources.map(n => h("li", {}, link(n.url, n.title || n.url)))));
+}
+function toggleDive(rank, want) {
+  const card = $("dive-" + rank); if (!card) return;
+  const b = card.querySelector("button.dtoggle"), body = card.querySelector(".dbody");
+  const on = want == null ? body.hidden : want;
+  body.hidden = !on; b.setAttribute("aria-expanded", String(on)); b.textContent = on ? "Hide full report" : "Read full report";
+}
+function openDive(rank) { toggleDive(rank, true); const c = $("dive-" + rank); if (c) { c.scrollIntoView(); try { history.replaceState(null, "", "#deep-dives"); } catch (e) {} c.querySelector("button.dtoggle").focus(); } }
+(function () {
+  const root = $("dive-cards"); const rows = D.top50.filter(r => r.rank <= DIVE_N);
+  rows.forEach(r => {
+    const d = D.accounts[r.org_uuid];
+    const sentences = ((d && d.summary) || r.reason_1 || "").match(/[^.!?]+[.!?]+(\s|$)/g) || [];
+    const short = sentences.slice(0, 2).join("").trim() || ((d && d.summary) || r.reason_1 || "");
+    const body = h("div", {class: "dbody", id: "dive-" + r.rank + "-body", hidden: true});
+    if (d) renderReport(d, body); else body.append(h("p", {class: "empty"}, "Deep dive in progress."));
+    const btn = h("button", {type: "button", class: "dtoggle", "aria-expanded": "false", "aria-controls": "dive-" + r.rank + "-body"}, "Read full report");
+    btn.addEventListener("click", () => toggleDive(r.rank));
+    root.append(h("div", {class: "box dcard", id: "dive-" + r.rank},
+      h("div", {class: "top"}, h("span", {class: "eyebrow"}, "Rank " + r.rank), h("h2", {}, (d && d.name) || r.name),
+        h("span", {class: "chip " + tierCls(r.tier)}, r.tier), h("span", {class: "muted num"}, `${r.total} / 90 · ${r.segment}`),
+        r.domain ? h("span", {class: "muted"}, r.domain) : null),
+      h("p", {}, short), btn, body));
+  });
+  if (!rows.length) root.append(h("p", {class: "empty"}, "No top-50 rows."));
+})();
+
+/* markdown tabs: HTML produced and escaped by dashboard.py (md_to_html) from the repo docs */
+$("evo").innerHTML = D.evolution_html || '<p class="empty">docs/part1-segmentation/approach-evolution.md not found.</p>';
+$("memo-md").innerHTML = D.memo_html || '<p class="empty">docs/part1-segmentation/memo.md not found.</p>';
+$("profile-md").innerHTML = D.profile_html || '<p class="empty">data-profile.md not found.</p>';
+$("traces-md").innerHTML = D.traces_html || '<p class="empty">docs/traces/index.md not found.</p>';
+$("sys-md").innerHTML = D.system_html || '<p class="empty">docs/part2-systems-design not found.</p>';
+$("sys-appx").innerHTML = D.system_appx_html || "";
+
+/* data quality */
+(function () {
+  const c = {pass: 0, fail: 0, info: 0}; D.dq.forEach(d => c[d.kind]++);
+  $("dq-lede").textContent = `${D.dq.length} checks. ${c.pass} passed with nothing to fix, ${c.fail} failed, and ${c.info} found messy rows that the pipeline handled and recorded. Counts in the second group describe the raw data, they are not errors.`;
+  const lab = {pass: "Pass", fail: "Fail", info: "Handled"}; const ic = {pass: "✓", fail: "✗", info: "i"};
+  const order = {fail: 0, info: 1, pass: 2};
+  const rows = [...D.dq].sort((a, b) => order[a.kind] - order[b.kind] || a.ord - b.ord);
+  $("dq-t").innerHTML = `<thead><tr><th>Status</th><th>Check</th><th class="r">Rows</th><th>What we did</th></tr></thead><tbody>` +
+    rows.map(d => `<tr><td class="st ${d.kind}">${ic[d.kind]} ${lab[d.kind]}</td><td><span class="mono">${esc(d.check_name)}</span><div class="muted">${esc(d.description)}</div></td>
+      <td class="r num">${d.kind === "pass" ? "0" : fmt(d.rows_affected)}</td><td class="muted">${esc(d.action_taken)}</td></tr>`).join("") + "</tbody>";
+})();
+
+/* system log */
+const T = s => String(s || "").replace("T", " ").slice(0, 19);
+const dur = ms => ms == null ? "-" : ms < 1000 ? ms + " ms" : (ms / 1000).toFixed(1) + " s";
+(function () {
+  const ok = D.runs.filter(r => r.status === "ok").length;
+  $("log-kpis").innerHTML = kpi(fmt(D.runs.length), "Runs logged", `${ok} ok, ${D.runs.length - ok} failed`) +
+    kpi(fmt(D.calls.length), "External API calls", D.calls.length ? "" : "None yet: enrichment has not run") +
+    kpi(fmt(D.tavily_credits), "Tavily credits used", "Reported + estimated (search calls with no logged cost count 1 each)") +
+    kpi(fmt(D.runs.reduce((a, r) => a + (r.rows_written || 0), 0)), "Rows written by runs", "");
+  const mx = Math.max(1, ...D.runs.map(r => r.ms || 0)); const W = 360, rh = 22;
+  $("run-chart").innerHTML = D.runs.length ? `<svg viewBox="0 0 ${W} ${D.runs.length * rh + 4}" width="100%" role="img" aria-label="Run durations">` +
+    D.runs.map((r, i) => { const w = Math.max(2, (r.ms || 0) / mx * (W - 190));
+      return `<text x="0" y="${i * rh + 15}" font-size="11" fill="var(--ink-2)" font-family="var(--font-mono)">${esc(r.command)}</text>
+      <rect x="90" y="${i * rh + 4}" width="${w}" height="12" rx="2" fill="${r.status === "ok" ? "var(--s1)" : "var(--bad)"}" data-t="${esc(r.command)}: ${dur(r.ms)}, ${fmt(r.rows_written)} rows, ${esc(r.status)}"/>
+      <text x="${94 + w}" y="${i * rh + 15}" font-size="11" fill="var(--ink-3)" font-family="var(--font-mono)">${dur(r.ms)}</text>`; }).join("") + "</svg>"
+    : '<p class="empty">No runs logged.</p>';
+  $("run-chart").querySelectorAll("rect[data-t]").forEach(s => bindTip(s, s.dataset.t));
+  $("run-t").innerHTML = `<thead><tr><th>Started (UTC)</th><th>Command</th><th>Status</th><th class="r">Duration</th><th class="r">Rows</th></tr></thead><tbody>` +
+    [...D.runs].reverse().map(r => `<tr><td class="num mono">${T(r.started_at)}</td><td class="mono">${esc(r.command)}</td>
+      <td class="st ${r.status === "ok" ? "pass" : "err"}">${r.status === "ok" ? "✓ ok" : "✗ " + esc(r.status)}</td><td class="r num">${dur(r.ms)}</td><td class="r num">${fmt(r.rows_written)}</td></tr>`).join("") + "</tbody>";
+  $("api-t").innerHTML = D.calls.length ? `<thead><tr><th>Called (UTC)</th><th>Provider</th><th>Endpoint</th><th class="r">Status</th><th class="r">Credits / tokens</th><th class="r">Latency</th></tr></thead><tbody>` +
+    D.calls.map(c => `<tr><td class="num mono">${T(c.called_at)}</td><td>${esc(c.provider)}</td><td class="mono">${esc(c.endpoint)}<div class="muted">${esc(c.request_summary)}</div></td>
+      <td class="r num st ${c.status_code >= 200 && c.status_code < 300 ? "pass" : "err"}">${esc(c.status_code ?? "-")}</td><td class="r num">${fmt(c.credits_or_tokens)}</td><td class="r num">${c.latency_ms == null ? "-" : Math.round(c.latency_ms) + " ms"}</td></tr>`).join("") + "</tbody>"
+    : '<tbody><tr><td class="empty">No API calls logged yet.</td></tr></tbody>';
+})();
+
+/* CRM model tab: one card per object, all text via textContent */
+(function () {
+  const root = $("crm-cards"); const m = D.crm_model;
+  const objs = m && Array.isArray(m.objects) ? m.objects : [];
+  if (!objs.length) { root.append(h("p", {class: "empty"}, "Pending: docs/part1-crm-model/crm_model.json has not been written yet.")); return; }
+  objs.forEach(o => {
+    const attrs = o.attributes || [], trig = o.enrichment_triggers || [];
+    root.append(h("div", {class: "box"},
+      h("h2", {}, o.name || "Object"), h("p", {class: "lede"}, o.description || ""),
+      h("div", {class: "scroll", style: "margin-top:10px"}, h("table", {},
+        h("thead", {}, h("tr", {}, ["Attribute", "Type", "Source", "Written by", "Example"].map(x => h("th", {}, x)))),
+        h("tbody", {}, attrs.map(a => h("tr", {}, h("td", {class: "st mono"}, a.name || ""), h("td", {}, a.type || ""), h("td", {}, a.source || ""),
+          h("td", {}, a.written_by || ""), h("td", {class: "muted"}, a.example == null ? "" : String(a.example))))))),
+      h("h3", {style: "margin-top:16px"}, "When enrichment runs"),
+      trig.length ? h("ul", {}, trig.map(t => h("li", {}, h("b", {}, t.when || ""), " → ", t.what_runs || "",
+        h("span", {class: "cost " + (["baseline", "deep", "none"].includes(t.cost_tier) ? t.cost_tier : "none")}, t.cost_tier || "?"))))
+        : h("p", {class: "empty"}, "No triggers listed.")));
+  });
+})();
+
+/* code tab: generated from the repo tree by dashboard.py; all text through textContent */
+(function () {
+  const C = D.code, repo = D.repo_url + "/blob/main/";
+  const file = (path, text) => h("a", {href: repo + path, target: "_blank", rel: "noopener noreferrer", class: "mono"}, text || path);
+  const fl = (title, items) => h("div", {class: "box"}, h("h3", {}, title), items.length ? h("ul", {class: "flist"},
+    items.map(x => h("li", {}, file(x.path, x.name), x.desc ? h("div", {class: "muted"}, x.desc) : null))) : h("p", {class: "empty"}, "None found."));
+  $("code-grid").append(fl("Python modules", C.modules), fl("Notes and documents", C.notes), fl("Data artifacts and project files", C.artifacts));
+  $("sql-t").append(h("thead", {}, h("tr", {}, ["File", "What it does"].map(x => h("th", {}, x)))),
+    h("tbody", {}, C.sql.map(x => h("tr", {}, h("td", {}, file(x.path, x.name)), h("td", {}, x.desc)))));
+  $("cli-t").append(h("thead", {}, h("tr", {}, ["Command", "What it does", "Options"].map(x => h("th", {}, x)))),
+    h("tbody", {}, C.cli.map(c => h("tr", {}, h("td", {class: "mono"}, c.usage), h("td", {}, c.help),
+      h("td", {class: "muted"}, c.options.map(o => h("div", {}, h("span", {class: "mono"}, o.flags), o.help ? " " + o.help : "")))))));
+  const sb = $("schema-box");
+  sb.append(h("p", {class: "wt-note"}, ["Read live from the warehouse. Created by ", file("src/white_circle/sql/00_schemas.sql", "00_schemas.sql"), " and the staging and mart files above."]));
+  C.schema.forEach(sc => sb.append(h("details", {class: "sch"}, h("summary", {}, `${sc.schema} (${sc.tables.length} tables)`),
+    h("div", {class: "scroll"}, h("table", {}, h("tbody", {}, sc.tables.map(t => h("tr", {}, h("td", {class: "st mono"}, t.name),
+      h("td", {class: "muted mono"}, t.columns.join(", ")))))))))); 
+})();
+
+window.dispatchEvent(new Event("hashchange"));
+$("foot").textContent = `Generated ${M.generated_at} from data/white_circle.duckdb. Regenerate with: uv run whitecircle dashboard`;
+</script>
+</body>
+</html>
+

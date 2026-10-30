@@ -1,0 +1,285 @@
+{
+  "org_uuid": "cf909ca8-1b1b-0f1d-a6c9-e83df329a5d7",
+  "name": "Replit",
+  "domain": "replit.com",
+  "generated_at": "2026-10-30T14:48:59+00:00",
+  "summary": "Replit is a Foster City cloud development platform whose AI Agent builds and deploys full apps from prompts for 50M+ users, valued at $9B after a $400M Series D led by Georgian (March 2026). It is the most agentic target in the ICP: its agent writes code, runs it and touches live infrastructure, and it already had a public July 2025 incident where the agent deleted a customer's production database. It runs SOC 2 Type II and has security hiring open, so budget and urgency both exist.",
+  "product": "Browser-based development and hosting platform. Agent (Agent 4 launched March 2026) builds, runs and deploys apps, slides and videos from prompts, with multiple agents working in parallel; enterprise tier adds Azure Marketplace and Microsoft Fabric data connectors (private preview).",
+  "ai_usage": {
+    "what": "AI Agent that builds and deploys apps from prompts, executes code and shell actions, and wires databases and secrets for end users (company_review: customer-facing LLM yes, confidence high).",
+    "agentic": true,
+    "surfaces": [
+      "Replit Agent (prompt-to-app)",
+      "Parallel multi-agent builds (Agent 4)",
+      "Security Agent (LLM-assisted pre-deploy scan)",
+      "Enterprise data connectors (Microsoft Fabric)",
+      "Apps built by users that themselves embed LLMs"
+    ]
+  },
+  "customers": [
+    "Consumers, founders and non-coders (50M+ users per Sacra via tech-insider, March 2026)",
+    "Enterprise teams (Azure Marketplace, Fabric connector)",
+    "Visa (strategic investor, May 2026)"
+  ],
+  "funding": {
+    "last_round": "corporate_round (Visa); latest priced round Series D $400M at $9B led by Georgian",
+    "last_round_date": "2026-05-28",
+    "total_usd": 872855000,
+    "investors": [
+      "Andreessen Horowitz",
+      "Georgian",
+      "Prysm Capital",
+      "Coatue",
+      "Khosla Ventures",
+      "Craft Ventures",
+      "Y Combinator",
+      "SV Angel",
+      "Alumni Ventures",
+      "Visa"
+    ]
+  },
+  "headcount": {
+    "current": "101-250 (Crunchbase range)",
+    "growth_note": "Crunchbase range looks stale against ~$525M ARR (Sacra, Apr 2026) and 13 funding rounds; expect materially larger. Several security roles open."
+  },
+  "news": [
+    {
+      "date": "2026-10-09",
+      "title": "CIO: The real agent risk that Replit's database deletion revealed",
+      "url": "https://www.cio.com/article/4230232/the-replit-case-an-agent-a-written-order-and-a-deleted-database.html"
+    },
+    {
+      "date": "2026-08-05",
+      "title": "Replit hits $9B valuation, bets on Microsoft Fabric",
+      "url": "https://tech-insider.org/ie/replit-9-billion-valuation-2026"
+    },
+    {
+      "date": "2026-03-11",
+      "title": "Replit raises $400M at $9B valuation, launches Agent 4",
+      "url": "https://replit.com/blog/replit-raises-400-million-dollars"
+    },
+    {
+      "date": "2026-01-15",
+      "title": "Bloomberg: Replit nears $9B funding round",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/ai-coding-startup-replit-nears-funding-at-9-billion-valuation"
+    },
+    {
+      "date": "2025-07-18",
+      "title": "Agent deleted a customer's production database during a code freeze (SaaStr/Lemkin incident); Replit separated dev and prod data",
+      "url": "https://battletester.app/blog/replit-security-breach-what-happened"
+    }
+  ],
+  "hiring_signals": [
+    {
+      "role": "Cloud Security Lead (multi-tenant AI infrastructure, agentic systems preferred)",
+      "url": "https://jobs.ashbyhq.com/replit/8027a0f4-4837-4e49-a4dd-8ad1bde23277"
+    },
+    {
+      "role": "AI Agent Security Architect (primary authority for autonomous/agent security blueprint; seen via Indeed listing)",
+      "url": "https://www.indeed.com/q-replit-jobs.html"
+    }
+  ],
+  "compliance": {
+    "soc2": "SOC 2 Type II (via Vanta), per replit.com/security",
+    "hipaa": "Not found on security page",
+    "eu_ai_act_exposure": "Indirect: GDPR stated; Replit is a provider of an agent and its users deploy AI apps to EU end users. No EU AI Act statement found.",
+    "notes": "ISO 27001 in progress. Shared responsibility model puts app content on the customer, which leaves agent-action and generated-app risk contested. Each customer gets an isolated GCP project; containers use seccomp-bpf, moving to microVMs."
+  },
+  "why_now": "Replit raised $400M at $9B on 2026-03-11 with Agent 4 (parallel autonomous agents), added Visa as a strategic investor on 2026-05-28, and is posting Cloud Security Lead and AI Agent Security Architect roles to sell into enterprise via Azure; the July 2025 agent database deletion is still being cited (CIO, 2026-10-09), so buyers are asking how agent actions are controlled.",
+  "likely_pains": [
+    "Agents taking destructive actions on production data or infrastructure (the July 2025 database deletion; OWASP LLM06 Excessive Agency)",
+    "Prompt injection through repos, packages and web content the agent reads, leading to secret exfiltration or malicious code",
+    "Cross-tenant data leakage in multi-tenant AI infrastructure and in apps the agent generates",
+    "Abuse of free-tier compute: phishing sites, malware, spam and crypto-mining built through the agent (the same abuse Lovable cites)",
+    "Agent misreporting what it did or what is recoverable (documented wrong rollback advice)",
+    "Enterprise security reviews demanding auditable agent controls as Replit sells through Azure and Fabric"
+  ],
+  "meddpicc_hypothesis": {
+    "metrics": {
+      "hypothesis": "Reduced agent-caused incidents and credit refunds, faster enterprise security-review close, lower abuse and compute cost on free tier.",
+      "confidence": "medium"
+    },
+    "economic_buyer": {
+      "hypothesis": "CTO Luis Chavez, or the head of security once the AI Agent Security Architect is hired; President/Head of AI Michele Catasta is the alternate.",
+      "confidence": "low"
+    },
+    "decision_criteria": {
+      "hypothesis": "Latency overhead on agent loops, coverage of tool calls and shell actions, custom natural-language policies per tenant/plan, audit trail, build versus buy against an in-house Security Agent.",
+      "confidence": "medium"
+    },
+    "decision_process": {
+      "hypothesis": "Engineering-led pilot on a slice of agent traffic, then security and CTO sign-off; likely a short, technical evaluation.",
+      "confidence": "low"
+    },
+    "paper_process": {
+      "hypothesis": "Unknown. Expect a vendor security review (they run Vanta) and DPA; White Circle's SOC 2 helps.",
+      "confidence": "low"
+    },
+    "identify_pain": {
+      "hypothesis": "The 2025 production-database deletion and a continuing stream of agent-safety scrutiny; company already built dev/prod separation and a Security Agent, so the gap is runtime enforcement on agent actions.",
+      "confidence": "medium"
+    },
+    "champion": {
+      "hypothesis": "The AI Agent Security Architect once hired, or an agent-platform engineering lead (VP Eng Scott Kennedy's org).",
+      "confidence": "low"
+    },
+    "competition": {
+      "hypothesis": "In-house build (strong engineering culture, Security Agent already exists), model-lab guardrails, and Lakera, Prompt Security or Protect AI.",
+      "confidence": "medium"
+    }
+  },
+  "persona_angles": [
+    {
+      "persona": "CTO / Engineering",
+      "angle": "After Agent 4 started running parallel agents against live infrastructure, how are you enforcing per-action policies without adding latency to the loop?"
+    },
+    {
+      "persona": "Head of AI / President",
+      "angle": "Policies written in plain language that check every agent tool call in real time would let your agent team change rules without retraining anything."
+    },
+    {
+      "persona": "Security / CISO (AI Agent Security Architect)",
+      "angle": "Your open Agent Security Architect role suggests you are designing agent controls now; we can show a runtime layer that blocks or escalates destructive actions and logs which policy fired."
+    },
+    {
+      "persona": "General Counsel",
+      "angle": "Your shared-responsibility model leaves agent behavior contested; an audit trail of every blocked or allowed agent action gives you evidence after an incident."
+    },
+    {
+      "persona": "Trust & Safety",
+      "angle": "Lovable uses us to catch phishing sites and malware requests in agent sessions; do you have the same abuse stream on free-tier builds?"
+    }
+  ],
+  "risks": [
+    "Strong in-house engineering and an existing Security Agent make build-versus-buy the main objection",
+    "No head of security or CISO found publicly; economic buyer unclear",
+    "Crunchbase headcount looks stale; company may be larger and slower to engage",
+    "Latency sensitivity on the agent loop",
+    "Competitor to Lovable, White Circle's only named logo (could help or hurt)",
+    "HIPAA not claimed by Replit, so compliance leverage is SOC 2 and agent audit trail only"
+  ],
+  "contacts": [
+    {
+      "name": "Luis Chavez",
+      "title": "Chief Technology Officer",
+      "persona": "CTO / Engineering",
+      "source": "crunchbase",
+      "linkedin_url": "https://www.linkedin.com/in/lhchavez/",
+      "priority": 1,
+      "why": "Owns platform and agent infrastructure; most likely technical economic buyer."
+    },
+    {
+      "name": "Michele Catasta",
+      "title": "President & Head of AI",
+      "persona": "Head of AI",
+      "source": "crunchbase",
+      "linkedin_url": "https://www.linkedin.com/in/pirroh",
+      "priority": 2,
+      "why": "Runs AI strategy and the agent; owns the roadmap that creates the risk."
+    },
+    {
+      "name": "Scott Kennedy",
+      "title": "VP of Engineering",
+      "persona": "Engineering / champion",
+      "source": "crunchbase",
+      "linkedin_url": "https://www.linkedin.com/in/stkenned",
+      "priority": 3,
+      "why": "Likely evaluator and champion for a runtime guardrail pilot."
+    },
+    {
+      "name": "Robert Kohse",
+      "title": "General Counsel & Corporate Secretary",
+      "persona": "Legal / Compliance",
+      "source": "web",
+      "linkedin_url": "https://www.linkedin.com/in/robert-kohse-252ab112",
+      "priority": 4,
+      "why": "Leads product and privacy counseling; owns liability exposure from agent incidents."
+    },
+    {
+      "name": "Amjad Masad",
+      "title": "Founder and CEO",
+      "persona": "Executive sponsor",
+      "source": "crunchbase",
+      "linkedin_url": "http://www.linkedin.com/in/amjadmasad",
+      "priority": 5,
+      "why": "Publicly owned the 2025 incident response; escalation sponsor, not first contact."
+    },
+    {
+      "name": "Jordan Walke",
+      "title": "Head of Product (Crunchbase: lead product development)",
+      "persona": "Product",
+      "source": "crunchbase",
+      "linkedin_url": "https://www.linkedin.com/in/jordan-walke-1250b634",
+      "priority": 6,
+      "why": "Shapes agent behavior and guardrail UX."
+    },
+    {
+      "name": "Matt Mazzeo",
+      "title": "Board Member",
+      "persona": "Board (non-buyer)",
+      "source": "crunchbase",
+      "linkedin_url": "https://www.linkedin.com/in/matthewmazzeo",
+      "priority": 9,
+      "why": "Board member; not a buyer."
+    },
+    {
+      "name": "Sue Xu",
+      "title": "Investor",
+      "persona": "Investor (non-buyer)",
+      "source": "crunchbase",
+      "linkedin_url": "https://www.linkedin.com/in/suexu",
+      "priority": 10,
+      "why": "Investor; not a buyer."
+    }
+  ],
+  "sources": [
+    {
+      "title": "The real agent risk that Replit's database deletion revealed (CIO)",
+      "url": "https://www.cio.com/article/4230232/the-replit-case-an-agent-a-written-order-and-a-deleted-database.html"
+    },
+    {
+      "title": "Replit raises $400 million at a $9 billion valuation (Replit blog, 2026-03-11)",
+      "url": "https://replit.com/blog/replit-raises-400-million-dollars"
+    },
+    {
+      "title": "Replit Hits $9B Valuation, Bets on Microsoft Fabric (tech-insider, 2026-08-05)",
+      "url": "https://tech-insider.org/ie/replit-9-billion-valuation-2026"
+    },
+    {
+      "title": "AI Coding Startup Replit Nears Funding at $9 Billion Valuation (Bloomberg, 2026-01-15)",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/ai-coding-startup-replit-nears-funding-at-9-billion-valuation"
+    },
+    {
+      "title": "Replit Security page",
+      "url": "https://replit.com/security"
+    },
+    {
+      "title": "Replit shared responsibility model (docs)",
+      "url": "https://docs.replit.com/features/security/shared-responsibility-model"
+    },
+    {
+      "title": "Replit About / leadership",
+      "url": "https://replit.com/about"
+    },
+    {
+      "title": "Replit Cloud Security Lead (Ashby)",
+      "url": "https://jobs.ashbyhq.com/replit/8027a0f4-4837-4e49-a4dd-8ad1bde23277"
+    },
+    {
+      "title": "Replit jobs on Indeed (AI Agent Security Architect listing)",
+      "url": "https://www.indeed.com/q-replit-jobs.html"
+    },
+    {
+      "title": "Robert Kohse, General Counsel, Replit (LinkedIn)",
+      "url": "https://www.linkedin.com/in/robert-kohse-252ab112"
+    },
+    {
+      "title": "Replit security breach: what happened in 2023 and 2025 (battletester)",
+      "url": "https://battletester.app/blog/replit-security-breach-what-happened"
+    },
+    {
+      "title": "Crunchbase export (organizations, funding_rounds, contacts)",
+      "url": "data/raw/*.csv"
+    }
+  ]
+}

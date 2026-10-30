@@ -1,0 +1,175 @@
+{
+  "org_uuid": "3ab6a3cf-4209-4993-bced-d12f5b078f91",
+  "name": "Kinfolk",
+  "domain": "kinfolkhq.com",
+  "generated_at": "2026-10-30",
+  "summary": "Kinfolk is a London seed-stage startup (founded 2023, 1-10 employees per Crunchbase) selling AI agents that resolve employee HR requests inside Slack and Microsoft Teams, with a ticketing system behind them. The agents act, not just answer: they draft documents, update HRIS records and manage lifecycle changes, so they touch sensitive employee data in customer HRIS systems. It raised a $7.2M seed in Feb 2026 to scale enterprise readiness and expand into payroll and IT workflows.",
+  "product": "AI-native HR/People Operations service-delivery platform: agentic AI (\"Kin\") in Slack/Teams, request ticketing and routing, lifecycle automation, analytics. Integrates with Workday, ADP, UKG, HiBob, BambooHR, Keka, Culture Amp, Google Drive, Confluence, SharePoint, Notion, OneDrive, Gmail, Outlook.",
+  "ai_usage": {
+    "what": "Customer-facing LLM agents answering employee HR requests in Slack/Teams and executing workflows (drafting documents, updating HRIS records, lifecycle changes) with approval gates, audit trail and cited answers. Verified in seed review: ships_customer_facing_llm=yes, agentic=true, confidence high.",
+    "agentic": true,
+    "surfaces": [
+      "Slack agent",
+      "Microsoft Teams agent",
+      "HR request/ticket queues",
+      "HRIS write actions (Workday, ADP, UKG, HiBob, BambooHR)",
+      "Knowledge-base retrieval (Drive, Confluence, SharePoint, Notion)"
+    ]
+  },
+  "customers": [
+    "Deliveroo (5,000 HR requests resolved in five months, 50% fewer Jira tickets)",
+    "Hudl",
+    "Retail Next (CPO quoted)"
+  ],
+  "funding": {
+    "last_round": "seed",
+    "last_round_date": "2026-02-26",
+    "total_usd": 8500000,
+    "investors": [
+      "AlbionVC (lead)",
+      "PROfounders Capital",
+      "Ascension",
+      "Emerge VC",
+      "Tony Jamous (angel)",
+      "Saurav Chopra (angel)"
+    ]
+  },
+  "headcount": {
+    "current": "1-10 (Crunchbase range; likely understated, hiring GTM and engineering)",
+    "growth_note": "Reported 5x YoY growth (Grishin Robotics, Mar 2026). Crunchbase seed total $7.2M; press reports $8.5M total raised to date."
+  },
+  "news": [
+    {
+      "date": "2026-02-25",
+      "title": "Kinfolk closes $7M seed round for AI-driven HR platform (Tech.eu)",
+      "url": "https://tech.eu/2026/02/25/kinfolk-closes-7m-seed-round-for-ai-driven-hr-platform"
+    },
+    {
+      "date": "2026-02-25",
+      "title": "Kinfolk secures $7m seed to transform HR operations with agentic AI (AlbionVC)",
+      "url": "https://albion.vc/spotlight/portfolio-news/kinfolk-secures-7m-seed-to-transform-hr-operations-with-agentic-ai"
+    },
+    {
+      "date": "2026-03-10",
+      "title": "Kinfolk: $7.2M seed funding secured (Pulse 2.0)",
+      "url": "https://www.linkedin.com/posts/pulse2news_kinfolk-72-million-seed-funding-secured-activity-7436980728036478976-JE1D"
+    }
+  ],
+  "hiring_signals": [],
+  "compliance": {
+    "soc2": "SOC 2 Type II (self-reported, homepage and approach page)",
+    "hipaa": "No HIPAA claim found",
+    "eu_ai_act_exposure": "High. Annex III treats AI used in employment and workers management (task allocation, monitoring, decisions affecting work terms) as high-risk. Kinfolk is a provider and its customers are deployers; its agents handle employee requests and change HRIS records rather than screen candidates, so classification depends on use case, but customers will ask for human oversight, logging and risk controls.",
+    "notes": "Also ISO 27001:2022, GDPR (DPA signed per customer), CCPA. Governance features exist already: roles, API scopes, approval gating, full audit trail, org-wide guardrails. London HQ, UK/EU customers. No public security incident found."
+  },
+  "why_now": "Kinfolk closed a $7.2M seed on 2026-02-25/26 (AlbionVC) explicitly to 'expand enterprise readiness' and extend agents into payroll and IT workflows, which widens write access to the most sensitive employee data; with Deliveroo live (5,000 requests in five months) and 5x YoY growth, enterprise security reviews and EU AI Act employment-AI scrutiny are arriving now while the team is still 1-10 people with no dedicated security or AI-safety hire visible.",
+  "likely_pains": [
+    "Prompt injection through employee messages or ingested docs (Confluence, SharePoint, Notion) steering an agent that can write to HRIS",
+    "Data leaking across tenants or across departments inside a customer (salary, performance, medical leave, disciplinary cases) via retrieval or shared queues",
+    "Agents taking destructive or unauthorized actions (wrong record update, wrong employee, payroll change) beyond the approval gates",
+    "Employee-facing answers that are wrong or harmful on legal topics (leave, pay, dismissal), creating liability for the HR customer",
+    "Enterprise buyers demanding evidence of runtime guardrails and red-team results during security review",
+    "EU AI Act and UK/GDPR exposure from employment-related AI: logging, human oversight and automated decision rules"
+  ],
+  "meddpicc_hypothesis": {
+    "metrics": {
+      "hypothesis": "Time to pass enterprise security reviews, number of blocked/escalated risky agent actions, zero cross-tenant or PII incidents; supports Kinfolk's own 70% auto-resolution metric.",
+      "confidence": "medium"
+    },
+    "economic_buyer": {
+      "hypothesis": "CEO Jeet Mukerji at this size, possibly with CTO Kim Hellbom; budget is small and founder-controlled.",
+      "confidence": "medium"
+    },
+    "decision_criteria": {
+      "hypothesis": "Fast API integration (minutes), low latency in Slack/Teams flows, EU data region, SOC 2, per-customer-tenant policy flexibility, audit logs that map to Kinfolk's existing audit trail.",
+      "confidence": "medium"
+    },
+    "decision_process": {
+      "hypothesis": "Founder-led technical evaluation by CTO, trial on a staging agent, then sign; likely 2-4 weeks.",
+      "confidence": "low"
+    },
+    "paper_process": {
+      "hypothesis": "Light: MSA/order form plus DPA; EU region matters for UK/EU customer base.",
+      "confidence": "low"
+    },
+    "identify_pain": {
+      "hypothesis": "Enterprise prospects ask how agent actions are controlled; founders built approval gates in-house and may see runtime policy checks as undifferentiated work.",
+      "confidence": "medium"
+    },
+    "champion": {
+      "hypothesis": "CTO Kim Hellbom (ex-Beamery AI scaling) as technical champion.",
+      "confidence": "medium"
+    },
+    "competition": {
+      "hypothesis": "Build in-house (approval gating already exists), general guardrail vendors and model-provider filters; status quo of no runtime layer.",
+      "confidence": "medium"
+    }
+  },
+  "persona_angles": [
+    {
+      "persona": "CTO / technical co-founder",
+      "angle": "Your agents already gate sensitive actions behind approvals; we add a runtime layer that checks every Slack message, retrieved doc and HRIS write against plain-language policies so you do not have to build and maintain that yourselves."
+    },
+    {
+      "persona": "CEO / economic buyer",
+      "angle": "As you push into payroll and IT, every enterprise security review will ask how agent actions are controlled; we give you red-team results and live guardrails to hand them."
+    },
+    {
+      "persona": "Security / compliance lead (not yet identified)",
+      "angle": "HR AI is high-risk under the EU AI Act, and we log which policy fired on each agent call so your customers get the oversight evidence they will ask for."
+    }
+  ],
+  "risks": [
+    "Tiny team (1-10 employees) with limited budget and possible build-in-house preference",
+    "Already has SOC 2 Type II, ISO 27001 and approval/audit controls, so the gap is narrower than at a typical AI startup",
+    "No security, AI-safety or CISO role identified; buyer is probably a founder",
+    "EU AI Act classification of its agents (employee support, not hiring decisions) is uncertain",
+    "Funding totals conflict across sources (7.2M vs 8.5M vs a mis-scraped 72M)"
+  ],
+  "contacts": [
+    {
+      "name": "Kim Hellbom",
+      "title": "CTO & Co-Founder",
+      "persona": "CTO / technical buyer",
+      "source": "crunchbase",
+      "linkedin_url": "https://www.linkedin.com/in/kimhellbom",
+      "priority": 1,
+      "why": "Owns the agent architecture and security posture; most likely champion and technical evaluator."
+    },
+    {
+      "name": "Jeet Mukerji",
+      "title": "CEO & Co-Founder",
+      "persona": "CEO / economic buyer",
+      "source": "crunchbase",
+      "linkedin_url": "https://www.linkedin.com/in/jeetmukerji",
+      "priority": 2,
+      "why": "Founder-led company; controls budget and drives the enterprise-readiness push."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Kinfolk homepage",
+      "url": "https://www.kinfolkhq.com"
+    },
+    {
+      "title": "Kinfolk approach page",
+      "url": "https://www.kinfolkhq.com/approach"
+    },
+    {
+      "title": "Tech.eu: Kinfolk closes $7M seed",
+      "url": "https://tech.eu/2026/02/25/kinfolk-closes-7m-seed-round-for-ai-driven-hr-platform"
+    },
+    {
+      "title": "AlbionVC: Kinfolk secures $7m seed",
+      "url": "https://albion.vc/spotlight/portfolio-news/kinfolk-secures-7m-seed-to-transform-hr-operations-with-agentic-ai"
+    },
+    {
+      "title": "Grishin Robotics LinkedIn post (customers, 5x growth)",
+      "url": "https://www.linkedin.com/posts/grishinrobotics_kinfolk-has-raised-7-million-in-seed-funding-activity-7434569227048685568-PLzY"
+    },
+    {
+      "title": "Startup Intros: Kinfolk",
+      "url": "https://startupintros.com/orgs/kinfolk"
+    }
+  ]
+}

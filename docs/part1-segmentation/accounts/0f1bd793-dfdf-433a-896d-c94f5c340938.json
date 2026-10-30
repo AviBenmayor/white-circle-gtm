@@ -1,0 +1,251 @@
+{
+  "org_uuid": "0f1bd793-dfdf-433a-896d-c94f5c340938",
+  "name": "Botpress",
+  "domain": "botpress.com",
+  "generated_at": "2026-10-30",
+  "summary": "Botpress (Quebec, ~51-100 staff, $40M raised, $25M Series B June 2025) is an AI agent platform whose customer-support agents issue refunds and update accounts for clients in any sector. It is the strongest 'channel partner' candidate in the list: embedding White Circle controls would cover every customer's agents at once. It is also a possible competitor, since its own content already pitches 'guardrails' and a security suite, so the first call should find out whether guardrails are built in-house.",
+  "product": "Agent Studio plus Autonomous Engine (LLM-reasoned agents that call tools and APIs, with fallback and escalation rules), AI-native Helpdesk, Knowledge Bases and Tables. Self-serve and enterprise; claims use by 35% of the Fortune 500 (company claim).",
+  "ai_usage": {
+    "what": "Customer-facing LLM agents built on its platform by thousands of customers; per the verified review, support agents that issue refunds and update accounts, with escalation rules and fallback logic.",
+    "agentic": true,
+    "surfaces": [
+      "Agent Studio (builder)",
+      "Autonomous Engine (tool-calling agents)",
+      "AI-native Helpdesk",
+      "Customer-built web/WhatsApp/voice chat agents",
+      "Knowledge Bases and Tables"
+    ]
+  },
+  "customers": [
+    "Not verified by name in this pass; Botpress claims 35% of the Fortune 500. Case-study logos (e.g. Super Dispatch) appear in a CX Network report."
+  ],
+  "funding": {
+    "last_round": "Series B ($25M, led by Framework Venture Partners)",
+    "last_round_date": "2025-06-23",
+    "total_usd": 40000000,
+    "investors": [
+      "Framework Venture Partners",
+      "Decibel Partners",
+      "Inovia Capital",
+      "HubSpot Ventures",
+      "Deloitte Ventures Canada",
+      "Panache Ventures",
+      "One Way Ventures",
+      "Bossa Invest"
+    ]
+  },
+  "headcount": {
+    "current": "51-100 (Crunchbase range)",
+    "growth_note": "Series B proceeds earmarked for engineering, go-to-market and support expansion; offices in Montreal and Quebec City. No dated headcount series found."
+  },
+  "news": [
+    {
+      "date": "2025-06-24",
+      "title": "Botpress secures $25M Series B to scale infrastructure for production-ready AI agents",
+      "url": "https://opendatascience.com/botpress-secures-25m-to-scale-infrastructure-for-production-ready-ai-agents"
+    },
+    {
+      "date": "2026-01-12",
+      "title": "Botpress publishes 'Chatbot Security Guide: Risks & Guardrails (2026)', positioning its security suite",
+      "url": "https://botpress.com/blog/chatbot-security"
+    },
+    {
+      "date": "2026-09-11",
+      "title": "CX Network report on AI agents for the helpdesk, with Botpress and guardrails as a theme",
+      "url": "https://www.cxnetwork.com/voice-of-the-customer/news/every-vc-cx-deal-you-need-to-know-september-11"
+    }
+  ],
+  "hiring_signals": [
+    {
+      "role": "Careers page lists no AI-safety or security role in extracted text (page content thin; roles load dynamically). Treat as unconfirmed.",
+      "url": "https://botpress.com/careers"
+    }
+  ],
+  "compliance": {
+    "soc2": true,
+    "hipaa": true,
+    "eu_ai_act_exposure": "As a provider/enabler of customer-facing agents with EU customers, plus deployer duties flowing to its customers (transparency, human oversight). Not confirmed in this pass whether Botpress publishes an AI Act position.",
+    "notes": "Trust Center lists CCPA, DORA, GDPR, HIPAA and SOC 2 Type 2, with pentest report available on request. Strong baseline, so the pitch is runtime behavior control, not certification."
+  },
+  "why_now": "Botpress closed a $25M Series B on 2025-06-23 to expand engineering and go-to-market, and by 2026-01-12 was publishing guardrail-and-security content for chatbot buyers. Its agents are tool-calling (refunds, account updates), and the Sept 2026 industry framing (NVIDIA's Open Agent Safety Platform, 2026-09-28, citing agents circumventing app-layer controls) makes runtime control a live buying topic for platforms like this.",
+  "likely_pains": [
+    "Prompt injection in customer-built support agents causing unauthorized refunds or account changes",
+    "Data leaking across tenants or end users through shared knowledge bases and tool outputs",
+    "Agents taking destructive or irreversible actions via the Autonomous Engine's tool calls",
+    "Abuse and token-drain on free and self-serve tiers",
+    "Brand-safety and hallucination incidents that its customers blame on the platform",
+    "Enterprise security reviews (HIPAA, DORA, GDPR) demanding evidence of runtime controls and audit logs per customer agent"
+  ],
+  "meddpicc_hypothesis": {
+    "metrics": {
+      "hypothesis": "Fewer agent incidents per customer, faster enterprise security-review close, and guardrails as a paid tier or margin line.",
+      "confidence": "low"
+    },
+    "economic_buyer": {
+      "hypothesis": "Sylvain Perron (co-founder and CEO) for a platform/channel deal; CTO or product lead for an embed. A CISO was not found.",
+      "confidence": "low"
+    },
+    "decision_criteria": {
+      "hypothesis": "Latency overhead, multi-tenant policy isolation, API fit with Agent Studio, price per call at its volume, EU/US residency.",
+      "confidence": "medium"
+    },
+    "decision_process": {
+      "hypothesis": "Product and engineering evaluation, then CEO sign-off on a partnership or resale; likely a pilot on one workflow.",
+      "confidence": "low"
+    },
+    "paper_process": {
+      "hypothesis": "Partnership or reseller agreement plus DPA; SOC 2/HIPAA on both sides.",
+      "confidence": "low"
+    },
+    "identify_pain": {
+      "hypothesis": "Customers' agents act on live systems and any injection or leak is attributed to Botpress; enterprise buyers ask for guardrail evidence.",
+      "confidence": "medium"
+    },
+    "champion": {
+      "hypothesis": "Head of product or engineering for agent safety; a trust/security lead if one exists. Unnamed so far.",
+      "confidence": "low"
+    },
+    "competition": {
+      "hypothesis": "Possible in-house guardrails (its own content already claims them), plus Lakera, Protect AI, NVIDIA NeMo Guardrails, Guardrails AI and model-provider filters.",
+      "confidence": "medium"
+    }
+  },
+  "persona_angles": [
+    {
+      "persona": "CEO / co-founder",
+      "angle": "Your customers' agents issue refunds and touch accounts, so one injected agent becomes your incident; could we show you a runtime layer you can offer every Botpress agent without building it yourselves?"
+    },
+    {
+      "persona": "CTO / VP Engineering",
+      "angle": "How do you stop an Autonomous Engine agent from calling a destructive tool on a hostile prompt today, and what would a policy check in that call path cost you in latency?"
+    },
+    {
+      "persona": "Head of Security / CISO",
+      "angle": "When an enterprise security review asks for evidence of runtime controls on customer-built agents, what do you hand them beyond the SOC 2 report?"
+    },
+    {
+      "persona": "Head of Product / AI",
+      "angle": "If guardrails shipped as a per-agent policy toggle in Agent Studio, which customers would turn it on first, and are you building that or buying it?"
+    },
+    {
+      "persona": "Compliance / Legal",
+      "angle": "Your customers in regulated sectors carry deployer duties under the EU AI Act and DORA, so audit logs showing which policy fired per agent action could become a feature you sell."
+    }
+  ],
+  "risks": [
+    "Competitor risk: Botpress already markets 'guardrails' and a security suite, and may build or acquire its own control layer; check before investing selling time.",
+    "Channel risk: a partnership is a longer, lower-control sale than a direct deal, and Botpress may want white-label pricing that compresses margin.",
+    "Buyer fit: Botpress is a platform, not an end deployer; direct value is limited to its own helpdesk and internal agents.",
+    "No named security or AI-safety leader found; entry point is the CEO or an unconfirmed engineering lead.",
+    "Evidence gaps: no AI incident, security hiring, or customer list verified in this pass (careers page extract was thin; security/guardrails URLs guessed returned 404).",
+    "Company is in Quebec/Canada; White Circle's EU/US regions may need a Canadian data-residency conversation."
+  ],
+  "contacts": [
+    {
+      "name": "Sylvain Perron",
+      "title": "Co-founder and Chief Executive Officer",
+      "persona": "CEO / economic buyer",
+      "source": "crunchbase",
+      "linkedin_url": "https://linkedin.com/in/slvnperron",
+      "priority": "high",
+      "why": "Platform-level partnership or embed decision sits with the founder CEO; led the Series B."
+    },
+    {
+      "name": "Justin Watson",
+      "title": "Co-Founder and Investor",
+      "persona": "Co-founder",
+      "source": "crunchbase",
+      "linkedin_url": "https://www.linkedin.com/in/justin-watson-6b232316",
+      "priority": "medium",
+      "why": "Co-founder who fronted the Series B announcement; useful second path into the CEO's circle."
+    },
+    {
+      "name": "Jean-Bernard Perron",
+      "title": "COO and CFO",
+      "persona": "Finance / operations",
+      "source": "crunchbase",
+      "linkedin_url": "https://www.linkedin.com/in/jean-bernard-perron/",
+      "priority": "medium",
+      "why": "Owns commercial terms and vendor/partner agreements; relevant to resale or margin structure."
+    },
+    {
+      "name": "Jim Texier",
+      "title": "Board of Director (also CTO at Framework Venture Partners)",
+      "persona": "Board / investor (non-buyer)",
+      "source": "crunchbase",
+      "linkedin_url": "https://www.linkedin.com/in/texierjm/",
+      "priority": "low",
+      "why": "Board member from the lead investor; not a buyer. Could give a warm introduction at most."
+    },
+    {
+      "name": "Jeff Yoshimura",
+      "title": "Advisor",
+      "persona": "Advisor (non-buyer)",
+      "source": "crunchbase",
+      "linkedin_url": "https://www.linkedin.com/in/jeff-yoshimura-4055/",
+      "priority": "low",
+      "why": "Advisor, not a buyer."
+    },
+    {
+      "name": "Evan Kaplan",
+      "title": "Advisor",
+      "persona": "Advisor (non-buyer)",
+      "source": "crunchbase",
+      "linkedin_url": "https://www.linkedin.com/in/kaplanevan",
+      "priority": "low",
+      "why": "Advisor, not a buyer."
+    },
+    {
+      "name": "Marjorie Janiewicz",
+      "title": "Advisor",
+      "persona": "Advisor (non-buyer)",
+      "source": "crunchbase",
+      "linkedin_url": "https://www.linkedin.com/in/marjorietoucas/",
+      "priority": "low",
+      "why": "Advisor, not a buyer."
+    },
+    {
+      "name": "Francois Dufour",
+      "title": "Advisor",
+      "persona": "Advisor (non-buyer)",
+      "source": "crunchbase",
+      "linkedin_url": "https://www.linkedin.com/in/fdufour/",
+      "priority": "low",
+      "why": "Advisor, not a buyer."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Botpress Series B coverage (Open Data Science, 2025-06-24)",
+      "url": "https://opendatascience.com/botpress-secures-25m-to-scale-infrastructure-for-production-ready-ai-agents"
+    },
+    {
+      "title": "Botpress Trust Center",
+      "url": "https://trust.botpress.com"
+    },
+    {
+      "title": "Botpress chatbot security guide (Jan 2026)",
+      "url": "https://botpress.com/blog/chatbot-security"
+    },
+    {
+      "title": "Botpress Autonomous Engine",
+      "url": "https://botpress.com/features/gpt-native-engine"
+    },
+    {
+      "title": "Botpress careers",
+      "url": "https://botpress.com/careers"
+    },
+    {
+      "title": "Botpress homepage",
+      "url": "https://botpress.com"
+    },
+    {
+      "title": "Private Capital Journal on Series B (LinkedIn)",
+      "url": "https://www.linkedin.com/posts/private-capital-journal_botpress-secures-us-25m-series-b-activity-7342907945992495104-J3qk"
+    },
+    {
+      "title": "Crunchbase export (organizations, funding_rounds, contacts)",
+      "url": "data/raw/*.csv"
+    }
+  ]
+}
