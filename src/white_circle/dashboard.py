@@ -378,11 +378,6 @@ def _part2_sections() -> dict:
 _WRAP = re.compile(r"(?is)<!doctype[^>]*>[ \t]*\n?|</?html(?:\s[^>]*)?>[ \t]*\n?|</?head(?:\s[^>]*)?>[ \t]*\n?|</?body(?:\s[^>]*)?>[ \t]*\n?")
 
 
-def _inline_svg(svg: str) -> str:
-    svg = svg[svg.find("<svg"):]
-    return svg.replace("var(--wf-human,#d97706)", "var(--warn)")   # tokens only, no literal colour
-
-
 def render() -> Path:
     con = duckdb.connect(str(DB), read_only=True)
     try:
@@ -390,12 +385,10 @@ def render() -> Path:
     finally:
         con.close()
     blob = json.dumps(data, default=str, separators=(",", ":")).replace("</", "<\\/")
-    svg_path = OUT.parent / "workflow.svg"
-    svg = _inline_svg(svg_path.read_text()) if svg_path.exists() else ""
     tpl = TEMPLATE.read_text()
     outs = {OUT: tpl, PUBLISH_HTML: _WRAP.sub("", tpl)}   # publisher supplies the skeleton for the second copy
     for path, text in outs.items():
-        text = text.replace("/*__DATA__*/null", blob).replace("<!-- WORKFLOW_SVG -->", svg)
+        text = text.replace("/*__DATA__*/null", blob)
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(text)
     return OUT

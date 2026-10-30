@@ -1,6 +1,6 @@
 # Part 2: Systems design
 
-Draft. The system acts on the segments and tiers from Part 1 (`mart.org_score`, `mart.org_segment`) and the Attio model in [`../part1-crm-model/crm-data-model.md`](../part1-crm-model/crm-data-model.md). A themed SVG of the same flow is in `docs/dashboard/workflow.svg`.
+The system acts on the segments and tiers from Part 1 (`mart.org_score`, `mart.org_segment`) and the Attio model in [`../part1-crm-model/crm-data-model.md`](../part1-crm-model/crm-data-model.md). The same flow is drawn on the dashboard's Part 2 tab.
 
 ## (a) Workflow diagram
 
@@ -59,12 +59,12 @@ flowchart LR
     C1{"Won or lost?"}
     C2["Structured win/loss reason"]
     C3["Monthly weight review<br/>new score_version"]
-    C4["Weekly Slack digest, Attio stage views,<br/>GTM metrics dashboard, ops table"]
+    C4["Weekly Slack digest, Attio stage views,<br/>RevOps dashboard: pipeline + revenue<br/>by source, segment, tier"]
   end
 
   S1 & S2 & S3 & S4 --> E1
   S5 & S6 & S7 --> E2
-  E1 -->|"inbound event, skips nightly"| R1
+  E3 -->|"inbound: scored on arrival, no nightly wait"| R1
   E1 --> E2 --> E3
   E3 -->|"tier + priority"| R3
   R1 -->|yes| R2 --> A1
@@ -84,7 +84,6 @@ flowchart LR
   class S1,S2,S3,S4,S5,S6,S7,E1,E2,E3,R2,R4,D1,BG,D2,D3,D6,A3,A5,A7,C2,C3,C4 auto
 ```
 
-![Workflow](../dashboard/workflow.svg)
 
 ## (b) What I'd build first, what waits, and why
 

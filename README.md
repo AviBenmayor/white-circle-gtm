@@ -12,12 +12,12 @@ Fallback: download `docs/dashboard/index.html` and open it in a browser. It is o
 
 | Brief item | Where |
 |---|---|
-| Part 1.1 Segments, scoring model, top 50 | SQL in `src/white_circle/sql/` (`50_`-`70_`), list in `docs/part1-segmentation/top50.csv`, dashboard Accounts tab |
+| Part 1.1 Segments, scoring model, top 50 | SQL in `src/white_circle/sql/` (`50_`-`70_`), list in `docs/part1-segmentation/top50.csv`, dashboard tab 1 |
 | Part 1.2 Top-5 enrichment | `docs/part1-segmentation/accounts/` (one `.md` and one `.json` dossier per account: Replit, Shapes, Botpress, Dash0, Kinfolk) |
 | Part 1.3 Memo | `docs/part1-segmentation/memo.md` |
 | Part 1.4 CRM data model | `docs/part1-crm-model/crm-data-model.md`, `crm_model.json`, `attio_upsert_example.json`; export SQL `src/white_circle/sql/80_crm_export.sql` |
 | Part 1.5 Code, SQL, schema, notes, AI traces | `src/white_circle/`, `docs/part1-segmentation/data-profile.md` and `approach-evolution.md`, `docs/traces/` |
-| Part 2 Workflow diagram and note | `docs/part2-systems-design/system-design.md`, diagram `docs/dashboard/workflow.svg` |
+| Part 2 Workflow diagram and note | dashboard Part 2 tab (`#system-design`); `docs/part2-systems-design/system-design.md` (Mermaid diagram + note) |
 | The brief and our research on White Circle | `docs/context/` |
 
 ## How it works
@@ -52,7 +52,7 @@ The data is committed: the three raw CSVs in `data/raw/`, the built warehouse `d
 README.md
 Makefile  pyproject.toml  uv.lock  .env.example
 docs/
-  dashboard/             index.html, workflow.svg
+  dashboard/             index.html (the whole dashboard, one offline file)
   part1-segmentation/    memo.md, approach-evolution.md, data-profile.md, top50.csv, accounts/, archive/
   part1-crm-model/       crm-data-model.md, crm_model.json, attio_upsert_example.json
   part2-systems-design/  system-design.md
