@@ -4,9 +4,9 @@ Crunchbase extract in, ranked top-50 account list, Attio CRM data model and a sy
 
 ## View the dashboard
 
-https://claude.ai/artifact/HhmaJmA8EfMhfz7UAjMxiA
+https://claude.ai/artifact/16YPoLWsmzWM5ApkZsscX9
 
-Fallback: download `docs/dashboard/index.html` and open it in a browser. It is one self-contained file and works offline. Tabs: **Accounts** (segments, scoring, top 50, the five enriched dossiers) and **CRM model** (the Attio objects and fields; deep link with `#crm`).
+Fallback: download `docs/dashboard/index.html` and open it in a browser. It is one self-contained file and works offline. One tab per deliverable, each with its own deep link: **1 · Segments & top 50** (`#segments`), **2 · Top-5 deep dives** (`#deep-dives`), **3 · Memo** (`#memo`), **4 · CRM model** (`#crm`), **5 · Code, SQL & traces** (`#code`) and **Part 2 · System design** (`#system-design`).
 
 ## Where each deliverable is
 
