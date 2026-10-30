@@ -1,0 +1,31 @@
+org_uuid,organization_name,website_url,short_description,vertical,llm_level,fit_score,tier,tier_by_score,rn
+3ab6a3cf-4209-4993-bced-d12f5b078f91,Kinfolk,https://www.kinfolkhq.com,AI agents and ticketing system for People Operations,other,strong,64,Tier 2,Tier 2,1
+ecb9dbba-cbb6-47ba-baca-b6810f3cbffc,Addressable,https://addressablemail.com,Addressable provides personalized marketing outreach powered by Generative AI and patented robotic handwriting.,other,strong,64,Tier 2,Tier 2,2
+08e398ca-6bfc-4c84-8d2b-f457ddc01669,iBot,https://www.getibot.com/,"iBot is a focused on e-commerce that helps online store owners build, host, and deploy product-smart chatbot on Facebook Messenger.",ecommerce,strong,64,Tier 2,Tier 2,3
+4f9fdce0-b93e-4e3f-b5fd-54ff33250431,aleios,https://www.aleios.com,"Aleios Limited offers serverless cloud consulting and development, helping companies build scalable systems using AWS technologies.",education,strong,64,Tier 3,Tier 2,4
+e49286c6-3a78-4e68-bc58-3bfb9850e9c4,NVIT,https://nvit.tech,"NVIT is a global AI powerhouse, TWC-licensed workforce development leader & JerichoAI creator—from bare metal to autonomous agents.",education,strong,64,Tier 2,Tier 2,5
+89e91c11-0adf-f017-7f03-3748ddc93c0a,Stringr,https://www.stringr.com,Stringr is a remote video gathering and GenAI video production platform for broadcast and online journalism.,creative_tools,strong,63,Tier 2,Tier 2,6
+5c0453bf-c53b-4822-a7e8-64b75d0fa2c3,cFocus Software Incorporated,https://cfocussoftware.com/,"cFocus Software automates FedRAMP compliance and develops government chatbots for the Azure Government Cloud, Office 365, and SharePoint.",public_sector,strong,63,Tier 2,Tier 2,7
+759c5b35-cd03-431a-9cd2-21e190a1365b,Return Signals,https://www.returnsignals.com,"Return Signals uses LLMs to offer support, preempt returns, and improve retention of customers in e-commerce.",ecommerce,strong,62,Tier 2,Tier 2,8
+fa31f079-6f8d-4a1c-b309-2941e53debab,TestFit,https://testfit.io/,TestFit builds feasibility software for commodity buildings.,other,strong,62,Tier 2,Tier 2,9
+0829676e-9f60-4a58-9800-4fbb24ce2a68,Paces,https://paces.com,Agentic AI for Power Projects and AI Infrastructure,other,strong,62,Tier 2,Tier 2,10
+4df9ce23-23da-4116-829b-9eefd36bf21c,Qeen Ai,https://qeenai.net/,Qeen Ai is a GenAI native platform that enables autonomous AI to e-commerce firms of all sizes.,other,strong,62,Tier 2,Tier 2,11
+2ff5a526-1f4b-40ea-8efd-d329005e62b5,Twelve Labs,http://twelvelabs.io,Twelve Labs is a video intelligence platform that uses AI to analyze and search through video content.,other,strong,62,Tier 2,Tier 2,12
+f84d1b6c-d054-44d0-8022-ae2e2139ce27,XOOCITY,https://www.xoocity.com/,"web3, hong kong metaverse, virtual lands, CitiFi, virtual property,",crypto_web3,strong,62,Tier 2,Tier 2,13
+32cae385-1050-4964-b4fd-2ef99dbb8c6f,Storycraft,https://www.storycraft.gg,Storycraft is the first AI sandbox and social storytelling game where everything is 100% created by players. True consumer gaming UGC!,gaming,strong,62,Tier 2,Tier 2,14
+c23521d9-bd9b-4bc4-84c7-e565c64886ce,Guild.ai,https://www.guild.ai,"AI, Software Development",other,strong,62,Tier 2,Tier 2,15
+c7e83093-627d-405c-af1e-f74f12e89406,neuland.ai,https://neuland.ai,"SaaS, AI, PaaS, AIaaS",other,strong,62,Tier 2,Tier 2,16
+85fe2b07-a86b-433b-b335-d0e83ce8e6f0,Invirtus,https://www.invirtus.co/,Invirtus is an HR tech startup using AI to improve how companies assess and hire tech talent,hr_recruiting,strong,62,Tier 2,Tier 2,17
+0bd62a76-62ff-4a77-95c8-bb8320d75016,StarQuiz,https://www.starquiz.ai/,StarQuiz is an edtech company that offers a platform that simplifies formative assessment by using AI to generate questions.,education,strong,62,Tier 2,Tier 2,18
+fbfbf38b-9397-4072-aa56-c566fe744ad3,Atom,https://atom-humanoid.com,Atom is a humanoid robot built platform.,other,strong,61,Tier 2,Tier 2,19
+0af07034-9f7c-4fa5-bfeb-1cfba3ef899b,talkingly ai,https://www.talkingly.ai,Talkingly ai is a generative AI company that is positioned to make the web conversational.,other,strong,61,Tier 2,Tier 2,20
+fe8ce001-66d2-4058-808c-37732493d8ed,GENIAL,https://www.wearegenial.com/,Generative AI Lab supports organizations in the deployment of generative AI.,other,strong,61,Tier 2,Tier 2,21
+1dd01c63-554b-4f08-9042-acf51782b379,LevelPlane.ai,https://www.levelplane.ai/,LevelPlane.ai offers an AI driven operating software for sourcing automation and streamlining in auto and aerospace industries.,other,strong,61,Tier 2,Tier 2,22
+ed99e71d-fe2d-4149-bb94-b255d4996b6b,Persistence,https://persistence.dev/,Persistence is an agentic AI company that offers virtual voice agents for call centres.,other,strong,61,Tier 2,Tier 2,23
+72b097b0-ae1e-43f3-b163-f383906d00b0,Adiem,https://www.adiem.com,Adiem builds wearable apps to increase empathy and deep communication.,education,strong,61,Tier 2,Tier 2,24
+60f40fc8-a532-d331-6b6f-a389f6268629,Beam,http://beam.ai,"Communication platform for small, distributed teams.",hr_recruiting,strong,61,Tier 2,Tier 2,25
+76d9d45c-907e-9cdb-e495-d199b6a94f64,Hello Umi,http://www.helloumi.com/,"Hello Umi provide your business with chatbot and conversational solutions to offer much more natural, frictionless customer experiences.",ecommerce,strong,60,Tier 2,Tier 2,26
+55ca4168-7c72-42a7-90d1-bc31e16277d9,MUSE AI,https://withmuse.ai/,Enterprise Content Hub | Scaling Content. Creating Growth.,other,strong,60,Tier 2,Tier 2,27
+f518b287-5d67-4517-af2d-2d8e086f41c2,Genia,https://genia.design,Generative Design copilot for engineers in construction,other,strong,60,Tier 2,Tier 2,28
+ddc1f509-dbbe-4ed7-8a8f-1e282da4147e,doFlo,https://doflo.com,"doFlo is a cloud-based workflow editor that enables users to link various AI tools through a drag-and-drop, no-code interface.",other,strong,60,Tier 2,Tier 2,29
+eb12a6a3-4fea-4d77-8cce-98164b037031,WOW3,https://wow3.app,The Social NFT Portfolio Platform,crypto_web3,strong,60,Tier 2,Tier 2,30

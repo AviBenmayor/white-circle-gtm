@@ -1,7 +1,11 @@
-# data/ is machine-made (duckdb, logs, raw licensed CSVs, notes). Nothing in it ships.
-data/
+# data/ ships: raw CSVs, the built warehouse, website-check files, run log, memo notes.
+# Kept out: the redaction report (it quotes what the traces removed), the private
+# redaction list, and the publish copy of the dashboard (a duplicate of docs/dashboard/).
+data/logs/REDACTION_REPORT.txt
+data/notes/redact_projects.txt
+data/publish/
 .env
 .venv/
 __pycache__/
 *.pyc
-*.duckdb
+*.duckdb.wal

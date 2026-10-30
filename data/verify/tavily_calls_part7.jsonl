@@ -1,0 +1,5 @@
+{"ts": "2026-10-30T15:00:00+00:00", "provider": "tavily", "endpoint": "extract", "request_summary": "12 homepages (batch 1), basic", "status": "ok", "credits": 2, "n_results": 9, "n_failed": 3, "batch": "part7"}
+{"ts": "2026-10-30T15:00:00+00:00", "provider": "tavily", "endpoint": "extract", "request_summary": "11 homepages (batch 2), basic", "status": "ok", "credits": 2, "n_results": 11, "n_failed": 0, "batch": "part7"}
+{"ts": "2026-10-30T15:00:00+00:00", "provider": "tavily", "endpoint": "search", "request_summary": "SpaceZero AI product, max_results 3", "status": "ok", "credits": 1, "n_results": 3, "n_failed": 0, "batch": "part7"}
+{"ts": "2026-10-30T15:00:00+00:00", "provider": "tavily", "endpoint": "search", "request_summary": "CafeWhale AI product, max_results 3", "status": "ok", "credits": 1, "n_results": 3, "n_failed": 0, "batch": "part7"}
+{"ts": "2026-10-30T15:00:00+00:00", "provider": "tavily", "endpoint": "search", "request_summary": "Cotan Labs AI product, max_results 3", "status": "ok", "credits": 1, "n_results": 3, "n_failed": 0, "batch": "part7"}

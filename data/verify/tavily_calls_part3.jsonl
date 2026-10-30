@@ -1,0 +1,10 @@
+{"ts": "2026-10-30T15:25:57.901868+01:00", "provider": "tavily", "endpoint": "extract", "request_summary": "20 urls", "status": "ok", "credits": 3, "n_results": 16, "n_failed": 4, "batch": "part3"}
+{"ts": "2026-10-30T15:25:57.901868+01:00", "provider": "tavily", "endpoint": "extract", "request_summary": "20 urls", "status": "ok", "credits": 3, "n_results": 16, "n_failed": 4, "batch": "part3"}
+{"ts": "2026-10-30T15:25:57.901868+01:00", "provider": "tavily", "endpoint": "search", "request_summary": "AiForgedWonders AI product", "status": "ok", "credits": null, "n_results": 3, "n_failed": 0, "batch": "part3"}
+{"ts": "2026-10-30T15:25:57.901868+01:00", "provider": "tavily", "endpoint": "search", "request_summary": "Progno AI AI product", "status": "ok", "credits": null, "n_results": 3, "n_failed": 0, "batch": "part3"}
+{"ts": "2026-10-30T15:25:57.901868+01:00", "provider": "tavily", "endpoint": "search", "request_summary": "PantheonAI AI product", "status": "ok", "credits": null, "n_results": 3, "n_failed": 0, "batch": "part3"}
+{"ts": "2026-10-30T15:25:57.901868+01:00", "provider": "tavily", "endpoint": "search", "request_summary": "Syllog AI AI product", "status": "ok", "credits": null, "n_results": 3, "n_failed": 0, "batch": "part3"}
+{"ts": "2026-10-30T15:25:57.901868+01:00", "provider": "tavily", "endpoint": "search", "request_summary": "Naria AI product", "status": "ok", "credits": null, "n_results": 3, "n_failed": 0, "batch": "part3"}
+{"ts": "2026-10-30T15:25:57.901868+01:00", "provider": "tavily", "endpoint": "search", "request_summary": "Pressto AI product", "status": "ok", "credits": null, "n_results": 3, "n_failed": 0, "batch": "part3"}
+{"ts": "2026-10-30T15:25:57.901868+01:00", "provider": "tavily", "endpoint": "search", "request_summary": "First AI Talent AI product", "status": "ok", "credits": null, "n_results": 3, "n_failed": 0, "batch": "part3"}
+{"ts": "2026-10-30T15:25:57.901868+01:00", "provider": "tavily", "endpoint": "search", "request_summary": "Uplyf AI product", "status": "ok", "credits": null, "n_results": 3, "n_failed": 0, "batch": "part3"}

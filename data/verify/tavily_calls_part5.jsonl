@@ -1,0 +1,7 @@
+{"ts": "2026-10-30T14:30:40.163834+00:00", "provider": "tavily", "endpoint": "extract", "request_summary": "15 homepages (batch 1), basic", "status": "ok", "credits": 3, "n_results": 14, "n_failed": 1, "batch": "part5"}
+{"ts": "2026-10-30T14:30:40.163834+00:00", "provider": "tavily", "endpoint": "extract", "request_summary": "15 homepages (batch 2), basic", "status": "ok", "credits": 2, "n_results": 11, "n_failed": 4, "batch": "part5"}
+{"ts": "2026-10-30T14:30:40.163834+00:00", "provider": "tavily", "endpoint": "search", "request_summary": "Ashtra AI product, max_results 3", "status": "ok", "credits": 1, "n_results": 3, "n_failed": 0, "batch": "part5"}
+{"ts": "2026-10-30T14:30:40.163834+00:00", "provider": "tavily", "endpoint": "search", "request_summary": "Secret3 AI product, max_results 3", "status": "ok", "credits": 1, "n_results": 3, "n_failed": 0, "batch": "part5"}
+{"ts": "2026-10-30T14:30:40.163834+00:00", "provider": "tavily", "endpoint": "search", "request_summary": "The HighTech Center AI product, max_results 3", "status": "ok", "credits": 1, "n_results": 3, "n_failed": 0, "batch": "part5"}
+{"ts": "2026-10-30T14:30:40.163834+00:00", "provider": "tavily", "endpoint": "search", "request_summary": "Rupert AI AI product, max_results 3", "status": "ok", "credits": 1, "n_results": 3, "n_failed": 0, "batch": "part5"}
+{"ts": "2026-10-30T14:30:40.163834+00:00", "provider": "tavily", "endpoint": "search", "request_summary": "Signal Lift AI product, max_results 3", "status": "ok", "credits": 1, "n_results": 3, "n_failed": 0, "batch": "part5"}

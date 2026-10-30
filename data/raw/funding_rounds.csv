@@ -1,0 +1,1855 @@
+org_uuid,org_name,investment_type,announced_on,money_raised_usd,investor_count,lead_investor_names
+00057aa9-ecd9-438b-9847-9509934cfa1f,Finspector,grant,2026-01-26,68328.0,1,Financial Regulation Innovation Lab (FRIL)
+004d5349-1bce-4b35-954e-3f1225768cc8,ShortLoop,seed,2023-07-24,2734999.0,,
+0055df9a-f870-032b-27d5-275881a12245,Ubeeko,pre_seed,2015-09-10,,,
+0183df75-377b-c3be-59db-196c69c9d6a9,Camaloon,seed,2012-01-20,263800.0,2,
+0183df75-377b-c3be-59db-196c69c9d6a9,Camaloon,seed,2014-11-28,871590.0,2,
+01b2eea4-69a9-076d-7a29-fbccff5fd129,ACCELERAID,seed,2009-01-01,,,
+01b2eea4-69a9-076d-7a29-fbccff5fd129,ACCELERAID,angel,2011-01-01,,,
+01b2eea4-69a9-076d-7a29-fbccff5fd129,ACCELERAID,series_a,2013-01-01,,,
+02264334-2acf-41a8-abfb-5754dca849fa,Sanlo,pre_seed,2020-10-01,,1,
+02264334-2acf-41a8-abfb-5754dca849fa,Sanlo,seed,2021-05-12,3500000.0,9,Index Ventures; Initial Capital
+02264334-2acf-41a8-abfb-5754dca849fa,Sanlo,series_a,2022-06-02,10000000.0,9,Konvoy
+0251fb8d-a2e1-4177-fe71-69fa3eb92712,Spectrum Mobile,debt_financing,2010-09-24,650000.0,,
+026153d1-8659-4085-bd04-357916c8a50b,iAhorro,series_unknown,2011-06-05,728096.0,2,Inveready
+02c8cfc3-4172-4b0d-b5cb-c39bb373a925,MoNoA,seed,2021-01-31,,,
+02dbfbf3-d95f-4867-a7f2-f51cb274326e,PAYCOQ,grant,2017-07-01,,1,TIPS Program
+02dd4a44-954b-4a1d-acbd-e195b73d5e0e,Shapes,seed,2021-01-01,4500000.0,2,F2 Venture Capital; NFX
+02dd4a44-954b-4a1d-acbd-e195b73d5e0e,Shapes,seed,2022-01-01,4500000.0,2,F2 Venture Capital; NFX
+02dd4a44-954b-4a1d-acbd-e195b73d5e0e,Shapes,series_a,2025-12-10,15000000.0,4,Entrée Capital
+037e3210-d853-3aee-2952-9f6054f6bbd0,BioConnect,grant,2019-09-09,3900000.0,1,FedDev
+03c48081-c8af-4c25-a288-2b0d5aa2717a,Breezy AI,seed,2024-05-03,,1,
+03ff3a8a-9f12-44a4-a6cc-560d6c08749d,NexaGPU,pre_seed,2024-08-01,90000.0,,
+04d00046-39a9-4dc7-bab9-345d35ab4fc7,Bubbaleads,non_equity_assistance,2023-05-09,,1,Startup Lisboa - Rocket Program
+05ce9d58-1ed6-4d4a-ba19-97964fe03c5b,UniqLearn,seed,2026-02-18,1964657.0,,
+0654ed97-0c20-c6f3-dc65-d11ab29417a3,Portico.ai,seed,2017-09-28,600000.0,,
+0676a53e-29fc-403b-8506-2faa8508c8cd,Journify Learning,seed,2026-05-08,3849998.0,,
+06acc289-d01d-d515-6864-675493a644b3,Flowtap,series_unknown,2012-04-29,,1,
+06acc289-d01d-d515-6864-675493a644b3,Flowtap,non_equity_assistance,2014-12-05,,1,
+06acc289-d01d-d515-6864-675493a644b3,Flowtap,angel,2015-11-01,,,
+06b60f0b-ba19-469d-a029-b5bff6b0aceb,innoME,non_equity_assistance,2019-09-16,,1,
+07442ada-7e87-47d6-b1c0-d626ad45e1a3,DeepPulse Mining,seed,2025-12-26,,1,Sky Factory Venture Capital Fund
+07442ada-7e87-47d6-b1c0-d626ad45e1a3,DeepPulse Mining,series_a,2026-04-01,4365541.0,,
+07530b43-26f2-4f9b-96f6-dfdf77379b56,KinePict,series_unknown,2016-05-30,,2,FastVentures
+07530b43-26f2-4f9b-96f6-dfdf77379b56,KinePict,grant,2020-10-07,1797126.0,1,European Innovation Council
+07530b43-26f2-4f9b-96f6-dfdf77379b56,KinePict,series_unknown,2020-10-07,,1,
+0791c769-8422-6f95-28a3-b0a8d5de35e9,Cappasity,non_equity_assistance,2013-12-30,350000.0,1,
+0791c769-8422-6f95-28a3-b0a8d5de35e9,Cappasity,angel,2015-07-07,50000.0,,
+0791c769-8422-6f95-28a3-b0a8d5de35e9,Cappasity,angel,2015-12-18,650000.0,2,
+0791c769-8422-6f95-28a3-b0a8d5de35e9,Cappasity,convertible_note,2017-08-12,800000.0,,
+0791c769-8422-6f95-28a3-b0a8d5de35e9,Cappasity,seed,2017-12-27,500000.0,,
+0791c769-8422-6f95-28a3-b0a8d5de35e9,Cappasity,seed,2019-11-04,2000000.0,,
+0791c769-8422-6f95-28a3-b0a8d5de35e9,Cappasity,series_unknown,2021-05-31,2100000.0,,
+0791c769-8422-6f95-28a3-b0a8d5de35e9,Cappasity,series_unknown,2021-11-01,1000000.0,,
+07d33e9b-39c7-c6ce-7def-7edebf3ec11c,Translated,private_equity,2021-06-30,29883419.0,1,Ardian
+07f64f57-d8fa-4296-a838-056968c4edab,Cotan Labs,seed,2026-05-15,300000.0,,
+07f6c409-0f73-41ca-8ed4-aacfd77daeb2,Abra,pre_seed,2025-01-01,,3,
+0829676e-9f60-4a58-9800-4fbb24ce2a68,Paces,seed,2022-06-02,2800000.0,8,Resolute Ventures
+0829676e-9f60-4a58-9800-4fbb24ce2a68,Paces,series_a,2024-07-24,11000000.0,6,Navitas Capital
+085f3113-57ca-4d2a-b9a8-6662233a186c,Biolytica,seed,2023-05-02,5883012.0,1,Maximon
+08a10365-a89e-47a2-827d-f84be62f0e18,AilsynBio,seed,2026-03-24,,1,Gobi-HKU Fund I
+08c0f86d-b418-4570-9e4c-ef83e0f6139b,ETEAM,seed,2016-01-01,,1,
+08e398ca-6bfc-4c84-8d2b-f457ddc01669,iBot,grant,2017-06-01,165000.0,1,Technology Development Fund
+08e398ca-6bfc-4c84-8d2b-f457ddc01669,iBot,pre_seed,2017-08-11,,1,Next Media Accelerator
+095fd521-a25b-9457-b473-f5e081b2927b,Allconnect,series_c,2000-06-21,13000000.0,3,Southeast Interactive Technology Funds
+095fd521-a25b-9457-b473-f5e081b2927b,Allconnect,series_c,2002-07-17,2000000.0,3,
+095fd521-a25b-9457-b473-f5e081b2927b,Allconnect,series_e,2003-04-11,4026000.0,3,
+095fd521-a25b-9457-b473-f5e081b2927b,Allconnect,series_f,2004-01-26,2500000.0,4,
+095fd521-a25b-9457-b473-f5e081b2927b,Allconnect,series_f,2004-12-28,31574000.0,3,
+095fd521-a25b-9457-b473-f5e081b2927b,Allconnect,series_g,2005-07-29,4254000.0,2,
+095fd521-a25b-9457-b473-f5e081b2927b,Allconnect,series_h,2006-02-27,7000000.0,3,
+095fd521-a25b-9457-b473-f5e081b2927b,Allconnect,series_unknown,2007-02-22,20000000.0,3,
+095fd521-a25b-9457-b473-f5e081b2927b,Allconnect,series_unknown,2019-01-01,,1,Srijan Capital
+09759120-5325-412e-a1e4-5f8deed98441,Experio AI,pre_seed,2024-10-01,250000.0,1,Right Side Capital Management
+09759120-5325-412e-a1e4-5f8deed98441,Experio AI,pre_seed,2026-05-21,,1,
+0a13712b-56d2-a2ab-6bb6-dd906d70e5f6,Magnific,series_unknown,2020-07-01,,1,
+0a13712b-56d2-a2ab-6bb6-dd906d70e5f6,Magnific,private_equity,2020-10-26,,1,Atwater Capital
+0a255771-d15b-48c4-ab5f-784607f2db6f,"AceUp, Inc.",pre_seed,2019-03-15,650000.0,11,Christopher J. Dean
+0a255771-d15b-48c4-ab5f-784607f2db6f,"AceUp, Inc.",seed,2019-05-25,1650000.0,4,
+0a255771-d15b-48c4-ab5f-784607f2db6f,"AceUp, Inc.",seed,2021-01-30,8500000.0,2,French Partners
+0a255771-d15b-48c4-ab5f-784607f2db6f,"AceUp, Inc.",seed,2022-06-24,150000.0,1,Techstars
+0a255771-d15b-48c4-ab5f-784607f2db6f,"AceUp, Inc.",series_a,2024-09-12,22500000.0,5,PJC
+0ae8795b-ee62-412c-ac47-091a42313dca,Evig,angel,2025-06-06,53954.0,1,Claudio Barros
+0af07034-9f7c-4fa5-bfeb-1cfba3ef899b,talkingly ai,seed,2025-02-25,13500000.0,,
+0b3738f9-b28b-4144-b602-85b7aaa7488e,Cloud Booster,series_a,2022-04-19,,2,Cloudwise; Koala Fund
+0be2ac16-9598-6a43-1a61-e91b75c9c30f,LeanTaaS,series_a,2010-05-13,750000.0,,
+0be2ac16-9598-6a43-1a61-e91b75c9c30f,LeanTaaS,series_unknown,2015-10-20,3000000.0,1,Sedgwick Claims Management Services
+0be2ac16-9598-6a43-1a61-e91b75c9c30f,LeanTaaS,series_b,2016-07-06,8999994.0,,
+0be2ac16-9598-6a43-1a61-e91b75c9c30f,LeanTaaS,series_b,2017-03-01,,1,
+0be2ac16-9598-6a43-1a61-e91b75c9c30f,LeanTaaS,series_b,2017-11-14,26000000.0,1,Insight Partners
+0be2ac16-9598-6a43-1a61-e91b75c9c30f,LeanTaaS,series_c,2018-11-13,15000000.0,1,Insight Partners
+0be2ac16-9598-6a43-1a61-e91b75c9c30f,LeanTaaS,series_unknown,2019-06-24,13999998.0,,
+0be2ac16-9598-6a43-1a61-e91b75c9c30f,LeanTaaS,series_c,2019-12-12,40000000.0,1,Goldman Sachs Merchant Banking Division
+0be2ac16-9598-6a43-1a61-e91b75c9c30f,LeanTaaS,series_d,2020-12-10,130000000.0,2,Insight Partners
+0bf726bf-1902-1756-ca9e-a4c8cd6a90a4,ZipRecruiter,series_a,2014-08-26,63000000.0,3,IVP
+0bf726bf-1902-1756-ca9e-a4c8cd6a90a4,ZipRecruiter,series_b,2018-10-04,156000000.0,2,IVP
+0bf726bf-1902-1756-ca9e-a4c8cd6a90a4,ZipRecruiter,post_ipo_debt,2022-01-07,550000000.0,,
+0c354bd1-e531-4acf-8f91-ed9f612cca0a,Kinta AI,seed,2019-08-13,,8,
+0c354bd1-e531-4acf-8f91-ed9f612cca0a,Kinta AI,series_a,2021-04-02,5500000.0,3,Lachy Groom; Shine Capital
+0c53f347-ea33-4157-a7e4-decb5ff48f1a,Healine,pre_seed,2020-10-15,130000.0,,
+0c5a6cf5-f628-4fbf-8d93-093be68be642,MAKINARI,seed,2023-11-26,,1,
+0d1c086f-10e3-43e8-b1f4-499a333e677c,Theartisan.ai,angel,2024-01-24,,,
+0d51c7ff-e444-4d30-b045-6c1f322999d4,Playtest,pre_seed,2024-03-27,250000.0,1,Antler
+0d7a9103-0a85-4325-a87c-34efcc9dc07c,Innovation Intelligence,series_unknown,2023-01-01,,1,
+0d8a6bff-6031-46de-b19b-9c5a161aed05,Nextworld,series_f,2025-02-04,65000000.0,1,McVaney Investment Partnership
+0df6d98e-ffec-48a2-8753-a5c34d3270fa,Hoop Messenger,pre_seed,2015-09-04,1506930.0,,
+0df6d98e-ffec-48a2-8753-a5c34d3270fa,Hoop Messenger,seed,2018-05-31,3862737.0,,
+0e9f2fe8-88b6-4192-83e7-a916f9e427a0,INKsearch.co,angel,2019-03-01,27719.0,1,
+0e9f2fe8-88b6-4192-83e7-a916f9e427a0,INKsearch.co,pre_seed,2019-11-15,258526.0,1,KnowledgeHub
+0e9f2fe8-88b6-4192-83e7-a916f9e427a0,INKsearch.co,pre_seed,2021-07-07,260042.0,2,
+0e9f2fe8-88b6-4192-83e7-a916f9e427a0,INKsearch.co,pre_seed,2022-06-01,133141.0,1,Startup Wise Guys
+0e9f2fe8-88b6-4192-83e7-a916f9e427a0,INKsearch.co,seed,2022-12-30,82055.0,2,EKIPA Investments
+0e9f2fe8-88b6-4192-83e7-a916f9e427a0,INKsearch.co,seed,2024-01-01,216318.0,4,
+0f1bd793-dfdf-433a-896d-c94f5c340938,Botpress,pre_seed,2019-12-16,,7,Panache Ventures
+0f1bd793-dfdf-433a-896d-c94f5c340938,Botpress,series_a,2021-04-28,15000000.0,6,Decibel Partners
+0f1bd793-dfdf-433a-896d-c94f5c340938,Botpress,series_b,2025-06-23,25000000.0,5,Framework Venture Partners
+0f3897b6-1a27-cb9a-7c2d-0890694a34c1,Ninsight Broadcast,series_a,2007-01-07,2010000.0,1,
+0f410bb8-fd41-477f-b8dd-f87b76f478a2,Curated For You,seed,2022-11-01,3531942.0,1,
+0f410bb8-fd41-477f-b8dd-f87b76f478a2,Curated For You,seed,2023-02-16,2400000.0,2,AIX Ventures; Dundee Venture Capital
+0f410bb8-fd41-477f-b8dd-f87b76f478a2,Curated For You,seed,2024-01-01,,1,
+0f410bb8-fd41-477f-b8dd-f87b76f478a2,Curated For You,seed,2025-09-16,8300000.0,6,Florida Funders
+0fbca183-8ac5-4b1b-8fb4-88bfb45f7215,Retailetics,seed,2021-11-11,,1,1337 Ventures
+0fe351e7-0291-46b9-a587-12f6686c1044,TitanPayAI,pre_seed,2024-06-26,25000.0,1,
+1001f723-9389-41c6-af65-4125d0b00f5c,Pressto,pre_seed,2022-05-18,1500000.0,9,Tidal Venture Partners
+108c9a39-cacc-e876-f84d-13e4b2978826,Apollo Agriculture,seed,2016-09-28,,3,
+108c9a39-cacc-e876-f84d-13e4b2978826,Apollo Agriculture,seed,2018-01-01,,1,
+108c9a39-cacc-e876-f84d-13e4b2978826,Apollo Agriculture,debt_financing,2018-07-11,496032.0,2,FMO; Rabobank
+108c9a39-cacc-e876-f84d-13e4b2978826,Apollo Agriculture,grant,2018-10-30,1090000.0,1,Mastercard Foundation Fund for Rural Prosperity
+108c9a39-cacc-e876-f84d-13e4b2978826,Apollo Agriculture,series_a,2019-11-04,,1,
+108c9a39-cacc-e876-f84d-13e4b2978826,Apollo Agriculture,series_a,2020-05-20,6000000.0,8,Anthemis
+108c9a39-cacc-e876-f84d-13e4b2978826,Apollo Agriculture,series_unknown,2020-12-03,3574995.0,1,
+108c9a39-cacc-e876-f84d-13e4b2978826,Apollo Agriculture,debt_financing,2021-06-21,1000000.0,1,Agri-Business Capital Fund (ABC Fund)
+108c9a39-cacc-e876-f84d-13e4b2978826,Apollo Agriculture,debt_financing,2021-12-13,9500000.0,1,U.S. International Development Finance Corp
+108c9a39-cacc-e876-f84d-13e4b2978826,Apollo Agriculture,series_b,2022-03-21,40000000.0,14,SoftBank Vision Fund
+108c9a39-cacc-e876-f84d-13e4b2978826,Apollo Agriculture,series_unknown,2023-11-17,6949988.0,1,
+108c9a39-cacc-e876-f84d-13e4b2978826,Apollo Agriculture,debt_financing,2024-01-25,10000000.0,2,
+108c9a39-cacc-e876-f84d-13e4b2978826,Apollo Agriculture,debt_financing,2026-05-06,2134393.0,1,IDH
+10ec186c-2f86-bcbd-cab4-3108e54dd088,Pilot AI,seed,2015-11-12,,3,
+10ec186c-2f86-bcbd-cab4-3108e54dd088,Pilot AI,series_a,2016-07-22,,2,
+10ec186c-2f86-bcbd-cab4-3108e54dd088,Pilot AI,series_unknown,2022-09-08,,1,
+112035c3-3f20-126f-aed7-5f37814808a6,OptaCredit,debt_financing,2018-01-22,4000000.0,1,DMI Finance
+1146f92c-bebb-4678-ba25-89ec50b571be,Girlgroup,pre_seed,2023-12-13,100000.0,1,
+116dede7-c2ea-4450-96e1-5b7d0d55a22f,Kimera Technologies,pre_seed,2023-04-13,729428.0,7,
+116dede7-c2ea-4450-96e1-5b7d0d55a22f,Kimera Technologies,seed,2025-12-15,2350709.0,3,Adara Ventures
+11ccfdd0-6228-781d-bc9e-9ebb16360a2e,AdvanPro,non_equity_assistance,2015-01-24,,1,
+11ccfdd0-6228-781d-bc9e-9ebb16360a2e,AdvanPro,series_unknown,2015-11-01,,1,
+11e8ca14-fe46-fd24-2108-96ec06b38245,Enter,seed,2015-12-23,125000.0,4,500 Global
+11e8ca14-fe46-fd24-2108-96ec06b38245,Enter,seed,2019-01-30,5500000.0,3,
+11e8ca14-fe46-fd24-2108-96ec06b38245,Enter,seed,2022-03-08,5700000.0,8,500 Global; Menlo Ventures; Quiet Capital; Savantus Ventures; SpringRock Ventures
+1226d245-651d-4cc0-b65c-6c603c0679f0,INFINIQ,series_unknown,2021-05-06,9817828.0,3,
+1226d245-651d-4cc0-b65c-6c603c0679f0,INFINIQ,series_unknown,2023-12-08,5312448.0,2,Kiwoom Investment
+1226d245-651d-4cc0-b65c-6c603c0679f0,INFINIQ,series_unknown,2024-09-09,11170647.0,3,Kiwoom Investment
+1237fb6e-bf82-4cc3-b14a-05d3827569ad,UAVIO,pre_seed,2021-09-27,33864.0,1,iTIC Incubator at IIT Hyderabad
+1289dccc-01a4-405f-8461-effa16517862,Verbatica,pre_seed,2023-11-06,700000.0,,
+133d8d2b-90e6-109c-61b2-817c6d1386c5,Finexio,seed,2016-08-08,1000000.0,2,James R Heistand
+133d8d2b-90e6-109c-61b2-817c6d1386c5,Finexio,series_a,2018-01-09,4000000.0,6,James R Heistand
+133d8d2b-90e6-109c-61b2-817c6d1386c5,Finexio,series_unknown,2019-12-04,2500000.0,,
+133d8d2b-90e6-109c-61b2-817c6d1386c5,Finexio,series_b,2020-10-14,23000000.0,10,Medalist Partners
+133d8d2b-90e6-109c-61b2-817c6d1386c5,Finexio,series_unknown,2021-08-25,8000000.0,16,Patriot Financial Partners
+133d8d2b-90e6-109c-61b2-817c6d1386c5,Finexio,series_unknown,2022-01-05,10000000.0,2,Mendon Venture Partners
+133d8d2b-90e6-109c-61b2-817c6d1386c5,Finexio,series_b,2022-07-25,35000000.0,11,JP Morgan; Mendon Venture Partners
+133d8d2b-90e6-109c-61b2-817c6d1386c5,Finexio,debt_financing,2024-12-17,10000000.0,1,Horizon Technology Finance
+14027cc9-46d4-483e-9ed9-662fff9df04c,MindSense,pre_seed,2021-07-15,,,
+1497cdad-01f4-4c80-b411-5310e075139e,Intracav,pre_seed,2025-07-01,,,
+153f5ea7-d219-417d-a380-c153d358c72f,Thirdfort,angel,2018-01-29,140726.0,,
+153f5ea7-d219-417d-a380-c153d358c72f,Thirdfort,grant,2018-04-24,27988.0,1,
+153f5ea7-d219-417d-a380-c153d358c72f,Thirdfort,pre_seed,2018-10-08,654637.0,2,Alexander Chesterman; MDR LAB
+153f5ea7-d219-417d-a380-c153d358c72f,Thirdfort,grant,2018-11-01,65014.0,1,
+153f5ea7-d219-417d-a380-c153d358c72f,Thirdfort,seed,2019-10-09,854838.0,1,MDR LAB
+153f5ea7-d219-417d-a380-c153d358c72f,Thirdfort,seed,2020-08-26,1321903.0,4,
+153f5ea7-d219-417d-a380-c153d358c72f,Thirdfort,debt_financing,2021-04-12,2063251.0,4,
+153f5ea7-d219-417d-a380-c153d358c72f,Thirdfort,series_a,2022-03-07,19670274.0,13,BREEGA
+158ee541-b480-1407-83c3-d28ff03babc4,Meniga,grant,2010-03-01,62001.0,1,Technology Development Fund
+158ee541-b480-1407-83c3-d28ff03babc4,Meniga,grant,2011-03-01,77743.0,1,Technology Development Fund
+158ee541-b480-1407-83c3-d28ff03babc4,Meniga,grant,2012-03-01,159086.0,1,Technology Development Fund
+158ee541-b480-1407-83c3-d28ff03babc4,Meniga,grant,2013-03-01,80229.0,1,Technology Development Fund
+158ee541-b480-1407-83c3-d28ff03babc4,Meniga,series_a,2013-07-11,6500000.0,4,Kjölfesta
+158ee541-b480-1407-83c3-d28ff03babc4,Meniga,grant,2014-03-01,221631.0,1,Technology Development Fund
+158ee541-b480-1407-83c3-d28ff03babc4,Meniga,grant,2014-12-15,300000.0,1,Technology Development Fund
+158ee541-b480-1407-83c3-d28ff03babc4,Meniga,grant,2016-03-01,96362.0,1,Technology Development Fund
+158ee541-b480-1407-83c3-d28ff03babc4,Meniga,series_unknown,2016-08-23,8252784.0,2,Frumtak Ventures; Velocity Capital Fintech Ventures
+158ee541-b480-1407-83c3-d28ff03babc4,Meniga,series_unknown,2017-04-07,7943249.0,4,Industrifonden
+158ee541-b480-1407-83c3-d28ff03babc4,Meniga,series_unknown,2018-04-23,3700000.0,2,Swedbank
+158ee541-b480-1407-83c3-d28ff03babc4,Meniga,series_unknown,2018-06-05,3635191.0,1,UniCredit EVO
+158ee541-b480-1407-83c3-d28ff03babc4,Meniga,series_unknown,2018-11-06,3432431.0,1,Islandsbanki
+158ee541-b480-1407-83c3-d28ff03babc4,Meniga,corporate_round,2020-05-28,9416937.0,6,Groupe BPCE
+158ee541-b480-1407-83c3-d28ff03babc4,Meniga,series_unknown,2021-03-25,11776482.0,8,Frumtak Ventures; Velocity Capital Fintech Ventures
+158ee541-b480-1407-83c3-d28ff03babc4,Meniga,series_d,2023-12-13,16281485.0,3,
+15987b58-5690-ad5b-2b75-a30db7ac6457,Collectly,seed,2017-03-27,1900000.0,14,GoAhead Ventures
+15987b58-5690-ad5b-2b75-a30db7ac6457,Collectly,series_unknown,2021-09-16,3000000.0,4,TMT Investments
+15987b58-5690-ad5b-2b75-a30db7ac6457,Collectly,series_a,2023-07-20,29000000.0,6,Sapphire Ventures
+15ce1534-7da8-4803-b4ce-9242c64fb749,Lutra,grant,2023-07-27,,2,Gyeonggi Creative Economy Innovation Center
+15ec0b39-1929-4704-ae0b-e62e74e91824,Endorsed,pre_seed,2024-10-17,,3,
+16c49061-4d43-45ca-97a4-1cbe76505ee6,Fraimic,product_crowdfunding,2025-10-23,1120290.0,,
+17377067-f2d4-c43d-4527-83faf4fc6ec7,Numina,pre_seed,2016-04-25,,1,URBAN-X
+17377067-f2d4-c43d-4527-83faf4fc6ec7,Numina,seed,2017-02-11,,5,
+17377067-f2d4-c43d-4527-83faf4fc6ec7,Numina,series_unknown,2019-11-01,,2,Elemental Impact
+178206d3-358e-46f8-9595-0c2d17d649bc,Amplify Protocol,non_equity_assistance,2021-07-16,,1,Tenity
+1805c900-a6c0-a9c6-efae-caf005830ff9,Kraftwurx,seed,2006-04-01,200000.0,,
+1805c900-a6c0-a9c6-efae-caf005830ff9,Kraftwurx,seed,2011-08-09,960000.0,8,
+18fd8181-b358-a876-2408-bb026849c501,Immure Records,equity_crowdfunding,2010-10-28,,,
+191297b9-e473-4bad-8766-e4e13105261e,Komiko,seed,2024-12-10,3400000.0,6,GSR Ventures; KungHo Fund; The Venture Reality Fund/VRF
+192eed05-8daa-af77-f3ff-e26b62dfa161,eDreams,seed,2000-01-01,,1,
+192f1464-ebee-4406-89f3-6848066eb34a,ClinBrain,series_b,2020-10-09,14937189.0,5,GeniLink Capital
+192f1464-ebee-4406-89f3-6848066eb34a,ClinBrain,series_c,2022-10-25,27378883.0,2,Legend Capital
+1a7c4b0b-3a9c-48b7-a58f-e9ad5e41689f,Spogen.ai,pre_seed,2025-05-26,,1,FOV Ventures
+1b0837fd-fdaf-7179-841d-dc8d1d40c414,CyberExtruder,series_unknown,2002-02-09,500000.0,,
+1bd709d3-c38c-4fc5-911f-520c1927518c,GreenPlaces,seed,2021-05-13,975000.0,,
+1bd709d3-c38c-4fc5-911f-520c1927518c,GreenPlaces,seed,2022-04-19,1000000.0,1,
+1bd709d3-c38c-4fc5-911f-520c1927518c,GreenPlaces,seed,2022-08-24,4000000.0,12,Felicis
+1bd709d3-c38c-4fc5-911f-520c1927518c,GreenPlaces,series_a,2023-06-20,13000000.0,4,Redpoint
+1bdf19a4-3fb0-484e-b0d5-252e4d4612d4,Entendre Finance,seed,2023-05-01,4000000.0,8,Basis Set Ventures
+1d469cb5-848f-438a-93cf-8f17828bcf50,Tevico,non_equity_assistance,2014-06-01,,,
+1d560fca-b3da-013e-6f5a-dc1c57392559,Fina Technologies,series_a,2009-12-10,4500000.0,1,REV
+1dc57fc9-5728-4549-88ca-54e915affb2d,PeerDB,pre_seed,2023-06-15,500000.0,1,Y Combinator
+1dc57fc9-5728-4549-88ca-54e915affb2d,PeerDB,seed,2024-04-11,3600000.0,8,8VC
+1dc7be33-1670-42a7-a0f6-3af03086ee1d,Sucheon,seed,2019-01-04,1455000.0,2,
+1dc7be33-1670-42a7-a0f6-3af03086ee1d,Sucheon,series_a,2019-07-02,,3,Telescope Investment
+1dc7be33-1670-42a7-a0f6-3af03086ee1d,Sucheon,series_c,2024-06-30,,1,Binfu Capital
+1dc7be33-1670-42a7-a0f6-3af03086ee1d,Sucheon,series_d,2025-12-26,14272054.0,4,
+1dd01c63-554b-4f08-9042-acf51782b379,LevelPlane.ai,seed,2026-03-16,2000000.0,2,Accel; Google AI Futures Fund
+1ddc91c8-6e1c-439f-8140-17cd6c37f339,Plentina,pre_seed,2020-03-01,150000.0,1,Emergent Ventures
+1ddc91c8-6e1c-439f-8140-17cd6c37f339,Plentina,pre_seed,2020-07-01,400000.0,3,
+1ddc91c8-6e1c-439f-8140-17cd6c37f339,Plentina,pre_seed,2020-07-14,120000.0,1,Techstars
+1ddc91c8-6e1c-439f-8140-17cd6c37f339,Plentina,seed,2021-04-15,2200000.0,12,Andrew Vigneault; DV Collective; Unpopular Ventures
+1ddc91c8-6e1c-439f-8140-17cd6c37f339,Plentina,seed,2021-11-14,2200000.0,5,TMV
+1dde1398-c1ea-4352-8524-ed1b56a082b2,Zapmail,pre_seed,2023-12-04,110000.0,1,
+1dff7363-a63b-4326-82e0-65616aa9c3f0,Cognivix,grant,2022-07-15,223790.0,1,Invitalia
+1dff7363-a63b-4326-82e0-65616aa9c3f0,Cognivix,debt_financing,2022-07-15,522177.0,1,Invitalia
+1dff7363-a63b-4326-82e0-65616aa9c3f0,Cognivix,pre_seed,2022-11-15,210257.0,1,Magic Spectrum
+1dff7363-a63b-4326-82e0-65616aa9c3f0,Cognivix,pre_seed,2024-04-01,128838.0,1,
+1dff7363-a63b-4326-82e0-65616aa9c3f0,Cognivix,equity_crowdfunding,2025-01-15,514681.0,,
+1dff7363-a63b-4326-82e0-65616aa9c3f0,Cognivix,seed,2025-11-30,120000.0,,
+1e2efda6-e3a9-4a43-8ddb-d61d8b3866c4,SnapHealth,non_equity_assistance,2018-04-01,22000.0,,
+1e2efda6-e3a9-4a43-8ddb-d61d8b3866c4,SnapHealth,grant,2021-10-01,10000.0,1,Ben Franklin Technology Partners of Central and Northern Pennsylvania
+1e2efda6-e3a9-4a43-8ddb-d61d8b3866c4,SnapHealth,pre_seed,2021-11-01,90042.0,1,Joshua Brooker
+1e2efda6-e3a9-4a43-8ddb-d61d8b3866c4,SnapHealth,convertible_note,2022-06-01,125000.0,1,Ben Franklin Technology Partners of Central and Northern Pennsylvania
+1e329c72-a320-451f-a7a2-83edef464178,Telly,pre_seed,2024-01-01,,1,
+1e47d5e5-6f26-4c71-982e-f8baf7cc1c1d,WriteSea,pre_seed,2022-05-25,25000.0,1,Expert Dojo
+1e47d5e5-6f26-4c71-982e-f8baf7cc1c1d,WriteSea,pre_seed,2022-12-29,2030108.0,4,Collab Capital
+1e47d5e5-6f26-4c71-982e-f8baf7cc1c1d,WriteSea,seed,2024-07-03,775000.0,,
+1e715c87-c7df-08c9-d9bc-c9a68c7b5c3b,Sols,seed,2013-12-19,1753219.0,14,Lux Capital
+1e715c87-c7df-08c9-d9bc-c9a68c7b5c3b,Sols,series_a,2014-04-29,6400000.0,8,Lux Capital
+1e715c87-c7df-08c9-d9bc-c9a68c7b5c3b,Sols,series_b,2015-02-27,11100000.0,4,Founders Fund; Lux Capital
+1e715c87-c7df-08c9-d9bc-c9a68c7b5c3b,Sols,convertible_note,2016-02-17,4445284.0,1,
+1eb79242-6624-4931-8290-158a23e02050,Savvy,seed,2025-12-18,3999996.0,,
+1f98c9a5-e36f-3b4d-57cb-b9d33af3395b,Fusemachines,series_unknown,2014-07-01,1400000.0,3,
+1f98c9a5-e36f-3b4d-57cb-b9d33af3395b,Fusemachines,series_unknown,2017-03-15,3475000.0,,
+1f98c9a5-e36f-3b4d-57cb-b9d33af3395b,Fusemachines,series_unknown,2018-12-28,3000000.0,,
+1f98c9a5-e36f-3b4d-57cb-b9d33af3395b,Fusemachines,private_equity,2022-01-14,1000000.0,1,Business Oxygen (BO2)
+1f98c9a5-e36f-3b4d-57cb-b9d33af3395b,Fusemachines,post_ipo_equity,2025-12-23,999999.0,1,Consilium Investment Management
+2030f404-0d04-483e-8431-2752b6dfe138,CyberInsight,angel,2017-09-13,458502.0,1,Gaorong Capital
+2030f404-0d04-483e-8431-2752b6dfe138,CyberInsight,series_a,2017-12-31,1532086.0,3,Gaorong Capital
+205016d3-ae32-449b-93b0-3668900a6bb0,Overplay,pre_seed,2021-07-15,1500000.0,9,
+205016d3-ae32-449b-93b0-3668900a6bb0,Overplay,seed,2023-12-19,3200000.0,5,Sound Media Ventures
+205016d3-ae32-449b-93b0-3668900a6bb0,Overplay,equity_crowdfunding,2024-03-30,410353.0,,
+21548dde-7f09-43bd-9167-9afa9ac47d80,home-ix,non_equity_assistance,2020-05-01,,1,
+21834aa6-c32c-47a7-8b44-6685461ff73f,Aurenity,seed,2022-01-12,10000000.0,1,Agman Partners
+21834aa6-c32c-47a7-8b44-6685461ff73f,Aurenity,seed,2023-07-13,1000000.0,,
+21dd3906-bc09-44ce-81b3-dbd6da81390b,Finanzguru,pre_seed,2016-10-01,1123974.0,1,
+21dd3906-bc09-44ce-81b3-dbd6da81390b,Finanzguru,pre_seed,2018-04-01,1231328.0,2,
+21dd3906-bc09-44ce-81b3-dbd6da81390b,Finanzguru,seed,2019-08-07,4481672.0,4,
+21dd3906-bc09-44ce-81b3-dbd6da81390b,Finanzguru,series_a,2022-01-11,9092800.0,4,Redstone.VC; VR Ventures
+21dd3906-bc09-44ce-81b3-dbd6da81390b,Finanzguru,series_b,2023-04-04,14245170.0,8,SCOR Ventures
+21e1e0f3-84bd-42b1-9a6a-2ecc1ca34212,Stoneleigh Consulting,grant,2024-01-08,18750.0,1,Callaghan Innovation
+23594f72-5908-c9d6-59fa-0fd795be35ca,Stack Overflow,series_a,2010-05-04,6000000.0,11,Union Square Ventures
+23594f72-5908-c9d6-59fa-0fd795be35ca,Stack Overflow,series_b,2011-03-08,12000000.0,3,Index Ventures; Spark Capital
+23594f72-5908-c9d6-59fa-0fd795be35ca,Stack Overflow,series_c,2013-06-01,10000000.0,1,Bezos Expeditions
+23594f72-5908-c9d6-59fa-0fd795be35ca,Stack Overflow,series_d,2015-01-20,40000000.0,5,Andreessen Horowitz
+23594f72-5908-c9d6-59fa-0fd795be35ca,Stack Overflow,series_e,2020-07-28,85000000.0,7,GIC
+23594f72-5908-c9d6-59fa-0fd795be35ca,Stack Overflow,series_e,2020-12-01,,1,
+259a2218-d205-47cd-9fe2-eedbb8459ebb,Traceroot,pre_seed,2025-09-09,,1,Y Combinator
+25a784f8-4cff-4459-9dd6-b780ea88ccb6,Astral,series_a,2022-06-14,10000000.0,11,Malibu Point Capital
+25bb2f81-bb31-4309-87fa-78343fb8efae,Vitto,non_equity_assistance,2021-03-18,,2,MassChallenge Israel
+25bb2f81-bb31-4309-87fa-78343fb8efae,Vitto,pre_seed,2021-12-02,200000.0,5,We Founder Circle
+25bb2f81-bb31-4309-87fa-78343fb8efae,Vitto,seed,2022-01-11,,1,Bharat Inclusion Seed Fund
+25bb2f81-bb31-4309-87fa-78343fb8efae,Vitto,non_equity_assistance,2023-04-13,,1,Village Capital
+25e1a7b6-0fb9-460c-8ae4-71de757d4b10,Club Employes,series_unknown,2020-03-09,1709926.0,1,Bpifrance
+25e1a7b6-0fb9-460c-8ae4-71de757d4b10,Club Employes,series_a,2022-05-17,7384301.0,2,MAIF Avenir
+25e1a7b6-0fb9-460c-8ae4-71de757d4b10,Club Employes,private_equity,2025-12-18,17587242.0,1,Verto
+2601c06a-b77d-5d63-b4cb-96e225c4f756,NDS Surgical Imaging,series_unknown,2010-05-17,3118726.0,,
+2601c06a-b77d-5d63-b4cb-96e225c4f756,NDS Surgical Imaging,series_unknown,2011-01-13,3700000.0,,
+2601c06a-b77d-5d63-b4cb-96e225c4f756,NDS Surgical Imaging,series_unknown,2011-07-07,4500000.0,,
+26f5bd07-885d-483b-a06d-c1ae406c5daa,Crosswalk Health,seed,2024-01-01,,1,
+275a93e8-37d6-4928-889d-e8cec0b0a0a2,Whatmore,pre_seed,2023-10-25,650000.0,2,Callapina Capital; Good Capital
+27662799-47ec-69a6-48e3-5c238839b810,Nuper,series_unknown,2016-04-25,,2,
+27662799-47ec-69a6-48e3-5c238839b810,Nuper,seed,2017-01-04,,2,ACE Ventures
+27d29e40-7553-4f46-909b-eb82bc209439,Harmonize,seed,2018-03-06,,1,Z47
+27d29e40-7553-4f46-909b-eb82bc209439,Harmonize,seed,2020-01-23,,1,
+27f320d6-3f98-4121-bcf3-988655ccff26,Secret3,pre_seed,2025-01-10,102565.0,1,
+28f0901f-ef9e-49d6-9f17-d80279d8f1f2,Paralex,pre_seed,2024-02-07,,1,
+294302fb-089f-42eb-624a-8ed32494c6b6,Sinch,series_a,2014-05-14,12000000.0,2,
+294302fb-089f-42eb-624a-8ed32494c6b6,Sinch,post_ipo_secondary,2020-11-30,384906981.0,1,SoftBank
+294302fb-089f-42eb-624a-8ed32494c6b6,Sinch,post_ipo_equity,2021-05-24,1130329383.0,2,SoftBank; Temasek
+294302fb-089f-42eb-624a-8ed32494c6b6,Sinch,post_ipo_secondary,2022-09-30,,2,
+294302fb-089f-42eb-624a-8ed32494c6b6,Sinch,post_ipo_debt,2024-09-13,48845918.0,,
+29af7759-829f-442e-b05e-17ffe15767a7,Naria,pre_seed,2024-03-11,,2,Techstars
+2ab9dd4e-21a3-457c-8d79-0c067b40cf52,Four/Four,seed,2024-04-22,382844.0,1,Haatch
+2af5d7e3-6fd4-4a36-bac2-9f3b25de69ae,DeepNatural,seed,2019-03-27,438808.0,1,BonAngels Venture Partners
+2b64a297-d18b-3ef1-d0d6-ddb80a36e6d9,Raven[Ops],seed,2016-10-17,1000000.0,,
+2b64a297-d18b-3ef1-d0d6-ddb80a36e6d9,Raven[Ops],seed,2018-01-31,3500000.0,3,Accel
+2c2c47fb-a27e-3576-2b6c-cf332e9791f1,Alitheon,seed,2016-06-06,1000000.0,,
+2c2c47fb-a27e-3576-2b6c-cf332e9791f1,Alitheon,seed,2017-12-04,4800000.0,,
+2c2c47fb-a27e-3576-2b6c-cf332e9791f1,Alitheon,seed,2018-12-01,6100000.0,,
+2c2c47fb-a27e-3576-2b6c-cf332e9791f1,Alitheon,seed,2019-12-23,8800000.0,3,
+2c2c47fb-a27e-3576-2b6c-cf332e9791f1,Alitheon,seed,2021-11-02,,1,
+2c2c47fb-a27e-3576-2b6c-cf332e9791f1,Alitheon,series_a,2022-09-20,10000000.0,2,BMW i Ventures; Imagine Ventures
+2c2c47fb-a27e-3576-2b6c-cf332e9791f1,Alitheon,series_a,2026-06-02,8000000.0,2,Emerald Technology Ventures
+2d195a16-cc9b-49e5-b5ce-56ebd234b6e3,Techwiz,angel,2022-01-10,200000.0,,
+2e50054a-bbf5-42f3-997e-1c306bc1d2a9,Zime,seed,2024-05-01,2525000.0,5,z21 Ventures
+2ea5872f-5f39-4fa6-8919-41331e681142,AiBorne Tech,seed,2022-03-17,,1,Maruti Suzuki Accelerator
+2ec699d8-9613-e851-ac86-fa8c12e4afda,Dor,series_unknown,2015-07-04,,2,
+2ec699d8-9613-e851-ac86-fa8c12e4afda,Dor,seed,2016-05-01,,1,
+2ec699d8-9613-e851-ac86-fa8c12e4afda,Dor,seed,2017-05-17,3800000.0,3,Vertex Ventures US; Zetta Venture Partners
+2ec699d8-9613-e851-ac86-fa8c12e4afda,Dor,series_a,2018-08-06,8500000.0,6,Vertex Ventures
+2ec699d8-9613-e851-ac86-fa8c12e4afda,Dor,series_a,2020-02-11,,1,
+2f1653d4-2e39-1afe-16c6-cbb8fddd7df8,Geescore™,seed,2021-05-01,,,
+2f51af97-eef0-725c-dff6-05c0f2cf36d2,Smile Stations,series_unknown,2023-08-14,20000000.0,,
+2f6c1ee8-873c-4d81-9837-950ac142950c,TrueFoundry,seed,2022-09-19,2300000.0,13,Peak XV Partners; Surge
+2f6c1ee8-873c-4d81-9837-950ac142950c,TrueFoundry,series_a,2025-02-06,19000000.0,11,Intel Capital
+2fc552d0-51dd-425c-bdcd-83550aac71ec,Mutron,corporate_round,2019-08-28,,1,Kinden
+2fc900e2-da0e-43aa-8278-2d3ba4fed526,Liquefy,pre_seed,2018-10-26,430000.0,1,Soul Capital Limited
+2fc900e2-da0e-43aa-8278-2d3ba4fed526,Liquefy,seed,2019-06-12,2600000.0,3,Ideanomics; NEO
+2fde4e6f-4f52-4deb-ba76-f6b9edf1dce0,Dash0,seed,2024-11-05,9500000.0,4,Accel
+2fde4e6f-4f52-4deb-ba76-f6b9edf1dce0,Dash0,series_a,2025-10-02,35000000.0,3,Accel; Cherry Ventures; DIG Ventures
+2fde4e6f-4f52-4deb-ba76-f6b9edf1dce0,Dash0,series_b,2026-03-23,110000000.0,7,Balderton Capital
+2ff5a526-1f4b-40ea-8efd-d329005e62b5,Twelve Labs,pre_seed,2021-01-25,120000.0,1,Techstars
+2ff5a526-1f4b-40ea-8efd-d329005e62b5,Twelve Labs,seed,2022-03-16,5000000.0,15,Index Ventures
+2ff5a526-1f4b-40ea-8efd-d329005e62b5,Twelve Labs,seed,2022-12-05,12000000.0,10,Radical Ventures
+2ff5a526-1f4b-40ea-8efd-d329005e62b5,Twelve Labs,seed,2023-10-24,10000000.0,5,
+2ff5a526-1f4b-40ea-8efd-d329005e62b5,Twelve Labs,series_a,2024-06-04,50000000.0,6,New Enterprise Associates; NVentures
+2ff5a526-1f4b-40ea-8efd-d329005e62b5,Twelve Labs,series_a,2024-12-12,30000000.0,7,
+2ff5a526-1f4b-40ea-8efd-d329005e62b5,Twelve Labs,series_unknown,2025-06-09,,1,Naver Ventures
+2ff5a526-1f4b-40ea-8efd-d329005e62b5,Twelve Labs,corporate_round,2025-10-10,,1,Firstman Studios
+315bb92a-708d-4f4d-8283-7672e435922c,TALATY,seed,2024-03-01,,,
+315bb92a-708d-4f4d-8283-7672e435922c,TALATY,seed,2024-12-19,,2,Witamax
+32238ca2-737a-41c2-b132-9f44b5f25820,Infinitform Inc,seed,2023-12-31,,1,Schematic Ventures
+32238ca2-737a-41c2-b132-9f44b5f25820,Infinitform Inc,seed,2025-05-15,12700000.0,5,UP Partners
+327de775-ab02-4db1-9bc9-8bf3bdfc65e4,SumX,debt_financing,2025-08-14,,,
+327de775-ab02-4db1-9bc9-8bf3bdfc65e4,SumX,seed,2025-08-14,1100000.0,,
+32cae385-1050-4964-b4fd-2ef99dbb8c6f,Storycraft,pre_seed,2023-04-01,2000000.0,2,LVP; SignalFire
+32cae385-1050-4964-b4fd-2ef99dbb8c6f,Storycraft,seed,2025-04-11,3000000.0,2,Khosla Ventures
+32f55ab3-8dc8-4570-47a3-4fa4ac5c3fc9,Disrupted Logic,grant,2015-02-11,25000.0,,
+32f55ab3-8dc8-4570-47a3-4fa4ac5c3fc9,Disrupted Logic,grant,2015-03-01,50000.0,,
+32f55ab3-8dc8-4570-47a3-4fa4ac5c3fc9,Disrupted Logic,seed,2015-12-12,181965.0,,
+32f55ab3-8dc8-4570-47a3-4fa4ac5c3fc9,Disrupted Logic,grant,2016-10-01,10000.0,,
+32fa106d-f3c8-4b87-845f-576f0ae2c5be,Noodle Tomato,pre_seed,2026-06-15,50000.0,1,AltaIR Capital
+336f9f1a-0900-4087-afce-3d83115f99fd,Muybridge,series_unknown,2024-10-11,8754488.0,3,Fairpoint Capital
+336f9f1a-0900-4087-afce-3d83115f99fd,Muybridge,series_a,2026-05-21,16000000.0,4,Fairpoint Capital; Idekapital; Investinor; RunwayFBU
+3384a10b-a58a-46b7-8887-987cde10440b,Benzhi Activation,seed,2025-07-24,,3,Yunqi Partners
+33a3e651-e17a-42af-b8bc-af9298f70e3e,Naki,pre_seed,2024-01-09,110000.0,1,Antler
+33b48746-cf47-4634-95f3-543b5c805c19,Urban Vyapari,pre_seed,2022-06-01,350000.0,,
+33c34ff8-cef2-4e23-b934-1caf89d978b6,Novineer,grant,2022-10-12,30000.0,2,Florida Venture Forum; Space Florida
+33c34ff8-cef2-4e23-b934-1caf89d978b6,Novineer,convertible_note,2023-07-18,650000.0,1,
+346cdb24-0dc0-83fa-65f9-13bb2c7799aa,Wirkn,seed,2014-10-15,400000.0,1,Kinetic
+346cdb24-0dc0-83fa-65f9-13bb2c7799aa,Wirkn,seed,2015-06-03,1200000.0,2,David Henning; Howard Stotland
+346cdb24-0dc0-83fa-65f9-13bb2c7799aa,Wirkn,seed,2016-02-01,,1,
+346cdb24-0dc0-83fa-65f9-13bb2c7799aa,Wirkn,debt_financing,2019-07-09,,1,
+34825d8f-644a-4cdb-b23f-a2007b319f62,Hanweck,private_equity,2015-11-17,10000000.0,1,The Argentum Group
+34825d8f-644a-4cdb-b23f-a2007b319f62,Hanweck,debt_financing,2015-11-17,,1,The Argentum Group
+34b73d56-4d7c-4e75-af99-b3a63c43b660,Legal Agent,seed,2025-01-09,316369.0,2,ANRI; Boost Capital
+34d4124a-c6c1-45e5-8d79-a0511ccf5c8f,Delphia,pre_seed,2018-06-13,4095000.0,14,Lerer Hippeau
+34d4124a-c6c1-45e5-8d79-a0511ccf5c8f,Delphia,seed,2019-12-04,15385000.0,11,Real Ventures
+34d4124a-c6c1-45e5-8d79-a0511ccf5c8f,Delphia,series_a,2022-06-08,60000000.0,11,Multicoin Capital
+34dc58d0-b0b8-446b-bc2b-55d1368404ea,Rezolve,series_unknown,2021-03-16,20000000.0,2,Future Fund; Lauder Partners
+34dc58d0-b0b8-446b-bc2b-55d1368404ea,Rezolve,post_ipo_equity,2024-12-19,15000000.0,,
+34dc58d0-b0b8-446b-bc2b-55d1368404ea,Rezolve,post_ipo_debt,2025-01-29,30000000.0,1,Berenberg
+34dc58d0-b0b8-446b-bc2b-55d1368404ea,Rezolve,post_ipo_debt,2025-02-24,100000000.0,,
+34dc58d0-b0b8-446b-bc2b-55d1368404ea,Rezolve,post_ipo_equity,2025-07-24,50000000.0,1,Citadel Global Equities
+34dc58d0-b0b8-446b-bc2b-55d1368404ea,Rezolve,post_ipo_equity,2025-09-24,200000000.0,,
+34dc58d0-b0b8-446b-bc2b-55d1368404ea,Rezolve,post_ipo_equity,2026-01-20,250000000.0,,
+34f3c99b-74b8-4f9b-9fb0-c0b052706fc4,Pratexo,seed,2021-06-30,3500000.0,11,BCP Ventures; Northscaler; Raiven Capital
+34f3c99b-74b8-4f9b-9fb0-c0b052706fc4,Pratexo,series_unknown,2023-08-22,,1,ABB Ventures
+34f3c99b-74b8-4f9b-9fb0-c0b052706fc4,Pratexo,series_unknown,2024-11-21,,1,ABB Ventures
+356ceb36-580d-4c81-8864-fa99248c9abe,Wright Brothers,pre_seed,2017-09-25,,,
+356ceb36-580d-4c81-8864-fa99248c9abe,Wright Brothers,seed,2019-02-14,3542017.0,1,
+356ceb36-580d-4c81-8864-fa99248c9abe,Wright Brothers,seed,2019-04-23,586179.0,3,
+356ceb36-580d-4c81-8864-fa99248c9abe,Wright Brothers,seed,2019-11-15,257814.0,1,
+356ceb36-580d-4c81-8864-fa99248c9abe,Wright Brothers,seed,2020-05-01,,1,
+356ceb36-580d-4c81-8864-fa99248c9abe,Wright Brothers,series_a,2022-02-07,8354219.0,2,
+35ed7f7a-2ccb-4849-84aa-f039841796ac,tipi.build,pre_seed,2021-01-01,,1,
+35ed7f7a-2ccb-4849-84aa-f039841796ac,tipi.build,seed,2022-12-13,,1,Serpentine Ventures
+35f97d4d-27d8-6afe-8270-2e47666670ce,Flatbox,seed,2017-05-03,,,
+3615fe87-d3a9-4021-b55e-6ad7eeac3d6b,Ensonic,angel,2018-04-01,,3,Innoangel Fund
+3615fe87-d3a9-4021-b55e-6ad7eeac3d6b,Ensonic,seed,2019-03-01,,2,Fortune Venture Capital
+3615fe87-d3a9-4021-b55e-6ad7eeac3d6b,Ensonic,series_a,2020-10-29,8935220.0,2,Vertex Ventures China
+3615fe87-d3a9-4021-b55e-6ad7eeac3d6b,Ensonic,series_b,2023-01-16,13365807.0,2,
+3615fe87-d3a9-4021-b55e-6ad7eeac3d6b,Ensonic,series_b,2023-12-13,13941946.0,4,China Mobile Capital
+3615fe87-d3a9-4021-b55e-6ad7eeac3d6b,Ensonic,series_unknown,2024-11-04,,1,MTR Lab
+3615fe87-d3a9-4021-b55e-6ad7eeac3d6b,Ensonic,series_d,2025-04-28,13708019.0,5,Beijing Advanced Manufacturing fund
+365763bd-fc17-4045-9261-2dc2509672a8,XMO,pre_seed,2026-05-14,2896754.0,3,Airtree Ventures; Triple Bubble
+36ec0552-339b-4383-baf1-a2040547a72b,NeoBotiQc,non_equity_assistance,2025-06-25,7293.0,1,Centech
+37a93169-1d5e-4fd4-abae-bb43e444c092,NewFrame,seed,2026-01-20,175000.0,3,
+38548379-5b89-c337-64ab-4b595222f0cd,Adabra,seed,2016-02-02,,1,
+38548379-5b89-c337-64ab-4b595222f0cd,Adabra,seed,2016-12-29,1162314.0,1,A11 Venture
+390afc4b-66df-4e4d-aade-115cfbb30c17,AiForgedWonders,pre_seed,2023-03-04,60000.0,,
+390afc4b-66df-4e4d-aade-115cfbb30c17,AiForgedWonders,seed,2024-01-04,90000.0,1,
+390afc4b-66df-4e4d-aade-115cfbb30c17,AiForgedWonders,series_a,2025-01-02,150000.0,1,
+39c385d6-47d9-4b46-b55a-d43e0fae9516,Aoshuo Tech,angel,2015-08-31,470278.0,1,
+39c385d6-47d9-4b46-b55a-d43e0fae9516,Aoshuo Tech,series_a,2016-11-12,1453293.0,3,
+39db7b5b-7fe4-4c4e-b140-48cf6bfc82b8,Neurologik,angel,2023-01-06,400000.0,,
+39dc7e7a-d63b-4282-b6f1-fe015025b5fd,Identifid,convertible_note,2019-01-01,550000.0,,
+39dc7e7a-d63b-4282-b6f1-fe015025b5fd,Identifid,pre_seed,2020-02-15,1350000.0,,
+39dc7e7a-d63b-4282-b6f1-fe015025b5fd,Identifid,seed,2025-07-07,5000000.0,,
+3a1a3bc9-5f13-45af-bd2b-9022cef5d727,Stride Conductor,pre_seed,2025-01-01,,1,
+3a99fd7f-a01e-422a-a912-bd4342088277,Reviva,pre_seed,2024-06-11,2000000.0,2,Bling Capital; Village Global
+3a9a8672-e646-4387-b494-bc67f841020e,Graphite,seed,2021-01-01,,1,Hunter Walk
+3a9a8672-e646-4387-b494-bc67f841020e,Graphite,series_a,2022-05-03,20000000.0,1,Andreessen Horowitz
+3a9a8672-e646-4387-b494-bc67f841020e,Graphite,series_b,2025-03-18,52000000.0,6,Accel
+3ab6a3cf-4209-4993-bced-d12f5b078f91,Kinfolk,seed,2026-02-26,7200000.0,6,AlbionVC
+3b0f87a1-cf67-4aa5-89df-93270b1b6923,ArtiQ,seed,2019-10-01,249443.0,1,Springcamp
+3b0f87a1-cf67-4aa5-89df-93270b1b6923,ArtiQ,seed,2020-04-16,407299.0,2,
+3b0f87a1-cf67-4aa5-89df-93270b1b6923,ArtiQ,seed,2021-02-01,3132293.0,2,
+3b324224-d6c1-4cb0-96d1-7d25a2b3ca54,zHealth Software,non_equity_assistance,2020-03-01,,1,SkyDeck Berkeley
+3b624070-fa27-446c-a4e0-69c60ecc94b0,DeepTrail,pre_seed,2025-10-23,,1,
+3b7f5838-74d4-4bbf-ac11-2656fc926f34,swayle.,pre_seed,2024-05-06,50767.0,6,
+3b972e0c-d56e-495e-9f8f-9862219554cc,Cerno,angel,2017-06-09,441245.0,1,
+3ba1f281-68f9-f13f-7269-c820e213e3d1,Aetho,angel,2015-05-04,,,
+3c08f4b6-e448-45b4-b114-693b6f8e1456,GloCoach,seed,2018-06-01,,4,Orbit Ventures
+3c08f4b6-e448-45b4-b114-693b6f8e1456,GloCoach,seed,2025-01-02,200000.0,,
+3c08f4b6-e448-45b4-b114-693b6f8e1456,GloCoach,undisclosed,2025-08-01,2000000.0,,
+3c7648b9-cbcb-4636-9afb-3ddb4951648d,Insiteflow,seed,2021-10-18,2300000.0,4,Silverton Partners
+3cf47773-50a6-4219-95f7-10335df31425,The HighTech Center,pre_seed,2022-03-03,60000.0,,
+3cf47773-50a6-4219-95f7-10335df31425,The HighTech Center,pre_seed,2023-06-10,90000.0,1,
+3cf47773-50a6-4219-95f7-10335df31425,The HighTech Center,series_a,2024-06-13,150000.0,1,
+3d1369d9-48ab-4a79-a8f7-7eb86c05c430,NuMind,pre_seed,2022-06-28,500000.0,4,
+3d1369d9-48ab-4a79-a8f7-7eb86c05c430,NuMind,seed,2023-03-30,3000000.0,7,Flybridge
+3da78500-8033-4d0d-a20a-203acb3a9158,Caremind,pre_seed,2017-08-20,,1,NEOPLY
+3da78500-8033-4d0d-a20a-203acb3a9158,Caremind,seed,2019-06-25,,1,Mashup Ventures
+3da78500-8033-4d0d-a20a-203acb3a9158,Caremind,seed,2020-09-09,,3,Kaist Venture Investment Holdings
+3dc339b3-ece9-4287-9f7d-4fc83eb24f34,Bankr,pre_seed,2021-06-01,50000.0,,
+3ddd250b-0f94-4a2e-a0c4-7bc43b8f1153,LitiGate,pre_seed,2018-05-08,,,
+3ddd250b-0f94-4a2e-a0c4-7bc43b8f1153,LitiGate,seed,2018-12-13,1500000.0,4,
+3ddd250b-0f94-4a2e-a0c4-7bc43b8f1153,LitiGate,seed,2019-12-22,3500000.0,4,
+3de91e05-1e70-44ba-8b49-b66b4ebc6d0f,Gauge,pre_seed,2024-09-25,500000.0,2,Y Combinator
+3e02cf44-d6b7-f8f8-1808-6bec7e7fb31c,Sezion,seed,2011-12-01,54324.0,1,
+3e02cf44-d6b7-f8f8-1808-6bec7e7fb31c,Sezion,grant,2012-01-01,64726.0,1,
+3e02cf44-d6b7-f8f8-1808-6bec7e7fb31c,Sezion,convertible_note,2012-06-01,62010.0,1,
+3e4dfb49-815f-4ced-a389-8f0fdaeba3ef,Siku,angel,2017-08-01,,1,
+3e8a6547-d5fe-4f59-82dd-6065b074025a,Voca.ai,seed,2018-12-10,2600000.0,2,lool ventures
+3e8a6547-d5fe-4f59-82dd-6065b074025a,Voca.ai,convertible_note,2019-10-19,3500000.0,3,Amex Ventures; Flint Capital
+3e8a6547-d5fe-4f59-82dd-6065b074025a,Voca.ai,convertible_note,2020-11-10,,1,
+3eb9ab8f-133d-4066-8707-588392ebb5e6,Renna Health,pre_seed,2026-03-24,,1,Elev X!
+3ebedd57-60de-4be7-b194-997cf51468c1,Outshinery,non_equity_assistance,2018-06-12,,1,
+3f2c6d01-8ad3-4c54-8260-ed5a6e466c22,Cube,pre_seed,2022-11-01,1700000.0,2,
+3f3050a9-d161-44cc-8ec3-3ab746cf2476,DriotData,grant,2021-11-01,242431.0,,
+3f604f9f-1181-4672-b318-13165ec6d4fc,RT Medical Systems,pre_seed,2018-07-04,109000.0,,
+3fe55c05-3ca1-476a-82e9-aad4250163df,Dspace,seed,2023-04-24,1000000.0,1,Cypher Capital
+4017c145-3b77-4c3e-a84f-7dca3718ff61,SAFTU,pre_seed,2017-02-01,30000.0,3,Manuel Coronado
+4017c145-3b77-4c3e-a84f-7dca3718ff61,SAFTU,seed,2018-01-01,220000.0,2,Labcap
+40304125-edaa-4350-b278-2cb406a895a6,LIBRODEPASES,pre_seed,2020-07-01,200000.0,1,HacelaRodar
+40304125-edaa-4350-b278-2cb406a895a6,LIBRODEPASES,pre_seed,2022-01-03,645000.0,1,HacelaRodar
+40304125-edaa-4350-b278-2cb406a895a6,LIBRODEPASES,seed,2023-11-01,1400000.0,,
+40de2fd7-a660-4812-849d-7634231bde6e,MedFacts,pre_seed,2024-12-19,50000.0,,
+41739bd3-874e-650d-b73e-752aecab4ea4,Podium,seed,2014-06-27,500000.0,1,Album VC
+41739bd3-874e-650d-b73e-752aecab4ea4,Podium,seed,2016-03-22,3650000.0,2,
+41739bd3-874e-650d-b73e-752aecab4ea4,Podium,series_a,2017-05-09,32000000.0,4,Accel
+41739bd3-874e-650d-b73e-752aecab4ea4,Podium,series_unknown,2017-06-02,500000.0,1,Album VC
+41739bd3-874e-650d-b73e-752aecab4ea4,Podium,series_b,2018-06-07,60000000.0,5,IVP
+41739bd3-874e-650d-b73e-752aecab4ea4,Podium,series_c,2020-04-07,125000000.0,9,Y Combinator Continuity Fund
+41739bd3-874e-650d-b73e-752aecab4ea4,Podium,series_d,2021-11-15,201000000.0,9,Y Combinator Continuity Fund
+41739bd3-874e-650d-b73e-752aecab4ea4,Podium,series_unknown,2022-10-31,,2,
+4174a850-f431-7f5d-4302-fb52d4134779,GLIDER.ai,series_a,2023-03-07,10000000.0,1,Primera Capital
+42b74307-f289-4523-8b83-abd7d7ba081b,Facilis.ai,pre_seed,2024-04-09,,1,
+42bea4ae-429c-435f-be2d-95ca1bcb39d2,Animal ID,pre_seed,2019-11-18,500000.0,,
+42bea4ae-429c-435f-be2d-95ca1bcb39d2,Animal ID,seed,2020-09-18,150000.0,1,
+42bea4ae-429c-435f-be2d-95ca1bcb39d2,Animal ID,pre_seed,2021-07-01,50000.0,1,
+43880b84-a526-46a3-9deb-94ea2daef03a,Flank Esports,seed,2018-01-06,,2,
+44192f47-daf2-3e23-cc6a-4552672823af,Observo AI,seed,2025-01-30,15000000.0,3,Felicis; Lightspeed Venture Partners
+44fe44b3-639f-46dc-82cc-a6d03fc0fb0d,Nuntius,pre_seed,2025-09-09,500000.0,1,Y Combinator
+4592fc68-8b22-4b3b-973a-2936e784f8b3,Compatio AI,pre_seed,2019-06-01,377670.0,,
+4592fc68-8b22-4b3b-973a-2936e784f8b3,Compatio AI,pre_seed,2019-06-20,870000.0,2,
+4592fc68-8b22-4b3b-973a-2936e784f8b3,Compatio AI,seed,2020-03-01,3000000.0,2,Kurt Hellweg
+4592fc68-8b22-4b3b-973a-2936e784f8b3,Compatio AI,non_equity_assistance,2021-01-01,,1,
+4592fc68-8b22-4b3b-973a-2936e784f8b3,Compatio AI,convertible_note,2022-10-01,1770000.0,,
+45a870b5-b00b-45e4-83d5-78268895449c,Auctor,pre_seed,2025-02-21,500000.0,1,Y Combinator
+45a870b5-b00b-45e4-83d5-78268895449c,Auctor,series_a,2026-04-15,20000000.0,8,Sequoia Capital
+4634938f-5d73-43d7-b178-451dca2ededa,Tiendoo,seed,2021-02-01,200000.0,2,
+464cc5fd-2779-3ed9-9fea-459f9219d381,Dextro,seed,2014-06-17,1710000.0,11,
+469c3a52-8d9e-91cf-67f9-7223dccc091a,Magnus Health,seed,2006-01-01,100000.0,,
+469c3a52-8d9e-91cf-67f9-7223dccc091a,Magnus Health,series_a,2008-01-01,,,
+469c3a52-8d9e-91cf-67f9-7223dccc091a,Magnus Health,private_equity,2016-01-01,,1,Turn/River Capital
+46e154c7-17ae-46a5-a23f-2fe6f96094da,ROBOVIS AI,seed,2024-11-22,,2,Brandenburg Kapital
+46e7d4f0-74d1-47bf-a626-31e69d1def36,EngageUsers.ai,pre_seed,2023-04-12,10000.0,1,Ilya Presman
+4758cb14-6d8d-4039-a56c-d6b04c1a1bbc,Neural Command,pre_seed,2025-02-03,2500000.0,1,IDG Capital Vietnam
+476f970d-be6f-4654-9d9e-0aadf193a778,GRisk,seed,2018-08-06,,,
+477f1423-dd2a-4f8d-8da7-0015fb43e964,CodeMate AI,pre_seed,2024-02-20,,1,
+48347ee1-69f3-4a2f-991a-1a5ed0ed9e18,Spicy Rocket,angel,2018-01-15,25000.0,,
+48347ee1-69f3-4a2f-991a-1a5ed0ed9e18,Spicy Rocket,angel,2018-04-02,15000.0,,
+48347ee1-69f3-4a2f-991a-1a5ed0ed9e18,Spicy Rocket,seed,2019-08-01,250000.0,,
+48865b54-fa9a-4583-9212-068aee3afd89,NexFlow,seed,2018-11-01,,,
+48b6b7bb-71b2-b32f-c38f-740f83fc713a,Robby Technologies,seed,2016-09-01,2120000.0,5,
+48b6b7bb-71b2-b32f-c38f-740f83fc713a,Robby Technologies,seed,2018-09-20,3365000.0,6,
+48d37304-cd7c-4b4b-bfa8-98cf2a13f3c4,INSYLO,seed,2017-09-01,,1,
+48d37304-cd7c-4b4b-bfa8-98cf2a13f3c4,INSYLO,series_a,2020-11-30,,1,
+49417c69-df1f-49b3-b53b-de233edf9a18,Instill AI,pre_seed,2021-10-14,605000.0,2,Hive Ventures
+49417c69-df1f-49b3-b53b-de233edf9a18,Instill AI,seed,2023-02-01,3600000.0,6,RTP Global
+49f719c6-d538-496b-8281-7db595ba8b32,CRS,debt_financing,2021-04-27,,,
+49f719c6-d538-496b-8281-7db595ba8b32,CRS,pre_seed,2021-04-27,1000005.0,,
+49f719c6-d538-496b-8281-7db595ba8b32,CRS,seed,2022-06-24,9000000.0,4,
+4a17ce09-bd9d-81e5-34d5-c865130cd9e8,Trusona,series_a,2016-02-22,8000000.0,2,Kleiner Perkins
+4a17ce09-bd9d-81e5-34d5-c865130cd9e8,Trusona,series_b,2017-06-13,10000000.0,2,M12 - Microsoft's Venture Fund
+4a17ce09-bd9d-81e5-34d5-c865130cd9e8,Trusona,series_c,2020-01-14,20000000.0,6,Georgian
+4ae4797c-f6c9-4a22-8831-7714ac6e1378,DiffuseDrive,pre_seed,2024-05-06,,1,
+4ae4797c-f6c9-4a22-8831-7714ac6e1378,DiffuseDrive,seed,2024-05-20,3420998.0,2,500 Emerging Europe; e2vc
+4ae4797c-f6c9-4a22-8831-7714ac6e1378,DiffuseDrive,seed,2025-05-14,3500000.0,3,Outlander Fund I Archimedes; Presto Ventures
+4b0d5d68-a326-44cf-b560-2bcf27baf860,Private Labs,pre_seed,2023-09-30,846426.0,5,Dario Cintioli
+4b0d5d68-a326-44cf-b560-2bcf27baf860,Private Labs,seed,2025-07-15,1160735.0,5,
+4be64cac-36f7-2ba6-415e-e35e0771c11a,WePay,seed,2009-01-01,,3,
+4be64cac-36f7-2ba6-415e-e35e0771c11a,WePay,series_a,2009-12-23,1650000.0,6,August Capital
+4be64cac-36f7-2ba6-415e-e35e0771c11a,WePay,series_b,2010-08-12,7500000.0,7,Highland Capital Partners
+4be64cac-36f7-2ba6-415e-e35e0771c11a,WePay,series_b,2012-05-03,10000000.0,4,Ignition Partners
+4be64cac-36f7-2ba6-415e-e35e0771c11a,WePay,series_c,2014-01-16,15000000.0,6,Philip Purcell
+4be64cac-36f7-2ba6-415e-e35e0771c11a,WePay,series_d,2015-05-20,40000000.0,4,
+4bebff6b-4add-49f2-b216-c727829255c0,Airwing.ai,series_a,2018-11-01,2876829.0,1,Lucion
+4cc877aa-dc10-432e-af43-7270750a8fbd,AI Zhihui Community,angel,2025-09-03,2804734.0,,
+4cce66c9-b6cc-4831-abd9-fbb112f33fb0,Hopdoc,pre_seed,2023-06-05,150000.0,2,Jumpstart Foundry
+4ceda7db-5de8-49f5-91ef-680b683e4d97,Melten AI,seed,2026-05-04,2199999.0,,
+4cfc43b6-d2ac-47f3-902f-b131afbbaeb9,AiTrillion,seed,2022-07-07,3000000.0,5,Cincy Ventures; Rajnish Gupta; Vijay Kedia
+4d133681-ea2f-61ff-701d-650e0c44291a,Centrical,seed,2014-01-31,3000000.0,2,2B Angels; Verint Systems
+4d133681-ea2f-61ff-701d-650e0c44291a,Centrical,series_a,2016-05-05,7000000.0,2,CE Ventures (CEIIF); Jerusalem Venture Partners (JVP)
+4d133681-ea2f-61ff-701d-650e0c44291a,Centrical,series_b,2017-12-01,11000000.0,3,Jerusalem Venture Partners (JVP)
+4d133681-ea2f-61ff-701d-650e0c44291a,Centrical,series_c,2019-04-01,13000000.0,4,Aleph
+4d133681-ea2f-61ff-701d-650e0c44291a,Centrical,series_c,2021-03-10,32000000.0,8,Intel Capital; Jerusalem Venture Partners (JVP)
+4d133681-ea2f-61ff-701d-650e0c44291a,Centrical,series_d,2026-06-02,39000000.0,3,Kingfisher Investment Advisors; Leeds Illuminate
+4d4f6907-9a55-4e9a-adc3-e329b3e94554,Strolll,grant,2021-05-17,3039436.0,1,EIC Accelerator
+4d4f6907-9a55-4e9a-adc3-e329b3e94554,Strolll,pre_seed,2021-12-10,895843.0,2,SFC Capital
+4d4f6907-9a55-4e9a-adc3-e329b3e94554,Strolll,seed,2022-09-02,518153.0,1,
+4d4f6907-9a55-4e9a-adc3-e329b3e94554,Strolll,seed,2023-10-17,2557411.0,3,Midven
+4d4f6907-9a55-4e9a-adc3-e329b3e94554,Strolll,grant,2023-10-30,,1,European Innovation Council
+4d4f6907-9a55-4e9a-adc3-e329b3e94554,Strolll,corporate_round,2024-08-20,3000000.0,1,Cleveland Clinic
+4d4f6907-9a55-4e9a-adc3-e329b3e94554,Strolll,non_equity_assistance,2024-09-26,,1,Propel@YH
+4d4f6907-9a55-4e9a-adc3-e329b3e94554,Strolll,series_a,2025-03-11,13397260.0,1,IW Capital
+4da48fbc-45a5-9ef9-36a5-463f3d85b964,DOKKA,pre_seed,2018-01-01,1000000.0,1,
+4da48fbc-45a5-9ef9-36a5-463f3d85b964,DOKKA,non_equity_assistance,2020-01-01,,1,
+4da48fbc-45a5-9ef9-36a5-463f3d85b964,DOKKA,seed,2020-10-01,2000000.0,1,
+4da48fbc-45a5-9ef9-36a5-463f3d85b964,DOKKA,series_unknown,2021-05-30,420000.0,1,
+4da48fbc-45a5-9ef9-36a5-463f3d85b964,DOKKA,series_unknown,2022-11-01,,1,
+4df9ce23-23da-4116-829b-9eefd36bf21c,Qeen Ai,pre_seed,2024-06-05,2200000.0,7,Wamda Capital
+4df9ce23-23da-4116-829b-9eefd36bf21c,Qeen Ai,seed,2025-02-04,10000000.0,5,Prosus Ventures
+4e34aaa5-f772-4d19-8642-87b6e0bbf108,Dubdub.ai,seed,2021-06-01,800000.0,1,Kalaari Capital
+4e34aaa5-f772-4d19-8642-87b6e0bbf108,Dubdub.ai,seed,2022-09-14,1000000.0,10,Accel Atoms; Waveform Ventures
+4e493f75-6bee-4e03-93fc-4c3118d9fd14,Microptic,grant,2016-08-01,55832.0,1,
+4e67dad5-46c8-5bad-8bec-2668c72c30c0,Appentra,pre_seed,2017-10-27,464360.0,3,Criteria Venture Tech
+4e67dad5-46c8-5bad-8bec-2668c72c30c0,Appentra,grant,2018-10-10,296402.0,,
+4e67dad5-46c8-5bad-8bec-2668c72c30c0,Appentra,pre_seed,2020-02-27,2050848.0,5,Armilar Venture Partners; Criteria Venture Tech; K Fund
+4e67dad5-46c8-5bad-8bec-2668c72c30c0,Appentra,non_equity_assistance,2020-09-25,,1,
+4e67dad5-46c8-5bad-8bec-2668c72c30c0,Appentra,seed,2023-09-19,5340733.0,7,Swanlaab Venture Factory
+4e67dad5-46c8-5bad-8bec-2668c72c30c0,Appentra,series_unknown,2024-05-07,,3,
+4f020e7f-32c4-43d7-9209-7d3d60280fdd,Peddlr,pre_seed,2021-11-12,500000.0,8,Foxmont Capital Partners
+4f020e7f-32c4-43d7-9209-7d3d60280fdd,Peddlr,seed,2022-02-05,4300000.0,18,Crestone Venture Capital; Patamar Capital
+4f020e7f-32c4-43d7-9209-7d3d60280fdd,Peddlr,seed,2023-12-01,,1,
+50038077-87cf-4ad1-9beb-81e0c17cae75,KomboAI,pre_seed,2024-10-03,772473.0,8,Demium Capital
+510b119f-681c-4a97-ad7c-a1ca76c97b8d,Buzzer,pre_seed,2021-11-15,300000.0,1,Fusion
+521ee591-8346-4ebc-83eb-93440805f175,Ester,seed,2020-04-14,,2,
+52689526-2b98-4abf-aea5-64dd4c87397c,Banani AI,grant,2024-10-16,50000.0,2,Ukrainian Startup Fund
+52689526-2b98-4abf-aea5-64dd4c87397c,Banani AI,grant,2024-10-31,25000.0,1,Seeds of Bravery
+52689526-2b98-4abf-aea5-64dd4c87397c,Banani AI,pre_seed,2025-05-19,954762.0,2,Inovo.vc; Specialist VC
+52689526-2b98-4abf-aea5-64dd4c87397c,Banani AI,non_equity_assistance,2025-06-11,,1,Google for Startups
+52c3419a-f6a1-44c0-a44e-69a9c447312f,Wideum,equity_crowdfunding,2019-12-01,330554.0,1,
+54346efc-0363-4efc-b802-d8d26c830049,MagicBI,angel,2021-11-23,,1,Glory Ventures
+556725af-f45f-4b0b-b967-8a7be15d6cc9,Comulate,seed,2022-09-07,,1,
+556725af-f45f-4b0b-b967-8a7be15d6cc9,Comulate,seed,2023-12-05,4000000.0,1,
+556725af-f45f-4b0b-b967-8a7be15d6cc9,Comulate,series_b,2025-02-11,20000000.0,8,Bond; Workday Ventures
+558ef3d7-6c56-4002-971f-a9334ffe7f1f,Pyth Network,seed,2021-07-20,,4,
+558ef3d7-6c56-4002-971f-a9334ffe7f1f,Pyth Network,series_unknown,2022-01-07,,4,
+558ef3d7-6c56-4002-971f-a9334ffe7f1f,Pyth Network,series_unknown,2023-12-05,,11,
+55a3d8cf-6964-4ee9-bfa4-bc24e42d2b06,Quiver Quantitative,pre_seed,2020-07-06,100000.0,1,Idea Fund of La Crosse
+55a3d8cf-6964-4ee9-bfa4-bc24e42d2b06,Quiver Quantitative,seed,2021-01-28,525000.0,1,
+55a3d8cf-6964-4ee9-bfa4-bc24e42d2b06,Quiver Quantitative,seed,2022-03-02,2000000.0,8,Allos Ventures
+55afad28-a108-4f44-978e-73c0227aa851,;;;,pre_seed,2022-01-03,45000.0,,
+55afad28-a108-4f44-978e-73c0227aa851,;;;,seed,2022-05-13,81000.0,,
+55ca4168-7c72-42a7-90d1-bc31e16277d9,MUSE AI,seed,2025-12-29,1500000.0,1,
+55e13e9d-5956-4fb4-9a91-2032b41c886a,Sorius,seed,2022-07-19,511526.0,14,
+55e13e9d-5956-4fb4-9a91-2032b41c886a,Sorius,seed,2023-03-31,600000.0,,
+568bb89c-1731-5ac8-4bce-77d131ed5a88,PlanetWatchers,seed,2017-07-02,1750000.0,9,Resolute Ventures
+568bb89c-1731-5ac8-4bce-77d131ed5a88,PlanetWatchers,convertible_note,2019-01-01,500000.0,,
+568bb89c-1731-5ac8-4bce-77d131ed5a88,PlanetWatchers,seed,2019-10-01,1500000.0,1,Seraphim Space
+568bb89c-1731-5ac8-4bce-77d131ed5a88,PlanetWatchers,seed,2020-11-02,,1,
+568bb89c-1731-5ac8-4bce-77d131ed5a88,PlanetWatchers,seed,2021-06-03,3527038.0,4,Creative Ventures; Seraphim Space
+568bb89c-1731-5ac8-4bce-77d131ed5a88,PlanetWatchers,series_a,2022-09-26,11000000.0,5,Creative Ventures; Seraphim Space
+56ed1e2b-44bd-8d13-a72c-a7bbbe0b4812,Convia,non_equity_assistance,2016-03-13,,1,
+5756e727-c897-7d45-7053-c0537bca7271,J.P. Morgan Workplace Solutions,series_unknown,2017-02-10,4787550.0,3,
+5756e727-c897-7d45-7053-c0537bca7271,J.P. Morgan Workplace Solutions,private_equity,2018-07-31,25000000.0,1,Motive Partners
+57737237-8bad-79da-3b1e-3a7dccd4529d,Ezoic,seed,2013-11-13,5600000.0,3,Balderton Capital
+57737237-8bad-79da-3b1e-3a7dccd4529d,Ezoic,series_a,2019-08-06,33000000.0,1,Sageview Capital
+57a40067-0b9d-47c4-b870-9cdfdfea7ea0,skoob.ai,pre_seed,2024-03-28,500000.0,1,Accel Atoms
+57b3d6eb-00eb-4822-a7d4-8818f531c355,nami,series_a,2023-03-23,10500000.0,4,AMAVI Capital; Verizon Ventures
+5812bd6f-0dd1-143e-89f8-d51d78a8fb6a,Locaweb,post_ipo_equity,2010-09-20,,1,
+5812bd6f-0dd1-143e-89f8-d51d78a8fb6a,Locaweb,post_ipo_equity,2021-02-10,435000000.0,,
+5812bd6f-0dd1-143e-89f8-d51d78a8fb6a,Locaweb,post_ipo_equity,2022-05-18,,1,
+5812bd6f-0dd1-143e-89f8-d51d78a8fb6a,Locaweb,post_ipo_equity,2023-03-23,,1,
+58313546-ad11-428a-af52-c0c3043f2bb2,TradingValley,seed,2017-10-18,520000.0,,
+58313546-ad11-428a-af52-c0c3043f2bb2,TradingValley,pre_seed,2019-06-01,16000.0,1,Startupbootcamp Australia
+58313546-ad11-428a-af52-c0c3043f2bb2,TradingValley,non_equity_assistance,2019-06-06,,1,Startup Island TAIWAN
+58313546-ad11-428a-af52-c0c3043f2bb2,TradingValley,angel,2021-11-15,1350000.0,,
+589698ab-ca32-4d84-9f95-d8020a48d5c7,OpenCode,pre_seed,2023-07-10,100000.0,2,
+58c5d87f-abba-40fc-8fae-f82626b0c03a,iHealthScreen,equity_crowdfunding,2023-06-26,184788.0,,
+591f97d8-689c-c32a-8af6-c1b0ce5f2448,Smartsupp,seed,2016-08-01,446653.0,3,
+591f97d8-689c-c32a-8af6-c1b0ce5f2448,Smartsupp,series_unknown,2020-12-09,3600000.0,2,
+59808c8c-e320-877d-2ee0-628b03004e58,sympl,seed,2017-06-21,1228343.0,5,KBC Focus Fund
+5a02d773-1818-4b63-9266-5cdd2fa52b1b,Goblins,grant,2025-08-27,,1,Accelerate
+5a3f5636-1d9f-4049-828c-2b38293601cf,Coloursmith Labs Inc.,pre_seed,2019-07-09,489037.0,5,
+5a3f5636-1d9f-4049-828c-2b38293601cf,Coloursmith Labs Inc.,grant,2019-09-17,,,
+5a3f5636-1d9f-4049-828c-2b38293601cf,Coloursmith Labs Inc.,seed,2021-07-21,397722.0,4,Sandpiper Ventures
+5a6a45bc-b7aa-4064-bbb2-7906308f61e4,AIBLE Simulations,seed,2025-09-17,,,
+5c068f6a-65fc-49c1-a596-bb5feac56cf6,Business Score (YC S19),seed,2019-08-22,2000000.0,3,
+5c24c744-da3b-43fc-a0e1-cbb19d4ae1b6,Efference,pre_seed,2025-11-06,500000.0,2,Y Combinator
+5c6abef5-64f0-2652-aa0a-839e88046365,DONNA.ai,angel,2014-11-14,850000.0,1,
+5c6abef5-64f0-2652-aa0a-839e88046365,DONNA.ai,non_equity_assistance,2016-02-22,,1,
+5c6abef5-64f0-2652-aa0a-839e88046365,DONNA.ai,series_unknown,2017-07-06,1200000.0,2,
+5c6abef5-64f0-2652-aa0a-839e88046365,DONNA.ai,series_unknown,2018-01-01,,2,
+5c6abef5-64f0-2652-aa0a-839e88046365,DONNA.ai,series_a,2019-01-31,3100000.0,4,Connecticut Innovations
+5c6abef5-64f0-2652-aa0a-839e88046365,DONNA.ai,series_a,2020-07-01,,1,
+5c74f93d-9fc5-49a2-b6df-fae7b899bac4,Global Surface Intelligence,series_unknown,2013-02-07,365221.0,2,Par Equity
+5c74f93d-9fc5-49a2-b6df-fae7b899bac4,Global Surface Intelligence,series_unknown,2013-04-04,239169.0,2,Par Equity
+5c74f93d-9fc5-49a2-b6df-fae7b899bac4,Global Surface Intelligence,series_unknown,2014-11-26,1192281.0,2,Par Equity
+5c74f93d-9fc5-49a2-b6df-fae7b899bac4,Global Surface Intelligence,series_unknown,2017-07-21,289639.0,2,Par Equity
+5c74f93d-9fc5-49a2-b6df-fae7b899bac4,Global Surface Intelligence,series_unknown,2017-12-14,259189.0,2,Par Equity
+5c74f93d-9fc5-49a2-b6df-fae7b899bac4,Global Surface Intelligence,series_unknown,2018-06-25,1120438.0,3,Par Equity
+5c74f93d-9fc5-49a2-b6df-fae7b899bac4,Global Surface Intelligence,series_unknown,2018-08-01,1050001.0,2,Par Equity; Scottish Investment Bank
+5c74f93d-9fc5-49a2-b6df-fae7b899bac4,Global Surface Intelligence,seed,2019-06-24,1000000.0,,
+5c74f93d-9fc5-49a2-b6df-fae7b899bac4,Global Surface Intelligence,series_unknown,2019-08-07,402602.0,2,Par Equity
+5c74f93d-9fc5-49a2-b6df-fae7b899bac4,Global Surface Intelligence,series_unknown,2019-12-18,98921.0,2,Par Equity
+5c74f93d-9fc5-49a2-b6df-fae7b899bac4,Global Surface Intelligence,debt_financing,2020-09-23,305136.0,1,Scottish Investment Bank
+5c74f93d-9fc5-49a2-b6df-fae7b899bac4,Global Surface Intelligence,corporate_round,2022-10-25,,1,TÜV NORD
+5cd41b80-af4b-b76f-b469-3f402f8be5ec,Vitalacy,seed,2016-03-24,6000000.0,1,Persistent Systems
+5d9220c6-00cb-493b-b2c6-1dfc47b8ff8d,ThyReality,pre_seed,2019-07-29,977278.0,1,Farhan kh
+5d9220c6-00cb-493b-b2c6-1dfc47b8ff8d,ThyReality,pre_seed,2020-12-02,335546.0,,
+5d9220c6-00cb-493b-b2c6-1dfc47b8ff8d,ThyReality,pre_seed,2021-05-12,175776.0,1,
+5da56f54-cf7d-48f5-a7b5-3d5b8f04cb76,BillEase,series_b,2022-01-19,11000000.0,6,Burda Principal Investments
+5da56f54-cf7d-48f5-a7b5-3d5b8f04cb76,BillEase,debt_financing,2022-04-18,20000000.0,1,Lendable
+5da56f54-cf7d-48f5-a7b5-3d5b8f04cb76,BillEase,debt_financing,2022-09-12,20000000.0,1,Helicap
+5da56f54-cf7d-48f5-a7b5-3d5b8f04cb76,BillEase,debt_financing,2024-04-25,5000000.0,1,Saison International
+5da56f54-cf7d-48f5-a7b5-3d5b8f04cb76,BillEase,series_c,2024-09-03,,2,The Rise Fund
+5da56f54-cf7d-48f5-a7b5-3d5b8f04cb76,BillEase,debt_financing,2025-05-23,90334246.0,1,Security Bank
+5dc4a48b-9a6d-961c-358a-abf21e909c9a,Azion,series_a,2020-11-10,,2,MONASHEES; Qualcomm Ventures
+5e52f1bc-0f25-4160-aa68-6507d0dfd35f,Honey Hive,pre_seed,2023-10-03,1900000.0,1,Zero Prime Ventures
+5e89a773-f42d-47b5-8c3f-6668d1c10cf4,Xound,seed,2023-06-06,128370.0,1,
+5eb86ddc-240a-4cde-96f4-329074dd6084,Hanei,pre_seed,2026-04-13,283826.0,1,
+5f70da8a-f873-cf5f-05ee-8ab0c49c220d,Freshworks,series_a,2011-12-02,1000000.0,2,Accel
+5f70da8a-f873-cf5f-05ee-8ab0c49c220d,Freshworks,series_b,2012-04-26,5000000.0,3,Tiger Global Management
+5f70da8a-f873-cf5f-05ee-8ab0c49c220d,Freshworks,series_c,2013-11-21,6999930.0,2,Accel
+5f70da8a-f873-cf5f-05ee-8ab0c49c220d,Freshworks,series_d,2014-06-12,31000000.0,3,Tiger Global Management
+5f70da8a-f873-cf5f-05ee-8ab0c49c220d,Freshworks,series_e,2015-04-20,50000000.0,3,Tiger Global Management
+5f70da8a-f873-cf5f-05ee-8ab0c49c220d,Freshworks,series_f,2016-11-01,55000000.0,3,Peak XV Partners
+5f70da8a-f873-cf5f-05ee-8ab0c49c220d,Freshworks,series_g,2018-07-31,100000000.0,3,Accel; Peak XV Partners
+5f70da8a-f873-cf5f-05ee-8ab0c49c220d,Freshworks,series_h,2019-11-04,150000000.0,3,Accel; CapitalG; Sequoia Capital
+5f70da8a-f873-cf5f-05ee-8ab0c49c220d,Freshworks,secondary_market,2020-01-01,85000000.0,1,Steadview Capital
+5ff18c90-634b-4ff1-be38-81d48ab0a527,Unique,seed,2021-12-08,6302690.0,3,Daniel Gutenberg; Philipp Stauffer
+5ff18c90-634b-4ff1-be38-81d48ab0a527,Unique,seed,2022-04-11,5982364.0,3,
+5ff18c90-634b-4ff1-be38-81d48ab0a527,Unique,seed,2023-03-28,4000000.0,,
+5ff18c90-634b-4ff1-be38-81d48ab0a527,Unique,seed,2023-12-19,6505992.0,4,VI Partners
+5ff18c90-634b-4ff1-be38-81d48ab0a527,Unique,series_a,2025-02-27,30000000.0,4,CommerzVentures; DN Capital
+611362f0-1cb2-469f-8786-f76a240e8dba,Audion,seed,2019-10-16,1218167.0,3,Founders Future; Kima Ventures
+611362f0-1cb2-469f-8786-f76a240e8dba,Audion,series_a,2022-11-15,6214500.0,2,Elevation Capital Partners; Founders Future
+611362f0-1cb2-469f-8786-f76a240e8dba,Audion,series_b,2026-04-27,15000000.0,3,Elevation Capital Partners; Founders Future
+612f6b0b-f7b7-0f0b-ebeb-85ed4acc4b45,TreeRing,seed,2010-09-01,1000000.0,,
+612f6b0b-f7b7-0f0b-ebeb-85ed4acc4b45,TreeRing,series_a,2012-09-25,3600000.0,5,Mike McCue
+612f6b0b-f7b7-0f0b-ebeb-85ed4acc4b45,TreeRing,series_b,2015-03-01,3000000.0,1,
+623d2adc-0f98-4d80-8b5b-5c94740953c0,AI Cube,non_equity_assistance,2025-10-07,1000000.0,1,Amazon Web Services
+62ff95c1-f912-4129-83b8-3ec626dadbc5,VitaRx,grant,2020-11-23,60000.0,,
+63126dd8-82c6-47b1-b99d-38479bb64da0,DriveOn,pre_seed,2017-06-01,60000.0,1,Darwin Startups
+63126dd8-82c6-47b1-b99d-38479bb64da0,DriveOn,angel,2017-12-10,51648.0,1,
+63126dd8-82c6-47b1-b99d-38479bb64da0,DriveOn,series_unknown,2023-01-01,,1,
+63419550-1922-4299-98f9-43f900b9655d,Ciroos,seed,2025-06-03,21000000.0,1,Energy Impact Partners
+637861c0-1270-4546-a3e9-e725a336f485,Swapme AI,pre_seed,2024-08-09,15600.0,,
+63b8d26f-1684-46e5-813a-39bfb6ff7015,zkr.,seed,2025-10-15,6987510.0,1,Shoe Investments
+64100c86-18ad-48ae-b286-e238b78c774a,Citycloud,series_b,2017-10-26,30000000.0,2,Cisco; Country Garden
+64100c86-18ad-48ae-b286-e238b78c774a,Citycloud,series_c,2019-06-11,43407174.0,1,Greenland Hong Kong Holdings
+64100c86-18ad-48ae-b286-e238b78c774a,Citycloud,corporate_round,2020-01-16,,,
+64100c86-18ad-48ae-b286-e238b78c774a,Citycloud,series_c,2021-12-21,78467067.0,3,Zhejiang State Enterprise Reform and Development Fund
+642a1fb1-8f9d-45bb-be4a-bba96f9159e9,PACTA. a DIliTrust company,pre_seed,2019-09-30,65397.0,,
+642a1fb1-8f9d-45bb-be4a-bba96f9159e9,PACTA. a DIliTrust company,pre_seed,2021-02-12,2181628.0,,
+646ef447-62ae-4068-8342-d36efc6b09dd,YardDrone,pre_seed,2023-12-10,300000.0,,
+646ef447-62ae-4068-8342-d36efc6b09dd,YardDrone,pre_seed,2023-12-15,500000.0,1,
+6568f421-ae75-4df4-9ad8-301c3b13f1e9,Yitu Data,angel,2026-02-09,9628902.0,,
+6641f4d2-457a-4aa4-9c20-4c81578e0b07,Bebe Bitez,pre_seed,2022-07-29,250000.0,1,
+6695a727-f3a8-4451-a79c-1fce901455a6,Mooh Tech Desenvolvimento de Softwares,seed,2020-09-10,1000000.0,,
+6695a727-f3a8-4451-a79c-1fce901455a6,Mooh Tech Desenvolvimento de Softwares,series_a,2020-10-05,10000000.0,,
+66b0c5f5-268e-4a04-be49-20c69fc13303,Kzas.AI,pre_seed,2019-03-01,264680.0,1,
+66b0c5f5-268e-4a04-be49-20c69fc13303,Kzas.AI,pre_seed,2019-08-10,761035.0,,
+66b0c5f5-268e-4a04-be49-20c69fc13303,Kzas.AI,seed,2020-01-17,4000000.0,1,Redpoint eventures
+66ff5f1c-fe19-4444-bc9a-499a9940a0dd,Prolific Machines,pre_seed,2020-05-25,,1,
+66ff5f1c-fe19-4444-bc9a-499a9940a0dd,Prolific Machines,convertible_note,2020-05-25,,1,
+66ff5f1c-fe19-4444-bc9a-499a9940a0dd,Prolific Machines,seed,2021-03-22,,2,
+66ff5f1c-fe19-4444-bc9a-499a9940a0dd,Prolific Machines,series_a,2022-09-14,42000000.0,12,Breakthrough Energy Ventures
+66ff5f1c-fe19-4444-bc9a-499a9940a0dd,Prolific Machines,convertible_note,2022-12-07,,2,
+66ff5f1c-fe19-4444-bc9a-499a9940a0dd,Prolific Machines,series_b,2024-06-06,55000000.0,10,Ki Tua Fund
+676606cf-bffd-4a5e-91f9-ed8eaab75b10,Petzey,equity_crowdfunding,2023-01-12,32709.0,,
+67b14e80-37ac-4284-8acb-8b482743edeb,ORIGITECH,seed,2018-01-01,,2,
+67b14e80-37ac-4284-8acb-8b482743edeb,ORIGITECH,series_a,2020-01-22,,4,ByteDance
+67b6634b-4632-4f95-8e86-53f12f1bceee,Centerseat.ai,seed,2025-02-05,2700000.0,1,Silverton Partners
+67d89295-9595-4e3f-93c7-03a07a63ad26,BEDROCK,debt_financing,2021-01-26,1338037.0,1,Alex Lawton
+68564a9b-358a-4bcd-afe3-d1f54d64f3c0,Webout,pre_seed,2024-12-16,353371.0,,
+68564a9b-358a-4bcd-afe3-d1f54d64f3c0,Webout,seed,2025-07-01,401384.0,4,
+68564a9b-358a-4bcd-afe3-d1f54d64f3c0,Webout,seed,2026-05-27,1918181.0,3,Seed Starter Slovenskej sporiteľne
+68f3b511-2ca9-4592-9022-3646f7e57a3e,Palmier,pre_seed,2024-09-25,500000.0,1,Y Combinator
+690ef03c-f252-4fa2-9c2c-bf75ee592a87,Vintra,seed,2017-01-01,,1,
+690ef03c-f252-4fa2-9c2c-bf75ee592a87,Vintra,seed,2019-03-11,4800000.0,4,Bonfire Ventures
+690ef03c-f252-4fa2-9c2c-bf75ee592a87,Vintra,series_unknown,2020-05-28,,1,IQT
+690ef03c-f252-4fa2-9c2c-bf75ee592a87,Vintra,series_a,2021-09-20,9125000.0,5,Morpheus Ventures
+691ada45-b0af-41fc-9208-9661d27f6b78,Quizmatch,grant,2024-01-01,,2,
+69487827-008f-2884-8ff5-d962a77f6b34,Mission Cloud,debt_financing,2019-03-07,8000000.0,1,
+69487827-008f-2884-8ff5-d962a77f6b34,Mission Cloud,private_equity,2019-05-29,15000000.0,1,
+69505714-d897-65b1-4b82-0b026190710b,Retina AI,seed,2017-09-01,,4,
+69505714-d897-65b1-4b82-0b026190710b,Retina AI,seed,2020-02-04,2500000.0,1,Crosscut Ventures
+69505714-d897-65b1-4b82-0b026190710b,Retina AI,series_a,2021-06-29,8000000.0,2,Alpha Intelligence Capital; Vertical Venture Partners
+69b3af7d-26d3-6954-0f47-2a22e909f50e,Gecko Robotics,seed,2016-03-22,,6,Y Combinator
+69b3af7d-26d3-6954-0f47-2a22e909f50e,Gecko Robotics,series_a,2018-08-20,9126888.0,7,Founders Fund
+69b3af7d-26d3-6954-0f47-2a22e909f50e,Gecko Robotics,series_b,2019-12-16,40000000.0,9,Drive Capital
+69b3af7d-26d3-6954-0f47-2a22e909f50e,Gecko Robotics,series_c,2022-03-03,73000000.0,8,XN
+69b3af7d-26d3-6954-0f47-2a22e909f50e,Gecko Robotics,series_c,2023-12-05,100000000.0,5,Founders Fund; US Innovative Technology Fund
+69b3af7d-26d3-6954-0f47-2a22e909f50e,Gecko Robotics,series_d,2025-06-12,125000000.0,9,Cox Enterprises
+69b3af7d-26d3-6954-0f47-2a22e909f50e,Gecko Robotics,secondary_market,2025-08-01,,1,
+69b3af7d-26d3-6954-0f47-2a22e909f50e,Gecko Robotics,series_unknown,2026-01-05,1865200.0,1,
+69dcf648-a93d-424f-a8ae-2955c9767167,Fleequid,seed,2025-05-14,3354215.0,4,DFF Ventures
+6a4447f6-1046-43be-9b05-0a0e74a69aa2,Jarvis,pre_seed,2023-10-01,,,
+6a8ad670-452c-4d1c-b05a-bd4641d8ee87,Henry,pre_seed,2024-09-25,500000.0,2,Y Combinator
+6a8ad670-452c-4d1c-b05a-bd4641d8ee87,Henry,seed,2025-02-20,4300000.0,15,1Sharpe Ventures; Susa Ventures
+6ab11381-ed1e-4010-b46c-dfc7b683d81d,Spocket,pre_seed,2017-07-04,500000.0,2,7 Gate Ventures
+6ab11381-ed1e-4010-b46c-dfc7b683d81d,Spocket,pre_seed,2018-01-22,120000.0,1,Techstars
+6ab11381-ed1e-4010-b46c-dfc7b683d81d,Spocket,seed,2018-08-21,1200000.0,5,
+6ac5e3e8-02b5-478a-ab1a-fa1ca7734a59,Natural Bot,pre_seed,2023-05-04,,4,
+6ac5e3e8-02b5-478a-ab1a-fa1ca7734a59,Natural Bot,seed,2025-05-03,,1,Lukasz Gieranczyk
+6afec5be-0a3b-9682-fc9e-83993784485f,Citadel Defense Company,non_equity_assistance,2016-01-01,,1,
+6afec5be-0a3b-9682-fc9e-83993784485f,Citadel Defense Company,series_unknown,2017-04-14,1754119.0,,
+6afec5be-0a3b-9682-fc9e-83993784485f,Citadel Defense Company,series_a,2017-08-08,11999995.0,1,Lightspeed Venture Partners
+6b004745-e410-4cb1-8648-21e9f4ce605c,Vimmerse,pre_seed,2022-03-30,2000000.0,2,Y Combinator
+6b004745-e410-4cb1-8648-21e9f4ce605c,Vimmerse,seed,2024-06-03,,,
+6b6c72fe-9021-499a-9524-e10dbdcdbd43,Soul APP,seed,2016-06-01,,,
+6b6c72fe-9021-499a-9524-e10dbdcdbd43,Soul APP,angel,2016-10-28,200000.0,,
+6b6c72fe-9021-499a-9524-e10dbdcdbd43,Soul APP,series_a,2017-09-05,1500000.0,,
+6b6c72fe-9021-499a-9524-e10dbdcdbd43,Soul APP,series_a,2017-11-10,4500000.0,,
+6b6c72fe-9021-499a-9524-e10dbdcdbd43,Soul APP,series_b,2018-04-16,26000000.0,,
+6b6c72fe-9021-499a-9524-e10dbdcdbd43,Soul APP,series_c,2018-12-07,57000000.0,,
+6b6c72fe-9021-499a-9524-e10dbdcdbd43,Soul APP,series_d,2020-05-14,135000000.0,,
+6b6c72fe-9021-499a-9524-e10dbdcdbd43,Soul APP,series_d,2021-07-06,177400000.0,,
+6b92838b-89a2-f30d-8495-3d08559477b1,Klik Eat,seed,2021-11-30,,1,144 Ventures
+6bc21b9c-b705-a761-9155-08c83ffba9a8,Otter.ai,seed,2016-09-15,3000000.0,8,DFJ DragonFund; Draper Associates
+6bc21b9c-b705-a761-9155-08c83ffba9a8,Otter.ai,series_a,2017-11-20,10000000.0,5,Horizons Ventures
+6bc21b9c-b705-a761-9155-08c83ffba9a8,Otter.ai,series_unknown,2020-01-23,10000000.0,8,
+6bc21b9c-b705-a761-9155-08c83ffba9a8,Otter.ai,series_b,2021-02-25,40000000.0,14,Omega Venture Partners; Spectrum Equity
+6bc21b9c-b705-a761-9155-08c83ffba9a8,Otter.ai,convertible_note,2021-02-25,10000000.0,,
+6be7bf6e-06e5-4ebf-9f73-256671220e67,JustPaid,pre_seed,2023-04-05,500000.0,3,Y Combinator
+6be7bf6e-06e5-4ebf-9f73-256671220e67,JustPaid,seed,2023-06-27,3500000.0,13,
+6be7bf6e-06e5-4ebf-9f73-256671220e67,JustPaid,series_unknown,2024-11-19,1900000.0,,
+6c743125-73e6-4253-9d15-2622daa6fd59,Kyndoo,seed,2020-01-13,,3,
+6c98f724-5edd-4d7c-95a4-6b6d66982595,Scrypted,pre_seed,2024-03-26,1500000.0,2,Palm Tree Crew
+6c99731e-095f-e600-c15f-22e33fc610ce,Guestlogix,post_ipo_equity,2013-09-24,869180.0,,
+6c99731e-095f-e600-c15f-22e33fc610ce,Guestlogix,post_ipo_equity,2014-12-22,39000000.0,,
+6c99731e-095f-e600-c15f-22e33fc610ce,Guestlogix,post_ipo_debt,2015-06-08,7247929.0,2,
+6cda1b76-71f7-cea3-e246-fd2985c01d8b,Paragon Airheater Technologies,series_unknown,2010-05-17,,2,Arborview Capital
+6d0eba08-9d95-4ea6-a3de-a48682e3d1ec,Fluency,series_unknown,2021-07-06,2600000.0,4,
+6d0eba08-9d95-4ea6-a3de-a48682e3d1ec,Fluency,series_unknown,2023-10-20,,1,
+6d26cb63-233a-4a14-89eb-2a1891c8c00e,Tiercel Security Solutions,seed,2015-01-12,385000.0,,
+6d57f073-f1ac-4d9d-ad29-63034999af5e,Sqaas,corporate_round,2026-02-16,533271.0,1,ixigo
+6dc94166-aa3a-9135-6286-e4595e5e5918,Ptmind,seed,2011-01-01,5000000.0,,
+6dc94166-aa3a-9135-6286-e4595e5e5918,Ptmind,series_a,2015-08-05,9000000.0,1,CAC CAPITAL
+6dc94166-aa3a-9135-6286-e4595e5e5918,Ptmind,series_b,2017-06-01,12000000.0,1,Hongtai Capital Holdings
+6df90d2f-1557-4422-8a51-db9de5305783,Red Sky Health,seed,2025-01-13,3000000.0,4,Trevor Burgess
+6df90d2f-1557-4422-8a51-db9de5305783,Red Sky Health,seed,2025-05-02,3459838.0,,
+6e62c0b8-c21d-78fd-bdff-586fb3554cb9,GameRefinery,seed,2015-05-22,550614.0,1,Visionplus
+6f5235bb-97d9-4959-a493-daacbafdc977,Talc AI,seed,2023-07-01,,2,
+6fa8f30f-19b2-441c-91ac-f810e5bcc1de,Simcode,series_unknown,2019-01-01,,,
+6fa8f30f-19b2-441c-91ac-f810e5bcc1de,Simcode,seed,2024-03-20,,,
+6fec42ef-f816-44fb-9c6a-082ee981b3c1,Marathon Data,pre_seed,2023-10-01,,1,
+7173002d-0c18-d01c-df7d-1b970b958e70,SENSE AI,angel,2014-09-30,260000.0,,
+7173002d-0c18-d01c-df7d-1b970b958e70,SENSE AI,seed,2015-02-01,500000.0,,
+7173002d-0c18-d01c-df7d-1b970b958e70,SENSE AI,seed,2015-08-18,422274.0,1,
+7173002d-0c18-d01c-df7d-1b970b958e70,SENSE AI,seed,2016-04-11,366512.0,,
+72120228-0ece-48d0-875a-a954cc63e2f0,ZippiAi,pre_seed,2023-01-10,,1,
+72120228-0ece-48d0-875a-a954cc63e2f0,ZippiAi,seed,2023-10-10,,3,
+7213c115-6017-43dc-becd-e55d97d4e0ce,Dazl,seed,2025-09-08,10000000.0,3,40RTY Fund
+72329628-9073-4999-b83f-405d11480f3a,TODAQ,seed,2018-01-31,,1,
+72580377-90da-4ccc-ad2a-cd8e6a40f783,Vocallabs AI,pre_seed,2025-06-20,500000.0,,
+726bfb55-6c27-480b-902b-b9ad08f49ecf,OpenPipe,pre_seed,2023-09-13,,3,Y Combinator
+726bfb55-6c27-480b-902b-b9ad08f49ecf,OpenPipe,seed,2024-03-26,6700000.0,5,Costanoa Ventures
+728b9822-3081-4ee8-a527-91a38fada126,NIilo,pre_seed,2025-06-19,500000.0,,
+7292360d-6749-4b6e-b1ea-883fc59d49f4,Pervaziv AI,pre_seed,2024-01-01,200000.0,,
+7292360d-6749-4b6e-b1ea-883fc59d49f4,Pervaziv AI,pre_seed,2025-06-01,400000.0,,
+72e9248f-acc1-4169-9b6a-13997216ef96,Appraisal Dream,pre_seed,2026-04-24,3500.0,,
+73386074-e1c6-4c63-b5bb-6ad3f09a0108,Petskita,pre_seed,2019-10-05,50000.0,,
+734a6fb9-95d3-4449-862d-dda1d59e29a2,Refery,pre_seed,2026-04-01,,1,
+74052031-f231-45df-830d-344bd3eedcc5,CafeWhale,seed,2026-02-24,1600000.0,3,GS Retail; Hyundai Technology Investment
+74fb2085-e778-4f06-9fcd-4b53024f291c,Logic AI,seed,2025-10-20,4300000.0,4,
+7504cca8-96fa-4080-905e-a4085e86cb59,Aim Colours,pre_seed,2022-09-21,37094.0,1,
+7504cca8-96fa-4080-905e-a4085e86cb59,Aim Colours,grant,2022-12-01,11164.0,,
+7504cca8-96fa-4080-905e-a4085e86cb59,Aim Colours,grant,2023-04-27,14705.0,,
+7504cca8-96fa-4080-905e-a4085e86cb59,Aim Colours,pre_seed,2023-05-03,88030.0,1,FounderFuel
+7574628a-44fd-499b-3de9-dd9c31b6dc6c,Softcube,seed,2015-01-01,,1,
+7574628a-44fd-499b-3de9-dd9c31b6dc6c,Softcube,seed,2016-04-14,400000.0,1,Digital Future
+7574628a-44fd-499b-3de9-dd9c31b6dc6c,Softcube,seed,2017-05-01,,1,Chernovetskyi Investment Group
+7574628a-44fd-499b-3de9-dd9c31b6dc6c,Softcube,seed,2018-09-10,,2,
+759c5b35-cd03-431a-9cd2-21e190a1365b,Return Signals,pre_seed,2026-01-20,500000.0,1,
+75c4a5d6-8519-40e0-a682-016ec92dbc7d,CubixAI,angel,2022-09-01,1000000.0,,
+7661f823-77ca-4361-8f03-b7ea5f157e6b,Testsigma,seed,2021-01-01,,4,
+7661f823-77ca-4361-8f03-b7ea5f157e6b,Testsigma,seed,2022-02-28,4600000.0,9,Accel; STRIVE
+7661f823-77ca-4361-8f03-b7ea5f157e6b,Testsigma,series_a,2024-06-05,8200000.0,4,MassMutual Ventures
+767c9cfd-dd09-4d1b-867e-43badae58730,datafruit,seed,2025-08-28,,1,
+767c9cfd-dd09-4d1b-867e-43badae58730,datafruit,pre_seed,2025-09-09,500000.0,2,Y Combinator
+76d9d45c-907e-9cdb-e495-d199b6a94f64,Hello Umi,seed,2017-01-15,318824.0,5,
+77282bd0-e174-4ef5-94d6-27a0c4918751,Vind AI,pre_seed,2022-05-03,,,
+77282bd0-e174-4ef5-94d6-27a0c4918751,Vind AI,pre_seed,2023-01-08,,,
+776f238a-78a5-4b5c-8ffd-5793effaac17,PantheonAI,pre_seed,2026-01-01,50000.0,1,
+7789e580-1748-4e11-9517-0a1beb519356,Able Innovations,seed,2020-06-22,1500000.0,2,Velocity
+7789e580-1748-4e11-9517-0a1beb519356,Able Innovations,seed,2022-03-01,2000000.0,,
+7789e580-1748-4e11-9517-0a1beb519356,Able Innovations,seed,2022-06-13,3500000.0,5,
+7789e580-1748-4e11-9517-0a1beb519356,Able Innovations,grant,2022-06-13,2500000.0,,
+7789e580-1748-4e11-9517-0a1beb519356,Able Innovations,grant,2023-01-10,,1,FedDev
+7791dcf1-7a3d-4b75-b2ce-67e0b8dbabb1,Rnv.ai,non_equity_assistance,2023-12-05,,,
+7791dcf1-7a3d-4b75-b2ce-67e0b8dbabb1,Rnv.ai,seed,2024-11-28,1100000.0,6,
+77a5fb79-31ce-4151-928f-718308bf18d7,Inverbis Analytics,pre_seed,2021-09-22,100000.0,1,Unirisco Galicia
+77a5fb79-31ce-4151-928f-718308bf18d7,Inverbis Analytics,seed,2023-04-11,436656.0,1,Torsa Capital
+77fa3610-0cbe-4cae-851b-dd149994b94a,Moshi,pre_seed,2025-11-01,1000000.0,1,
+782dabf9-ea40-20ef-5fb5-b000bc9b3838,BlueData Software,series_a,2013-02-14,4000000.0,5,
+782dabf9-ea40-20ef-5fb5-b000bc9b3838,BlueData Software,series_b,2013-09-24,15000000.0,8,Ignition Partners
+782dabf9-ea40-20ef-5fb5-b000bc9b3838,BlueData Software,series_c,2015-08-25,20000000.0,6,Intel Capital
+78bdfb2b-76fd-4dde-8f92-60b79b032d74,Niche,pre_seed,2025-06-01,700000.0,,
+79199c0e-1002-95b0-3597-0ee75e5dbdd9,REES46,seed,2013-10-01,30000.0,1,
+79199c0e-1002-95b0-3597-0ee75e5dbdd9,REES46,seed,2016-09-10,1000000.0,1,
+79aa4bf6-8e64-4cc5-81d8-93afedd5adb9,revshop inc.,series_unknown,2018-01-01,,1,
+79fb5124-3801-48dd-b814-634dd4eb8802,myRiva,seed,2018-01-01,,1,
+7a67f542-664c-4e12-b3dd-75346ec76b59,Third Dimension AI,seed,2024-10-08,7000000.0,7,Felicis
+7ab5296b-bfa7-4275-9c89-b018aeae8beb,profitize,angel,2025-04-30,566112.0,,
+7ab5296b-bfa7-4275-9c89-b018aeae8beb,profitize,seed,2026-05-05,1636020.0,2,Alpine Fund; aws Gründungsfonds
+7ac4c663-885d-4b13-8131-911edcf4e1ae,Advanced Training Athletic Club,seed,2018-09-04,35000.0,,
+7ac4c663-885d-4b13-8131-911edcf4e1ae,Advanced Training Athletic Club,seed,2019-05-24,100000.0,,
+7ac4c663-885d-4b13-8131-911edcf4e1ae,Advanced Training Athletic Club,angel,2020-10-01,395000.0,,
+7ac4c663-885d-4b13-8131-911edcf4e1ae,Advanced Training Athletic Club,angel,2021-08-30,150000.0,,
+7ac4c663-885d-4b13-8131-911edcf4e1ae,Advanced Training Athletic Club,equity_crowdfunding,2023-02-28,144352.0,,
+7b51eebe-9999-4a71-abf6-a551adf183d5,Lexius,angel,2024-03-22,,,
+7b51eebe-9999-4a71-abf6-a551adf183d5,Lexius,pre_seed,2026-03-26,500000.0,1,Y Combinator
+7b704400-5471-48ad-a4e2-b664ec6183d3,UAUBox,pre_seed,2023-07-01,380000.0,1,
+7be5edaa-f992-8b3f-6baa-42f2c98f90b9,Skyline AI,seed,2018-05-17,3000000.0,4,Sequoia Capital Israel
+7be5edaa-f992-8b3f-6baa-42f2c98f90b9,Skyline AI,series_a,2018-07-31,18000000.0,7,Sequoia Capital Israel; TLV Partners
+7be5edaa-f992-8b3f-6baa-42f2c98f90b9,Skyline AI,series_a,2019-08-01,,1,
+7cb2b0f2-ac7e-4da2-8973-cd939338db86,Outread,pre_seed,2023-07-20,,2,AWS Impact Accelerator
+7cb2b0f2-ac7e-4da2-8973-cd939338db86,Outread,pre_seed,2024-04-29,750000.0,5,
+7cd5635e-6342-4c97-a172-c85d9d7e94f0,Klaimee,pre_seed,2026-04-10,,1,Y Combinator
+7d1aeed8-594c-5645-9b2b-1abfa4bc6e22,ePACT Network,seed,2013-01-11,837866.0,4,
+7d1aeed8-594c-5645-9b2b-1abfa4bc6e22,ePACT Network,seed,2013-03-01,146019.0,1,
+7d1aeed8-594c-5645-9b2b-1abfa4bc6e22,ePACT Network,non_equity_assistance,2013-03-22,,2,Canadian Technology Accelerator
+7d1aeed8-594c-5645-9b2b-1abfa4bc6e22,ePACT Network,seed,2014-02-19,1000000.0,4,
+7d1aeed8-594c-5645-9b2b-1abfa4bc6e22,ePACT Network,debt_financing,2015-07-07,1000000.0,1,
+7d1aeed8-594c-5645-9b2b-1abfa4bc6e22,ePACT Network,seed,2016-02-12,432610.0,2,
+7d1aeed8-594c-5645-9b2b-1abfa4bc6e22,ePACT Network,series_a,2019-08-30,4500000.0,5,Disruption Ventures; Yaletown Partners
+7d1aeed8-594c-5645-9b2b-1abfa4bc6e22,ePACT Network,debt_financing,2020-01-14,2500000.0,1,CIBC Innovation Banking
+7d416f50-f27f-4d26-88fd-1c21226e6c75,Ai4,seed,2020-01-24,250454.0,,
+7db74aaa-e442-470f-bd1f-f4ea86679bd3,Wange Intelligence,angel,2026-03-19,,3,
+7db74aaa-e442-470f-bd1f-f4ea86679bd3,Wange Intelligence,angel,2026-06-01,,2,
+7dcf31a3-882f-4df9-99ab-13f0e71f17d3,AEYE Health,angel,2018-11-01,,,
+7dcf31a3-882f-4df9-99ab-13f0e71f17d3,AEYE Health,seed,2022-01-01,10000000.0,,
+7dd58d77-80fd-4706-ac34-b9e83345eb53,Visualax,angel,2021-02-15,97405.0,1,Amith Lankesar
+7dd58d77-80fd-4706-ac34-b9e83345eb53,Visualax,pre_seed,2023-09-28,18500.0,2,Innovate UK
+7dd7e121-e480-4465-942c-480d0e6a5ae3,AWARE7,pre_seed,2019-07-01,428925.0,,
+7e3dbae9-1084-4c69-995a-dceb8053ae1c,JoyCar,equity_crowdfunding,2020-01-21,530576.0,1,EqSeed
+7e702124-a94c-4967-9269-51334e039437,LiveRate,seed,2017-04-01,,4,
+7e94cc50-4a8b-4982-bd42-911fce26ed41,Flowie,seed,2024-07-10,,3,
+7f9d14f6-9d9d-4346-b72c-d7801e397c12,Roadie,seed,2023-07-11,3700000.0,2,boldstart ventures
+7fc5c7d1-49b3-4224-88b4-72c083ca1062,Direct Communication Solutions,post_ipo_debt,2025-06-20,250000.0,,
+7fe738d6-9d2d-4307-a1d1-55b942e49b82,Kōbō,pre_seed,2025-10-01,,,
+7ff124d6-8424-4466-8891-b3d722134d27,MinusX,pre_seed,2024-09-25,500000.0,1,Y Combinator
+7ff9b55d-8adc-49c1-b8ab-ae39dca72ab7,Awen,pre_seed,2022-08-03,1500000.0,1,
+80157e0c-812d-4733-ac09-94fcb5caf63d,Palm,seed,2025-04-28,,1,Divergent Capital
+80157e0c-812d-4733-ac09-94fcb5caf63d,Palm,series_unknown,2026-04-13,,1,Amex Ventures
+80528361-726d-4ddf-82d6-de7c68739e1c,Asteroid,pre_seed,2025-03-12,500000.0,1,Y Combinator
+8052a675-d541-44ad-90ba-555d55af5627,Greenroads,seed,2021-10-08,250000.0,1,
+80b51fc3-6359-4083-86f3-3c6f24874ddc,"ProHawk Technology Group, Inc.",pre_seed,2017-12-01,293972.0,,
+80b51fc3-6359-4083-86f3-3c6f24874ddc,"ProHawk Technology Group, Inc.",seed,2018-08-21,100000.0,,
+80b51fc3-6359-4083-86f3-3c6f24874ddc,"ProHawk Technology Group, Inc.",seed,2019-12-31,775879.0,1,
+80b51fc3-6359-4083-86f3-3c6f24874ddc,"ProHawk Technology Group, Inc.",seed,2020-08-05,195000.0,,
+80b51fc3-6359-4083-86f3-3c6f24874ddc,"ProHawk Technology Group, Inc.",seed,2021-03-01,376420.0,,
+80d26900-ddf1-0436-08ab-c45c10ccc093,GovWise - B2G AI Bidding Assistant,series_unknown,2023-02-14,,2,
+80ffb28a-bda2-1022-7de7-10a4a8262479,CohortIQ,seed,2016-01-19,200000.0,2,
+817fb1ef-2f15-4431-a6ae-cb17f0402c22,Global Auto Systems,non_equity_assistance,2020-08-15,,1,Africa AI Accelerator
+8234d2dc-5d35-a601-1dde-881ee5527f33,Viewider,angel,2015-02-01,150000.0,1,
+8234d2dc-5d35-a601-1dde-881ee5527f33,Viewider,series_a,2016-05-01,500000.0,1,
+823f5e15-37ba-5a4a-d101-5c66ec1a4816,HUUB,pre_seed,2016-06-01,391482.0,,
+823f5e15-37ba-5a4a-d101-5c66ec1a4816,HUUB,seed,2018-05-26,2914127.0,1,Pathena
+823f5e15-37ba-5a4a-d101-5c66ec1a4816,HUUB,seed,2019-05-27,4869187.0,1,Maersk Growth
+823f5e15-37ba-5a4a-d101-5c66ec1a4816,HUUB,convertible_note,2019-12-21,1661580.0,1,Maersk Growth
+82648592-2042-4011-acd5-6ed10f8c0a80,Sefira AI,non_equity_assistance,2024-09-01,,1,AGORANOV
+830b2de4-85c7-4c0e-8021-42ac1879ddfa,Artificial Generative Technologies LLC,pre_seed,2023-06-01,250000.0,1,Nathan Aldinger
+83624502-f706-66b5-1c00-61471fde2a22,Aston Reinvestment Trust,corporate_round,2023-03-02,2389980.0,1,Block
+8373d019-7699-52b5-2f5b-5a9a11f07b22,KudiGo,pre_seed,2019-04-16,40000.0,2,
+8373d019-7699-52b5-2f5b-5a9a11f07b22,KudiGo,seed,2019-04-17,450000.0,1,54 Collective
+8373d019-7699-52b5-2f5b-5a9a11f07b22,KudiGo,seed,2021-01-01,,1,
+8373d019-7699-52b5-2f5b-5a9a11f07b22,KudiGo,grant,2021-03-15,100000.0,1,Catalyst Fund
+8373d019-7699-52b5-2f5b-5a9a11f07b22,KudiGo,non_equity_assistance,2022-05-17,100000.0,1,Google for Startups
+84584309-f201-4eb5-9da5-0392356dd4e4,Flyflow,pre_seed,2024-09-25,500000.0,2,Y Combinator
+84bb6d04-c121-4a06-b760-5fd80b12943c,Loman AI,seed,2025-08-26,4100000.0,3,Next Coast Ventures
+85004aba-e677-4467-89d4-442288811839,0xPass,pre_seed,2023-01-22,,1,
+85004aba-e677-4467-89d4-442288811839,0xPass,pre_seed,2023-09-11,1800000.0,12,Balaji Srinivasan
+854ef60d-6c8d-40f7-b11b-a387cc709b39,Digital Surgery,seed,2013-01-01,20000.0,2,
+854ef60d-6c8d-40f7-b11b-a387cc709b39,Digital Surgery,seed,2013-07-01,2282921.0,1,
+854ef60d-6c8d-40f7-b11b-a387cc709b39,Digital Surgery,seed,2014-05-19,1000000.0,1,Episode 1
+854ef60d-6c8d-40f7-b11b-a387cc709b39,Digital Surgery,series_a,2014-11-24,5000000.0,1,Redline Capital
+854ef60d-6c8d-40f7-b11b-a387cc709b39,Digital Surgery,series_b,2016-01-26,,1,
+854ef60d-6c8d-40f7-b11b-a387cc709b39,Digital Surgery,series_c,2017-11-07,20000000.0,3,8VC
+854ef60d-6c8d-40f7-b11b-a387cc709b39,Digital Surgery,debt_financing,2020-01-13,70127684.0,,
+85fe2b07-a86b-433b-b335-d0e83ce8e6f0,Invirtus,pre_seed,2025-07-28,200000.0,1,
+86ad8534-d625-4d2e-bbbf-bb6c30c261d7,Atsign,seed,2020-08-15,3000000.0,,
+86ad8534-d625-4d2e-bbbf-bb6c30c261d7,Atsign,seed,2021-07-06,8000000.0,1,Kirk Brown
+86ad8534-d625-4d2e-bbbf-bb6c30c261d7,Atsign,equity_crowdfunding,2023-04-24,163889.0,,
+872e2894-ce1f-4b82-96e8-e01fe6226abb,Chat Data,pre_seed,2023-11-02,,1,Plug and Play
+876f27bd-ce9c-4aa6-9e6c-223b8199ad83,RobotAI,pre_seed,2018-11-02,350000.0,,
+876f27bd-ce9c-4aa6-9e6c-223b8199ad83,RobotAI,non_equity_assistance,2020-10-21,,1,MassChallenge
+878f3b7e-c965-4467-d1cb-bdb417f8fb15,Fliptop,seed,2011-06-28,2400000.0,5,
+878f3b7e-c965-4467-d1cb-bdb417f8fb15,Fliptop,debt_financing,2012-02-10,1500000.0,1,
+878f3b7e-c965-4467-d1cb-bdb417f8fb15,Fliptop,series_unknown,2013-03-01,4600000.0,4,
+87b51410-350b-4526-8473-1c544d77b5df,Optimal AI,pre_seed,2025-02-20,2250000.0,2,Act One Ventures; Chingona Ventures
+87d5b24d-7fea-437f-a082-bb0b9fdf15ec,Asura Technoliges ltd.,seed,2017-04-01,200000.0,,
+87d5b24d-7fea-437f-a082-bb0b9fdf15ec,Asura Technoliges ltd.,seed,2017-10-01,300000.0,,
+87d5b24d-7fea-437f-a082-bb0b9fdf15ec,Asura Technoliges ltd.,series_unknown,2018-09-01,10000000.0,,
+87d5b24d-7fea-437f-a082-bb0b9fdf15ec,Asura Technoliges ltd.,series_unknown,2019-10-22,2000000.0,1,
+87d5b24d-7fea-437f-a082-bb0b9fdf15ec,Asura Technoliges ltd.,convertible_note,2022-09-01,7000000.0,1,
+8846ce7b-c0a7-4bfe-b3d2-14cdfe873ad8,TSN Lab,grant,2023-06-16,,1,TIPS Program
+8846ce7b-c0a7-4bfe-b3d2-14cdfe873ad8,TSN Lab,seed,2023-07-06,3818120.0,1,HYU Holdings
+885a6a65-adeb-4add-9dbd-d2b90b5b1b71,DGX Assist,pre_seed,2020-06-30,300000.0,1,11.2 Ventures
+88d0d3a9-44b2-9c0a-4739-1bf17d1e34cd,KIDBOX,seed,2015-12-10,3000000.0,4,
+88d0d3a9-44b2-9c0a-4739-1bf17d1e34cd,KIDBOX,series_a,2016-08-08,10000000.0,3,
+88d0d3a9-44b2-9c0a-4739-1bf17d1e34cd,KIDBOX,series_b,2018-04-24,18915683.0,4,Canvas Prime
+88d0d3a9-44b2-9c0a-4739-1bf17d1e34cd,KIDBOX,debt_financing,2018-06-28,,1,Viola Credit
+88ea780c-3abd-4415-a216-a6c601910c0a,Robotics Inventions,seed,2011-03-01,600000.0,,
+88ffc9f6-898e-4cd4-a1cf-0925555f4a40,uSizy,seed,2019-03-04,,1,
+893ce15a-ce1d-4b60-af4e-80553567a6fd,JobRobin,pre_seed,2017-01-01,,,
+89e91c11-0adf-f017-7f03-3748ddc93c0a,Stringr,angel,2015-12-01,1500000.0,3,
+89e91c11-0adf-f017-7f03-3748ddc93c0a,Stringr,seed,2017-06-26,1800000.0,4,
+89e91c11-0adf-f017-7f03-3748ddc93c0a,Stringr,seed,2018-10-08,1000000.0,5,
+89e91c11-0adf-f017-7f03-3748ddc93c0a,Stringr,series_a,2020-05-28,5750000.0,6,
+89e91c11-0adf-f017-7f03-3748ddc93c0a,Stringr,convertible_note,2024-03-14,5400000.0,,
+89ee4c3c-ac21-43eb-905f-e5a7125fef03,DevX School,pre_seed,2022-09-15,100000.0,1,Antler
+8afb92b5-4c3e-4c20-a7d0-e17f85ee1d51,Parachute,seed,2023-01-01,,1,
+8afb92b5-4c3e-4c20-a7d0-e17f85ee1d51,Parachute,seed,2024-10-25,1079719.0,,
+8bd30694-5cbf-6456-d5c2-ee99de5b459b,Lokulus,seed,2019-08-19,,1,
+8c1c03a4-b506-4939-a6ff-dcf230a7a2a8,Misje 3000,seed,2019-02-28,,1,
+8c7f49bd-ff2b-4700-a808-3424c6b35904,Seer,series_a,2021-08-27,24866052.0,4,
+8c7f49bd-ff2b-4700-a808-3424c6b35904,Seer,series_unknown,2022-07-08,,1,Breakthrough Victoria
+8c7f49bd-ff2b-4700-a808-3424c6b35904,Seer,corporate_round,2025-04-15,,1,Cadwell Laboratories
+8ca40306-47b8-44b0-ba6b-fb81619662c3,Ayna,seed,2024-06-18,1500000.0,1,Inflexor Ventures
+8ce13797-38fb-4866-bc2b-960c6fc6c21f,Alphacat,series_unknown,2020-01-01,,1,BKFUND
+8d219a85-e8f9-590f-3299-847fcccad10e,QuestBack,series_b,2015-08-13,18402588.0,2,
+8d219a85-e8f9-590f-3299-847fcccad10e,QuestBack,debt_financing,2016-10-11,22000000.0,1,Capital IP Investment Partners LP
+8d245153-a32a-451d-8464-16c2cb59813c,Nfluence,seed,2011-01-01,,1,
+8d44a7ab-78cf-467c-b406-fa887efb95bd,Sympera AI,seed,2025-03-25,10000000.0,2,Nyca Partners; Viola Ventures
+8d4ced76-0f0f-4785-ab1a-cd96d12a5a0e,Klaus AI,pre_seed,2026-03-24,500000.0,1,Y Combinator
+8d4ced76-0f0f-4785-ab1a-cd96d12a5a0e,Klaus AI,grant,2026-04-14,,1,Toloka.vc
+8d942341-1bfd-4771-b5f7-d53fdf0f4a38,Openpaya,pre_seed,2024-07-29,230000.0,,
+8de51a8b-ef26-4e32-9cc4-9ef3c626f03b,BreachLock Inc.,pre_seed,2019-01-01,100000.0,,
+8de51a8b-ef26-4e32-9cc4-9ef3c626f03b,BreachLock Inc.,seed,2022-03-27,3000000.0,1,TIN Capital
+8df2e94d-29b1-413c-8deb-843c8496284f,Resilience AI,seed,2024-12-18,1000000.0,2,Cxxo
+8df2e94d-29b1-413c-8deb-843c8496284f,Resilience AI,non_equity_assistance,2026-03-10,,1,Launch Chapel Hill
+8e65b3ef-4e2b-4e63-a6eb-2acd24889e79,Kahuna,seed,2025-09-02,1000000.0,1,Revo Capital
+8ed516c4-f252-5992-99ed-72f41e550628,Darmiyan,non_equity_assistance,2017-06-01,800000.0,4,
+8ed516c4-f252-5992-99ed-72f41e550628,Darmiyan,pre_seed,2017-08-21,120000.0,1,
+8ed516c4-f252-5992-99ed-72f41e550628,Darmiyan,seed,2017-10-01,3700000.0,11,
+8ed516c4-f252-5992-99ed-72f41e550628,Darmiyan,seed,2018-06-12,,1,
+8ed516c4-f252-5992-99ed-72f41e550628,Darmiyan,seed,2020-04-10,6432250.0,3,Eisai
+8ed516c4-f252-5992-99ed-72f41e550628,Darmiyan,series_unknown,2023-10-17,3536249.0,,
+8f3beea1-7d3b-47cc-b892-e44f585c5278,Pushsales,seed,2019-12-10,430000.0,1,Next100 Ventures
+8f46253d-217c-45d7-98c8-94d99207976e,Alfred,series_a,2026-01-26,15000000.0,3,F-Prime
+8fa53e13-c67c-449a-bcbf-40655ec7bab9,Bridgecode,pre_seed,2021-02-01,,,
+8fa53e13-c67c-449a-bcbf-40655ec7bab9,Bridgecode,seed,2023-03-01,1550000.0,4,Korea Credit Guarantee Fund
+90188761-a661-4582-b0f1-006399a7a305,Quantivex,seed,2026-04-07,300000.0,,
+90379467-7c38-4a1c-ab38-c69052fac2c8,auctoria,grant,2022-02-02,1100000.0,,
+90379467-7c38-4a1c-ab38-c69052fac2c8,auctoria,pre_seed,2023-06-01,80000.0,,
+906c048a-50e7-4797-8d96-a22b32e807b6,WishYourPrice,pre_seed,2018-06-01,20000.0,1,Beta Boom
+90c34f9b-f2fa-456f-a54d-92503f63e5e2,ELEMENTS,series_unknown,2015-12-25,3158512.0,4,
+90c34f9b-f2fa-456f-a54d-92503f63e5e2,ELEMENTS,seed,2016-12-28,5640220.0,1,
+90c34f9b-f2fa-456f-a54d-92503f63e5e2,ELEMENTS,series_unknown,2018-07-06,12690903.0,5,
+90c34f9b-f2fa-456f-a54d-92503f63e5e2,ELEMENTS,series_unknown,2018-09-28,1494124.0,1,
+90c91604-b597-428b-be48-cdcb25bc1496,n8n,seed,2020-03-12,1500000.0,9,Firstminute Capital; Sequoia Capital
+90c91604-b597-428b-be48-cdcb25bc1496,n8n,series_a,2021-04-26,12000000.0,6,Felicis
+90c91604-b597-428b-be48-cdcb25bc1496,n8n,convertible_note,2022-11-18,1500000.0,1,Harpoon
+90c91604-b597-428b-be48-cdcb25bc1496,n8n,series_a,2024-02-19,5000000.0,4,Felicis
+90c91604-b597-428b-be48-cdcb25bc1496,n8n,series_b,2025-03-24,59414112.0,6,Highland Europe
+90c91604-b597-428b-be48-cdcb25bc1496,n8n,series_c,2025-10-08,180000000.0,11,Accel
+90c91604-b597-428b-be48-cdcb25bc1496,n8n,secondary_market,2026-05-12,,1,SAP
+91143d4d-8001-3e9c-7a4b-525cf2101f38,Ysance,series_a,2015-09-24,5588453.0,1,Creadev
+91143d4d-8001-3e9c-7a4b-525cf2101f38,Ysance,seed,2019-01-01,,1,
+913e7fbf-4050-460f-9644-0fdf569163d5,Nagomi Security,seed,2024-04-23,7000000.0,1,Team8
+913e7fbf-4050-460f-9644-0fdf569163d5,Nagomi Security,series_a,2024-04-23,23000000.0,7,TCV
+916d2b11-1bf3-4da3-b558-226fe70f26ea,HapiVet AI,seed,2025-05-01,300000.0,1,Sunil Kakarla
+92128e1a-734d-47d1-9052-c587923484bb,DeepGears,pre_seed,2021-05-21,,1,
+92128e1a-734d-47d1-9052-c587923484bb,DeepGears,seed,2022-03-03,250000.0,1,
+922e3c58-118d-4c5b-8679-96fa3bd282e9,gNucleus AI,pre_seed,2025-06-21,,1,Baukunst
+92b4721b-8afb-4b13-81d1-0ed782a2d56b,Umbra,pre_seed,2015-04-10,,,
+92b4721b-8afb-4b13-81d1-0ed782a2d56b,Umbra,pre_seed,2018-03-23,2250000.0,6,
+92b4721b-8afb-4b13-81d1-0ed782a2d56b,Umbra,seed,2019-04-02,10000000.0,8,
+92b4721b-8afb-4b13-81d1-0ed782a2d56b,Umbra,series_unknown,2021-01-05,32379967.0,2,John Burbank
+92b4721b-8afb-4b13-81d1-0ed782a2d56b,Umbra,secondary_market,2021-04-16,,,
+92b4721b-8afb-4b13-81d1-0ed782a2d56b,Umbra,grant,2022-05-22,,1,DARPA
+92b4721b-8afb-4b13-81d1-0ed782a2d56b,Umbra,series_b,2022-11-08,75000000.0,8,Nimble Partners
+92b4721b-8afb-4b13-81d1-0ed782a2d56b,Umbra,series_unknown,2024-09-12,,3,
+92d7681f-6a3a-4204-80ed-baee9ee392c7,Direqt,angel,2022-04-04,1363959.0,,
+92d7681f-6a3a-4204-80ed-baee9ee392c7,Direqt,seed,2023-10-25,4500000.0,5,
+93165e4e-0a9c-429a-bdfb-31b230d9be76,Softavias,pre_seed,2023-07-03,47000.0,,
+93165e4e-0a9c-429a-bdfb-31b230d9be76,Softavias,seed,2024-01-09,74000.0,1,
+93165e4e-0a9c-429a-bdfb-31b230d9be76,Softavias,seed,2024-07-07,100000.0,1,
+93571ac6-bda5-678f-be65-6e5df0b2c912,Be U Salons,seed,2017-04-17,600000.0,5,
+93571ac6-bda5-678f-be65-6e5df0b2c912,Be U Salons,seed,2018-12-18,425568.0,2,Brand Capital; Rajasthan Venture Capital Fund
+9365955d-53b0-431a-8532-485146cac8e8,Matsuri Technologies,seed,2017-09-01,272097.0,1,
+9365955d-53b0-431a-8532-485146cac8e8,Matsuri Technologies,series_unknown,2018-05-23,,3,
+9365955d-53b0-431a-8532-485146cac8e8,Matsuri Technologies,series_b,2019-10-14,5350504.0,2,
+9365955d-53b0-431a-8532-485146cac8e8,Matsuri Technologies,series_b,2021-02-26,,4,
+9365955d-53b0-431a-8532-485146cac8e8,Matsuri Technologies,series_c,2022-03-24,16346213.0,5,
+9365955d-53b0-431a-8532-485146cac8e8,Matsuri Technologies,series_d,2024-02-15,,4,
+93b5d7d2-16f3-4849-8c59-741607314b8e,ShredSpots APP,pre_seed,2021-03-08,100000.0,1,Vlad Panchenko
+93b5d7d2-16f3-4849-8c59-741607314b8e,ShredSpots APP,pre_seed,2021-08-04,500000.0,4,Mikita Mikado
+93b5d7d2-16f3-4849-8c59-741607314b8e,ShredSpots APP,pre_seed,2022-06-10,500000.0,1,Peer Venture Partners
+93b5d7d2-16f3-4849-8c59-741607314b8e,ShredSpots APP,pre_seed,2023-09-18,100000.0,2,
+93b5d7d2-16f3-4849-8c59-741607314b8e,ShredSpots APP,seed,2025-04-02,600000.0,3,
+942e30a9-7847-45fe-abd6-89f435829074,Root Access,pre_seed,2024-11-18,145000.0,1,
+942e30a9-7847-45fe-abd6-89f435829074,Root Access,pre_seed,2025-09-30,2100000.0,8,AlleyCorp
+9443311b-e58d-4fda-81b3-d89870ee4641,Tribevest,pre_seed,2018-01-05,65000.0,,
+9443311b-e58d-4fda-81b3-d89870ee4641,Tribevest,pre_seed,2019-05-09,485000.0,,
+9443311b-e58d-4fda-81b3-d89870ee4641,Tribevest,pre_seed,2021-01-27,1025000.0,1,Bossa Invest
+9443311b-e58d-4fda-81b3-d89870ee4641,Tribevest,seed,2022-01-25,2495000.0,9,
+945f04bf-9e18-4f81-b9f0-d4dad23c1224,SpaceZero,pre_seed,2026-04-09,10000.0,,
+946b3bb6-5d06-4fed-9bd5-fe1ef728c1cf,InstaCare,pre_seed,2020-01-16,140000.0,,
+946b3bb6-5d06-4fed-9bd5-fe1ef728c1cf,InstaCare,seed,2022-01-03,550000.0,,
+946b3bb6-5d06-4fed-9bd5-fe1ef728c1cf,InstaCare,grant,2022-11-21,66886.0,1,
+94ed535d-324b-a893-e720-589a8e3fa9c4,Traffilog,private_equity,2020-01-07,,1,TENE Investment Funds
+95394ab1-fec2-40a7-ba51-e8eca493bdb1,Aidora,pre_seed,2023-05-17,,,
+95394ab1-fec2-40a7-ba51-e8eca493bdb1,Aidora,seed,2024-09-23,2719999.0,,
+95394ab1-fec2-40a7-ba51-e8eca493bdb1,Aidora,seed,2025-10-28,,1,
+9542e8cf-f7d8-df1e-b793-21f74089c8cb,Sumline AB,seed,2013-01-01,,1,
+95defe67-da98-4373-8586-12997cb76537,Acumen.io,seed,2021-02-24,,4,Hetz Ventures
+95ec7391-7dd9-44c5-a760-b73bc09f9406,Lightning AI,seed,2019-12-13,3500000.0,5,Bain Capital Ventures
+95ec7391-7dd9-44c5-a760-b73bc09f9406,Lightning AI,series_a,2020-10-08,15000000.0,3,Index Ventures
+95ec7391-7dd9-44c5-a760-b73bc09f9406,Lightning AI,series_b,2022-06-16,40000000.0,5,Coatue
+95ec7391-7dd9-44c5-a760-b73bc09f9406,Lightning AI,series_unknown,2024-11-21,50000000.0,4,
+970ef90d-c4b1-32cf-3707-af808e878a55,Concentric,debt_financing,2015-06-26,165000.0,,
+970ef90d-c4b1-32cf-3707-af808e878a55,Concentric,series_a,2016-07-15,4700000.0,3,LaunchPad Venture
+970ef90d-c4b1-32cf-3707-af808e878a55,Concentric,series_unknown,2020-01-29,7500000.0,5,
+97366ce9-7123-4357-bf65-f24becf05fdd,Kombai,seed,2023-08-22,4500000.0,3,Foundation Capital; Stellaris Venture Partners
+976a7545-b682-4c3c-8449-e071733f9886,Float,pre_seed,2021-12-03,,2,
+97f22bd7-2fd2-cade-9db0-6ba9fe81ba57,Money.Net,seed,2021-08-19,1100000.0,,
+97f22bd7-2fd2-cade-9db0-6ba9fe81ba57,Money.Net,seed,2023-10-03,850000.0,,
+97f22bd7-2fd2-cade-9db0-6ba9fe81ba57,Money.Net,seed,2024-01-03,1200000.0,,
+9800e0b3-2378-ded7-e571-add9a7f20888,Ryla,series_b,2007-04-25,6500000.0,1,Frontier Growth
+9800e0b3-2378-ded7-e571-add9a7f20888,Ryla,series_c,2008-08-29,1000000.0,1,
+9800e0b3-2378-ded7-e571-add9a7f20888,Ryla,series_unknown,2009-08-13,2620018.0,,
+985db857-4b60-4345-bedf-45f2a6bffc2b,Caze,pre_seed,2023-07-23,50000.0,,
+98ad3be7-c0fa-4419-9ef2-abb66ea1e2c2,Eazewell,pre_seed,2025-05-07,,9,Echo Investment Capital
+99077db0-d365-46bc-b8f8-35bdf1ad44a8,Ksolves India Limited,post_ipo_equity,2020-06-23,551225.0,,
+99083005-9388-f60c-67a8-2949c0cc0995,Aira,non_equity_assistance,2014-05-01,,1,
+99083005-9388-f60c-67a8-2949c0cc0995,Aira,seed,2015-10-29,790000.0,2,
+99083005-9388-f60c-67a8-2949c0cc0995,Aira,series_a,2016-03-02,2550000.0,5,Lux Capital
+99083005-9388-f60c-67a8-2949c0cc0995,Aira,series_b,2017-05-16,12000000.0,5,Arboretum Ventures; Jazz Venture Partners
+99083005-9388-f60c-67a8-2949c0cc0995,Aira,grant,2017-07-10,225000.0,1,National Science Foundation
+99083005-9388-f60c-67a8-2949c0cc0995,Aira,series_b,2018-12-21,20000000.0,1,Bose Ventures
+9971181a-479c-44b9-ad7f-aff5adb41c72,valarix,grant,2022-01-01,30000.0,1,Village Capital
+9971181a-479c-44b9-ad7f-aff5adb41c72,valarix,angel,2022-07-05,65000.0,,
+9971181a-479c-44b9-ad7f-aff5adb41c72,valarix,pre_seed,2024-02-01,200000.0,2,
+99e67af3-8501-4705-9677-db7bad4c52be,Enhanced Radar,pre_seed,2025-03-12,500000.0,3,Y Combinator
+9a0a177b-97b1-4deb-b722-81b1a9a97e36,Aprexo,seed,2019-06-06,1269475.0,6,
+9a1f4990-ca75-a537-5dd9-bd14f0b67334,iauro,series_unknown,2017-09-21,,1,Speciale Invest
+9a2d3290-cfcc-44e6-a098-4c749721b226,Log4int,seed,2018-01-01,,1,
+9a4ff38d-736a-40ea-86cd-f5048986c0fe,asBuilt,grant,2020-09-09,28254.0,1,Callaghan Innovation
+9a4ff38d-736a-40ea-86cd-f5048986c0fe,asBuilt,grant,2021-09-08,31371.0,1,Callaghan Innovation
+9a8eceb4-a6be-4ca9-ac5c-76233c74084f,Big Audience Machine,pre_seed,2024-12-04,366173.0,5,
+9b3d63cf-cace-4e60-80bc-aaddcb64e2e3,Newwit,pre_seed,2023-08-31,500000.0,1,
+9bdc2c0e-34d8-4d79-9b22-05c3cc9e1f0f,Urban SDK,pre_seed,2020-01-27,120000.0,1,Techstars
+9bdc2c0e-34d8-4d79-9b22-05c3cc9e1f0f,Urban SDK,seed,2021-02-02,1600000.0,3,DeepWork Capital; Florida Opportunity Fund
+9bdc2c0e-34d8-4d79-9b22-05c3cc9e1f0f,Urban SDK,seed,2021-11-30,2850000.0,3,DeepWork Capital; Florida Opportunity Fund
+9bdc2c0e-34d8-4d79-9b22-05c3cc9e1f0f,Urban SDK,seed,2023-07-05,,5,GOVO Venture Partners
+9bdc2c0e-34d8-4d79-9b22-05c3cc9e1f0f,Urban SDK,series_unknown,2024-09-19,977498.0,,
+9c455a59-d9bd-41d6-84c9-46a7cd71f8ce,Skoutia Limited,pre_seed,2025-06-20,5000.0,1,FasterCapital
+9c889de1-cdce-4d88-ae63-47b445c67d29,Orbit-Ed,pre_seed,2018-01-01,,1,
+9c889de1-cdce-4d88-ae63-47b445c67d29,Orbit-Ed,pre_seed,2019-08-10,45000.0,1,
+9c889de1-cdce-4d88-ae63-47b445c67d29,Orbit-Ed,pre_seed,2022-07-26,500000.0,1,
+9d157621-a4f9-400f-8327-88c0df34f3d9,Pocket Pie,seed,2020-09-28,,1,
+9d4f8191-fe72-4957-b3e7-4ac2744cf8e0,5U AI,angel,2026-02-01,,,
+9d5111ed-4a45-4e47-9b71-73985b994b36,Lemeng Hudong,angel,2014-09-15,488384.0,1,
+9d5111ed-4a45-4e47-9b71-73985b994b36,Lemeng Hudong,series_a,2016-08-26,1500017.0,2,
+9d8c60db-d08f-4bce-85da-7dd0418a5ceb,ProfitsGain.com,pre_seed,2023-12-16,100000.0,,
+9dc47fee-e8ab-41c9-8384-f1207f786747,EasyGo,series_a,2018-06-26,18318700.0,2,
+9dc47fee-e8ab-41c9-8384-f1207f786747,EasyGo,series_a,2018-12-20,14500000.0,,
+9dd426d1-6eca-46aa-9641-992125254fcd,Bayseian,grant,2024-06-14,130000.0,,
+9deecf9f-dc1d-4c80-ae76-21120e5d0ecd,Alpheya,series_unknown,2023-11-21,300000000.0,2,BNY; Lunate
+9e63304d-6169-40ca-92cf-7c8251399961,EDIMA solutions,pre_seed,2024-08-07,43253.0,1,Czech Founders VC
+9e832acc-49eb-a2de-cdf5-9ba97e0e64b6,ESNC,seed,2015-07-01,,,
+9eaa2f11-7dd0-70b6-68a9-2c0d5397866b,Adviser Ratings,seed,2015-01-01,,1,Folklore Ventures
+9eaa2f11-7dd0-70b6-68a9-2c0d5397866b,Adviser Ratings,seed,2017-05-12,635676.0,1,
+9eaa2f11-7dd0-70b6-68a9-2c0d5397866b,Adviser Ratings,series_a,2019-03-01,1298489.0,,
+9ebfb175-2964-4909-abf8-592df85001d8,Sequa AI,pre_seed,2025-06-17,114823.0,1,
+9ed1df04-e24e-4a8c-9ce1-af2db1087279,Sipher,seed,2021-10-26,6800000.0,22,Arrington XRP Capital; Hashed; Konvoy
+9efc9e5d-e513-4286-adc5-d58ea2d8daca,Workee.AI,grant,2021-06-30,25000.0,1,Ukrainian Startup Fund
+9efc9e5d-e513-4286-adc5-d58ea2d8daca,Workee.AI,pre_seed,2022-01-30,600000.0,4,Lighthouse Ventures
+9efc9e5d-e513-4286-adc5-d58ea2d8daca,Workee.AI,grant,2022-12-01,100000.0,1,Google for Startups
+9efc9e5d-e513-4286-adc5-d58ea2d8daca,Workee.AI,seed,2023-07-11,800000.0,2,SMOK Ventures
+9f2f1fc0-d361-9960-de06-6426d11648c3,CalAmp,post_ipo_debt,2010-01-07,6175000.0,,
+9f2f1fc0-d361-9960-de06-6426d11648c3,CalAmp,post_ipo_debt,2010-01-19,3075000.0,,
+9f2f1fc0-d361-9960-de06-6426d11648c3,CalAmp,post_ipo_debt,2023-12-18,45000000.0,1,Lynrock Lake LP
+9f4688a1-7979-4695-80a0-deba44c1ee4d,OneGenerative AI,pre_seed,2024-03-06,,1,Brain-Too-Free Ventures
+9f4a2e2d-fc37-265a-9f79-c6fd9ce64d2c,Applicaster,series_a,2012-03-26,,1,
+9f4a2e2d-fc37-265a-9f79-c6fd9ce64d2c,Applicaster,series_b,2015-02-17,10500000.0,3,C4 Ventures; Pitango VC
+9f4a2e2d-fc37-265a-9f79-c6fd9ce64d2c,Applicaster,series_c,2016-12-01,,4,Pitango VC
+9f4a2e2d-fc37-265a-9f79-c6fd9ce64d2c,Applicaster,series_c,2019-03-26,20000000.0,6,Viola Growth
+9f4a2e2d-fc37-265a-9f79-c6fd9ce64d2c,Applicaster,series_d,2020-07-16,11000000.0,6,Viola Growth
+9f4edb55-020c-46cd-972a-6a7a04d6f8de,ABC Fitness Solutions,private_equity,2018-01-01,,3,
+9f69d6ac-4d0b-40cf-b4c7-3621bb45ad90,OnVibe,seed,2026-03-03,3000000.0,,
+9f76fff5-ff3d-4fbb-a2b7-6fd5c1dc43f9,Qubu,pre_seed,2023-01-01,,1,
+9f76fff5-ff3d-4fbb-a2b7-6fd5c1dc43f9,Qubu,pre_seed,2024-04-01,,1,
+9f9461bc-b806-9a03-6d63-5178a3c75e1a,KANgroup,non_equity_assistance,2015-01-24,,1,
+9f9461bc-b806-9a03-6d63-5178a3c75e1a,KANgroup,series_unknown,2015-11-01,,1,
+9f968b41-32fe-4b1d-913e-1be0523c46bd,Looper Insights,seed,2019-04-01,784068.0,2,Great Point Media
+9f968b41-32fe-4b1d-913e-1be0523c46bd,Looper Insights,seed,2020-05-01,1250200.0,1,Great Point Media
+9f968b41-32fe-4b1d-913e-1be0523c46bd,Looper Insights,seed,2022-01-20,3399201.0,4,Mercia’s EIS funds
+9f968b41-32fe-4b1d-913e-1be0523c46bd,Looper Insights,series_a,2023-10-03,5700000.0,2,Foresight Group
+9f968b41-32fe-4b1d-913e-1be0523c46bd,Looper Insights,series_b,2025-02-16,5000000.0,1,Foresight Group
+9fa99507-c19e-42d3-acaf-6f431b0b915b,ZAMBEZI ZERØ,pre_seed,2025-11-10,,1,
+9fc7e183-2cb2-db34-3abf-47f104edc6fe,heartbeat medical,series_unknown,2016-01-14,869324.0,2,HTGF (High-Tech Gruenderfonds)
+9fc7e183-2cb2-db34-3abf-47f104edc6fe,heartbeat medical,series_unknown,2017-12-19,3551166.0,2,HV Capital
+9fc7e183-2cb2-db34-3abf-47f104edc6fe,heartbeat medical,series_a,2020-10-05,5894572.0,6,b2venture
+9fc7e183-2cb2-db34-3abf-47f104edc6fe,heartbeat medical,series_a,2022-04-28,12709417.0,2,Redstone.VC
+a011ba50-eddf-45e2-9735-2fdc8ad7bc7f,ClipDrop,pre_seed,2021-03-22,125000.0,2,
+a02dfa9f-5276-4326-8178-c5c5886a8938,JUDI.AI,debt_financing,2020-11-13,2500000.0,3,CleanFin Capital
+a07f687b-5990-42a4-94bf-a4f067ac0716,Eightify,pre_seed,2023-03-14,,,
+a1238f96-f244-48a5-9abb-11c9c5902648,Twisp,pre_seed,2021-11-01,2700000.0,1,
+a167f8df-f231-4a8c-a5e3-55b1d68e4d9a,Soundful,seed,2022-01-01,4500000.0,,
+a19d6f88-9a79-4fb1-8067-6ebc1014a5c2,NOMOEX,debt_financing,2022-04-07,90000.0,1,
+a19d6f88-9a79-4fb1-8067-6ebc1014a5c2,NOMOEX,initial_coin_offering,2022-09-26,74319.0,,
+a19d6f88-9a79-4fb1-8067-6ebc1014a5c2,NOMOEX,pre_seed,2023-01-02,32500.0,,
+a19d6f88-9a79-4fb1-8067-6ebc1014a5c2,NOMOEX,seed,2023-05-11,35000.0,2,
+a19d6f88-9a79-4fb1-8067-6ebc1014a5c2,NOMOEX,seed,2024-03-25,2000000.0,2,Aydton Ventures
+a19d6f88-9a79-4fb1-8067-6ebc1014a5c2,NOMOEX,initial_coin_offering,2024-08-29,1250000.0,4,Aydton Ventures; MBT Ventures
+a1f6b456-e7cf-4ed6-9e2e-d59a0a46909f,AWorld,pre_seed,2020-03-01,110508.0,1,Digital Magics
+a1f6b456-e7cf-4ed6-9e2e-d59a0a46909f,AWorld,seed,2020-08-01,694949.0,2,
+a1f6b456-e7cf-4ed6-9e2e-d59a0a46909f,AWorld,convertible_note,2022-09-01,1990361.0,6,
+a1f6b456-e7cf-4ed6-9e2e-d59a0a46909f,AWorld,convertible_note,2023-11-10,2139500.0,,
+a1f6b456-e7cf-4ed6-9e2e-d59a0a46909f,AWorld,series_a,2025-05-10,900039.0,1,Apside
+a1ff8969-5f65-46cc-9f5f-4ddfef2d59b5,AURA Technologies,grant,2021-02-02,75000.0,1,One North Carolina Small Business Program
+a1ff8969-5f65-46cc-9f5f-4ddfef2d59b5,AURA Technologies,grant,2023-02-20,5000.0,1,PCMA Insurtech Wizard Hackathon and Challenge
+a20eddd9-8a7f-4066-a3e9-5f513db65ac2,Knowtex,pre_seed,2022-08-23,125000.0,5,
+a20eddd9-8a7f-4066-a3e9-5f513db65ac2,Knowtex,non_equity_assistance,2023-06-06,,1,MedTech Innovator
+a20eddd9-8a7f-4066-a3e9-5f513db65ac2,Knowtex,seed,2024-01-01,,1,
+a25ed820-d52a-8f7b-1a43-310ce2991e7c,Adrich,seed,2016-07-07,,2,
+a25ed820-d52a-8f7b-1a43-310ce2991e7c,Adrich,convertible_note,2017-05-16,,1,
+a25ed820-d52a-8f7b-1a43-310ce2991e7c,Adrich,seed,2018-01-18,50000.0,1,
+a25ed820-d52a-8f7b-1a43-310ce2991e7c,Adrich,seed,2019-01-23,100000.0,4,
+a25ed820-d52a-8f7b-1a43-310ce2991e7c,Adrich,seed,2020-10-19,2922473.0,2,
+a25ed820-d52a-8f7b-1a43-310ce2991e7c,Adrich,seed,2022-03-21,135000.0,1,XRC Ventures
+a25ed820-d52a-8f7b-1a43-310ce2991e7c,Adrich,seed,2023-06-29,,2,
+a2d0ec45-e682-4de9-bd2c-c6241c18d148,VOICEB.ai,seed,2026-03-12,,1,Encomenda Capital Partners
+a36722f1-35b2-3000-07a3-76209cb4e3af,kaufDA,angel,2008-01-01,,3,
+a36722f1-35b2-3000-07a3-76209cb4e3af,kaufDA,series_a,2009-01-01,,3,OnVista Group; StudiVZ
+a36722f1-35b2-3000-07a3-76209cb4e3af,kaufDA,seed,2010-01-01,,1,Freigeist Capital
+a38c9480-05c2-9182-b553-fc2f20af1702,ObservePoint,series_a,2015-03-31,6500000.0,2,Pelion Venture Partners
+a38c9480-05c2-9182-b553-fc2f20af1702,ObservePoint,series_unknown,2016-01-25,2000000.0,,
+a38c9480-05c2-9182-b553-fc2f20af1702,ObservePoint,series_b,2016-03-29,7016428.0,1,BYU Cougar Capital
+a38c9480-05c2-9182-b553-fc2f20af1702,ObservePoint,series_b,2016-12-13,19000000.0,2,Mercato Partners; Pelion Venture Partners
+a38c9480-05c2-9182-b553-fc2f20af1702,ObservePoint,series_unknown,2018-01-17,2999630.0,,
+a38c9480-05c2-9182-b553-fc2f20af1702,ObservePoint,series_b,2021-09-30,246380.0,1,
+a38c9480-05c2-9182-b553-fc2f20af1702,ObservePoint,secondary_market,2021-09-30,,1,
+a4164ad1-7f38-45a3-b98f-f406e4a2b2e7,SUPER ETAGE,undisclosed,2018-07-16,,1,
+a4a6a1fb-9874-44ea-b538-d296b363fa4a,Churney,seed,2023-08-08,1500000.0,1,SNÖ Ventures
+a4da019b-2bc6-f3ef-4d81-f851ee6c2925,AliveCor,series_a,2011-08-02,3000000.0,3,Burrill & Company
+a4da019b-2bc6-f3ef-4d81-f851ee6c2925,AliveCor,series_b,2012-06-10,10500000.0,5,Khosla Ventures
+a4da019b-2bc6-f3ef-4d81-f851ee6c2925,AliveCor,series_c,2016-03-31,20000000.0,1,WP Global Partners
+a4da019b-2bc6-f3ef-4d81-f851ee6c2925,AliveCor,series_d,2017-03-15,30000000.0,2,Mayo Clinic; Omron Healthcare
+a4da019b-2bc6-f3ef-4d81-f851ee6c2925,AliveCor,debt_financing,2019-01-29,20000000.0,1,Oxford Finance LLC
+a4da019b-2bc6-f3ef-4d81-f851ee6c2925,AliveCor,series_unknown,2019-10-22,5784906.0,,
+a4da019b-2bc6-f3ef-4d81-f851ee6c2925,AliveCor,series_e,2020-11-16,65000000.0,5,Bold Capital Partners; Khosla Ventures; Omron Healthcare; Qualcomm Ventures; WP Global Partners
+a4da019b-2bc6-f3ef-4d81-f851ee6c2925,AliveCor,series_f,2022-08-16,,7,GE Healthcare
+a50bbc48-a4a4-4889-ac38-ffca0cd4fac1,Hopsa,angel,2025-01-15,1000000.0,,
+a5426c6b-70af-4e9a-a972-4b26bffb93fe,WonDRx,seed,2019-11-28,1000000.0,2,Venture Catalysts
+a5426c6b-70af-4e9a-a972-4b26bffb93fe,WonDRx,series_unknown,2023-01-01,,1,
+a5426c6b-70af-4e9a-a972-4b26bffb93fe,WonDRx,series_unknown,2024-01-01,,1,
+a5e3be30-e0ca-451e-bd69-0ae3de0f251f,PAWEN,angel,2021-06-30,82970.0,,
+a62f4a53-72c8-23f8-b502-6fa98d1d2bed,Cyberwrite,seed,2017-09-01,3300000.0,2,
+a62f4a53-72c8-23f8-b502-6fa98d1d2bed,Cyberwrite,seed,2023-03-01,3700000.0,2,Markd; Parker Beauchamp
+a62f4a53-72c8-23f8-b502-6fa98d1d2bed,Cyberwrite,series_a,2024-12-24,,3,Markd
+a6bab9c2-2cb7-5352-ba24-2f82e6061fb4,Pixibo,seed,2017-10-19,,4,
+a6bab9c2-2cb7-5352-ba24-2f82e6061fb4,Pixibo,series_a,2018-08-31,1000000.0,3,Start Today CO. Ltd
+a6bab9c2-2cb7-5352-ba24-2f82e6061fb4,Pixibo,series_a,2019-01-10,,3,EverHaüs; Prasetia Dwidharma
+a6bab9c2-2cb7-5352-ba24-2f82e6061fb4,Pixibo,series_a,2021-02-24,1400000.0,1,Atlas Ventures
+a76bd4b2-f83f-4520-84f8-23a10fab8a3a,Knode.ai,seed,2022-08-26,150000.0,1,
+aa04a33c-48f6-44d6-a9ea-354dff091fab,Road Ahead,private_equity,2020-10-06,173478.0,,
+aa296242-056a-4e95-ae4b-eabaa6c729ac,Hammerhead AI,seed,2025-11-18,10000000.0,10,Buoyant Ventures
+aa81d8fa-f7dc-4456-050d-9092db1bb320,Voiceitt,seed,2013-04-04,,1,
+aa81d8fa-f7dc-4456-050d-9092db1bb320,Voiceitt,grant,2015-10-30,500000.0,1,43North
+aa81d8fa-f7dc-4456-050d-9092db1bb320,Voiceitt,non_equity_assistance,2016-09-13,,2,Dreamit Ventures
+aa81d8fa-f7dc-4456-050d-9092db1bb320,Voiceitt,seed,2017-02-09,,2,
+aa81d8fa-f7dc-4456-050d-9092db1bb320,Voiceitt,seed,2018-08-17,10000.0,2,Techstars
+aa81d8fa-f7dc-4456-050d-9092db1bb320,Voiceitt,non_equity_assistance,2018-12-13,,1,MassChallenge
+aa81d8fa-f7dc-4456-050d-9092db1bb320,Voiceitt,seed,2019-10-03,,3,
+aa81d8fa-f7dc-4456-050d-9092db1bb320,Voiceitt,series_a,2020-08-11,10000000.0,10,
+aa81d8fa-f7dc-4456-050d-9092db1bb320,Voiceitt,seed,2021-10-25,,1,
+aa81d8fa-f7dc-4456-050d-9092db1bb320,Voiceitt,series_unknown,2022-12-02,4700000.0,4,T3 Technion Technology
+aa8cd6c3-84da-4d2b-afb5-33e6698c1392,Apten,pre_seed,2024-09-25,500000.0,1,Y Combinator
+aaceea54-1fcf-0e47-87c8-736da28b931c,BactoByte LTD,seed,2019-07-01,,1,Rationalwave Capital Partners
+ab1338e0-8213-401b-a4bc-59f4fe6cb9ea,Solara AI,pre_seed,2025-05-20,450000.0,,
+abafca0e-6268-4423-a91d-881c4fc9226c,Tongren Technology,seed,2024-09-19,1414827.0,1,Suzhou Jiahong Medical Fund
+abe16fee-4c8b-4e1c-867a-a1387451b736,Authentic,series_unknown,2022-04-14,1600000.0,3,Stellation Capital
+abebf344-e83e-406b-8bee-6db95145b226,RevVue,angel,2024-06-02,200000.0,,
+acc38d3e-7322-4c45-bee3-e045419a71f6,Butternut AI,seed,2023-04-01,,2,
+ad1d5113-80f5-4a11-808e-7dbaeb179265,HumanLens,pre_seed,2026-03-24,,1,Elev X!
+ad4e1708-5912-4229-9a98-14eb63816727,Digitize.AI,seed,2017-09-26,700000.0,,
+ad4e1708-5912-4229-9a98-14eb63816727,Digitize.AI,seed,2019-01-01,,1,
+ad4e1708-5912-4229-9a98-14eb63816727,Digitize.AI,non_equity_assistance,2019-04-02,,2,Dreamit Ventures
+ad5d5626-e78d-46c3-a45f-3d487fdb26b2,Cobi,pre_seed,2025-07-08,,1,
+ad7de5e4-0bd5-5a45-d4b2-d7d49bbb9342,15gifts Ltd,private_equity,2022-12-23,,1,FPE Capital
+addc582a-3a4d-5268-cf01-1f91a2310403,Webee,seed,2014-01-01,,1,
+addc582a-3a4d-5268-cf01-1f91a2310403,Webee,undisclosed,2022-07-11,,2,
+addc582a-3a4d-5268-cf01-1f91a2310403,Webee,series_unknown,2023-03-03,300000.0,1,Kamay Ventures
+ae4523d2-a9d2-4cbd-afb0-950f9b110a78,Baseplus,pre_seed,2021-07-27,,2,Haatch
+ae641f28-e9e5-4d53-b0da-7c285bc15ff5,Pacdora,series_a,2022-11-04,,4,
+ae9db6da-75b3-c415-e6a5-8e413a00b8ae,Softplan,debt_financing,2022-09-30,24018604.0,,
+aed9f349-54db-4b0f-82b9-d1ad601cf0a4,Enlaye,pre_seed,2024-10-01,1700000.0,3,Glasswing Ventures; Hannah Grey
+aed9f349-54db-4b0f-82b9-d1ad601cf0a4,Enlaye,seed,2026-06-10,5000000.0,6,Glasswing Ventures; Link Ventures
+af056535-b5c9-4ce2-af06-6796397af32f,Zantrik,pre_seed,2018-02-15,120000.0,1,
+af056535-b5c9-4ce2-af06-6796397af32f,Zantrik,pre_seed,2019-05-15,100000.0,2,
+af056535-b5c9-4ce2-af06-6796397af32f,Zantrik,pre_seed,2020-01-03,117955.0,1,Bangladesh Angels
+af056535-b5c9-4ce2-af06-6796397af32f,Zantrik,seed,2022-03-20,,1,Startup Bangladesh
+af0dd8e2-e544-459f-a793-4ae5b395248f,Jabali,seed,2024-03-06,5000000.0,4,BITKRAFT Ventures
+af4d75b2-6bee-4189-bc3f-616660bf1b23,Uncrowd,seed,2018-11-01,650138.0,,
+af4d75b2-6bee-4189-bc3f-616660bf1b23,Uncrowd,series_a,2021-11-22,4019099.0,3,Arete Capital Partners
+af6f953f-cbbb-4b87-9ab3-14a284a304ba,Bee Maps,series_a,2025-10-06,32000000.0,4,Ajna Capital; Borderless Capital; LDA Capital; Pantera Capital
+af7e1918-d0d5-4639-a286-b40c5e900e48,ConnectM Technology Solutions,seed,2018-07-18,2500000.0,1,
+af7e1918-d0d5-4639-a286-b40c5e900e48,ConnectM Technology Solutions,series_unknown,2019-08-03,2900000.0,2,
+af7e1918-d0d5-4639-a286-b40c5e900e48,ConnectM Technology Solutions,series_unknown,2020-12-21,3983537.0,,
+af7e1918-d0d5-4639-a286-b40c5e900e48,ConnectM Technology Solutions,series_unknown,2022-03-01,2093989.0,,
+af7e1918-d0d5-4639-a286-b40c5e900e48,ConnectM Technology Solutions,post_ipo_equity,2025-03-24,,1,SRISID
+af7e1918-d0d5-4639-a286-b40c5e900e48,ConnectM Technology Solutions,post_ipo_debt,2025-12-17,1300000.0,7,
+af7e1918-d0d5-4639-a286-b40c5e900e48,ConnectM Technology Solutions,post_ipo_equity,2025-12-17,,,
+b03bfade-05b3-4e4b-a640-d86e9ca604e9,INDIMIN,pre_seed,2024-03-27,,1,Aster
+b03bfade-05b3-4e4b-a640-d86e9ca604e9,INDIMIN,seed,2025-01-01,,1,
+b04ea6a7-8f76-40d0-a9a9-36ec8a1d3fad,Central,pre_seed,2024-09-25,500000.0,2,Y Combinator
+b04ea6a7-8f76-40d0-a9a9-36ec8a1d3fad,Central,seed,2025-08-27,8600000.0,9,First Round Capital
+b04f6634-a9f2-868d-d26a-fde29ab6a7a9,Wix,series_a,2007-12-01,5000000.0,2,
+b04f6634-a9f2-868d-d26a-fde29ab6a7a9,Wix,series_b,2008-10-13,3500000.0,2,
+b04f6634-a9f2-868d-d26a-fde29ab6a7a9,Wix,series_c,2010-03-24,10000000.0,3,Benchmark
+b04f6634-a9f2-868d-d26a-fde29ab6a7a9,Wix,seed,2010-05-05,,,
+b04f6634-a9f2-868d-d26a-fde29ab6a7a9,Wix,series_d,2011-03-28,40000000.0,5,DAG Ventures; Insight Partners
+b04f6634-a9f2-868d-d26a-fde29ab6a7a9,Wix,post_ipo_equity,2022-09-06,,1,Starboard Value
+b04f6634-a9f2-868d-d26a-fde29ab6a7a9,Wix,post_ipo_debt,2025-09-08,1000000000.0,,
+b07029e5-3f3c-47ab-b704-6a879210ee39,Kaier,seed,2020-11-24,,1,
+b07029e5-3f3c-47ab-b704-6a879210ee39,Kaier,non_equity_assistance,2021-05-01,,1,
+b08baa4a-2b6e-409c-8d2a-7e6846292894,Electronic KYC,grant,2021-05-14,25000.0,1,Ukrainian Startup Fund
+b08baa4a-2b6e-409c-8d2a-7e6846292894,Electronic KYC,seed,2022-08-10,257506.0,1,Czysta3.vc
+b08baa4a-2b6e-409c-8d2a-7e6846292894,Electronic KYC,grant,2023-05-02,10000.0,1,Mastercard Start Path
+b0a3a9c2-1df6-4f1e-9d51-1d00f056fe6c,MKJHA Consulting,pre_seed,2025-12-01,,1,
+b100fbf9-9573-4b96-be83-f3598144b6d7,Clera Labs,pre_seed,2026-02-01,3000000.0,4,1984 Ventures
+b12769aa-a946-7377-35c9-676f95e6c26b,ETFLogic,seed,2019-01-29,4000000.0,1,ETFS Capital
+b12769aa-a946-7377-35c9-676f95e6c26b,ETFLogic,non_equity_assistance,2020-01-01,,1,
+b12769aa-a946-7377-35c9-676f95e6c26b,ETFLogic,series_unknown,2021-01-01,,1,
+b12769aa-a946-7377-35c9-676f95e6c26b,ETFLogic,corporate_round,2022-02-18,,1,TMX Group
+b138c53a-44bd-43a8-b9bf-1c803dddc2ee,Hangtight,angel,2023-01-01,100000.0,,
+b138c53a-44bd-43a8-b9bf-1c803dddc2ee,Hangtight,angel,2024-01-01,200000.0,,
+b16660eb-0489-4b10-b8c0-dd30e8350e63,Accor,post_ipo_equity,2016-07-12,3200000000.0,1,
+b16660eb-0489-4b10-b8c0-dd30e8350e63,Accor,private_equity,2017-07-20,16000000.0,,
+b16660eb-0489-4b10-b8c0-dd30e8350e63,Accor,post_ipo_debt,2018-11-22,114025.0,1,October
+b16660eb-0489-4b10-b8c0-dd30e8350e63,Accor,private_equity,2020-02-01,25000000.0,1,
+b16660eb-0489-4b10-b8c0-dd30e8350e63,Accor,post_ipo_debt,2023-10-04,525387789.0,,
+b16660eb-0489-4b10-b8c0-dd30e8350e63,Accor,post_ipo_debt,2025-08-27,582377264.0,,
+b2c07454-51a8-6c4b-6405-dbaec13734eb,FunnelAI,pre_seed,2017-01-01,100000.0,2,Sridhar Kamma; Sujatha Kamma
+b2c07454-51a8-6c4b-6405-dbaec13734eb,FunnelAI,convertible_note,2017-07-01,135000.0,2,Geekdom Fund
+b2c07454-51a8-6c4b-6405-dbaec13734eb,FunnelAI,pre_seed,2018-02-01,375000.0,6,Geekdom Fund
+b2c07454-51a8-6c4b-6405-dbaec13734eb,FunnelAI,non_equity_assistance,2018-02-21,,1,
+b2c07454-51a8-6c4b-6405-dbaec13734eb,FunnelAI,seed,2019-03-27,1500000.0,3,Active Capital
+b36a85dd-d1e3-3db4-14cc-22383822df3e,iSono Health,pre_seed,2016-03-22,120000.0,1,Y Combinator
+b36a85dd-d1e3-3db4-14cc-22383822df3e,iSono Health,grant,2017-06-28,225000.0,1,National Science Foundation
+b36a85dd-d1e3-3db4-14cc-22383822df3e,iSono Health,seed,2019-08-01,3500000.0,3,Foothill Ventures
+b36a85dd-d1e3-3db4-14cc-22383822df3e,iSono Health,grant,2019-09-18,766000.0,1,National Science Foundation
+b36a85dd-d1e3-3db4-14cc-22383822df3e,iSono Health,seed,2025-03-26,1837679.0,,
+b36a85dd-d1e3-3db4-14cc-22383822df3e,iSono Health,series_unknown,2025-10-13,,3,JSK Investments
+b3b2f774-4941-488e-95a9-d77edc5f349c,Observe,debt_financing,2020-10-07,,,
+b3b2f774-4941-488e-95a9-d77edc5f349c,Observe,series_a,2020-10-07,35000000.0,5,Sutter Hill Ventures
+b3b2f774-4941-488e-95a9-d77edc5f349c,Observe,series_unknown,2021-06-09,7000000.0,1,Madrona
+b3b2f774-4941-488e-95a9-d77edc5f349c,Observe,series_a,2022-05-11,70000000.0,3,Madrona
+b3b2f774-4941-488e-95a9-d77edc5f349c,Observe,series_a,2023-10-05,50000000.0,1,Sutter Hill Ventures
+b3b2f774-4941-488e-95a9-d77edc5f349c,Observe,series_b,2024-03-27,145000000.0,6,Sutter Hill Ventures
+b3b2f774-4941-488e-95a9-d77edc5f349c,Observe,series_c,2025-07-30,156000000.0,5,Sutter Hill Ventures
+b4203efd-2486-4389-8fc1-15e5e3dba7dd,NowoChat,pre_seed,2020-09-01,37000.0,1,IFCI Venture Capital Funds
+b4479a3d-fd1e-49c2-8a89-e444c7f31608,Sust Global,convertible_note,2020-10-13,,1,
+b4479a3d-fd1e-49c2-8a89-e444c7f31608,Sust Global,seed,2021-10-28,3200000.0,4,Salica
+b4479a3d-fd1e-49c2-8a89-e444c7f31608,Sust Global,series_unknown,2023-06-02,1510000.0,2,
+b457017b-b47f-4aae-bb65-b32040002675,Cashew,pre_seed,2019-03-31,120000.0,1,
+b457017b-b47f-4aae-bb65-b32040002675,Cashew,pre_seed,2020-04-01,,1,
+b45f753a-1fb2-4a32-bfcb-cfa83544eb64,BridgingX,pre_seed,2020-08-30,192318.0,,
+b45f753a-1fb2-4a32-bfcb-cfa83544eb64,BridgingX,seed,2023-10-01,335308.0,,
+b4926f08-a68c-4a16-80a0-71a96e1af33d,PKFARE,seed,2017-06-01,2000000.0,,
+b4926f08-a68c-4a16-80a0-71a96e1af33d,PKFARE,series_a,2018-04-17,1600000.0,3,
+b4af1880-c7df-485d-bb3b-c1f02192ad3c,STARBIA MEDITEK,seed,2025-04-01,300000.0,,
+b53db4b2-6036-4a03-82a2-9f710b28b63f,SurrealDB,seed,2022-12-07,6000000.0,1,FirstMark
+b53db4b2-6036-4a03-82a2-9f710b28b63f,SurrealDB,series_a,2024-06-18,15000000.0,6,Chalfen Ventures; FirstMark; Georgian
+b53db4b2-6036-4a03-82a2-9f710b28b63f,SurrealDB,series_a,2026-02-17,23000000.0,4,Chalfen Ventures
+b603c3fe-6c95-3a0f-7ee1-fc1f15de4559,InfoPrice,seed,2014-01-01,,2,
+b603c3fe-6c95-3a0f-7ee1-fc1f15de4559,InfoPrice,seed,2015-04-13,642069.0,2,ArpexCapital
+b603c3fe-6c95-3a0f-7ee1-fc1f15de4559,InfoPrice,series_a,2018-10-20,4039959.0,1,TM3 Capital
+b603c3fe-6c95-3a0f-7ee1-fc1f15de4559,InfoPrice,series_a,2021-10-26,2694789.0,2,Indicator Capital
+b6768d21-8e56-46a9-9e8f-b657ddc972e6,Thebhub,seed,2018-03-08,100000.0,1,
+b7023a5b-f331-4c77-9481-5a498609a38a,Aurora First,non_equity_assistance,2024-03-07,,1,Google for Startups
+b788c790-408c-43c5-8eee-79e4a129e1d4,Resemble AI,pre_seed,2019-06-30,,6,Mercuri
+b788c790-408c-43c5-8eee-79e4a129e1d4,Resemble AI,seed,2020-02-15,2000000.0,4,
+b788c790-408c-43c5-8eee-79e4a129e1d4,Resemble AI,seed,2021-05-16,2000000.0,7,
+b788c790-408c-43c5-8eee-79e4a129e1d4,Resemble AI,series_a,2023-07-12,8000000.0,6,Javelin Venture Partners
+b788c790-408c-43c5-8eee-79e4a129e1d4,Resemble AI,series_unknown,2025-12-07,13000000.0,16,
+b81c3b17-3fba-8af2-ef16-d9f1ac4ac337,Mint Solutions,seed,2010-04-01,,1,
+b81c3b17-3fba-8af2-ef16-d9f1ac4ac337,Mint Solutions,grant,2011-03-01,155485.0,1,Technology Development Fund
+b81c3b17-3fba-8af2-ef16-d9f1ac4ac337,Mint Solutions,grant,2012-03-01,71589.0,1,Technology Development Fund
+b81c3b17-3fba-8af2-ef16-d9f1ac4ac337,Mint Solutions,grant,2013-03-01,381090.0,1,Technology Development Fund
+b81c3b17-3fba-8af2-ef16-d9f1ac4ac337,Mint Solutions,seed,2013-11-11,20111.0,2,
+b81c3b17-3fba-8af2-ef16-d9f1ac4ac337,Mint Solutions,series_a,2014-07-08,6000000.0,2,EQT Life Sciences; Seventure Partners
+b81c3b17-3fba-8af2-ef16-d9f1ac4ac337,Mint Solutions,grant,2015-03-01,93817.0,1,Technology Development Fund
+b81c3b17-3fba-8af2-ef16-d9f1ac4ac337,Mint Solutions,grant,2016-03-01,96362.0,1,Technology Development Fund
+b81c3b17-3fba-8af2-ef16-d9f1ac4ac337,Mint Solutions,series_b,2016-08-25,5643978.0,4,BOM
+b81c3b17-3fba-8af2-ef16-d9f1ac4ac337,Mint Solutions,grant,2017-03-21,2595055.0,1,Horizon 2020
+b8285390-ec89-4589-83e2-81dbf493e35e,Bayesian Health,grant,2017-12-27,225000.0,1,National Science Foundation
+b8285390-ec89-4589-83e2-81dbf493e35e,Bayesian Health,series_unknown,2021-07-12,15000000.0,4,Andreessen Horowitz
+b83b2b5d-ac3d-4fb1-a67b-6505c6e07af5,Lenso AI S.A.,pre_seed,2023-04-10,,,
+b85e7148-84f9-4a17-95f8-e35abd931f39,ALTEK AI,pre_seed,2026-01-23,500259.0,1,Startuplab
+b86a049b-8abf-4da5-a946-8be9830d769a,Scatter Lab,seed,2013-09-01,180178.0,2,
+b86a049b-8abf-4da5-a946-8be9830d769a,Scatter Lab,series_a,2015-08-04,1113449.0,2,KTB Network; SBVA
+b86a049b-8abf-4da5-a946-8be9830d769a,Scatter Lab,series_b,2018-04-03,4740819.0,4,
+b86a049b-8abf-4da5-a946-8be9830d769a,Scatter Lab,series_c,2021-12-20,13274299.0,,
+b86a049b-8abf-4da5-a946-8be9830d769a,Scatter Lab,corporate_round,2023-04-24,11251949.0,1,SK Telecom
+b8be0e47-3ef5-49e8-aeb4-851ba5e48fa6,Topflight Apps,series_unknown,2021-10-31,250000.0,1,
+b9180110-d768-a9fd-d46d-20f06eefff97,TalentAdore,pre_seed,2016-06-29,123485.0,,
+b9180110-d768-a9fd-d46d-20f06eefff97,TalentAdore,pre_seed,2016-11-01,160345.0,,
+b9180110-d768-a9fd-d46d-20f06eefff97,TalentAdore,seed,2017-05-13,16400.0,,
+b9180110-d768-a9fd-d46d-20f06eefff97,TalentAdore,seed,2017-07-31,5910.0,,
+b9180110-d768-a9fd-d46d-20f06eefff97,TalentAdore,seed,2017-08-19,17641.0,,
+b9180110-d768-a9fd-d46d-20f06eefff97,TalentAdore,seed,2017-12-21,23705.0,,
+b9180110-d768-a9fd-d46d-20f06eefff97,TalentAdore,seed,2018-04-30,181226.0,,
+b9180110-d768-a9fd-d46d-20f06eefff97,TalentAdore,seed,2018-06-27,16000.0,,
+b9180110-d768-a9fd-d46d-20f06eefff97,TalentAdore,seed,2018-10-10,23066.0,,
+b91eeda8-9cc6-4b2e-9e3f-2261d561ff8c,Featureform,pre_seed,2021-01-15,2000000.0,2,Zetta Venture Partners
+b91eeda8-9cc6-4b2e-9e3f-2261d561ff8c,Featureform,seed,2023-12-13,5500000.0,5,GreatPoint Ventures; Zetta Venture Partners
+b960533b-7b0e-41f5-852c-06c242c6fab7,Solo.io,seed,2017-09-28,2500000.0,1,
+b960533b-7b0e-41f5-852c-06c242c6fab7,Solo.io,series_a,2018-12-10,11000000.0,4,Redpoint
+b960533b-7b0e-41f5-852c-06c242c6fab7,Solo.io,series_b,2020-10-01,23000000.0,3,Quiet Capital; Redpoint
+b960533b-7b0e-41f5-852c-06c242c6fab7,Solo.io,series_c,2021-10-07,135000000.0,3,Altimeter Capital
+b986db86-d5aa-406e-ad8d-1a26c3635ad9,Glacier,pre_seed,2021-12-09,1919923.0,7,
+b986db86-d5aa-406e-ad8d-1a26c3635ad9,Glacier,seed,2023-01-18,,9,
+b9ba8b3a-d455-4c41-8859-b61a03ba8d7f,First AI,pre_seed,2024-11-01,975893.0,1,
+b9c0b205-8d37-4d4b-adf5-8dc21057304e,Shastho AI,pre_seed,2020-09-01,,,
+ba4e202f-931c-4631-8df0-b2daf7f15648,SKAI Intelligence,series_a,2026-06-11,,1,DS Investment Partners
+ba6ee1b5-88ee-4e25-a4d3-1141e1f54e92,Amical,grant,2025-03-27,,1,Center of Aging and Brain Health Innovation
+ba6ee1b5-88ee-4e25-a4d3-1141e1f54e92,Amical,non_equity_assistance,2026-03-10,,1,Google for Startups
+bb6c321a-82b0-43dc-9a67-1d1a082eb283,Vixiv,seed,2023-05-23,1700000.0,1,CincyTech
+bb6c321a-82b0-43dc-9a67-1d1a082eb283,Vixiv,seed,2024-12-17,5325000.0,,
+bbc66558-c6ef-2cee-fa9e-b0b82c3e93a8,Layr,pre_seed,2019-07-01,625000.0,1,Lloyd's Lab
+bbc66558-c6ef-2cee-fa9e-b0b82c3e93a8,Layr,seed,2020-07-01,5000000.0,4,Sandbox Insurtech Ventures
+bbc66558-c6ef-2cee-fa9e-b0b82c3e93a8,Layr,series_a,2022-03-21,10000000.0,11,Hudson Structured Capital Management
+bbc66558-c6ef-2cee-fa9e-b0b82c3e93a8,Layr,series_unknown,2023-10-24,10000000.0,5,Cota Capital
+bc283179-3af5-4c43-ad28-4363f78c0473,Noxus,pre_seed,2024-10-09,1698611.0,11,SFC Capital
+bc2ff7e2-2ee6-8d52-0e91-77821b4d61a5,Huggler.com,undisclosed,2010-11-01,3210051.0,1,
+bc37b63f-043e-4a86-8b69-54b8ca08e6ef,"Forever Healthy Technology Co., Ltd.",private_equity,2020-04-20,166417.0,,
+bc937080-dae9-c998-c803-5d228e5e9e5f,OhMD,seed,2014-07-17,20000.0,1,
+bc937080-dae9-c998-c803-5d228e5e9e5f,OhMD,angel,2015-03-12,50000.0,,
+bc937080-dae9-c998-c803-5d228e5e9e5f,OhMD,seed,2017-03-02,1200000.0,1,Eideard Venture Capital
+bc937080-dae9-c998-c803-5d228e5e9e5f,OhMD,seed,2018-01-02,2000000.0,,
+bc937080-dae9-c998-c803-5d228e5e9e5f,OhMD,seed,2022-02-22,4500000.0,5,Dudley Fund; FCA Venture Partners
+bc9cf2d9-13af-4c9d-b283-817c8d1a8be1,Samaria,pre_seed,2024-08-18,120000.0,1,Techstars Tokyo Accelerator
+bdf9e814-8665-4d99-aa51-70c5cc24b31c,Threatray,seed,2018-11-09,,2,
+bdf9e814-8665-4d99-aa51-70c5cc24b31c,Threatray,seed,2020-11-30,,,
+bdf9e814-8665-4d99-aa51-70c5cc24b31c,Threatray,seed,2021-01-27,2248998.0,4,
+bdf9e814-8665-4d99-aa51-70c5cc24b31c,Threatray,seed,2021-06-17,2300000.0,5,
+bdf9e814-8665-4d99-aa51-70c5cc24b31c,Threatray,series_unknown,2024-08-20,,1,SICTIC
+be6ce767-5778-4be5-a8ba-0dc60d0bda18,XGC Software Inc.,seed,2023-11-20,3000000.0,1,
+be81f8c3-a3c3-0195-4951-7a906de42f31,PlayFusion,series_a,2017-03-01,,2,Nexon Korea Corporation
+bf413515-7ace-4cfb-83c0-7bb3776b4996,Azist,pre_seed,2024-02-01,100000.0,,
+bf57d4d3-9b82-4b82-be1e-b8dafa483e5e,TheGRiD Club,seed,2026-06-01,,2,Blue like an Orange Sustainable Capital; IDB Invest
+bfc583a6-10c7-4b5a-bccb-7ad2349bdcfd,WorkMagic,seed,2023-10-24,2000000.0,2,Sinovation Ventures
+c05ca104-1955-01ad-29e8-2d5a678bbb44,Vitagene,pre_seed,2014-01-04,100000.0,1,
+c05ca104-1955-01ad-29e8-2d5a678bbb44,Vitagene,convertible_note,2014-09-01,1000000.0,1,
+c05ca104-1955-01ad-29e8-2d5a678bbb44,Vitagene,convertible_note,2015-10-01,100000.0,1,
+c05ca104-1955-01ad-29e8-2d5a678bbb44,Vitagene,seed,2016-02-17,2000000.0,4,S28 Capital
+c05ca104-1955-01ad-29e8-2d5a678bbb44,Vitagene,seed,2017-02-06,4000000.0,1,Babel Ventures
+c05ca104-1955-01ad-29e8-2d5a678bbb44,Vitagene,seed,2017-09-01,,1,
+c0c7d379-03a3-4a87-b430-6e65ac9f45c7,ENERA TECHNOLOGIES LTD,pre_seed,2026-06-11,2000000.0,3,Lakehouse Ventures
+c23521d9-bd9b-4bc4-84c7-e565c64886ce,Guild.ai,seed,2025-10-01,14000000.0,5,Google Ventures
+c23521d9-bd9b-4bc4-84c7-e565c64886ce,Guild.ai,series_a,2026-03-03,30000000.0,6,Google Ventures
+c24f6d78-8b45-4036-b540-75ff6c1e8cf8,Dragon LLM,series_unknown,2016-06-22,708208.0,,
+c24f6d78-8b45-4036-b540-75ff6c1e8cf8,Dragon LLM,series_unknown,2019-07-23,1226598.0,1,Investessor
+c24f6d78-8b45-4036-b540-75ff6c1e8cf8,Dragon LLM,series_unknown,2019-09-19,1104527.0,1,Investisseurs privés
+c24f6d78-8b45-4036-b540-75ff6c1e8cf8,Dragon LLM,series_unknown,2022-12-19,597478.0,,
+c24f6d78-8b45-4036-b540-75ff6c1e8cf8,Dragon LLM,grant,2024-06-26,5340152.0,,
+c24f6d78-8b45-4036-b540-75ff6c1e8cf8,Dragon LLM,grant,2024-12-02,824330.0,1,
+c24f6d78-8b45-4036-b540-75ff6c1e8cf8,Dragon LLM,grant,2024-12-23,6242580.0,,
+c24f6d78-8b45-4036-b540-75ff6c1e8cf8,Dragon LLM,grant,2025-10-16,,1,European Commission
+c2cd031b-b322-4201-b4c7-348ed16aa994,Finto,pre_seed,2025-09-09,500000.0,1,Y Combinator
+c3446909-0085-4d57-b859-81985050f0c4,Avalanche,secondary_market,2019-04-20,,,
+c3446909-0085-4d57-b859-81985050f0c4,Avalanche,seed,2020-03-04,,2,
+c3446909-0085-4d57-b859-81985050f0c4,Avalanche,series_b,2020-11-11,,1,
+c3446909-0085-4d57-b859-81985050f0c4,Avalanche,undisclosed,2021-04-10,,1,
+c3446909-0085-4d57-b859-81985050f0c4,Avalanche,seed,2021-11-27,,2,
+c3446909-0085-4d57-b859-81985050f0c4,Avalanche,series_unknown,2023-01-01,,2,
+c3446909-0085-4d57-b859-81985050f0c4,Avalanche,secondary_market,2023-06-05,,1,
+c3446909-0085-4d57-b859-81985050f0c4,Avalanche,secondary_market,2024-10-11,,1,
+c3446909-0085-4d57-b859-81985050f0c4,Avalanche,initial_coin_offering,2024-12-12,250000000.0,6,Dragonfly; Galaxy Digital; ParaFi Capital
+c3446909-0085-4d57-b859-81985050f0c4,Avalanche,series_unknown,2025-01-14,20000000.0,3,FZF Ventures
+c3446909-0085-4d57-b859-81985050f0c4,Avalanche,corporate_round,2026-03-19,,1,Animoca Brands
+c3a96857-57f4-4534-ba9c-ecf1484e3a2c,Sizekick,seed,2022-11-18,1344785.0,1,
+c3acb7b7-fcb7-4c49-a29b-b6ed5fa0f618,NewDays,seed,2025-09-03,11500000.0,2,General Catalyst; Madrona
+c3db0ac2-c3c3-4566-a57c-6da720ec8219,North AI,pre_seed,2024-03-13,384036.0,1,SFC Capital
+c3db0ac2-c3c3-4566-a57c-6da720ec8219,North AI,grant,2024-03-13,358433.0,1,Innovate UK
+c3db0ac2-c3c3-4566-a57c-6da720ec8219,North AI,pre_seed,2024-12-05,255207.0,1,Praetura Ventures
+c3db0ac2-c3c3-4566-a57c-6da720ec8219,North AI,grant,2025-04-02,298745.0,1,Innovate UK
+c4483ab7-2f9f-4031-9c58-98d675baa4df,Booly,pre_seed,2021-08-01,541944.0,,
+c467aea1-f222-4849-b2b3-4c6f856f9166,Signal Lift,seed,2026-02-25,2699997.0,1,
+c4ad0849-d064-826d-28bb-4ac4099fafca,WebyClip,series_unknown,2012-04-29,,1,
+c4ad0849-d064-826d-28bb-4ac4099fafca,WebyClip,non_equity_assistance,2014-06-09,,1,
+c4ad0849-d064-826d-28bb-4ac4099fafca,WebyClip,series_a,2015-01-05,4200000.0,7,Magma Venture Partners; Vertex Ventures
+c580612b-b59e-4b51-a016-5f516b553260,Granter,non_equity_assistance,2023-01-26,,1,Startup Lisboa - Rocket Program
+c580612b-b59e-4b51-a016-5f516b553260,Granter,pre_seed,2023-03-02,158979.0,1,Demium Capital
+c580612b-b59e-4b51-a016-5f516b553260,Granter,non_equity_assistance,2023-05-04,,1,Lanzadera Accelerator
+c580612b-b59e-4b51-a016-5f516b553260,Granter,pre_seed,2025-02-24,120000.0,1,Techstars
+c5a4e1f3-46b2-4775-b54d-d1c65f8a23bd,Crescenta,pre_seed,2023-06-10,3763724.0,5,K Fund
+c5a4e1f3-46b2-4775-b54d-d1c65f8a23bd,Crescenta,seed,2024-12-27,7297847.0,4,Acurio Ventures; FJ Labs; K Fund
+c5a4e1f3-46b2-4775-b54d-d1c65f8a23bd,Crescenta,series_a,2026-04-08,10493143.0,5,K Fund
+c5a4f27c-0953-4bdb-9f35-f8c87da2a317,Yoquant Tech,angel,2015-11-04,473461.0,1,
+c5a4f27c-0953-4bdb-9f35-f8c87da2a317,Yoquant Tech,seed,2017-10-14,7599939.0,2,
+c65bffaf-3966-4c83-9b93-0146e39e7606,Skorppio,pre_seed,2026-02-23,,,
+c6695c5e-28a8-46ed-bfd3-6ee6d368ac89,ProjectDiscovery,seed,2021-02-08,1700000.0,7,SignalFire
+c6695c5e-28a8-46ed-bfd3-6ee6d368ac89,ProjectDiscovery,series_a,2023-08-17,25000000.0,11,CRV
+c67c3911-f104-4d51-85ff-17864ca398e6,Artera,series_unknown,2023-03-21,90000000.0,18,
+c67c3911-f104-4d51-85ff-17864ca398e6,Artera,series_unknown,2024-02-01,20000000.0,8,
+c6ef548c-054a-4e60-9d77-9d07feed3c50,deeplify,pre_seed,2026-03-30,2300675.0,3,D11Z.Ventures
+c7078df0-eb70-43db-b23c-71666eac88fe,Ambar Memories,seed,2026-01-23,650000.0,,
+c709540d-3be4-24bd-403b-21bb5d37cdc5,Moneythor,private_equity,2021-01-18,,1,Navis Capital Partners
+c7bb00d6-2f6b-421d-877c-267b29a8d6e5,SolvifAI,seed,2024-01-31,224471.0,1,Samurai Incubate
+c7bb00d6-2f6b-421d-877c-267b29a8d6e5,SolvifAI,seed,2025-07-11,1153395.0,2,JAFCO
+c7c8789a-c0c2-64b8-c7d8-05112aab5ee7,Anyline,angel,2014-12-11,500000.0,1,"Johann ""Hansi"" Hansmann"
+c7c8789a-c0c2-64b8-c7d8-05112aab5ee7,Anyline,seed,2016-02-18,1666282.0,3,"Johann ""Hansi"" Hansmann"
+c7c8789a-c0c2-64b8-c7d8-05112aab5ee7,Anyline,angel,2016-08-24,563222.0,1,Hermann Hauser
+c7c8789a-c0c2-64b8-c7d8-05112aab5ee7,Anyline,seed,2019-01-29,2286992.0,2,PUSH VC; Senovo
+c7c8789a-c0c2-64b8-c7d8-05112aab5ee7,Anyline,series_a,2020-01-15,12000000.0,4,Project A Ventures
+c7c8789a-c0c2-64b8-c7d8-05112aab5ee7,Anyline,series_b,2021-07-07,20000000.0,5,Yttrium
+c7e7303b-12c2-4eb5-96fd-87b086c25cff,BricksAI,pre_seed,2022-09-07,,1,Y Combinator
+c7e83093-627d-405c-af1e-f74f12e89406,neuland.ai,seed,2025-05-01,3953583.0,2,
+c86671ca-d903-42a5-8584-fb4cf3d0a503,omica.ai,pre_seed,2024-02-16,1000000.0,5,
+c958c6bf-9d50-4db5-879f-8ee838221909,Eccuity,angel,2024-06-01,,1,
+c969ab4d-94cb-4e9e-b040-b2af60cd4806,Watch Your Health,seed,2023-06-28,2255362.0,1,Conquest Global Ventures
+c969ab4d-94cb-4e9e-b040-b2af60cd4806,Watch Your Health,series_a,2024-07-02,4995128.0,2,Conquest Global Ventures; Cornerstone Ventures
+c976119f-56a7-4c82-af33-b814c4e7af0f,Workplace Wave,series_a,2015-04-04,,,
+c9e65439-7e80-493e-b4ff-23419e30c83b,FindErnest,pre_seed,2023-01-20,20000.0,,
+c9e78095-9791-413e-b5af-fec3108f28e4,Safeguard Applied Innovation,series_a,2023-04-17,8000000.0,6,Hillel Kobrinsky; Ron Zuckerman
+cb620929-c609-0976-1ee1-fdfcdd3489f6,Price Trakker,seed,2014-08-01,,1,
+cbf3b6af-1d94-49c5-b14d-44a80f074872,Inferise,convertible_note,2025-03-12,,1,LAUNCH
+cc5fcfe9-f1dd-49d8-b30e-b7ce5d721fda,Quotr.ai,seed,2025-12-25,3500000.0,1,Llama Ventures
+cc693948-abf3-e3dc-f845-3e38ac718aab,Findally,seed,2015-10-06,25000.0,1,
+cc7333f4-576c-4e03-a53a-52c7f6d4d58b,Digital Reality Corp,pre_seed,2016-08-01,2550000.0,,
+cc7333f4-576c-4e03-a53a-52c7f6d4d58b,Digital Reality Corp,seed,2017-05-01,10300000.0,1,NFC Investments
+cc7333f4-576c-4e03-a53a-52c7f6d4d58b,Digital Reality Corp,series_a,2020-03-23,21500000.0,1,City Developments
+cc7333f4-576c-4e03-a53a-52c7f6d4d58b,Digital Reality Corp,corporate_round,2022-02-01,10000000.0,2,Cushman & Wakefield
+cc7333f4-576c-4e03-a53a-52c7f6d4d58b,Digital Reality Corp,undisclosed,2024-03-01,,,
+cc963fb4-cc3e-4f05-bb52-8ffdb12ebe91,Qutke,series_a,2016-03-01,1200000.0,1,
+cc963fb4-cc3e-4f05-bb52-8ffdb12ebe91,Qutke,series_b,2018-05-17,7852005.0,1,Yunfeng Financial Group
+cc963fb4-cc3e-4f05-bb52-8ffdb12ebe91,Qutke,series_c,2021-02-01,7729648.0,1,
+cd42aa84-bae9-4003-9fed-79552ec35056,meddi,pre_seed,2022-11-02,250000.0,2,
+cd42aa84-bae9-4003-9fed-79552ec35056,meddi,seed,2023-11-05,1850000.0,4,
+cd42aa84-bae9-4003-9fed-79552ec35056,meddi,corporate_round,2026-03-11,7751470.0,1,GNP Seguros
+cd80ac27-5455-4889-937f-e9530fc050b2,Qiti,pre_seed,2022-05-01,442480.0,,
+cd80ac27-5455-4889-937f-e9530fc050b2,Qiti,pre_seed,2023-04-24,2100917.0,,
+cd92c985-3b55-58c3-e138-1c98f8b9b0ca,Enlitic,seed,2014-10-28,5000000.0,3,
+cd92c985-3b55-58c3-e138-1c98f8b9b0ca,Enlitic,series_b,2015-10-27,10000000.0,4,Capitol Health
+cd92c985-3b55-58c3-e138-1c98f8b9b0ca,Enlitic,series_b,2019-04-04,15000000.0,3,Marubeni
+cd92c985-3b55-58c3-e138-1c98f8b9b0ca,Enlitic,series_b,2019-11-14,25000000.0,6,Thorney Investment
+cd92c985-3b55-58c3-e138-1c98f8b9b0ca,Enlitic,undisclosed,2023-12-18,14078370.0,,
+cd92c985-3b55-58c3-e138-1c98f8b9b0ca,Enlitic,post_ipo_debt,2025-12-24,7107521.0,,
+cdba957c-3097-46f5-bf4a-bb7c373e8c34,Harva,angel,2023-12-26,10000.0,,
+cdba957c-3097-46f5-bf4a-bb7c373e8c34,Harva,angel,2024-02-01,200000.0,,
+cdba957c-3097-46f5-bf4a-bb7c373e8c34,Harva,seed,2024-11-01,2500000.0,4,Antler
+cdba957c-3097-46f5-bf4a-bb7c373e8c34,Harva,seed,2026-04-01,113000000.0,,
+cdba957c-3097-46f5-bf4a-bb7c373e8c34,Harva,debt_financing,2026-04-01,,,
+ce1fdfee-e0c8-90ab-3164-97387253f061,RichRelevance,series_a,2007-06-19,1100000.0,2,
+ce1fdfee-e0c8-90ab-3164-97387253f061,RichRelevance,series_b,2007-12-20,4200000.0,4,Greylock; Tugboat Ventures
+ce1fdfee-e0c8-90ab-3164-97387253f061,RichRelevance,series_c,2008-09-04,4000000.0,1,
+ce1fdfee-e0c8-90ab-3164-97387253f061,RichRelevance,debt_financing,2009-05-13,4032065.0,,
+ce1fdfee-e0c8-90ab-3164-97387253f061,RichRelevance,series_c,2009-07-17,12500000.0,5,
+ce1fdfee-e0c8-90ab-3164-97387253f061,RichRelevance,series_d,2010-05-05,12000000.0,1,Auren Hoffman
+ce1fdfee-e0c8-90ab-3164-97387253f061,RichRelevance,series_e,2012-05-01,20000000.0,4,Crosslink Capital
+ce1fdfee-e0c8-90ab-3164-97387253f061,RichRelevance,series_e,2012-08-14,8000000.0,3,
+ce1fdfee-e0c8-90ab-3164-97387253f061,RichRelevance,series_f,2013-11-27,20000000.0,5,Centerview Capital
+ce1fdfee-e0c8-90ab-3164-97387253f061,RichRelevance,series_g,2014-06-02,10000000.0,5,Centerview Capital
+ce7f6043-a967-8e7e-56f1-ddc372d97df7,TransformativeMed,series_a,2019-05-07,5800000.0,3,Alliance of Angels
+ce7f6043-a967-8e7e-56f1-ddc372d97df7,TransformativeMed,angel,2020-09-01,,1,
+ce7f6043-a967-8e7e-56f1-ddc372d97df7,TransformativeMed,series_unknown,2022-05-06,1200000.0,,
+cefb7c32-11ca-4f5b-9ab0-f3032020c5d6,Syngens,non_equity_assistance,2024-06-12,,1,MassChallenge
+cf909ca8-1b1b-0f1d-a6c9-e83df329a5d7,Replit,pre_seed,2016-05-26,835000.0,1,
+cf909ca8-1b1b-0f1d-a6c9-e83df329a5d7,Replit,seed,2016-10-01,,5,
+cf909ca8-1b1b-0f1d-a6c9-e83df329a5d7,Replit,pre_seed,2018-01-05,120000.0,2,Y Combinator
+cf909ca8-1b1b-0f1d-a6c9-e83df329a5d7,Replit,seed,2018-03-27,,2,
+cf909ca8-1b1b-0f1d-a6c9-e83df329a5d7,Replit,seed,2018-10-22,4500000.0,1,Andreessen Horowitz
+cf909ca8-1b1b-0f1d-a6c9-e83df329a5d7,Replit,series_a,2020-02-03,,1,
+cf909ca8-1b1b-0f1d-a6c9-e83df329a5d7,Replit,series_a,2021-02-18,20000000.0,6,A.Capital Ventures
+cf909ca8-1b1b-0f1d-a6c9-e83df329a5d7,Replit,series_b,2021-12-09,80000000.0,11,Coatue
+cf909ca8-1b1b-0f1d-a6c9-e83df329a5d7,Replit,series_b,2023-04-25,97400000.0,9,Andreessen Horowitz
+cf909ca8-1b1b-0f1d-a6c9-e83df329a5d7,Replit,series_b,2023-11-06,20000000.0,2,Craft Ventures
+cf909ca8-1b1b-0f1d-a6c9-e83df329a5d7,Replit,series_c,2025-07-30,250000000.0,17,Prysm Capital
+cf909ca8-1b1b-0f1d-a6c9-e83df329a5d7,Replit,series_d,2026-03-11,400000000.0,20,Georgian
+cf909ca8-1b1b-0f1d-a6c9-e83df329a5d7,Replit,corporate_round,2026-05-28,,1,Visa
+cfaa0e1a-0897-de19-698c-5052b6f7a832,ByondXR,pre_seed,2017-01-10,1500000.0,2,Firstime Venture Capital
+cfaa0e1a-0897-de19-698c-5052b6f7a832,ByondXR,seed,2020-01-01,150000.0,2,
+cfaa0e1a-0897-de19-698c-5052b6f7a832,ByondXR,seed,2021-07-11,6000000.0,2,Firstime Venture Capital
+cfaa0e1a-0897-de19-698c-5052b6f7a832,ByondXR,series_unknown,2023-01-01,,1,
+cfbee88e-d9cf-4349-93af-6f9f15091050,BRIKL,seed,2019-08-31,385378.0,,
+cfbee88e-d9cf-4349-93af-6f9f15091050,BRIKL,seed,2020-11-19,2400000.0,1,
+cfbee88e-d9cf-4349-93af-6f9f15091050,BRIKL,convertible_note,2021-12-23,3300000.0,1,Saffelberg Investments
+cfcdf9fb-2398-4359-92bc-dfb43c77e98f,ContentBot,corporate_round,2022-10-19,,1,LianLian Pay
+d0169674-85a7-484e-980f-8db362e5a845,SportAI,pre_seed,2024-01-22,760138.0,1,
+d0169674-85a7-484e-980f-8db362e5a845,SportAI,seed,2024-08-19,1800000.0,5,Skyfall Ventures
+d0169674-85a7-484e-980f-8db362e5a845,SportAI,grant,2025-01-27,805870.0,2,Eureka Network; Innovation Norway
+d0169674-85a7-484e-980f-8db362e5a845,SportAI,seed,2025-11-25,3000000.0,5,
+d0546077-93d2-1c08-ebdf-0a9dc9d5e1d5,Jasper,pre_seed,2018-03-22,,4,
+d0546077-93d2-1c08-ebdf-0a9dc9d5e1d5,Jasper,pre_seed,2020-06-04,,1,
+d0546077-93d2-1c08-ebdf-0a9dc9d5e1d5,Jasper,pre_seed,2021-04-01,,2,
+d0546077-93d2-1c08-ebdf-0a9dc9d5e1d5,Jasper,seed,2021-06-05,6000000.0,4,Foundation Capital
+d0546077-93d2-1c08-ebdf-0a9dc9d5e1d5,Jasper,series_unknown,2021-11-08,,2,
+d0546077-93d2-1c08-ebdf-0a9dc9d5e1d5,Jasper,series_a,2022-10-17,125000000.0,12,Insight Partners
+d05a425d-af42-4cc0-a656-ba0e540beb7a,Bluberry,seed,2023-09-30,50000.0,1,
+d0fd10c0-1f16-4570-a6e9-8c035b7a933f,Menten AI,pre_seed,2019-12-20,355000.0,2,Y Combinator
+d0fd10c0-1f16-4570-a6e9-8c035b7a933f,Menten AI,seed,2020-06-30,3650000.0,4,Uncork Capital
+d0fd10c0-1f16-4570-a6e9-8c035b7a933f,Menten AI,seed,2023-05-05,,3,
+d13337f0-114c-4fe6-b5b4-dfd892dbbd48,Qvalia,series_unknown,2019-08-05,1349053.0,1,Investment AB Spiltan
+d187cb9d-e6db-43bf-930e-c0be43e91705,Ashtra,pre_seed,2025-10-20,,,
+d19789b7-95f4-4993-bbc4-1b0528500eb3,Yaxincheng,angel,2017-05-09,434276.0,3,
+d19789b7-95f4-4993-bbc4-1b0528500eb3,Yaxincheng,series_unknown,2019-07-30,11922434.0,1,Tigermed
+d1a145d7-a518-4f25-9677-56bbea8f074f,Yeah,pre_seed,2025-01-30,300000.0,1,54 Collective
+d299f4ea-64d3-3967-c359-3187c3a99ba4,Rokt,series_a,2013-11-26,8000000.0,6,Square Peg Capital
+d299f4ea-64d3-3967-c359-3187c3a99ba4,Rokt,series_b,2017-06-13,26000000.0,6,MA Growth Ventures
+d299f4ea-64d3-3967-c359-3187c3a99ba4,Rokt,series_c,2019-10-30,48000000.0,2,TDM Growth Partners
+d299f4ea-64d3-3967-c359-3187c3a99ba4,Rokt,series_d,2020-10-22,80000000.0,2,TDM Growth Partners
+d299f4ea-64d3-3967-c359-3187c3a99ba4,Rokt,secondary_market,2021-07-20,,,
+d299f4ea-64d3-3967-c359-3187c3a99ba4,Rokt,series_e,2021-12-16,325000000.0,5,Tiger Global Management
+d299f4ea-64d3-3967-c359-3187c3a99ba4,Rokt,secondary_market,2022-12-05,,2,Square Peg Capital; Wellington Management
+d299f4ea-64d3-3967-c359-3187c3a99ba4,Rokt,secondary_market,2025-01-16,335000000.0,7,
+d29a7caf-50a1-4e8a-9aa1-cf280e958158,Stack,pre_seed,2022-02-14,,1,Epakon Capital
+d2ab95c4-9d88-4eaf-9f64-36f53657ec0a,"Parker Health, Inc.",pre_seed,2020-07-01,250000.0,,
+d2ab95c4-9d88-4eaf-9f64-36f53657ec0a,"Parker Health, Inc.",private_equity,2021-02-05,1000000.0,,
+d2ab95c4-9d88-4eaf-9f64-36f53657ec0a,"Parker Health, Inc.",series_a,2023-07-10,25000000.0,2,Bias Capital
+d2e11115-96bc-4379-97c2-c83c0a52640d,Kotoko AI,seed,2023-10-31,,1,Sequoia Capital
+d3fa4ce8-7fd7-4678-90c8-10c9355cc008,Wavio,pre_seed,2016-08-15,160000.0,,
+d3fa4ce8-7fd7-4678-90c8-10c9355cc008,Wavio,seed,2020-01-15,1000000.0,1,Interpublic Group
+d417f6f7-6f67-4b17-9047-8f05151634f2,Emerix,seed,2024-04-01,6000000.0,3,Lightspeed Venture Partners
+d4a18e46-62d3-be17-5637-c52ecba883a1,LogicMonitor,series_unknown,2009-07-21,500000.0,,
+d4a18e46-62d3-be17-5637-c52ecba883a1,LogicMonitor,series_unknown,2014-04-15,7499999.0,,
+d4a18e46-62d3-be17-5637-c52ecba883a1,LogicMonitor,series_unknown,2015-11-20,4949999.0,,
+d4a18e46-62d3-be17-5637-c52ecba883a1,LogicMonitor,private_equity,2016-06-16,130000000.0,1,Providence Equity Partners
+d4a18e46-62d3-be17-5637-c52ecba883a1,LogicMonitor,debt_financing,2021-12-15,,1,
+d4a18e46-62d3-be17-5637-c52ecba883a1,LogicMonitor,debt_financing,2024-11-20,,,
+d4a18e46-62d3-be17-5637-c52ecba883a1,LogicMonitor,private_equity,2024-11-20,800000000.0,2,Golub Capital; PSG Equity
+d4e4ed95-8653-439c-9744-baacf2849989,Stel Life,pre_seed,2018-06-08,1300000.0,3,
+d4e4ed95-8653-439c-9744-baacf2849989,Stel Life,non_equity_assistance,2020-04-07,,2,Dreamit Ventures
+d4e4ed95-8653-439c-9744-baacf2849989,Stel Life,pre_seed,2021-01-31,1500000.0,2,
+d5cb0822-9bd4-9208-4436-8aa8cb218765,VitusVet,series_unknown,2015-03-01,,1,
+d5cb0822-9bd4-9208-4436-8aa8cb218765,VitusVet,seed,2018-01-01,,1,
+d5cb0822-9bd4-9208-4436-8aa8cb218765,VitusVet,corporate_round,2019-08-02,,1,Nationwide Mutual Insurance
+d5cb0822-9bd4-9208-4436-8aa8cb218765,VitusVet,convertible_note,2020-12-12,,1,
+d5d4c26c-1a18-47ef-949e-d969ea094224,Strive,seed,2022-05-09,20000000.0,11,
+d5d4c26c-1a18-47ef-949e-d969ea094224,Strive,series_b,2024-07-23,30000000.0,4,Cantor Fitzgerald
+d5d4c26c-1a18-47ef-949e-d969ea094224,Strive,post_ipo_equity,2025-09-12,750000000.0,,
+d5d4c26c-1a18-47ef-949e-d969ea094224,Strive,post_ipo_equity,2025-11-05,160000000.0,,
+d5d4c26c-1a18-47ef-949e-d969ea094224,Strive,post_ipo_equity,2026-01-22,118800000.0,,
+d644cf11-7c1b-41b9-8247-0dd9d536a452,Bilik PIntar,pre_seed,2023-09-13,1200.0,1,PT Senang Buana Maju (Main Corporation)
+d67149c1-ed58-430e-aa7e-04aa063d8bb3,VPD.money,pre_seed,2021-10-12,50000.0,1,Expert Dojo
+d69500e6-090c-234c-0f15-7c181e3cf65f,BrainSINS,seed,2010-05-01,665197.0,4,
+d69500e6-090c-234c-0f15-7c181e3cf65f,BrainSINS,series_unknown,2012-05-15,400000.0,4,Inveready; The Crowd Angel
+d69500e6-090c-234c-0f15-7c181e3cf65f,BrainSINS,series_unknown,2015-01-21,,2,Alantis Seed Capital
+d6b74fab-6483-4f52-a2c7-4fafcc151a8c,HONEYCOMB Colony,seed,2018-10-30,125000.0,1,AE Ventures
+d7b744e2-a6bf-455f-ba34-c5e0ac746e0d,throxy,pre_seed,2023-12-21,,1,Venrex
+d7b744e2-a6bf-455f-ba34-c5e0ac746e0d,throxy,seed,2025-09-04,6200000.0,7,Base10 Partners; SAV (Scale Asia Ventures)
+d7c23532-8560-77ee-5b65-a2021ba9317b,Smartcat,seed,2016-08-09,2800000.0,1,Redseed
+d7c23532-8560-77ee-5b65-a2021ba9317b,Smartcat,seed,2017-01-20,4500000.0,1,AltaIR Capital
+d7c23532-8560-77ee-5b65-a2021ba9317b,Smartcat,series_a,2018-06-13,6976196.0,3,Matrix
+d7c23532-8560-77ee-5b65-a2021ba9317b,Smartcat,series_b,2020-09-23,14644571.0,5,
+d7c23532-8560-77ee-5b65-a2021ba9317b,Smartcat,series_c,2024-09-10,43000000.0,1,Left Lane Capital
+d7fbe547-01e7-4c9f-b889-fa3224146c11,Sensorum Health,pre_seed,2021-01-01,,2,
+d80ca61f-e23c-44de-ac0f-a3ed43401809,DaVinci Healthcare,equity_crowdfunding,2020-06-01,55627.0,,
+d80ca61f-e23c-44de-ac0f-a3ed43401809,DaVinci Healthcare,angel,2020-06-01,166882.0,,
+d80ca61f-e23c-44de-ac0f-a3ed43401809,DaVinci Healthcare,grant,2021-01-01,243108.0,,
+d80ca61f-e23c-44de-ac0f-a3ed43401809,DaVinci Healthcare,equity_crowdfunding,2021-06-01,83079.0,,
+d80ca61f-e23c-44de-ac0f-a3ed43401809,DaVinci Healthcare,angel,2021-06-01,244350.0,5,
+d80ca61f-e23c-44de-ac0f-a3ed43401809,DaVinci Healthcare,grant,2022-07-01,417164.0,,
+d8742832-489d-4cc5-8a93-3ff1c25dc40c,Doubtnut,angel,2017-04-01,100000.0,1,Ankit Nagori
+d8742832-489d-4cc5-8a93-3ff1c25dc40c,Doubtnut,seed,2018-03-13,539813.0,7,Village Capital; WaterBridge Ventures
+d8742832-489d-4cc5-8a93-3ff1c25dc40c,Doubtnut,seed,2019-04-23,3300000.0,5,Surge
+d8742832-489d-4cc5-8a93-3ff1c25dc40c,Doubtnut,series_a,2020-01-31,15000000.0,5,Tencent
+d8742832-489d-4cc5-8a93-3ff1c25dc40c,Doubtnut,series_b,2021-02-25,31000000.0,5,Lupa Systems; SIG Ventures
+d8742832-489d-4cc5-8a93-3ff1c25dc40c,Doubtnut,convertible_note,2023-04-12,2500000.0,3,
+d87c19aa-98c5-4557-94a5-e37e62af5d43,Alpha Vista,series_unknown,2020-01-01,,1,
+d87fdd15-9d3f-4654-ac60-d71b0a6afada,Nexuscale.ai,pre_seed,2025-03-17,50000.0,1,
+d942516b-dc45-4722-8c0a-393772330fec,Thread,seed,2019-04-24,570000.0,,
+d942516b-dc45-4722-8c0a-393772330fec,Thread,grant,2019-04-24,100000.0,1,Microsoft
+d942516b-dc45-4722-8c0a-393772330fec,Thread,seed,2020-07-01,3165000.0,,
+d942516b-dc45-4722-8c0a-393772330fec,Thread,grant,2021-10-26,1000000.0,1,GENIUS NY
+d942516b-dc45-4722-8c0a-393772330fec,Thread,series_a,2023-10-10,15000000.0,7,Badlands Capital
+d9666f44-5ab9-0d3d-d03c-ace2321c3ba9,Ropazi,seed,2015-09-16,,,
+d9dfdb2c-593d-42ee-a385-fd2cebea20d0,Advoga IA,pre_seed,2024-12-01,41848.0,1,Stars Aceleradora
+d9e26e81-200d-3f83-b7ac-5fb803639040,3nfinite,debt_financing,2016-11-23,800000.0,,
+d9e26e81-200d-3f83-b7ac-5fb803639040,3nfinite,seed,2017-01-01,628172.0,1,
+d9e26e81-200d-3f83-b7ac-5fb803639040,3nfinite,seed,2018-01-22,3292000.0,,
+d9e26e81-200d-3f83-b7ac-5fb803639040,3nfinite,series_unknown,2019-01-01,,1,
+d9e26e81-200d-3f83-b7ac-5fb803639040,3nfinite,series_unknown,2022-08-03,3517953.0,,
+da7a7e7e-d823-3379-df50-96f06673a44b,WhatUsersDo,seed,2011-08-30,244483.0,1,Northstar Ventures
+da7a7e7e-d823-3379-df50-96f06673a44b,WhatUsersDo,seed,2012-05-15,528791.0,1,
+da7a7e7e-d823-3379-df50-96f06673a44b,WhatUsersDo,non_equity_assistance,2013-04-12,,1,
+da7a7e7e-d823-3379-df50-96f06673a44b,WhatUsersDo,seed,2014-03-24,742267.0,1,
+da7a7e7e-d823-3379-df50-96f06673a44b,WhatUsersDo,seed,2015-07-20,350172.0,1,
+da7a7e7e-d823-3379-df50-96f06673a44b,WhatUsersDo,seed,2016-04-29,219250.0,1,
+db0c9751-dfcf-09cd-1237-721340a63eb7,Eyes4Lives,series_unknown,2017-07-21,2774000.0,,
+db0c9751-dfcf-09cd-1237-721340a63eb7,Eyes4Lives,equity_crowdfunding,2021-05-01,17619.0,,
+db3df317-62ca-4f9e-bd33-b07fc86c8284,Cancilico,seed,2026-01-20,2912161.0,4,GEDAD; HTGF (High-Tech Gruenderfonds); ROI Verwaltungsgesellschaft; TGFS - Technologiegründerfonds Sachsen
+dbe775e5-afa4-4812-a188-785875a07ee7,accelEQ,grant,2022-08-01,10000.0,1,Google for Startups
+dbe775e5-afa4-4812-a188-785875a07ee7,accelEQ,pre_seed,2022-11-08,200000.0,1,Antler
+dbe775e5-afa4-4812-a188-785875a07ee7,accelEQ,seed,2023-09-12,120000.0,1,Techstars
+dc0d99ef-3dcb-47f3-89ad-fc30a2c5b1be,Spry,seed,2021-12-14,3000000.0,9,Together Fund
+dc0d99ef-3dcb-47f3-89ad-fc30a2c5b1be,Spry,series_a,2022-06-22,7000000.0,3,Eight Roads Ventures
+dc0d99ef-3dcb-47f3-89ad-fc30a2c5b1be,Spry,series_b,2024-10-09,15000000.0,4,Flourish Ventures
+dc0d99ef-3dcb-47f3-89ad-fc30a2c5b1be,Spry,secondary_market,2025-01-24,,1,
+dc6041e6-b5d3-4b32-ad2f-40d19bf3ca12,Zen Technologies,post_ipo_equity,2024-08-23,119312094.0,5,
+dc6041e6-b5d3-4b32-ad2f-40d19bf3ca12,Zen Technologies,post_ipo_secondary,2024-12-03,42630610.0,1,Motilal Oswal Asset Management
+dca13fef-c7d7-095d-538d-29e4e5b90cd9,Inventia,angel,2013-12-14,618354.0,2,
+dca13fef-c7d7-095d-538d-29e4e5b90cd9,Inventia,seed,2015-04-10,794966.0,2,
+dca13fef-c7d7-095d-538d-29e4e5b90cd9,Inventia,convertible_note,2016-01-01,488620.0,,
+dca553da-5caf-423e-bc8a-cd2ada4af383,NexusGPU,seed,2025-04-12,600000.0,,
+dcb11ac6-4f38-2291-b699-27cc48c5976c,Nintex,private_equity,2013-03-27,135000000.0,2,TA Associates; Updata Partners
+dcb11ac6-4f38-2291-b699-27cc48c5976c,Nintex,private_equity,2018-02-09,,2,Thoma Bravo
+dcb11ac6-4f38-2291-b699-27cc48c5976c,Nintex,corporate_round,2019-11-13,,1,Harcourts Paramount
+dd6ecf15-429b-4475-922b-8afa30a36c2c,Techbeen,seed,2021-01-01,,1,
+ddc1f509-dbbe-4ed7-8a8f-1e282da4147e,doFlo,pre_seed,2023-07-21,250000.0,,
+ddc1f509-dbbe-4ed7-8a8f-1e282da4147e,doFlo,pre_seed,2024-07-16,635000.0,1,
+ddc1f509-dbbe-4ed7-8a8f-1e282da4147e,doFlo,seed,2025-03-30,,2,
+de04dc12-be65-5c06-408c-a87f62d3a918,CircleCI,seed,2012-04-01,,1,
+de04dc12-be65-5c06-408c-a87f62d3a918,CircleCI,seed,2013-02-25,1500000.0,10,Baseline Ventures; Harrison Metal
+de04dc12-be65-5c06-408c-a87f62d3a918,CircleCI,series_a,2014-02-07,6000000.0,1,
+de04dc12-be65-5c06-408c-a87f62d3a918,CircleCI,series_a,2015-09-01,2500000.0,,
+de04dc12-be65-5c06-408c-a87f62d3a918,CircleCI,series_b,2016-05-16,18000000.0,4,Scale Venture Partners
+de04dc12-be65-5c06-408c-a87f62d3a918,CircleCI,series_c,2018-01-17,31000000.0,7,Top Tier Capital Partners
+de04dc12-be65-5c06-408c-a87f62d3a918,CircleCI,series_d,2019-07-23,56000000.0,9,Blue Owl Capital Corporation
+de04dc12-be65-5c06-408c-a87f62d3a918,CircleCI,series_e,2020-04-07,100000000.0,4,IVP
+de04dc12-be65-5c06-408c-a87f62d3a918,CircleCI,series_f,2021-05-11,100000000.0,11,Greenspring Associates
+de24b531-45fc-4b3c-80c0-c015b4fd3d59,ORBintel,series_a,2018-10-29,4500000.0,1,
+de693dcd-ffc3-467c-8298-32d7b8b6e42c,MindTrace,non_equity_assistance,2020-01-01,,1,Creative Destruction Lab (CDL)
+de693dcd-ffc3-467c-8298-32d7b8b6e42c,MindTrace,seed,2021-11-02,50000.0,2,
+de693dcd-ffc3-467c-8298-32d7b8b6e42c,MindTrace,grant,2022-08-09,256000.0,1,National Science Foundation
+deb7e341-143e-4fea-bb38-cc24be436b42,AI Medical Service,series_a,2018-08-10,9019166.0,1,Incubate Fund
+deb7e341-143e-4fea-bb38-cc24be436b42,AI Medical Service,series_b,2019-10-04,43010681.0,11,Globis Capital Partners; Sony Innovation Fund
+deb7e341-143e-4fea-bb38-cc24be436b42,AI Medical Service,non_equity_assistance,2021-01-07,,1,Google for Startups
+deb7e341-143e-4fea-bb38-cc24be436b42,AI Medical Service,series_c,2022-04-26,62859725.0,4,SoftBank Vision Fund
+ded4f5bf-d0f3-44cc-9457-e58160b44817,Wukong CRM,angel,2015-06-29,484774.0,1,
+ded4f5bf-d0f3-44cc-9457-e58160b44817,Wukong CRM,series_a,2016-06-13,1519359.0,1,
+df208692-2526-4f00-a65c-bfd5e0ab498f,SuccessFinder,series_unknown,2019-12-17,2900000.0,1,Business Development Bank of Canada
+df52169d-5831-41af-8fcf-bfc867c7e1d5,Y-tech Bank,pre_seed,2026-06-20,,,
+df535df4-1d9c-ee05-b259-784e5066270e,Experian,grant,2025-11-25,1315826.0,1,Fair4All Finance
+df59edc1-a71a-495c-b78b-a764af10ba0c,Syllog AI,pre_seed,2024-11-11,533158.0,3,40Jemz Ventures; Techaround VC
+df6a2cd5-92c2-4b47-9ce2-1470f80e576f,Doris,seed,2020-06-01,10000000.0,1,Marcos de Moraes
+df8f7c0b-eb50-b18c-4712-32b8c0b2f59e,Cobli,seed,2015-03-01,,,
+df8f7c0b-eb50-b18c-4712-32b8c0b2f59e,Cobli,grant,2016-04-01,,1,
+df8f7c0b-eb50-b18c-4712-32b8c0b2f59e,Cobli,grant,2017-03-01,,1,
+df8f7c0b-eb50-b18c-4712-32b8c0b2f59e,Cobli,undisclosed,2017-07-01,,,
+df8f7c0b-eb50-b18c-4712-32b8c0b2f59e,Cobli,series_a,2019-10-11,10000000.0,9,Fifth Wall
+df8f7c0b-eb50-b18c-4712-32b8c0b2f59e,Cobli,series_b,2021-07-21,35000000.0,6,SoftBank Vision Fund
+df8f7c0b-eb50-b18c-4712-32b8c0b2f59e,Cobli,series_b,2023-07-12,20000000.0,2,International Finance Corporation
+dfd36a1e-9a46-47ff-b93b-a6caf6987fb6,Tensorgraph,series_unknown,2018-02-01,,,
+dfd36a1e-9a46-47ff-b93b-a6caf6987fb6,Tensorgraph,pre_seed,2020-01-20,,1,
+e017fd5c-9a4a-4a09-b186-2e17c084e7d4,Webhound,pre_seed,2023-08-25,,2,Y Combinator
+e080b9fb-bfaf-455f-ab69-d98b12c898e8,NeuralText,non_equity_assistance,2021-06-15,,1,
+e0f469b5-a60b-4493-843d-09e0a05664c8,Storybutton,convertible_note,2024-09-12,250000.0,1,South Carolina Research Authority
+e137957c-bb48-06ae-1f22-b1c24d8bb9cd,Enboarder,seed,2016-09-01,1510004.0,1,OIF Ventures
+e137957c-bb48-06ae-1f22-b1c24d8bb9cd,Enboarder,seed,2018-11-20,2886801.0,7,Greycroft
+e137957c-bb48-06ae-1f22-b1c24d8bb9cd,Enboarder,series_a,2019-06-19,7972504.0,3,Greycroft
+e137957c-bb48-06ae-1f22-b1c24d8bb9cd,Enboarder,series_a,2021-04-06,5057580.0,3,Next Coast Ventures
+e137957c-bb48-06ae-1f22-b1c24d8bb9cd,Enboarder,series_b,2022-02-09,32000000.0,8,NewSpring
+e14aaa62-bc5f-3773-92a9-7591b8c0ec77,ChurnSpotter,seed,2015-02-01,1800000.0,,
+e1b1921a-8900-4888-8483-0cf7e94e47cb,PartsPulse,seed,2026-03-04,3000000.0,1,UP Partners
+e2fa4ad6-6537-d195-95d4-d0e9c4cfe587,Revieve,seed,2017-04-26,621784.0,,
+e2fa4ad6-6537-d195-95d4-d0e9c4cfe587,Revieve,series_a,2019-06-17,1459054.0,2,
+e36a25e3-23ab-45f7-b4b5-4aefd9aff7b9,Yendo,seed,2021-09-30,8500000.0,12,Human Capital; Uncommon Capital
+e36a25e3-23ab-45f7-b4b5-4aefd9aff7b9,Yendo,debt_financing,2022-04-26,60000000.0,,
+e36a25e3-23ab-45f7-b4b5-4aefd9aff7b9,Yendo,series_a,2023-02-20,24000000.0,7,FPV Ventures
+e36a25e3-23ab-45f7-b4b5-4aefd9aff7b9,Yendo,debt_financing,2024-05-16,150000000.0,1,i80 Group
+e36a25e3-23ab-45f7-b4b5-4aefd9aff7b9,Yendo,series_unknown,2024-05-16,15000000.0,,
+e36a25e3-23ab-45f7-b4b5-4aefd9aff7b9,Yendo,series_b,2025-10-09,50000000.0,10,
+e36a25e3-23ab-45f7-b4b5-4aefd9aff7b9,Yendo,debt_financing,2026-02-20,250000000.0,1,i80 Group
+e37c6388-712c-2beb-e41f-905e02966dd4,Teledyne FLIR,grant,2018-10-01,28700000.0,1,U.S. Department of Defense
+e3938694-5bbf-4de1-b951-42602c15f252,Esmee,non_equity_assistance,2022-01-01,,1,
+e45766b8-b8e9-d014-662b-c58cce4ef7a1,Indigo BioAutomation,series_a,2007-10-15,2000000.0,,
+e45766b8-b8e9-d014-662b-c58cce4ef7a1,Indigo BioAutomation,series_unknown,2011-01-11,1848250.0,,
+e45766b8-b8e9-d014-662b-c58cce4ef7a1,Indigo BioAutomation,series_b,2014-05-16,8500000.0,1,Bootstrap Incubation
+e4c1a7da-a547-46a4-bd7a-a93a602c7cd9,Red Sanitaria,non_equity_assistance,2025-01-31,,1,
+e509d308-0f99-4c83-bb11-2e96d3f795f3,Novaserene Entertainment,seed,2024-03-08,10000000.0,2,IDG Capital
+e52d7549-5f09-4801-9811-a1e19b1b6ce6,Veert,pre_seed,2014-03-15,200000.0,,
+e52d7549-5f09-4801-9811-a1e19b1b6ce6,Veert,pre_seed,2018-01-11,800000.0,1,GMT Venture
+e52d7549-5f09-4801-9811-a1e19b1b6ce6,Veert,seed,2020-04-01,,,
+e579a866-52d3-4949-8b2b-4408221561c5,Mavvrik,pre_seed,2023-04-04,2000000.0,5,Clutch VC
+e579a866-52d3-4949-8b2b-4408221561c5,Mavvrik,seed,2025-02-19,6200000.0,6,Flyover Capital; S3 Ventures
+e5be680a-988b-7ea3-5207-0c44c18b09c9,Quantalytix,seed,2016-12-08,50000.0,1,
+e5e02054-9417-5180-8587-4c3760918391,WebFX,private_equity,2021-10-20,6437500.0,1,Trilantic North America
+e5e0ef29-5bd0-f93f-bb61-c3072cd93477,AutoWiz,seed,2016-03-10,,,
+e5ef277a-7634-46df-af68-253ad7a3edf8,DeepMusic,series_a,2023-04-03,9000000.0,3,GGV Capital
+e6161876-c2de-4044-997e-d5622027aac7,Drapp,seed,2018-02-01,,1,Speed Accelerator
+e679743c-4414-4802-82ba-538727d11a54,Airlingo Labs,pre_seed,2024-10-15,10883.0,1,
+e6ca9fc4-b364-469b-9957-f8c94970606a,Chargezen,angel,2021-04-01,,,
+e6ca9fc4-b364-469b-9957-f8c94970606a,Chargezen,seed,2022-03-15,,,
+e7a0f754-ec85-4d30-91f6-795867309718,Generative Engineering,pre_seed,2023-11-22,4355159.0,2,EQT Ventures
+e7a0f754-ec85-4d30-91f6-795867309718,Generative Engineering,seed,2024-11-01,9511686.0,3,Earlybird Venture Capital
+e80a9d92-4484-4a70-929c-cdd69c297c45,Spellbook,pre_seed,2018-01-01,,1,
+e80a9d92-4484-4a70-929c-cdd69c297c45,Spellbook,series_unknown,2019-12-11,750000.0,4,
+e80a9d92-4484-4a70-929c-cdd69c297c45,Spellbook,non_equity_assistance,2020-06-05,,1,
+e80a9d92-4484-4a70-929c-cdd69c297c45,Spellbook,grant,2020-12-29,265000.0,2,
+e80a9d92-4484-4a70-929c-cdd69c297c45,Spellbook,seed,2021-10-01,,1,
+e80a9d92-4484-4a70-929c-cdd69c297c45,Spellbook,debt_financing,2021-11-16,500000.0,1,Atlantic Canada Opportunities Agency
+e80a9d92-4484-4a70-929c-cdd69c297c45,Spellbook,seed,2023-05-24,10900000.0,10,Moxxie Ventures
+e80a9d92-4484-4a70-929c-cdd69c297c45,Spellbook,series_a,2024-01-13,20121474.0,9,Inovia Capital
+e80a9d92-4484-4a70-929c-cdd69c297c45,Spellbook,series_b,2025-10-09,50000000.0,7,Khosla Ventures
+e80a9d92-4484-4a70-929c-cdd69c297c45,Spellbook,debt_financing,2026-03-04,40000000.0,1,RBCx
+e80c558a-18ca-4a59-9777-1b7b4d23f479,"Gamifier, Inc.",pre_seed,2018-04-01,140000.0,,
+e80c558a-18ca-4a59-9777-1b7b4d23f479,"Gamifier, Inc.",pre_seed,2020-08-01,50000.0,1,
+e82bb78f-2711-4b7b-bbe5-cb784a59d29f,Lutra Health,seed,2025-06-20,470960.0,2,
+e882b3eb-8a4f-42a9-89b9-fa4c83a18645,Ryff,seed,2018-06-18,1100000.0,,
+e882b3eb-8a4f-42a9-89b9-fa4c83a18645,Ryff,corporate_round,2019-03-13,2500000.0,,
+e882b3eb-8a4f-42a9-89b9-fa4c83a18645,Ryff,series_unknown,2019-12-17,5000000.0,4,Valor Equity Partners
+e882b3eb-8a4f-42a9-89b9-fa4c83a18645,Ryff,series_unknown,2021-08-03,11700000.0,5,Audent Global Asset Management
+e8f56af1-0abb-4db8-a803-624b3fd50d24,Invntz,pre_seed,2023-03-18,160000.0,,
+e8f56af1-0abb-4db8-a803-624b3fd50d24,Invntz,pre_seed,2025-01-15,612120.0,,
+e8ffdda9-1e41-43c9-aa4b-809e41a0c72e,Malanta.ai,seed,2025-11-05,10000000.0,6,Cardumen Capital
+e90184ab-c90a-4abb-b07c-db27dedcbe9d,Exabloom,non_equity_assistance,2022-01-01,,1,
+e90184ab-c90a-4abb-b07c-db27dedcbe9d,Exabloom,seed,2023-06-01,,1,
+e90184ab-c90a-4abb-b07c-db27dedcbe9d,Exabloom,undisclosed,2024-01-01,,1,
+e91fca1c-a511-4262-bfc9-4d6b7ba28a8a,Breaking Change,grant,2026-06-08,,1,Innovate UK
+e91fca1c-a511-4262-bfc9-4d6b7ba28a8a,Breaking Change,pre_seed,2026-06-08,980583.0,4,Development Bank of Wales
+e92fa1e0-d6f4-4c11-abeb-1f6837d20302,HiringBranch,non_equity_assistance,2020-06-02,,1,
+e92fa1e0-d6f4-4c11-abeb-1f6837d20302,HiringBranch,debt_financing,2023-10-04,2500000.0,1,BDC Capital's Growth & Transition Capital
+e92fa1e0-d6f4-4c11-abeb-1f6837d20302,HiringBranch,series_a,2024-12-10,3527300.0,3,Crédit Mutuel Equity
+e92fa1e0-d6f4-4c11-abeb-1f6837d20302,HiringBranch,series_unknown,2025-04-23,2500000.0,1,CIBC Innovation Banking
+e95aa617-518b-40c7-9123-3a01dfcee62c,Speedscale,pre_seed,2020-03-20,650000.0,,
+e95aa617-518b-40c7-9123-3a01dfcee62c,Speedscale,pre_seed,2020-08-25,125000.0,1,Y Combinator
+e95aa617-518b-40c7-9123-3a01dfcee62c,Speedscale,seed,2020-10-16,3000000.0,4,Sierra Ventures
+e95aa617-518b-40c7-9123-3a01dfcee62c,Speedscale,pre_seed,2023-03-07,9000000.0,8,Grotech Ventures
+e9f836a7-69ad-43ee-9204-58caa242edba,Peekaboo Labs,seed,2025-11-21,340199.0,1,East Gate Partners
+ea96aedc-d01a-5993-60e1-48a02ee78d37,Keansa Solutions,seed,2016-08-01,70000.0,,
+eb12a6a3-4fea-4d77-8cce-98164b037031,WOW3,pre_seed,2024-04-26,200000.0,1,
+eb4d2ebe-548a-4110-89ef-9580d77b9ead,Tradeup Exchange,pre_seed,2023-10-20,,2,Plug and Play
+ec478162-cb41-4105-bf34-3c19730628a9,7waves,pre_seed,2019-02-15,40514.0,1,Marcelo Nobrega
+ec478162-cb41-4105-bf34-3c19730628a9,7waves,pre_seed,2020-06-01,186289.0,2,DOMO.VC
+ec89923f-8167-42d2-8050-6598675f01c0,Growth3,pre_seed,2022-11-30,130000.0,1,Open Access Ventures
+ec8c2b15-6f24-8722-65fb-e71a2ca1315c,Javelin Pharmaceuticals,private_equity,2005-11-04,32000000.0,2,NGN Capital
+ec8c2b15-6f24-8722-65fb-e71a2ca1315c,Javelin Pharmaceuticals,grant,2006-07-07,750000.0,1,
+ecaa1708-6d1e-406d-a6bd-4e613c8ebcf2,TANIT - New Earth Solutions,pre_seed,2024-08-30,,2,
+ecb9dbba-cbb6-47ba-baca-b6810f3cbffc,Addressable,seed,2020-04-16,,5,
+ecb9dbba-cbb6-47ba-baca-b6810f3cbffc,Addressable,series_a,2021-12-06,9384136.0,7,
+ed7b1d07-9a00-4184-81fa-1f857746e7cd,INTELLITHING,grant,2021-10-23,68802.0,,
+ed7b1d07-9a00-4184-81fa-1f857746e7cd,INTELLITHING,pre_seed,2023-03-10,,1,
+ed7b1d07-9a00-4184-81fa-1f857746e7cd,INTELLITHING,equity_crowdfunding,2023-12-03,350529.0,,
+ed7b1d07-9a00-4184-81fa-1f857746e7cd,INTELLITHING,equity_crowdfunding,2024-11-11,154024.0,,
+ed99e71d-fe2d-4149-bb94-b255d4996b6b,Persistence,seed,2026-03-16,2000000.0,2,Accel; Google AI Futures Fund
+ee52a9f3-5744-43fb-880d-7dd5c6e77a78,MTARGET,seed,2017-12-11,,,
+ee52a9f3-5744-43fb-880d-7dd5c6e77a78,MTARGET,seed,2019-07-24,,1,Prasetia Dwidharma
+ee52a9f3-5744-43fb-880d-7dd5c6e77a78,MTARGET,pre_seed,2020-03-05,,1,
+ee6434a8-34b1-4126-a961-579c4742942c,Marshmallow Jetpack,equity_crowdfunding,2021-07-09,73206.0,,
+ef00938d-4207-4fd4-ab97-0a1b9781e87e,Shoely,pre_seed,2022-05-10,405372.0,1,
+ef00938d-4207-4fd4-ab97-0a1b9781e87e,Shoely,grant,2022-09-01,49759.0,1,
+ef0b4d53-a828-49ba-9a67-4f22ffe171e6,CourseRev,seed,2025-08-13,,1,The Walden Golf Group
+ef2a9c7e-de19-4408-bfc5-9466af24c15b,Seele,angel,2023-03-01,,1,"Guangzhou Yunshun Investment Consulting Co., Ltd."
+ef2a9c7e-de19-4408-bfc5-9466af24c15b,Seele,seed,2024-11-17,10000000.0,4,Baidu Ventures
+ef7cb33b-3238-4fdb-aa7e-29c68c0dfe09,Spheroid Universe,private_equity,2023-02-21,25000000.0,1,ABO Digital
+ef895c17-7a4c-43af-be56-71abbe61d2c1,hello energy,seed,2020-02-28,1000000.0,1,Enfuro Ventures
+efec67c0-94e2-50ed-de85-8877c4970556,MojiLaLa,seed,2017-02-15,,1,
+efec67c0-94e2-50ed-de85-8877c4970556,MojiLaLa,seed,2017-08-08,1500000.0,3,Betaworks; Great Oaks Venture Capital
+efec67c0-94e2-50ed-de85-8877c4970556,MojiLaLa,series_unknown,2020-09-08,,1,
+efec67c0-94e2-50ed-de85-8877c4970556,MojiLaLa,equity_crowdfunding,2021-02-05,60734.0,,
+f0744a20-8857-48e2-a1ff-37340c36a712,Enflame,seed,2018-03-26,1514403.0,1,ZhenFund
+f0744a20-8857-48e2-a1ff-37340c36a712,Enflame,seed,2018-08-07,49762894.0,6,Tencent
+f0744a20-8857-48e2-a1ff-37340c36a712,Enflame,series_a,2019-06-06,43415968.0,6,
+f0744a20-8857-48e2-a1ff-37340c36a712,Enflame,series_b,2020-05-07,98801677.0,7,Summitview Capital
+f0744a20-8857-48e2-a1ff-37340c36a712,Enflame,series_c,2021-01-05,278797454.0,6,CICC Alpha; CPE; Primavera Capital Group
+f0744a20-8857-48e2-a1ff-37340c36a712,Enflame,series_c,2022-08-10,,17,
+f0744a20-8857-48e2-a1ff-37340c36a712,Enflame,series_d,2023-09-28,273938829.0,16,China Fintech Fund; Shanghai GuoHe Capital; Shanghai International Group (SIG)
+f1446803-00bb-ce1c-6475-81fc6a6839d7,4-Tell,seed,2011-07-01,25000.0,2,
+f1446803-00bb-ce1c-6475-81fc6a6839d7,4-Tell,seed,2011-12-19,1000000.0,7,
+f1446803-00bb-ce1c-6475-81fc6a6839d7,4-Tell,series_unknown,2013-01-01,,3,
+f1446803-00bb-ce1c-6475-81fc6a6839d7,4-Tell,debt_financing,2013-07-26,250000.0,,
+f1446803-00bb-ce1c-6475-81fc6a6839d7,4-Tell,debt_financing,2015-03-09,140000.0,1,
+f1446803-00bb-ce1c-6475-81fc6a6839d7,4-Tell,series_unknown,2016-08-10,1500000.0,,
+f15707ac-a204-4bb7-bfda-e7ed982df73d,Modzy,pre_seed,2019-11-04,1000.0,,
+f15707ac-a204-4bb7-bfda-e7ed982df73d,Modzy,seed,2021-11-30,5000000.0,1,Booz Allen Hamilton
+f15707ac-a204-4bb7-bfda-e7ed982df73d,Modzy,non_equity_assistance,2022-11-09,,1,Intel Ignite
+f16dfa71-5701-4f82-970d-3052c4601f28,Floot,pre_seed,2025-07-31,500000.0,4,Y Combinator
+f19b601a-90a0-4522-9e51-d9df74838bf5,ZenZebra,pre_seed,2025-08-16,114268.0,1,Rukam Capital
+f1d03074-1e3a-41e4-b401-3fcdbf4b8efe,Wove,angel,2022-02-27,,,
+f1d03074-1e3a-41e4-b401-3fcdbf4b8efe,Wove,pre_seed,2023-12-01,,1,
+f1d03074-1e3a-41e4-b401-3fcdbf4b8efe,Wove,pre_seed,2025-02-15,,,
+f1db463b-1a4c-8a48-eba7-5f9e5e47ea86,HealthRhythms,grant,2017-09-21,2100000.0,1,National Institutes of Health
+f1db463b-1a4c-8a48-eba7-5f9e5e47ea86,HealthRhythms,non_equity_assistance,2017-12-14,,1,
+f1db463b-1a4c-8a48-eba7-5f9e5e47ea86,HealthRhythms,seed,2022-02-02,11000000.0,5,Brook Byers; GSR Ventures
+f28a7e73-26b5-4d3f-898d-7fccb5e41846,Tiivis,pre_seed,2024-10-15,200000.0,1,
+f3961b00-d5e2-4887-96b7-834e4156a6e5,Darkocean,seed,2025-03-01,,,
+f3d8832d-436f-4882-8c16-9a46fa75efef,XFLO,pre_seed,2023-12-13,125000.0,1,Antler
+f459d134-6b2b-083b-ade4-cbd1d965d058,Fractal Logistics,private_equity,2017-06-01,15000000.0,,
+f4d2564c-0178-4f80-8a07-f39c10104dd8,Weights,seed,2024-09-01,,6,Kleiner Perkins
+f503225f-fe0b-45d6-8e4e-74c8545c5fd0,Outspeed,pre_seed,2024-12-06,,2,
+f50cd7d0-4ce8-44aa-b576-645a8595174e,Capfora AI,seed,2026-02-06,75000.0,,
+f518b287-5d67-4517-af2d-2d8e086f41c2,Genia,seed,2024-01-01,,1,
+f518b287-5d67-4517-af2d-2d8e086f41c2,Genia,seed,2025-02-07,3000000.0,7,Pi Labs
+f529f96d-d74c-45c9-b238-0503830c1cc0,Influencify,grant,2021-07-07,250000.0,1,
+f529f96d-d74c-45c9-b238-0503830c1cc0,Influencify,pre_seed,2021-09-01,10000.0,,
+f529f96d-d74c-45c9-b238-0503830c1cc0,Influencify,seed,2022-02-02,282494.0,1,
+f5ae4b7a-45d8-47d8-8e8c-8b79a658d8d1,Acetap Health,seed,2023-07-05,,,
+f5af9ace-ad37-2a49-c625-e8c633949d15,Interactive Solutions,series_a,2014-11-01,1338696.0,1,JAFCO
+f5af9ace-ad37-2a49-c625-e8c633949d15,Interactive Solutions,series_unknown,2016-06-10,2338586.0,1,JAFCO
+f5c5e64a-003e-457f-8fa7-2f737a75d1ae,"Dilili Labs, Inc.",seed,2017-07-01,,,
+f5e76890-7969-8e2e-b4d2-10fa9479e655,Pulse Reader,seed,2017-11-01,1000.0,,
+f5f1bd72-1539-46f6-9908-a6ea736f203c,Smabbler,convertible_note,2021-05-27,,1,Next Road Ventures
+f5f1bd72-1539-46f6-9908-a6ea736f203c,Smabbler,pre_seed,2022-07-14,,1,Next Road Ventures
+f5f1bd72-1539-46f6-9908-a6ea736f203c,Smabbler,angel,2024-12-31,,,
+f5f1bd72-1539-46f6-9908-a6ea736f203c,Smabbler,grant,2026-04-23,,1,EIC Accelerator
+f6268ce3-3fdf-4f2d-bcaa-3c4535bed55e,HVNT,angel,2018-10-01,150000.0,2,
+f6268ce3-3fdf-4f2d-bcaa-3c4535bed55e,HVNT,pre_seed,2020-11-01,500000.0,,
+f6268ce3-3fdf-4f2d-bcaa-3c4535bed55e,HVNT,angel,2022-06-01,,,
+f636360c-d4ce-4ddf-bbeb-7c643546bd97,Botcopy,grant,2019-11-01,,1,IDEA: Northeastern University's Venture Accelerator
+f636360c-d4ce-4ddf-bbeb-7c643546bd97,Botcopy,seed,2022-03-23,,1,"Little Bug Ventures, LLC"
+f636360c-d4ce-4ddf-bbeb-7c643546bd97,Botcopy,series_unknown,2025-09-04,2243385.0,,
+f636360c-d4ce-4ddf-bbeb-7c643546bd97,Botcopy,debt_financing,2025-09-04,,,
+f644d593-96c9-480f-aa6e-e45c70e5cfb9,OpsBerry AI,pre_seed,2023-01-01,1000000.0,4,
+f644d593-96c9-480f-aa6e-e45c70e5cfb9,OpsBerry AI,pre_seed,2023-06-15,500000.0,1,Y Combinator
+f692136e-c088-ca24-da16-e4b2db8b4e7c,Ideal,series_unknown,2017-08-29,3000000.0,4,Mike Durland
+f708487a-73e8-4f22-9303-dfe279c70b1d,FlutterFlow,seed,2021-03-24,2500000.0,13,Gradient
+f708487a-73e8-4f22-9303-dfe279c70b1d,FlutterFlow,series_a,2024-01-11,25500000.0,5,Google Ventures
+f7324848-fd3e-453d-abdb-45133ea3d803,Partium,seed,2022-08-11,,1,
+f7324848-fd3e-453d-abdb-45133ea3d803,Partium,seed,2023-06-06,,2,
+f7324848-fd3e-453d-abdb-45133ea3d803,Partium,series_unknown,2024-02-14,10776050.0,,
+f7b86af7-0619-48f0-ab8e-9b72ecebee7a,Sentinel Advancements Inc.,seed,2022-03-20,365000.0,,
+f8097158-ff0a-446b-a276-4f56d517f713,Culture OS,pre_seed,2024-01-29,125000.0,1,Upekkha Vertical AI Accelerator
+f84d1b6c-d054-44d0-8022-ae2e2139ce27,XOOCITY,seed,2023-05-01,164336.0,1,Hong Kong Science and Technology Parks Corporation
+f8887fab-5264-4073-8823-e5f24c3cb392,Zaher AI,angel,2025-08-21,150000.0,1,Ahmed Samy
+f8c07302-b728-47b8-9c74-ccf368cffe8a,Zoominbot,angel,2016-12-14,434568.0,1,Baoqianli Video Technology Group
+f949421f-cc4f-4641-80e2-9bba44bec65e,Reju,seed,2022-07-01,,,
+f97ed109-dc85-4d1c-8610-9aa969c0a3fd,Asystom,non_equity_assistance,2020-10-21,,1,MassChallenge
+f998b21c-9106-1334-fe4b-b1b25825cd79,The Curious AI Company,seed,2015-10-01,895330.0,3,
+f998b21c-9106-1334-fe4b-b1b25825cd79,The Curious AI Company,convertible_note,2016-03-15,1332877.0,4,
+f998b21c-9106-1334-fe4b-b1b25825cd79,The Curious AI Company,seed,2017-08-06,,1,
+f998b21c-9106-1334-fe4b-b1b25825cd79,The Curious AI Company,series_unknown,2017-09-23,3670000.0,7,
+f9d373f2-da6c-4bf6-b3d8-56b9631737bc,Airchat,seed,2019-12-01,,1,
+f9d373f2-da6c-4bf6-b3d8-56b9631737bc,Airchat,undisclosed,2024-04-23,,1,Sam Altman
+fa0ffe86-eda5-489d-9b61-6e69f842726b,Rupert AI,seed,2022-09-15,8000000.0,8,Cortical Ventures; IA Ventures
+fa31f079-6f8d-4a1c-b309-2941e53debab,TestFit,seed,2020-01-17,2000000.0,1,Parkway Venture Capital
+fa31f079-6f8d-4a1c-b309-2941e53debab,TestFit,series_a,2022-07-15,20000000.0,3,Parkway Venture Capital
+fa4eae98-da1e-4385-93b9-1302eba7ac93,VEQSA,convertible_note,2025-03-21,,,
+faa53e8f-60f2-47bb-b1fc-945f13d66ac7,Isarsoft,grant,2020-07-30,,,
+fb0f2a90-47f1-45df-84d1-83efe552e21d,Ewing Tools,pre_seed,2022-11-01,400000.0,,
+fb0f2a90-47f1-45df-84d1-83efe552e21d,Ewing Tools,pre_seed,2023-06-01,100000.0,,
+fbebc5d4-ac96-423e-bd0f-600881180a48,Saphron,seed,2019-03-14,1000000.0,1,Sage Pte. Ltd.
+fbfbf38b-9397-4072-aa56-c566fe744ad3,Atom,seed,2026-05-27,18839133.0,9,ANRI; Beyond Next Ventures; JAFCO
+fd134034-fe50-4dbe-9d75-3d7dd601be80,Threekit,seed,2019-01-10,10000000.0,1,Godard Abel
+fd134034-fe50-4dbe-9d75-3d7dd601be80,Threekit,series_a,2019-11-13,20000000.0,3,Shasta Ventures
+fd134034-fe50-4dbe-9d75-3d7dd601be80,Threekit,series_b,2021-11-09,35000000.0,6,
+fd89a5ba-7dc5-4de4-a39e-2b8bdd33bf7f,FounderNest,seed,2018-05-03,,1,
+fd89a5ba-7dc5-4de4-a39e-2b8bdd33bf7f,FounderNest,seed,2020-12-01,,2,
+fd89a5ba-7dc5-4de4-a39e-2b8bdd33bf7f,FounderNest,seed,2022-12-12,,2,
+fdb11ac2-bff4-b739-6e0f-0d39e5c1a33b,Papaya,seed,2016-06-01,1100000.0,4,
+fdb11ac2-bff4-b739-6e0f-0d39e5c1a33b,Papaya,seed,2018-02-02,3000000.0,5,First Round Capital
+fdb11ac2-bff4-b739-6e0f-0d39e5c1a33b,Papaya,series_a,2018-12-03,11000000.0,1,Sequoia Capital
+fdb11ac2-bff4-b739-6e0f-0d39e5c1a33b,Papaya,series_b,2021-12-15,50000000.0,9,Bessemer Venture Partners
+fdced330-b3bc-450e-8d4b-30d05c73cb22,ArtGee Finance,seed,2022-02-22,700000.0,4,
+fe8ce001-66d2-4058-808c-37732493d8ed,GENIAL,seed,2025-02-21,1883610.0,3,Credit Agricole Aquitaine Expansion; Crédit Agricole Nord de France; Huttopia
+feab1ca9-5e66-49b9-af46-10846728b95e,Warrn AI,seed,2026-02-14,2500000.0,1,
+feddc670-aa25-7880-faef-ae168efd3e8a,Adzact,pre_seed,2024-01-23,,,
+feddc670-aa25-7880-faef-ae168efd3e8a,Adzact,pre_seed,2024-03-01,0.0,,
+fee05a07-18fb-b450-7e9a-8a5489ad9edf,PupBox,seed,2016-02-16,,1,
+ff19d228-73fa-44f8-bd56-5f8ef33cab9a,MyMarkit,seed,2024-05-15,500000.0,6,

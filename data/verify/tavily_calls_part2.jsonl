@@ -1,0 +1,9 @@
+{"ts": "2026-10-30T15:25:31.412642+01:00", "provider": "tavily", "endpoint": "extract", "request_summary": "20 urls", "status": "ok", "credits": 3, "n_results": 16, "n_failed": 4, "batch": "part2"}
+{"ts": "2026-10-30T15:25:31.412684+01:00", "provider": "tavily", "endpoint": "extract", "request_summary": "20 urls", "status": "ok", "credits": 4, "n_results": 17, "n_failed": 3, "batch": "part2"}
+{"ts": "2026-10-30T15:25:31.412702+01:00", "provider": "tavily", "endpoint": "search", "request_summary": "Savvy savvylearn.ai AI product", "status": "ok", "credits": null, "n_results": 3, "n_failed": 0, "batch": "part2"}
+{"ts": "2026-10-30T15:25:31.412714+01:00", "provider": "tavily", "endpoint": "search", "request_summary": "Lendmind AI product", "status": "ok", "credits": null, "n_results": 3, "n_failed": 0, "batch": "part2"}
+{"ts": "2026-10-30T15:25:31.412724+01:00", "provider": "tavily", "endpoint": "search", "request_summary": "micropay.ai AI product", "status": "ok", "credits": null, "n_results": 3, "n_failed": 0, "batch": "part2"}
+{"ts": "2026-10-30T15:25:31.412732+01:00", "provider": "tavily", "endpoint": "search", "request_summary": "Nurtify AI product clinical trial", "status": "ok", "credits": null, "n_results": 2, "n_failed": 0, "batch": "part2"}
+{"ts": "2026-10-30T15:25:31.412740+01:00", "provider": "tavily", "endpoint": "search", "request_summary": "Yalmo AI chatbot caregivers child AI product", "status": "ok", "credits": null, "n_results": 3, "n_failed": 0, "batch": "part2"}
+{"ts": "2026-10-30T15:25:31.412749+01:00", "provider": "tavily", "endpoint": "search", "request_summary": "ClaimWise patent claim analysis AI product", "status": "ok", "credits": null, "n_results": 3, "n_failed": 0, "batch": "part2"}
+{"ts": "2026-10-30T15:25:31.412757+01:00", "provider": "tavily", "endpoint": "search", "request_summary": "Hangryfeed AI product", "status": "ok", "credits": null, "n_results": 3, "n_failed": 0, "batch": "part2"}

@@ -1,0 +1,8 @@
+{"ts": "2026-10-30T14:25:47.223719+00:00", "provider": "tavily", "endpoint": "extract", "request_summary": "20 urls", "status": "ok", "credits": 4, "n_results": 20, "n_failed": 0, "batch": "part1"}
+{"ts": "2026-10-30T14:25:47.223889+00:00", "provider": "tavily", "endpoint": "extract", "request_summary": "20 urls", "status": "ok", "credits": 3, "n_results": 14, "n_failed": 6, "batch": "part1"}
+{"ts": "2026-10-30T14:25:47.223893+00:00", "provider": "tavily", "endpoint": "search", "request_summary": "InfinityCore Health AI product", "status": "ok", "credits": null, "n_results": 3, "n_failed": 0, "batch": "part1"}
+{"ts": "2026-10-30T14:25:47.223896+00:00", "provider": "tavily", "endpoint": "search", "request_summary": "Caze AI product", "status": "ok", "credits": null, "n_results": 3, "n_failed": 0, "batch": "part1"}
+{"ts": "2026-10-30T14:25:47.223899+00:00", "provider": "tavily", "endpoint": "search", "request_summary": "Crypto Sure AI AI product", "status": "ok", "credits": null, "n_results": 3, "n_failed": 0, "batch": "part1"}
+{"ts": "2026-10-30T14:25:47.223902+00:00", "provider": "tavily", "endpoint": "search", "request_summary": "Drapp AI product", "status": "ok", "credits": null, "n_results": 3, "n_failed": 0, "batch": "part1"}
+{"ts": "2026-10-30T14:25:47.223903+00:00", "provider": "tavily", "endpoint": "search", "request_summary": "East Hire AI product", "status": "ok", "credits": null, "n_results": 3, "n_failed": 0, "batch": "part1"}
+{"ts": "2026-10-30T14:25:47.223905+00:00", "provider": "tavily", "endpoint": "search", "request_summary": "Yeah AI product", "status": "ok", "credits": null, "n_results": 3, "n_failed": 0, "batch": "part1"}
